@@ -22,3 +22,98 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-custom {
+    background-color: #222222;
+    border-color: transparent;
+}
+
+.navbar-custom .navbar-brand{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;  /*change to neotech*/
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand:active {
+    color: purple;
+}
+
+.navbar-custom .navbar-collapse{
+    border-color: rebeccapurple;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color: mediumpurple;
+    border-color: purple;
+    font-family: Arial, Helvetica, sans-serif; /*change to neotech*/
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: mediumpurple;
+}
+
+.navbar-custom .nav li a {
+    font-family:Arial, Helvetica, sans-serif; /*change to neotech*/
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+
+}
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nave > .active > a:focus {
+    color: white;
+    background-color: mediumpurple;
+}
+
+@media (min-width: 768px) {
+    .navbar-custom {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+    }
+
+    .navbar-custom .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .navbar-custom .navbar-nav > .active > a {
+        border-radius:3px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-custom.affix {
+        background-color: #222222;
+        padding: 10px 0;
+    }
+
+    .navbar-custom.affix .navbar-brand {
+        font-size:1.5em;
+    }
+}
+
+.navbar {
+    list-style-type: none;
+    max-height: 20px;
+    border: 1px solid black;
+}
+
+.navbar li img {
+    vertical-align: top;
+    margin-top: -15px;
+    padding-right: 20px;
+}
