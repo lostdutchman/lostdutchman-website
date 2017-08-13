@@ -22,19 +22,8 @@ select,
 textarea {
     max-width: 280px;
 }
-
 .navbar .brand {
-    position: absolute;
-    padding: 5px;
-    height:80%;
-}
-
-.nav >li >a {
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-
-.navbar-toggle {
     padding: 10px;
-    margin: 25px 15px 25px 0;
+    height: 80%;
 }
+
