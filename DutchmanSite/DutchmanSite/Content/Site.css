@@ -23,18 +23,15 @@ textarea {
     max-width: 280px;
 }
 
-.navbar-brand {
-    padding: 20px;
-    height:80px;
-}
-
-.navbar-default .navbar-brand {
-    color:red;
+.navbar .brand {
+    position: absolute;
+    padding: 5px;
+    height:80%;
 }
 
 .nav >li >a {
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
 .navbar-toggle {
