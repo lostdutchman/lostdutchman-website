@@ -22,8 +22,43 @@ select,
 textarea {
     max-width: 280px;
 }
-.navbar .brand {
-    padding: 10px;
-    height: 80%;
+
+.navbar {
+    background-color: #272529;
+    border-color: deeppink;
 }
 
+.navbar .navbar-brand {
+    float: left;
+    padding: 11px 20px;
+}
+
+.navbar .pull-left {
+    padding: 5px;
+}
+
+.navbar .navbar-nav {
+    float: right;
+    margin-right: -150px
+}
+
+li a:hover {
+    color: #b41a62;
+    background-color: black !important;
+    padding:15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    width: 600px;
+    background-color: #272529;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
