@@ -23,23 +23,30 @@ textarea {
     max-width: 280px;
 }
 
+@font-face {
+    font-family: nexaBold;
+    src: url('../fonts/nexaBold.eot>#iefix') format('embedded-opentype');
+    src: url('../fonts/nexaBold.otf');
+    src: local('nexaBold'), url('../fonts/nexaBold.otf') format('opentype');
+}
+
 .navbar {
     background-color: #272529;
     border-color: deeppink;
 }
 
 .navbar .navbar-brand {
-    float: left;
-    padding: 11px 20px;
+    margin-left: 500px;
 }
 
 .navbar .pull-left {
     padding: 5px;
+    margin-left: -300px
 }
 
 .navbar .navbar-nav {
     float: right;
-    margin-right: -150px
+    margin-right: -600px;
 }
 
 li a:hover {
@@ -57,8 +64,11 @@ ul {
 }
 
 li a {
+    font-family: nexaBold;
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
 }
+
+
