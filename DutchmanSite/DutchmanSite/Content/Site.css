@@ -35,13 +35,9 @@ textarea {
     border-color: deeppink;
 }
 
-.navbar .navbar-brand {
-    margin-left: 500px;
-}
-
-.navbar .pull-left {
-    padding: 5px;
-    margin-left: -300px
+.navbar .navbar-header {
+    padding-top: 10px;
+    margin-left: -300px;
 }
 
 .navbar .navbar-nav {
@@ -65,10 +61,15 @@ ul {
 
 li a {
     font-family: nexaBold;
+    font-size: large;
     display: inline-block;
     text-decoration: none;
     color: white;
-    
+    margin-top: auto;
+}
+
+body {
+    padding-top: 150px;
 }
 
 
