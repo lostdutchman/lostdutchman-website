@@ -30,46 +30,34 @@ textarea {
     src: local('nexaBold'), url('../fonts/nexaBold.otf') format('opentype');
 }
 
+html, body {
+    margin: 0px;
+    padding:0px;
+}
+
 .navbar {
     background-color: #272529;
-    border-color: deeppink;
 }
 
-.navbar .navbar-header {
-    padding-top: 10px;
-    margin-left: -300px;
+.navbar-brand {
+    margin-left: 50px;
 }
 
-.navbar .navbar-nav {
-    float: right;
-    margin-right: -600px;
-}
-
-li a:hover {
-    color: #b41a62;
-    background-color: black !important;
-    padding:15px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    width: 600px;
-    background-color: #272529;
-}
-
-li a {
+.nav.navbar-nav.navbar-right li a {
     font-family: nexaBold;
     font-size: large;
     display: inline-block;
-    text-decoration: none;
     color: white;
-    margin-top: auto;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-right: 30px;
 }
 
-body {
-    padding-top: 150px;
+.nav.navbar-nav.navbar-right li a:hover{
+    color:#b41a62;
+    background-color:black;
+    padding-top: 20px;
 }
+
 
 
