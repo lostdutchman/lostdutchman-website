@@ -30,6 +30,13 @@ textarea {
     src: local('nexaBold'), url('../fonts/nexaBold.otf') format('opentype');
 }
 
+@font-face {
+    font-family: neotechbold;
+    src: url('../fonts/neotechbold.eot>#iefix') format('embedded-opentype');
+    src: url('../fonts/neotechbold.otf');
+    src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
+}
+
 html, body {
     margin: 0px;
     padding:0px;
@@ -37,6 +44,7 @@ html, body {
 
 .navbar {
     background-color: #272529;
+    border: solid 1px;
 }
 
 .navbar-brand {
@@ -57,6 +65,62 @@ html, body {
     color:#b41a62;
     background-color:black;
     padding-top: 20px;
+}
+
+body {
+    background: no-repeat fixed center;
+    background-size: 100%;
+}
+
+header.masthead {
+    text-align: center;
+    background-image: url("img/bg.png");
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+    font-size:22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+    font-size:50px;
+    font-weight: 700;
+    line-height:50px;
+    margin-bottom: 25px;
+    text-transform:uppercase;
+    font-family: neotechbold, Arial, Helvetica, sans-serif
+}
+
+@media (min-width: 768px) {
+    header.masthead .intro-text {
+        padding-top:300px;
+        padding-bottom: 200px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        font-family: nexaBold, Arial, Helvetica, sans-serif;
+    }
+    header.masthead .intro-text .intro-heading {
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        font-family: neotechbold, Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
 }
 
 
