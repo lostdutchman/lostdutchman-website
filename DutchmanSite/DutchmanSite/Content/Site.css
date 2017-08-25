@@ -70,6 +70,23 @@ html, body {
 body {
     background: no-repeat fixed center;
     background-size: 100%;
+    overflow-x: hidden;
+    font-family: neotechbold, Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight:700;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 header.masthead {
@@ -121,6 +138,25 @@ header.masthead .intro-text .intro-heading {
         font-family: neotechbold, Arial, Helvetica, sans-serif;
         text-transform: uppercase;
     }
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-subheading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: neotechbold, Arial, Helvetica, sans-serif;
 }
 
 
