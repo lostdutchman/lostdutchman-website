@@ -183,9 +183,10 @@ section h3.section-subheading {
     height: 100%;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: #7d1150;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -236,6 +237,93 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+    @media (min-width: 767px) {
+        #portfolio .portfolio-item {
+            margin: 0 0 30px;
+        }
+    }
 
+.portfolio-modal .modal-dialog {
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
 
+.portfolio-modal .modal-content {
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
 
+.portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content p{
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: neotechbold, Arial, Helvetica, sans-serif;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content button {
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+    /*safari and chrome*/
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /*ie 9*/
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #222222;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    /*safari and chrome*/
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /*ie 9*/
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #222222;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
