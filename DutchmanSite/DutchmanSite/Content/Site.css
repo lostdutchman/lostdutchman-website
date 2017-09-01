@@ -455,3 +455,165 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c;
 }
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: neotechbold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: neotechbold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #222222;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #b41a62;
+}
+
+.text-primary {
+    color: #b41a62 !important;
+}
+
+.btn-primary {
+    font-weight: 700;
+    color: white;
+    border-color: #b41a62;
+    background-color: #b41a62;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: white;
+    border-color: #7d1150;
+    background-color: #b41a62;
+}
+
+.btn-primary:hover {
+    color: white;
+    border-color: #7d1150;
+    background-color: #b41a62;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .btn-primary.dropdown-toggle {
+    color: white;
+    border-color: #7d1150;
+    background-color: #b41a62;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover,
+.btn-primary:active.focus, .btn-primary:active:focus,
+.open > .btn-primary.dropdown-toggle.focus,
+.open > .btn-primary.dropdown-toggle:focus,
+.open > .btn-primary.dropdown-toggle:hover {
+    color: white;
+    border-color: #7d1150;
+    background-color: #b41a62;
+}
+
+.btn-primary.active, .btn-primary:active,
+.open > .btn-primary.dropdown-toggle {
+    background-image: none;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    border-color: #7d1150;
+    background-color: #7d1150;
+}
+
+.btn-primary .badge {
+    color: #b41a62;
+    background-color: white;
+}
+
+.btn-xl {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: white;
+    border-color: #7d1150;
+    background-color: #7d1150;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-xl.focus, .btn-xl:focus {
+    color: white;
+    border-color: #b41a62;
+    background-color: #7d1150;
+}
+
+.btn-xl:hover {
+    color: white;
+    border-color: #b41a62;
+    background-color: #7d1150;
+}
+
+.btn-xl.active, .btn-xl:active,
+.open > .btn-xl.dropdown-toggle {
+    color: white;
+    border-color: #b41a62;
+    background-color: #7d1150;
+}
+
+.btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, btn-xl:active:focus, .btn-xl:active:hover,
+.open > .btn-xl.dropdown-toggle.focus,
+.open > .btn-xl.dropdown-toggle:focus,
+.open > .btn-xl.dropdown-toggle:hover {
+    color: white;
+    border-color: #b41a62;
+    background-color: #7d1150;
+}
+
+.btn-xl.active, .btn-xl:active,
+.open > .btn-xl.dropdown-toggle {
+    background-image: none;
+}
+
+.btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl.focus,
+fieldset[disabled] .btn-xl:focus,
+fieldset[disabled] .btn-xl:hover {
+    border-color: #b41a62;
+    background-color: #b41a62;
+}
+
+.btn-xl .bade {
+    color: #b41a62;
+    background-color: white;
+}
