@@ -1,19 +1,6 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+﻿html, body {
+  height: 100%;
+  width: 100%
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -35,11 +22,6 @@ textarea {
     src: url('../fonts/neotechbold.eot>#iefix') format('embedded-opentype');
     src: url('../fonts/neotechbold.otf');
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
-}
-
-html, body {
-    margin: 0px;
-    padding:0px;
 }
 
 .navbar {
@@ -66,6 +48,7 @@ html, body {
     background-color:black;
     padding-top: 20px;
 }
+
 
 body {
     background: no-repeat fixed center;
@@ -97,11 +80,14 @@ h6 {
     text-transform: uppercase;
 }
 
+section {
+    padding: 100px 0;
+}
+
 header.masthead {
     text-align: center;
-    color: white;
     background-image: url("img/bg.png");
-    background-attachment: scroll;
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
