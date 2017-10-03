@@ -1,13 +1,13 @@
-﻿html, body {
-  height: 100%;
-  width: 100%;
-}
-
+﻿
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
     max-width: 280px;
+}
+
+body {
+    width: 100%;
 }
 
 @font-face {
@@ -55,6 +55,13 @@ body {
     background-size: 100%;
     overflow-x: hidden;
     font-family: neotechbold, Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p {
@@ -359,6 +366,23 @@ body {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
 }
 
 
