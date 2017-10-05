@@ -26,11 +26,11 @@ body {
 
 .navbar {
     background-color: #272529;
-    border: solid 1px;
+    border: solid 1px #222222;
 }
 
 .navbar-brand {
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -45,8 +45,6 @@ body {
 
 .nav.navbar-nav.navbar-right li a:hover{
     color:#b41a62;
-    background-color:black;
-    padding-top: 20px;
 }
 
 
@@ -370,6 +368,9 @@ body {
 
 section#contact .form-group {
     margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
 }
 
 section#contact .form-group input,
@@ -383,6 +384,45 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #7d1150;
+    box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #808080;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #808080;
+    /* Firefox 18- */
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #808080;
+    /* Firefox 19+ */
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #808080;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
 }
 
 
