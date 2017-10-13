@@ -1,14 +1,5 @@
 ﻿
 /* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
-body {
-    width: 100%;
-}
 
 @font-face {
     font-family: nexaBold;
@@ -22,6 +13,82 @@ body {
     src: url('../fonts/neotechbold.eot>#iefix') format('embedded-opentype');
     src: url('../fonts/neotechbold.otf');
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.75;
+}
+
+a {
+    color: #b41a62;
+}
+
+    a.active, a:active, a:focus, a:hover {
+        color: #b41a62;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 100px 0;
+}
+
+    section h2.section-subheading {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    section h3.section-subheading {
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 75px;
+        text-transform: none;
+        font-family: neotechbold, Arial, Helvetica, sans-serif;
+    }
+
+    @media (min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+::-moz-selection {
+    background: #b41a62;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b41a62;
+    text-shadow: none;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: #b41a62;
 }
 
 .navbar {
@@ -49,43 +116,6 @@ body {
 }
 
 
-body {
-    background: no-repeat fixed center;
-    background-size: 100%;
-    overflow-x: hidden;
-    font-family: neotechbold, Arial, Helvetica, sans-serif;
-}
-
-.container-fluid {
-    position: center;
-}
-
-p {
-    line-height: 1.75;
-}
-
-a {
-    color: #b41a62;
-}
-
-a.active, a:active, a:focus, a:hover {
-    color: #b41a62;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight:700;
-    font-family: nexaBold, Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-
-section {
-    padding: 100px 0;
-}
 
 header.masthead {
     text-align: center;
@@ -142,48 +172,9 @@ header.masthead .intro-text .intro-heading {
 
 
 
-section h2.section-subheading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
 
-section h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: neotechbold, Arial, Helvetica, sans-serif;
-}
 
-@media (min-width: 768px) {
-    section {
-        padding: 150px 0;
-    }
-}
 
-::-moz-selection {
-    background: #b41a62;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b41a62;
-    text-shadow: none;
-}
-
-img::selection {
-    background: transparent;
-}
-
-img::-moz-selection {
-    background: transparent;
-}
-
-body {
-    -webkit-tap-highlight-color: #b41a62;
-}
 
 .service-heading {
     margin: 15px 0;
