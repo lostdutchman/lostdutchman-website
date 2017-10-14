@@ -88,18 +88,19 @@ img::-moz-selection {
     background: transparent;
 }
 
-.navbar {
+.navbar-fixed-top {
     background-color: #272529;
     border: solid 1px #222222;
-    /*line-height: 90px;*/
-    display: block;
-
+    height: 90px;
+    position: fixed;
 }
 
 .navbar-brand {
     margin-left: 5px;
+    resize: both;
     width: 100%;
     height: auto;
+    position:absolute
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -107,9 +108,9 @@ img::-moz-selection {
     font-size: large;
     display: inline-block;
     color: white;
-    /*margin-top: 20px;
+    margin-top: 20px;
     margin-right: 15px;
-    padding-right: 30px;*/
+    padding-right: 30px;
 }
 
 .nav.navbar-nav.navbar-right li a:hover{
@@ -118,67 +119,54 @@ img::-moz-selection {
 
 header.masthead {
     text-align: center;
-    background: url("img/bg.jpeg") no-repeat center center fixed;
-    /*margin-top: 0;
-    margin-left: -500px;
-    width: 2100px;
-    height: 100%;*/
-}
-
-header.masthead img {
-    width: 100%;
-    height: auto;
+    color: white;
+    background-image: url("img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-bacground-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
 }
 
 header.masthead .intro-text {
-    text-align-last: center;
-    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 header.masthead .intro-text .intro-lead-in {
-    font-size:22px;
+    font-size: 22px;
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: nexaBold, Arial, Helvetica, sans-serif;
+    font-family: 'nexaBold', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 header.masthead .intro-text .intro-heading {
-    font-size:50px;
+    font-size: 50px;
     font-weight: 700;
-    line-height:50px;
+    line-height: 50px;
     margin-bottom: 25px;
-    text-transform:uppercase;
-    font-family: neotechbold, Arial, Helvetica, sans-serif
+    font-family: 'neotechbold', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
+@media (min-width: px) {
     header.masthead .intro-text {
-        padding-top:300px;
+        padding-top: 300px;
         padding-bottom: 200px;
     }
-    header.masthead .intro-text .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        font-family: nexaBold, Arial, Helvetica, sans-serif;
-    }
-    header.masthead .intro-text .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
-        font-family: neotechbold, Arial, Helvetica, sans-serif;
-        text-transform: uppercase;
-    }
+
+        header.masthead .intro-text .intro-lead-in {
+            font-size: 40px;
+            font-style: italic;
+            line-height: 40px;
+            margin-bottom: 25px;
+            font-family: 'neotechbold', Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+        }
 }
-
-
-
-
-
-
-
 
 .service-heading {
     margin: 15px 0;
