@@ -210,7 +210,7 @@ header.masthead .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: nexaBold, Helvetica, Arial, sans-serif;
+    font-family: neotechbold, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
@@ -233,16 +233,17 @@ header.masthead .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-bottom: 100px;
         font-family: neotechbold, Helvetica, Arial, sans-serif;
         }
 
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
-        font-family: nexaBold, Helvetica, Arial, sans-serif;
+        line-height: 100px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        font-family: neotechbold, Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         }
 }
@@ -347,6 +348,7 @@ section#portfolio {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: gainsboro;
 }
 
 .portfolio-modal .modal-content h2 {
