@@ -101,6 +101,12 @@ img::-moz-selection {
     position: fixed;
 }
 
+#collapse {
+    background-color: #222222;
+    border-color: black;
+    padding-left: 100px;
+}
+
 .navbar-brand {
     margin-left: 5px;
     resize: both;
