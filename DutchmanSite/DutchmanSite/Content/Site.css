@@ -95,7 +95,7 @@ img::-moz-selection {
 }
 
 .navbar-fixed-top {
-    background-color: #272529;
+    background-color: #222222;
     border: solid 1px #222222;
     height: 90px;
     position: fixed;
@@ -129,105 +129,38 @@ img::-moz-selection {
     color: #b41a62;
 }
 
-    /*#mainNav .navbar-toggler {
-        font-size: 12px;
-        right: 0;
-        padding: 13px;
-        text-transform: uppercase;
-        color: white;
-        border: 0;
-        background-color: #fed136;
-        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
-    }
-
-    #mainNav .navbar-brand {
-        color: #fed136;
-        font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
-    }
-
-        #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-            color: #fec503;
-        }
-
-    #mainNav .navbar-nav .nav-item .nav-link {
-        font-size: 90%;
-        font-weight: 400;
-        padding: 0.75em 0;
-        letter-spacing: 1px;
-        color: white;
-        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
-    }
-
-        #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-            color: #fed136;
-        }
-
-@media (min-width: 992px) {
-    #mainNav {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-        transition: padding-top 0.3s, padding-bottom 0.3s;
-        border: none;
-        background-color: transparent;
-    }
-
-        #mainNav .navbar-brand {
-            font-size: 1.75em;
-            -webkit-transition: all 0.3s;
-            -moz-transition: all 0.3s;
-            transition: all 0.3s;
-        }
-
-        #mainNav .navbar-nav .nav-item .nav-link {
-            padding: 1.1em 1em !important;
-        }
-
-        #mainNav.navbar-shrink {
-            padding-top: 0;
-            padding-bottom: 0;
-            background-color: #222222;
-        }
-
-            #mainNav.navbar-shrink .navbar-brand {
-                font-size: 1.25em;
-                padding: 12px 0;
-            }
-}*/
-
 header.masthead {
     text-align: center;
     color: white;
-    background: url("img/bg.jpeg") no-repeat fixed;
-    margin-top: 20px;
-    background-size: 100%;
+    background-image: url("img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header.masthead .intro-text {
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
-header.masthead .intro-text .intro-lead-in {
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
-    margin-bottom: 25px;
-    font-family: neotechbold, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-}
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 22px;
+        font-style: italic;
+        line-height: 22px;
+        margin-bottom: 25px;
+        font-family: neotechbold, Helvetica, Arial, sans-serif;
+    }
 
-header.masthead .intro-text .intro-heading {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
-    margin-bottom: 25px;
-    font-family: neotechbold, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-}
+    header.masthead .intro-text .intro-heading {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 25px;
+        font-family: neotechbold, Helvetica, Arial, sans-serif;
+    }
 
 @media (min-width: 768px) {
     header.masthead .intro-text {
@@ -235,24 +168,23 @@ header.masthead .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
-    header.masthead .intro-text .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 100px;
-        font-family: neotechbold, Helvetica, Arial, sans-serif;
+        header.masthead .intro-text .intro-lead-in {
+            font-size: 40px;
+            font-style: italic;
+            line-height: 40px;
+            margin-bottom: 25px;
+            font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
 
-    header.masthead .intro-text .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 100px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-        font-family: neotechbold, Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
+        header.masthead .intro-text .intro-heading {
+            font-size: 75px;
+            font-weight: 700;
+            line-height: 75px;
+            margin-bottom: 50px;
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
 }
+
 
 .service-heading {
     margin: 15px 0;
@@ -580,14 +512,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .open > .btn-primary.dropdown-toggle {
     background-image: none;
 }
-
-    /*.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
-    fieldset[disabled] .btn-primary.focus,
-    fieldset[disabled] .btn-primary:focus,
-    fieldset[disabled] .btn-primary:hover {
-        border-color: #fed136;
-        background-color: #fed136;
-    }*/
 
 .btn-primary .badge {
     color: #b41a62;
