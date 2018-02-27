@@ -21,5 +21,12 @@ namespace DutchmanSite.Controllers
             help.SendEmail(name, email, message, phone);
             return View();
         }
+
+        [HttpGet]
+        public ActionResult TodaysWord(string id)
+        {
+            Helper.TodaysWord help = new Helper.TodaysWord();
+            return Json(help.jsonBuilder(id), JsonRequestBehavior.AllowGet);
+        }
     }
 }
