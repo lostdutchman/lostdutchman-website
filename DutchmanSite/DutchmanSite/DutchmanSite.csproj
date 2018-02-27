@@ -157,6 +157,8 @@
     <Content Include="Content\img\alexa.png" />
     <Content Include="Content\img\jpnapp1.png" />
     <Content Include="Content\img\navbarbrand.png" />
+    <Content Include="Content\img\nicescreen.png" />
+    <Content Include="Content\img\screen3.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
