@@ -26,7 +26,7 @@ namespace DutchmanSite.Controllers
         public ActionResult TodaysWord(string id)
         {
             Helper.TodaysWord help = new Helper.TodaysWord();
-            return Json(help.jsonBuilder(id), JsonRequestBehavior.AllowGet);
+            return Content(help.jsonBuilder(id));
         }
     }
 }
