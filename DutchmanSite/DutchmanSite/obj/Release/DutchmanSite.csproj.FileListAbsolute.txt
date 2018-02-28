@@ -64,3 +64,4 @@ C:\Users\Jeremy\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\bin\Micr
 C:\Users\Jeremy\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.Web.xml
 C:\Users\Jeremy\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.dll
 C:\Users\Jeremy\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.pdb
+C:\Users\Jeremy\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csprojResolveAssemblyReference.cache

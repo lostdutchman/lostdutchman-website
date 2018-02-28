@@ -6,48 +6,18 @@ namespace DutchmanSite.Helper
 {
     public class FormEmail
     {
-        public void SendEmail(string name, string emailaddress, string message, string phone)
+        public void SendEmail(string name, string emailaddress, string content, string phone)
         {
-            try
-            {
-                using (var mail = new MailMessage())
-                {
-                    const string email = "lostdutchmansoftware@gmail.com";
-                    const string password = "TifaT0TheR1gh7";
+            MailMessage message = new MailMessage();
+            message.From = new MailAddress("lostdutchmansoftware@gmail.com");
 
-                    var loginInfo = new NetworkCredential(email, password);
+            message.To.Add(new MailAddress("lostdutchmansoftware@gmail.com"));
 
+            message.Subject = "Form Inquiry LostDutchamSoftware.com, " + DateTime.Now.ToString("yyyy-MM-dd HH:mm");
+            message.Body = "Name:" + name + "\nEmail:" + emailaddress + "\nPhone Number:" + phone + "\n" + message;
 
-                    mail.From = new MailAddress(email);
-                    //Add more recipiants?
-                    mail.To.Add(new MailAddress(email));
-                    mail.Subject = "Form Inquiry Main Site, " + DateTime.Now.ToString("yyyy-MM-dd HH:mm"); //add time stamp
-                    mail.Body = "Name:" + name + "\nEmail:" + emailaddress + "\nPhone Number:" + phone + "\n" + message;
-                    mail.IsBodyHtml = false;
-
-                    try
-                    {
-                        using (var smtpClient = new SmtpClient("smtp.gmail.com", 587))
-                        {
-                            smtpClient.EnableSsl = true;
-                            smtpClient.UseDefaultCredentials = true;
-                            smtpClient.Credentials = loginInfo;
-                            smtpClient.Send(mail);
-                        }
-
-                    }
-
-                    finally
-                    {
-                        //dispose the client
-                        mail.Dispose();
-                    }
-                }
-            }
-            catch
-            {
-                //What to do if mail send fails
-            }
+            SmtpClient client = new SmtpClient();
+            client.Send(message);
         }
     }
 }
