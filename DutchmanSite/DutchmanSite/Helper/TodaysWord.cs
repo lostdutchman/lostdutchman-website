@@ -143,8 +143,8 @@ namespace DutchmanSite.Helper
         {
             Dictionary<string, string> Word = new Dictionary<string, string>();
             Word.Add("uid", Guid.NewGuid().ToString());
-            Word.Add("updateDate", DateTime.Today.ToString());
-            Word.Add("titleText", "Today/'s " + language);
+            Word.Add("updateDate", DateTime.Today.ToString("yyyy-MM-ddTHH:mm:ssZ"));
+            Word.Add("titleText", "Today's " + language);
             Word.Add("mainText", WordOfTheDay(language));
             Word.Add("redirectionUrl", "HTTP://www.LostDutchmanSoftware.com");
 
