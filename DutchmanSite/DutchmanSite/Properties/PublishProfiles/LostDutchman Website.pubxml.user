@@ -19,13 +19,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/27/2018 10:05:28</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>02/28/2018 18:35:07</publishTime>
+      <publishTime>03/06/2018 16:36:09</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>02/28/2018 18:35:07</publishTime>
+      <publishTime>03/06/2018 16:36:09</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>02/28/2018 18:34:53</publishTime>
+      <publishTime>03/06/2018 16:35:54</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>02/27/2018 10:05:29</publishTime>
@@ -189,8 +189,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/alexa.png">
       <publishTime>02/27/2018 10:05:28</publishTime>
     </File>
+    <File Include="Content/img/APP_ICON.png">
+      <publishTime>03/06/2018 16:25:34</publishTime>
+    </File>
     <File Include="Content/img/bg.jpeg">
       <publishTime>02/27/2018 10:05:28</publishTime>
+    </File>
+    <File Include="Content/img/bubble.png">
+      <publishTime>03/06/2018 16:25:34</publishTime>
     </File>
     <File Include="Content/img/jpnapp1.png">
       <publishTime>02/27/2018 10:05:28</publishTime>
@@ -205,7 +211,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/27/2018 10:05:28</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>02/27/2018 10:05:28</publishTime>
+      <publishTime>03/06/2018 16:25:33</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/27/2018 10:05:29</publishTime>
@@ -235,7 +241,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/27/2018 10:05:29</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>02/28/2018 18:34:55</publishTime>
+      <publishTime>03/06/2018 16:35:57</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>02/27/2018 10:05:28</publishTime>
@@ -289,7 +295,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/27/2018 10:05:28</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/27/2018 10:05:28</publishTime>
+      <publishTime>03/06/2018 16:25:34</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/27/2018 10:05:28</publishTime>
