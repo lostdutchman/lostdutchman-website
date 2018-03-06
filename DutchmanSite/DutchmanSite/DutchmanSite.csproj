@@ -156,6 +156,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\img\50pxtrans.png" />
     <Content Include="Content\img\alexa.png" />
+    <Content Include="Content\img\APP_ICON.png" />
+    <Content Include="Content\img\bubble.png" />
     <Content Include="Content\img\jpnapp1.png" />
     <Content Include="Content\img\navbarbrand.png" />
     <Content Include="Content\img\openscene.png" />
