@@ -14,7 +14,7 @@ namespace DutchmanSite.Helper
             message.To.Add(new MailAddress("lostdutchmansoftware@gmail.com"));
 
             message.Subject = "Form Inquiry LostDutchamSoftware.com, " + DateTime.Now.ToString("yyyy-MM-dd HH:mm");
-            message.Body = "Name:" + name + "\nEmail:" + emailaddress + "\nPhone Number:" + phone + "\n" + message;
+            message.Body = "Name:" + name + "\nEmail:" + emailaddress + "\nPhone Number:" + phone + "\n" + content;
 
             SmtpClient client = new SmtpClient();
             client.Send(message);
