@@ -214,7 +214,7 @@ namespace DutchmanSite.Helper
             "<phoneme alphabet='ipa' ph='ˈtjendas'>Tiendas</phoneme>. <phoneme alphabet='ipa' ph='ˈtjendas'>Tiendas</phoneme>means shops.",
             "<phoneme alphabet='ipa' ph='mariˈposa'>Mariposa</phoneme>. <phoneme alphabet='ipa' ph='mariˈposa'>Mariposa</phoneme>means butterfly.",
             "<phoneme alphabet='ipa' ph='ˈa.ɣi.la'>Aguila</phoneme>. <phoneme alphabet='ipa' ph='ˈa.ɣi.la'>Aguila</phoneme>means eagle.",
-            "<phoneme alphabet='ipa' ph='la ˈtaɻ.de'>La tarde</phoneme>. <phoneme alphabet='ipa' ph='la ˈtaɻ.de'>La tarde</phoneme>means afternoon.",
+            "<phoneme alphabet='ipa' ph='la ˈtaɻ.de'>La tarde</phoneme>. <phoneme alphabet='ipa' ph='la ˈtaɻ.de'>La tarde</phoneme>means afternoon."
         };
         #endregion
         #region French
