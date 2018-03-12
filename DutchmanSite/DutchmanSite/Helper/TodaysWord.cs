@@ -258,10 +258,10 @@ namespace DutchmanSite.Helper
             switch (language.ToLower())
             {
                 case "japanese": TodaysWord = Japanese[((int)Day % Japanese.Count())]; break;
-                case "spanish": TodaysWord = Japanese[((int)Day % Spanish.Count())]; break;
-                //case "french": TodaysWord = Japanese[((int)Day % French.Count())]; break;
-                //case "italian": TodaysWord = Japanese[((int)Day % Italian.Count())]; break;
-                //case "german": TodaysWord = Japanese[((int)Day % German.Count())]; break;
+                case "spanish": TodaysWord = Spanish[((int)Day % Spanish.Count())]; break;
+                //case "french": TodaysWord = French[((int)Day % French.Count())]; break;
+                //case "italian": TodaysWord = Italian[((int)Day % Italian.Count())]; break;
+                //case "german": TodaysWord = German[((int)Day % German.Count())]; break;
                 default: TodaysWord = "Sorry, URL is invalid. Please contact us at www.LostDutchmanSoftware.com"; break;
             }
             return TodaysWord;
