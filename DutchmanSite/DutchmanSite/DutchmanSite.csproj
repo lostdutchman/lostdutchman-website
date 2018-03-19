@@ -157,8 +157,9 @@
     <Content Include="Content\img\50pxtrans.png" />
     <Content Include="Content\img\alexa.png" />
     <Content Include="Content\img\APP_ICON.png" />
+    <Content Include="Content\img\APP_ICON2.png" />
+    <Content Include="Content\img\both.png" />
     <Content Include="Content\img\bubble.png" />
-    <Content Include="Content\img\jpnapp1.png" />
     <Content Include="Content\img\navbarbrand.png" />
     <Content Include="Content\img\openscene.png" />
     <Content Include="Content\img\screen3.png" />
@@ -198,6 +199,7 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Content\img\jpnapp1.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
