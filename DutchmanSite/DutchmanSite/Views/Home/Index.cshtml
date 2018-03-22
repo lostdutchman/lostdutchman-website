@@ -1,6 +1,9 @@
 ﻿@{
 ViewBag.Title = "Lost Dutchman Software";
 }
+@section head{
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    }
 
 <header class="masthead">   
         <div class="intro-text">
@@ -141,7 +144,25 @@ ViewBag.Title = "Lost Dutchman Software";
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button id="sendMessageButton" class="btn btn-xl get" type="submit">Send Message</button>
+                            <div id="googleRecaptchadiv">
+                                <div id="recaptcha-demo" class="g-recaptcha" data-sitekey="6LcVRk4UAAAAAGaV-zytXgDsllLydoa1DlVOuqkc" data-callback="onSuccess" data-bind="recaptcha_demo_submit"></div>
+                                <script>
+                                    var onSuccess = function(response) {
+                                        debugger;
+                                        var errorDivs = document.getElementsByClassName("recaptcha-error");
+                                        if (errorDivs.length) {
+                                            errorDivs[0].className = "";
+                                        }
+                                        var errorMsgs = document.getElementsByClassName("recaptcha-error-message");
+                                        if (errorMsgs.length) {
+                                            errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
+                                        }
+                                        var clickButton = document.getElementById("<%= Button1.ClientID %>");
+                                        clickButton.click();
+                                    };
+                                </script>
+                            </div>   
+                            <button type="submit" class="btn btn-xl get">Send Message</button>
                         </div>
                     </div>
                 </form>
@@ -304,3 +325,4 @@ ViewBag.Title = "Lost Dutchman Software";
         </div>
     </div>
 </div>
+}

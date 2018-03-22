@@ -1,6 +1,9 @@
 ﻿@{
 ViewBag.Title = "Lost Dutchman Software";
 }
+@section head{
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    }
 
 <header class="masthead">   
         <div class="intro-text">
@@ -63,10 +66,11 @@ ViewBag.Title = "Lost Dutchman Software";
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="~/Content/img/jpnapp1.png" alt="Today's Japanese"  />
+                    <img class="img-fluid" src="~/Content/img/both.png" alt="Today's Japanese and Spanish"  />
                 </a>
                 <div class="portfolio-caption">
                     <h4>Today's Japanese</h4>
+                    <h4>Today's Spanish</h4>
                     <p class="text-muted">Word-a-day language learning program</p>
                     <br />
                     <img class="img-fluid" src="~/Content/img/alexa.png" alt="Today's Japanese" />
@@ -140,7 +144,25 @@ ViewBag.Title = "Lost Dutchman Software";
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button id="sendMessageButton" class="btn btn-xl get" type="submit">Send Message</button>
+                            <div id="googleRecaptchadiv">
+                                <div id="recaptcha-demo" class="g-recaptcha" data-sitekey="6LcVRk4UAAAAAGaV-zytXgDsllLydoa1DlVOuqkc" data-callback="onSuccess" data-bind="recaptcha_demo_submit"></div>
+                                <script>
+                                    var onSuccess = function(response) {
+                                        debugger;
+                                        var errorDivs = document.getElementsByClassName("recaptcha-error");
+                                        if (errorDivs.length) {
+                                            errorDivs[0].className = "";
+                                        }
+                                        var errorMsgs = document.getElementsByClassName("recaptcha-error-message");
+                                        if (errorMsgs.length) {
+                                            errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
+                                        }
+                                        var clickButton = document.getElementById("<%= Button1.ClientID %>");
+                                        clickButton.click();
+                                    };
+                                </script>
+                            </div>   
+                            <button type="submit" class="btn btn-xl get">Send Message</button>
                         </div>
                     </div>
                 </form>
@@ -154,18 +176,23 @@ ViewBag.Title = "Lost Dutchman Software";
                 <div class="col-md-12">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://twitter.com/SoftDutch">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.facebook.com/Lost-Dutchman-Software-348646928960032/">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.instagram.com/lostdutchmansoftware/">
                                 <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g">
+                                <i class="fa fa-youtube"></i>
                             </a>
                         </li>
                     </ul>
@@ -181,7 +208,7 @@ ViewBag.Title = "Lost Dutchman Software";
             <div class="col-md-4">
                 <span class="copyright"></span>
             </div>
-            <div class="col-md-4">
+            @*<div class="col-md-4">
                 <ul class="list-inline quicklinks">
                     <li class="list-inline-item">
                         <a href="#">Privacy Policy</a>
@@ -190,7 +217,7 @@ ViewBag.Title = "Lost Dutchman Software";
                         <a href="#">Terms of Use</a>
                     </li>
                 </ul>
-            </div>
+            </div>*@
         </div>
     </div>
 </footer>
@@ -209,10 +236,11 @@ ViewBag.Title = "Lost Dutchman Software";
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <h2>Today's Japanese</h2>
+                            <h2>Today's Spanish</h2>
                             <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON.png" alt="Today's Japanese" />
+                            <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON2.png" alt="Today's Japanese and Spanish" />
                             <img class="img-fluid d-block mx-auto" src="~/Content/img/bubble.png" alt="Alexa voice commands"/>
-                            <p>The aim of Today's Japanese is to provide Alexa users with a wide variety of Japanese vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
+                            <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
                             <ul class="list-inline">
                                 <li>Date: February 2018</li>
                                 <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
@@ -297,3 +325,4 @@ ViewBag.Title = "Lost Dutchman Software";
         </div>
     </div>
 </div>
+}

@@ -2,6 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Lost Dutchman Software" />
+    <meta name="keywords" content="software design,software,today's japanese,today's spanish,nice bowling,design services,software design services,software studio,software solutions,app development,app developer,video game developer,video game studio,arizona software developer,mesa software developer,mesa software company,arizona software company,app development,phone app development,Android app development,single solution development,single solution developer,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,single solution application,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev,alexa app" />
+    <meta name="author" content="Lost Dutchman Software" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
     @Styles.Render("/Content/css")
@@ -9,7 +12,8 @@
     <link runat="server" rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link runat="server" rel="icon" href="/favicon.ico" type="image/ico" />
     <link href="~/fonts/Nexa Bold.otf" rel="stylesheet" type="text/css" />
-    <script src="https://use.fontawesome.com/951cb33584.js"></script>    
+    <script src="https://use.fontawesome.com/951cb33584.js"></script>
+    @RenderSection("head", required: false)
 </head>
 
 <body id="page-top">
