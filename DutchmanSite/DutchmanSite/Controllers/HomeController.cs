@@ -28,5 +28,12 @@ namespace DutchmanSite.Controllers
             Helper.TodaysWord help = new Helper.TodaysWord();
             return Content(help.jsonBuilder(id), "application/json");
         }
+
+        [HttpGet]
+        public ActionResult Alexa(string id)
+        {
+            Helper.AlexaFlashBrief help = new Helper.AlexaFlashBrief();
+            return Content(help.jsonBuilder(id), "application/json");
+        }
     }
 }
