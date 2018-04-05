@@ -35,5 +35,17 @@ namespace DutchmanSite.Controllers
             Helper.AlexaFlashBrief help = new Helper.AlexaFlashBrief();
             return Content(help.jsonBuilder(id), "application/json");
         }
+
+        [HttpGet]
+        public ActionResult NiceBowling()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult pagenotfound()
+        {
+            return View();
+        }
     }
 }
