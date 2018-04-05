@@ -43,7 +43,7 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpGet]
-        public ActionResult pagenotfound()
+        public ActionResult Error()
         {
             return View();
         }

@@ -155,6 +155,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\404.png" />
     <Content Include="Content\img\50pxtrans.png" />
     <Content Include="Content\img\alexa.png" />
     <Content Include="Content\img\APP_ICON.png" />
@@ -166,6 +167,7 @@
     <Content Include="Content\img\nicebowlingtext.jpg" />
     <Content Include="Content\img\openscene.png" />
     <Content Include="Content\img\screen3.png" />
+    <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -218,7 +220,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\NiceBowling.cshtml" />
-    <Content Include="Views\Home\pagenotfound.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
