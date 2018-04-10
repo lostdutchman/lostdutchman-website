@@ -159,15 +159,15 @@
     <Content Include="Content\img\404.png" />
     <Content Include="Content\img\50pxtrans.png" />
     <Content Include="Content\img\alexa.png" />
-    <Content Include="Content\img\APP_ICON.png" />
     <Content Include="Content\img\APP_ICON2.png" />
     <Content Include="Content\img\both.png" />
     <Content Include="Content\img\bubble.png" />
-    <Content Include="Content\img\fullscreenwithlogo.jpg" />
+    <Content Include="Content\img\fullscreenwithlogo.jpeg" />
     <Content Include="Content\img\navbarbrand.png" />
     <Content Include="Content\img\nicebowlingtext.jpg" />
     <Content Include="Content\img\openscene.png" />
     <Content Include="Content\img\screen3.png" />
+    <Content Include="Content\img\screencapbeachball.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
     <Content Include="Content\Vidian_-_aether_theories_1.mp3" />
     <Content Include="favicon.ico" />
@@ -206,7 +206,6 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Content\img\jpnapp1.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
