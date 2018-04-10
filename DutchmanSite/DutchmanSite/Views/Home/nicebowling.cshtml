@@ -3,9 +3,10 @@
     ViewBag.Title = "Nice Bowling";
 }
 
+
 <h2>NiceBowling</h2>
 <style>
-    body,html {
+    body, html {
         height: 90%;
         margin: 0;
     }
@@ -17,6 +18,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     img {
         float: left;
     }
@@ -28,14 +30,14 @@
         width: 180px;
     }
 
-    div.gallery:hover {
-        border: 1px solid #777;
-    }
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
 
-    div.gallery img {
-        width:100%;
-        height: auto;
-    }
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
 
     div.desc {
         padding: 15px;
@@ -48,59 +50,59 @@
     <script defer src="https://use.fontawesome.com/releases/[VERSION]/js/v4-shims.js"></script>
 </head>
 
-    <div class="bg"></div>
-        <img src="~/Content/img/nicebowlingtext.jpg" alt="NiceBowling" style="margin-right:15px;" />
-    <section>
-        <p>Nice Bowling is a quirky bowling game that is 100% committed to its aesthetic and provides a variety of different random effects that make gameplay a different experience each time.</p>
-        <p>Modeled after the late 80's, early 90's obsession with chrome and neon, Nice Bowling's unique look and retro/chillwave soundtrack will really bring you back.  Gameplay is simple and clean, with a natural, responsive feel that tests your bowling prowess in a lighthearted environment.  Nice Bowling really shines in its 'added effect' playstyle.  Random events can trigger on any frame of play to a huge variety of outcomes- good luck bowling with a beach ball, a jelly blob, or a bouncy ball.  Sometimes fish rain from the sky and block the lane.  Sometimes there will be obsticals or ramps in your path.  Nice Bowling will be available on PC and mobile summer 2018.</p>
-    </section>
+<div class="bg"></div>
+<img src="~/Content/img/nicebowlingtext.jpg" alt="NiceBowling" style="margin-right:15px;" />
+<section>
+    <p>Nice Bowling is a quirky bowling game that is 100% committed to its aesthetic and provides a variety of different random effects that make gameplay a different experience each time.</p>
+    <p>Modeled after the late 80's, early 90's obsession with chrome and neon, Nice Bowling's unique look and retro/chillwave soundtrack will really bring you back.  Gameplay is simple and clean, with a natural, responsive feel that tests your bowling prowess in a lighthearted environment.  Nice Bowling really shines in its 'added effect' playstyle.  Random events can trigger on any frame of play to a huge variety of outcomes- good luck bowling with a beach ball, a jelly blob, or a bouncy ball.  Sometimes fish rain from the sky and block the lane.  Sometimes there will be obsticals or ramps in your path.  Nice Bowling will be available on PC and mobile summer 2018.</p>
+</section>
 
-    <section id="carousel">
-        <h2>GALLERY</h2>
-        <p>PUT A CAROUSEL SLIDESHOW HERE</p>
-        <div class="gallery">
-            <a target="_blank" href="~/Content/img/screen3.png">
-                <img src="~/Content/img/screen3.png" width="300" height="200" />
-            </a>
-            <div class="desc">Screencap</div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="~/Content/img/screen3.png">
-                <img src="~/Content/img/screen3.png" width="300" height="200" />
-            </a>
-            <div class="desc">Screencap2</div>
-        </div>        
-        <div class="gallery">
-            <a target="_blank" href="~/Content/img/screen3.png">
-                <img src="~/Content/img/screen3.png" width="300" height="200" />
-            </a>
-            <div class="desc">Screencap3</div>
-        </div>
+<section id="carousel">
+    <h2>GALLERY</h2>
+    <p>PUT A CAROUSEL SLIDESHOW HERE</p>
+    <div class="gallery">
+        <a target="_blank" href="~/Content/img/screen3.png">
+            <img src="~/Content/img/screen3.png" width="300" height="200" />
+        </a>
+        <div class="desc">Screencap</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="~/Content/img/screen3.png">
+            <img src="~/Content/img/screen3.png" width="300" height="200" />
+        </a>
+        <div class="desc">Screencap2</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="~/Content/img/screen3.png">
+            <img src="~/Content/img/screen3.png" width="300" height="200" />
+        </a>
+        <div class="desc">Screencap3</div>
+    </div>
 
-    </section>
-    <section id="ost">
-        <p>PUT AUDIO SAMPLER HERE</p>
-        <h2>Soundtrack</h2>
-        <h3>Aether Theories - Vidian</h3>
-        <audio controls>            
-            <source src=~/Content/Vidian_-_aether_theories_1.mp3 type="audio/mp3" />
-            Dang, your browser doesn't support this audio element.
-        </audio>
-        <h3>glaciaere (Abandonded) - Glaciaere</h3>
-        <audio controls>          
-            <source src=~/Content/glaciære.mp3 type="audio/mp3"/>
-            Dang, your browser doesn't support this audio element.
-        </audio>
-    </section>
+</section>
+<section id="ost">
+    <p>PUT AUDIO SAMPLER HERE</p>
+    <h2>Soundtrack</h2>
+    <h3>Aether Theories - Vidian</h3>
+    <audio controls>
+        <source src=~/Content/Vidian_-_aether_theories_1.mp3 type="audio/mp3" />
+        Dang, your browser doesn't support this audio element.
+    </audio>
+    <h3>glaciaere (Abandonded) - Glaciaere</h3>
+    <audio controls>
+        <source src=~/Content/glaciære.mp3 type="audio/mp3" />
+        Dang, your browser doesn't support this audio element.
+    </audio>
+</section>
 
-    <section id="updates">
-        <p>HERE THAR BE UPDATES</p>
-        <h3>This Week:</h3>
-        <p>This week in Nice Bowling, we rolled back to an earlier branch to improve stability.  Next week, we will be adding more random effects to the game.</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </section>
+<section id="updates">
+    <p>HERE THAR BE UPDATES</p>
+    <h3>This Week:</h3>
+    <p>This week in Nice Bowling, we rolled back to an earlier branch to improve stability.  Next week, we will be adding more random effects to the game.</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</section>
 
-    <section id="devlog">
+<section id="devlog">
     <p>PUT DEVLOG HERE WITH EXPANDABLE TEXT MODALS FOR BLOG POSTS</p>
     <div class="container">
         <div class="row">
@@ -125,101 +127,101 @@
             </div>
         </div>
     </div>
-            
 
-            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="moda-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <div class="lr">
-                                <div class="rl"></div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-8 mx-auto">
-                                    <div class="modal-body">
-                                        <h2>Github Opinions and Facts</h2>
-                                        <h2>I love it and I hate it.</h2>
-                                        <p class="item-intro text-muted">Or, we almost had a crisis but were able to roll back to early commits. Yay.</p>
-                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                                        <ul class="list-inline">
-                                            <li>Date: April 2018</li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fa fa-times"></i>
-                                            Close Update
-                                        </button>
-                                    </div>
-                                </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2>Github Opinions and Facts</h2>
+                                <h2>I love it and I hate it.</h2>
+                                <p class="item-intro text-muted">Or, we almost had a crisis but were able to roll back to early commits. Yay.</p>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2018</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Update
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </section>
-    <section id="martketing">
-        <p>WHERE TO BUY, SOCIAL MEDIA LINKS, REVIEWS, ETC</p>
+<section id="martketing">
+    <p>WHERE TO BUY, SOCIAL MEDIA LINKS, REVIEWS, ETC</p>
 
-        <div class="row">
-            <div class="col-lg-12 mx-auto text-center">
-                <p class="text-muted">Buy Nice Bowling! at any of these places:</p>
-                <div class="col-md-12">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/SoftDutch">
-                                <i class="fa fa-steam"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/Lost-Dutchman-Software-348646928960032/">
-                                <i class="fa fa-nintendo-switch"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/lostdutchmansoftware/">
-                                <i class="fa fa-playstation"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g">
-                                <i class="fa fa-xbox"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="row">
+        <div class="col-lg-12 mx-auto text-center">
+            <p class="text-muted">Buy Nice Bowling! at any of these places:</p>
+            <div class="col-md-12">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/SoftDutch">
+                            <i class="fa fa-steam"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Lost-Dutchman-Software-348646928960032/">
+                            <i class="fa fa-nintendo-switch"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/lostdutchmansoftware/">
+                            <i class="fa fa-playstation"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g">
+                            <i class="fa fa-xbox"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-lg-12 mx-auto text-center">
-                <p class="text-muted">Come find us on social media!</p>
-                <div class="col-md-12">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/SoftDutch">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/Lost-Dutchman-Software-348646928960032/">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/lostdutchmansoftware/">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g">
-                                <i class="fa fa-youtube"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="row">
+        <div class="col-lg-12 mx-auto text-center">
+            <p class="text-muted">Come find us on social media!</p>
+            <div class="col-md-12">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/SoftDutch">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Lost-Dutchman-Software-348646928960032/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/lostdutchmansoftware/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-       </div>
+        </div>
+    </div>
 </section>
 
 @section scripts{
