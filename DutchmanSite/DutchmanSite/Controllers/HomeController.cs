@@ -15,10 +15,10 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(string name, string email, string message, string phone = "Non Entered")
+        public ActionResult Index(string name, string email, string message)
         {
             Helper.FormEmail help = new Helper.FormEmail();
-            help.SendEmail(name, email, message, phone);
+            help.SendEmail(name, email, message);
             return View();
         }
 
