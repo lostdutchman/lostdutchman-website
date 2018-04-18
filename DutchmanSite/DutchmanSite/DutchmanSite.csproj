@@ -179,6 +179,8 @@
     <Content Include="Content\img\screen3.png" />
     <Content Include="Content\img\screencapbeachball.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
+    <Content Include="Content\NiceBowling.css" />
+    <Content Include="Content\LostDutchman.css" />
     <Content Include="Content\Vidian_-_aether_theories_1.mp3" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
