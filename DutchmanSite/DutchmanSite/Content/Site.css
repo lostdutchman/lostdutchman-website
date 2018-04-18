@@ -136,6 +136,20 @@ header.masthead {
     background-size: cover;
 }
 
+.masthead1 {
+    text-align: center;
+    color: white;
+    height: 1500px;
+    background-image: url("img/masthead.png");
+    background-repeat: no-repeat;
+    background-position: center center;   
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
 header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
