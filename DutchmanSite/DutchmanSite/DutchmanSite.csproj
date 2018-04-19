@@ -158,7 +158,9 @@
     <Content Include="Content\glaciære.mp3" />
     <Content Include="Content\img\404.png" />
     <Content Include="Content\img\50pxtrans.png" />
+    <Content Include="Content\img\cassette-tape.png" />
     <Content Include="Content\img\masthead.png" />
+    <Content Include="Content\img\polaroid.png" />
     <Content Include="Content\img\steviasphere.jpg" />
     <Content Include="Content\img\Action.png" />
     <Content Include="Content\img\alexa.png" />
@@ -178,6 +180,7 @@
     <Content Include="Content\img\openscene.png" />
     <Content Include="Content\img\screen3.png" />
     <Content Include="Content\img\screencapbeachball.png" />
+    <Content Include="Content\img\VHS.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />

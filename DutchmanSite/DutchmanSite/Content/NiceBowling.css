@@ -4,4 +4,28 @@ body {
     background-repeat: no-repeat;
     text-decoration-color:white;
     text-align:center;
+}    
+
+p {
+    font-size: 18px;
 }
+
+.well {
+    background-color: rgba(185,103, 255, 0.9);
+    border: 1px black;
+}
+
+#media img {
+    max-width: 100%;
+    border: black;
+}
+
+#media {
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+#buy .well {
+    background-color:black;
+}
+
