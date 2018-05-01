@@ -158,15 +158,17 @@
     <Content Include="Content\glaciære.mp3" />
     <Content Include="Content\img\404.png" />
     <Content Include="Content\img\50pxtrans.png" />
+    <Content Include="Content\img\AlexaIcons.png" />
     <Content Include="Content\img\cassette-tape.png" />
     <Content Include="Content\img\masthead.png" />
+    <Content Include="Content\img\modernfairwaytitlethumb.png" />
+    <Content Include="Content\img\NiceBowlingTitleThumb.png" />
     <Content Include="Content\img\polaroid.png" />
     <Content Include="Content\img\steviasphere.jpg" />
     <Content Include="Content\img\Action.png" />
     <Content Include="Content\img\alexa.png" />
     <Content Include="Content\img\APP_ICON2.png" />
     <Content Include="Content\img\avy.jpg" />
-    <Content Include="Content\img\both.png" />
     <Content Include="Content\img\bouncyball.png" />
     <Content Include="Content\img\bubble.png" />
     <Content Include="Content\img\credits.png" />
@@ -177,7 +179,6 @@
     <Content Include="Content\img\navbarbrand.png" />
     <Content Include="Content\img\nicebowlingtext.jpg" />
     <Content Include="Content\img\Obsticals.png" />
-    <Content Include="Content\img\openscene.png" />
     <Content Include="Content\img\screen3.png" />
     <Content Include="Content\img\screencapbeachball.png" />
     <Content Include="Content\img\VHS.png" />
