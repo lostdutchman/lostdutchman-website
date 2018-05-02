@@ -156,6 +156,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\glaciære.mp3" />
+    <Content Include="Content\img\mf4level2.gif" />
+    <Content Include="Content\img\mf4level1.gif" />
     <Content Include="Content\img\404.png" />
     <Content Include="Content\img\50pxtrans.png" />
     <Content Include="Content\img\AlexaIcons.png" />
@@ -164,6 +166,7 @@
     <Content Include="Content\img\modernfairwaytitlethumb.png" />
     <Content Include="Content\img\NiceBowlingTitleThumb.png" />
     <Content Include="Content\img\polaroid.png" />
+    <Content Include="Content\img\retrocarpet.png" />
     <Content Include="Content\img\steviasphere.jpg" />
     <Content Include="Content\img\Action.png" />
     <Content Include="Content\img\alexa.png" />

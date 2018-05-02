@@ -27,5 +27,25 @@ p {
 
 #buy .well {
     background-color:black;
+    color: dimgray;
+    line-height: 25px;
+}
+
+#buy .buy-buttons {
+    font-size: 60px;
+    line-height: 50px;
+    display: inline;
+    width: 40px;
+    height: 40px;
+    outline: none;
+}
+
+#devlog {
+    background-image: url(img/retrocarpet.png);
+}
+
+#devlog .well {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px black;
 }
 
