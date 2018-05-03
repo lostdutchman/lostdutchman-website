@@ -118,81 +118,65 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                    <article class="well clearfix">
-                        <h2 class="section-heading">Devlog</h2>
-                        <p>TESTER TEXT</p>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6 update-item">
-                                <a class="update-link" data-toggle="modal" href="#updateModal1">
-                                    <div class="update-hover">
-                                        <div class="update-hover-content">
-                                            <i class="fa-fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="update-caption">
-                                    <h4>Entry 1</h4>
-                                    <p class="text-muted">Updating GitHub</p>
-                                    <br />
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 update-item">
-                                <a class="update-link" data-toggle="modal" href="#updateModal2">
-                                    <div class="update-hover">
-                                        <div class="update-hover-content">
-                                            <i class="fa-fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="update-caption">
-                                    <h4>Entry 2</h4>
-                                    <p class="text-muted">Updating GitHub</p>
-                                    <br />
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 update-item">
-                                <a class="update-link" data-toggle="modal" href="#updateModal1">
-                                    <div class="update-hover">
-                                        <div class="update-hover-content">
-                                            <i class="fa-fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="update-caption">
-                                    <h4>Entry 3</h4>
-                                    <p class="text-muted">Updating GitHub</p>
-                                    <br />
-                                </div>
+                <article class="well clearfix">
+                    <h2 class="section-heading">Devlog</h2>
+                    <p>TESTER TEXT</p>
+                <div class="row">
+                <div class="col-md-4 col-sm-6 devlog-item">
+                    <a class="devlog-link" data-toggle="modal" href="#devlogModal1">
+                        <div class="devlog-hover">
+                            <div class="devlog-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img class="img-fluid" src="~/Content/img/AlexaIcons.png" alt="Today's Japanese and Spanish" />
+                    </a>
+                    <div class="devlog-caption">
+                        <h4>Today's Japanese</h4>
+                        <h4>Today's Spanish</h4>
+                        <p class="text-muted">Word-a-day language learning program</p>
+                        <br />
+                        <img class="img-fluid" src="~/Content/img/alexa.png" alt="Today's Japanese" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 devlog-item">
+                    <a class="devlog-link" data-toggle="modal" href="#devlogModal2">
+                        <div class="devlog-hover">
+                            <div class="devlog-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Content/img/NiceBowlingTitleThumb.png" alt="Nice Bowling" />
+                    </a>
+                    <div class="devlog-caption">
+                        <h4>Nice Bowling!</h4>
+                        <p class="text-muted">Retrowave bowling game with a plethora of lane, ball, and pin effects to make for a unique experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 devlog-item">
+                    <a class="devlog-link" data-toggle="modal" href="#devlogModal3">
+                        <div class="devlog-hover">
+                            <div class="devlog-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Content/img/modernfairwaytitlethumb.png" alt="Modern Fairway 4" />
+                    </a>
+                    <div class="devlog-caption">
+                        <h4>Modern Fairway 4</h4>
+                        <h4>Spec-Ops in the Rough</h4>
+                        <p class="text-muted">Made for Ludum Dare #41, the theme was "Mix two incompatible genres".  We combined golf and a modern first person shooter.</p>
+                    </div>
+                    </div>
+                    </div>
                     </article>
-                </div>                
+                </div>
             </div>
         </div>
 
     <!--UPDATE MODALS-->
-    
-        @*<div class="row">
-            <div class="col-sm-5 col-md-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                </a>
-                <div class="portfolio-caption">
-                    <h4>5-April-18</h4>
-                    <p class="text-muted">Github: A Challenge and A Savior</p>
-                    <br />
-                </div>
-            </div>
-        </div>
-    </div>*@
-
-
-    @*<div class="update-modal modal fade" id="updateModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="devlog-modal modal fade" id="devlogModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="devlog-modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -203,16 +187,20 @@
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
-                                <h2>Github Opinions and Facts</h2>
-                                <h2>I love it and I hate it.</h2>
-                                <p class="item-intro text-muted">Or, we almost had a crisis but were able to roll back to early commits. Yay.</p>
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <h2>Today's Japanese</h2>
+                                <h2>Today's Spanish</h2>
+                                <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON2.png" alt="Today's Japanese and Spanish" />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/bubble.png" alt="Alexa voice commands" />
+                                <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
                                 <ul class="list-inline">
-                                    <li>Date: April 2018</li>
+                                    <li>Date: February 2018</li>
+                                    <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
+                                    <li>Category: Single Solution Application</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fa fa-times"></i>
-                                    Close Update
+                                    Close Project
                                 </button>
                             </div>
                         </div>
@@ -220,7 +208,75 @@
                 </div>
             </div>
         </div>
-    </div>*@
+    </div>
+    <div class="devlog-modal modal fade" id="devlogModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2>Nice Bowling!</h2>
+                                <p class="item-intro text-muted">Fun bowling game with a fully commited 80's retrowave aesthetic and a fun set of random effects to make gameplay a different exerience every time.</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/screen3.png" alt="Nice Bowling" />
+                                <p>Nice Bowling! was created to be played on both console and mobile, revolving around the simple mechanic of throwing the ball down the lange.  A huge assortment of quirky, random effects are introdcued in every frame, making each playthrough unique.  Multiple balls of differing size, weights, and physics materials can make the frame more or less challenging.  Pin size can change, wind can knock you off course, obsticals, ramps, and even piles of floppy fishes can spawn on the lane.</p>
+
+                                <p>Nice Bowling! also carries its identity in its sleek, radical look.  We put a huge focus on neon colors, moving, glowing grids, video effects that hearken back to the wonder years of VHS tapes... And to top it all off, we've got a sick retro/vaporwave soundtrack that compliments the whole experience.</p>
+                                <ul class="list-inline">
+                                    <li>Summer 2018</li>
+                                    <li>Check out Nice Bowling! soon</li>
+                                    <li>Category: Game</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="devlog-modal modal fade" id="devlogModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2>Modern Fairway 4</h2>
+                                <h2>Spec-Ops in the Rough</h2>
+                                <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level1.gif" alt="" />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level2.gif" alt="" />
+                                <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2018</li>
+                                    <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
+                                    <li>Category: Game</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 @section scripts{
