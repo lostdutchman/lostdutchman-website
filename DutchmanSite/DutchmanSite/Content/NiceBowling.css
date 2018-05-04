@@ -49,25 +49,13 @@ p {
     border: 1px black;
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flex > div {
-    flex: 1 0 50%;
-    text-align: center;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.flex >div:first-child {
-    flex: 0 1 100%
+#devlog .row {
+    margin-left: 0px;
 }
 
 #devlog .devlog-item {
     right: 0;
+    left:100px;
     margin: 0 0 15px;
 }
 
@@ -116,8 +104,8 @@ p {
 
 #devlog .devlog-item .devlog-caption {
     max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
+    margin: 0px auto;
+    padding: 50px;
     text-align: center;
     background-color: white;
 }
