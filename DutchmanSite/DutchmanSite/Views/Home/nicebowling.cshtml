@@ -60,12 +60,66 @@
 <section id="media">
     <div class="container">
         <div class="row">
-                <div class="col-lg-4">
-                    <div class="thumbnail">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Media</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 media-item">
+                <a class="media-link" data-toggle="modal" href="#mediaoModal1">
+                    <div class="media-hover">
+                        <div class="media-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/VHS.png" alt="Nice Bowling VHS" />
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Today's Japanese</h4>
+                    <h4>Today's Spanish</h4>
+                    <p class="text-muted">Word-a-day language learning program</p>
+                    <br />
+                    <img class="img-fluid" src="~/Content/img/alexa.png" alt="Today's Japanese" />
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/NiceBowlingTitleThumb.png" alt="Nice Bowling" />
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Nice Bowling!</h4>
+                    <p class="text-muted">Retrowave bowling game with a plethora of lane, ball, and pin effects to make for a unique experience.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/modernfairwaytitlethumb.png" alt="Modern Fairway 4" />
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Modern Fairway 4</h4>
+                    <h4>Spec-Ops in the Rough</h4>
+                    <p class="text-muted">Made for Ludum Dare #41, the theme was "Mix two incompatible genres".  We combined golf and a modern first person shooter.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div class="container">
+        <div class="row">
+                <div class="col-lg-4 media-item">
+                    <a class="portfolio"
                         <article class="well">
                             <img src="~/Content/img/VHS.png" />
                         </article>
-                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="thumbnail">
@@ -82,7 +136,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>*@
 </section>
 
 <div id="buy">  
@@ -121,23 +175,23 @@
                 <h2 class="section-heading">Devlog</h2>
                 <p>TESTER TEXT</p>
                 <br />
-
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div class="devlog-item">
-                                <a class="devlog-link" data-toggle="modal" href="#devlogModal1">
-                                    <div class="devlog-hover">
-                                        <div class="devlog-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
+                        <div class="col-sm-3"></div>
+                            <div class="col-sm-3">
+                                <div class="devlog-item">
+                                    <a class="devlog-link" data-toggle="modal" href="#devlogModal1">
+                                        <div class="devlog-hover">
+                                            <div class="devlog-hover-content">
+                                                <i class="fa fa-plus fa-3x"></i>
+                                            </div>
                                         </div>
-                                     </div>
                                         <i class="fas fa-bowling-ball fa-7x"></i>
                                         <p>April 20, 2018</p>
-                                </a>
-                             </div>
-                        </div>
-                        <div class="col-sm-6">
+                                    </a>
+                                </div>
+                            </div>
+                        <div class="col-sm-5">
                             <div class="devlog-item">
                                 <div class="devlog-caption">
                                     <h4>Working with Softbodies</h4>
@@ -145,54 +199,72 @@
                                 </div>
                             </div>
                         </div>
+                            <div class="col-sm-1"></div>
                      </div>
                  </div>
-
-                <div class="container-fluid">
+                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-6 devlog-item">
-                            <a class="devlog-link" data-toggle="modal" href="#devlogModal2">
-                                <div class="devlog-hover">
-                                    <div class="devlog-hover-content">
-                                        <i class="fa fa-plus fa-3x"></i>
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-3">
+                            <div class="devlog-item">
+                                <a class="devlog-link" data-toggle="modal" href="#devlogModal2">
+                                    <div class="devlog-hover">
+                                        <div class="devlog-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
                                     </div>
-                                </div>
-                                <i class="fas fa-bug fa-7x"></i>
-                                <p>May 4, 2018</p>
-                            </a>
-                            <div class="col-sm-6">
+                                    <i class="fas fa-bug fa-7x"></i>
+                                    <p>May 4, 2018</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="devlog-item">
                                 <div class="devlog-caption">
                                     <h4>Bugfix Friday!</h4>
                                     <p class="muted">Subtitle/Caption</p>
                                 </div>
                             </div>
+                          <div class="col-sm-1"></div>
                         </div>
                     </div>
                 </div>
-
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12 devlog-item">
-                            <a class="devlog-link" data-toggle="modal" href="#devlogModal3">
-                                <div class="devlog-hover">
-                                    <div class="devlog-hover-content">
-                                        <i class="fa fa-plus fa-3x"></i>
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-3">
+                            <div class="devlog-item">
+                                <a class="devlog-link" data-toggle="modal" href="#devlogModal2">
+                                    <div class="devlog-hover">
+                                        <div class="devlog-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
                                     </div>
-                                </div>
-                                <i class="fas fa-gem fa-7x"></i>
-                                <p>June 10, 2018</p>
-                            </a>
-                            <div class="devlog-caption">
-                                <h4>Good Ideas</h4>
-                                <p class="text-muted">Some good ideas from this week.</p>
+                                    <i class="fas fa-gem fa-7x"></i>
+                                    <p>June 12, 2018</p>
+                                </a>
                             </div>
                         </div>
+                        <div class="col-sm-5">
+                            <div class="devlog-item">
+                                <div class="devlog-caption">
+                                    <h4>Good Ideas</h4>
+                                    <p class="muted">Some good ideas from this week.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-1"></div>
                     </div>
-          
+                </div>          
               </article>
             </div>
           </div>
 
-    <!--UPDATE MODALS-->
+    <!--MEDIA MODALS-->
+
+
+
+    <!--DEVLOG MODALS-->
     <div class="devlog-modal modal fade" id="devlogModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="devlog-modal-dialog">
             <div class="modal-content">
