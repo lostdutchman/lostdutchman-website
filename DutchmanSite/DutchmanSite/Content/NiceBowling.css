@@ -22,9 +22,24 @@ p {
     background-position: center;
 }
 
+#buy h1 {
+    vertical-align: auto;
+    font-family:lazer84;
+    font-size: 6em;
+    color: #01cdfe;
+    text-shadow: 6px 0px 7px #ff6ad5;
+}
+
 #media .media-item {
     right: 0;
     margin: 0 0 15px;
+}
+
+#media h1 {
+    font-family:lazer84;
+    font-size: 3em;
+    color: #01cdfe;
+    text-shadow: 6px 0px 7px purple;
 }
 
 #media .media-item .media-link {
@@ -45,7 +60,7 @@ p {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: #01cdfe;
+    background: #ff6ad5;
 }
 
 #media .media-item .media-link .media-hover:hover {

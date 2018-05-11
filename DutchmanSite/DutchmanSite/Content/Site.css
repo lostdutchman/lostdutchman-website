@@ -18,6 +18,11 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
+@font-face {
+    font-family: Lazer84;
+    src: url('../fonts/Lazer84.ttf') format('truetype');
+}
+
 body {
     overflow-x: hidden;
     font-family: nexaBold, Helvetica, Arial, sans-serif;
