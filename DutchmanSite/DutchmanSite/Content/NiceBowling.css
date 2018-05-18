@@ -36,6 +36,10 @@ p {
     margin: 0 0 15px;
 }
 
+#media a {
+    text-decoration: none;
+}
+
 #media h1 {
     font-family:lazer84;
     font-size: 3em;
@@ -77,6 +81,26 @@ p {
     margin-top: -12px;
     text-align: center;
     color: white;
+}
+
+div.col-md-4.media-item {
+    max-height:350px;
+}
+
+a.media-link {
+    max-height:353px;
+}
+
+#media div.thumbnail {
+    max-height:353px;
+}
+
+#media article.well {
+    max-height:323px;
+}
+
+#media img.img {
+    max-width: 75%;
 }
 
 #media .media-item .media-link .media-hover .media-hover-content i {
