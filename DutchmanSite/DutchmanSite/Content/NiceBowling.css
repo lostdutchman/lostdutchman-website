@@ -6,12 +6,16 @@ body {
     text-decoration-color:white;
     text-align:center;
     background-color:black;
+}
+
+h1 {
+    font-family: lazer84;
+    font-size: 3em;
 }    
 
 p {
     font-size: 18px;
 }
-
 
 .well {
     background-color: rgba(255, 255, 255, 0.75);
@@ -21,14 +25,6 @@ p {
 .container  {
     background-repeat: no-repeat;
     background-position: center;
-}
-
-#buy h1 {
-    vertical-align: auto;
-    font-family:lazer84;
-    font-size: 6em;
-    color: #01cdfe;
-    text-shadow: 6px 0px 7px #ff6ad5;
 }
 
 #media .media-item {
@@ -41,8 +37,6 @@ p {
 }
 
 #media h1 {
-    font-family:lazer84;
-    font-size: 3em;
     color: #01cdfe;
     text-shadow: 6px 0px 7px purple;
 }
@@ -240,6 +234,14 @@ a.media-link {
     padding-bottom: 0px;
 }
 
+#buy h1 {
+    vertical-align: auto;
+    font-size: 6em;
+    color: #01cdfe;
+    text-shadow: 6px 0px 7px #ff6ad5;
+    padding-bottom:25px;
+}
+
 #buy .article{
     padding-top: 0px;
 }
@@ -247,7 +249,7 @@ a.media-link {
 #buy .well {
     background-color:black;
     color: dimgray;
-    line-height: 25px;
+    padding-top: 5px;
 }
 
 #buy .buy-buttons {
@@ -262,6 +264,7 @@ a.media-link {
 #devlog {
     background-image: url(img/retrocarpet.png);
 }
+
 
 #devlog .well {
     background-color: rgba(255, 255, 255, 0.8);
@@ -362,6 +365,10 @@ a.media-link {
     background-color: gainsboro;
 }
 
+.devlog-modal img {
+    max-width:600px;
+}
+
 .devlog-modal .modal-content h2 {
     font-size: 3em;
     margin-bottom: 15px;
@@ -437,6 +444,7 @@ a.media-link {
 
 /************Image Gallery**************/
 
+
 ol.carousel-indicators {
   position: absolute;
   bottom: 0;
@@ -459,4 +467,8 @@ ol.carousel-indicators li.active {
 
 ol.carousel-indicators li.active {
   background: #fb14ff;
+}
+
+div.carousel-inner {
+    height: 620px;
 }
