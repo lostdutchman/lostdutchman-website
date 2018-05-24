@@ -47,5 +47,11 @@ namespace DutchmanSite.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult BetaTest()
+        {
+            return Redirect("https://goo.gl/forms/khMbXVcsEgDfJtrz1");
+        }
     }
 }
