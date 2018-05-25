@@ -284,6 +284,7 @@ a.media-link {
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer;
+    padding-top: 7px;
 }
 
 #devlog .devlog-item .devlog-link .devlog-hover {
@@ -338,6 +339,7 @@ a.media-link {
     font-size: 16px;
     font-style: italic;
     margin: 0;
+    color: #595959;
     font-family: neotechbold, Helvetica, Arial, sans-serif;
 }
 
