@@ -446,10 +446,20 @@ a.media-link {
 
 /************Image Gallery**************/
 
+div.carousel-inner {
+    max-height:100%;
+}
+
+@media screen and (max-width: 600px) {
+    div.carousel-inner {
+        max-height: 250px;
+    }
+}
+
 
 ol.carousel-indicators {
   position: absolute;
-  bottom: 0;
+  bottom: -15px;
   margin: 0;
   left: 0;
   right: 0;
@@ -459,8 +469,8 @@ ol.carousel-indicators {
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
   float: left;
-  width: 33%;
-  height: 5px;
+  width: 16.665%; /*Number of pictures / 100 for what this value needs to be.*/
+  height: 8px;
   margin: 0;
   border-radius: 0;
   border: 0;
