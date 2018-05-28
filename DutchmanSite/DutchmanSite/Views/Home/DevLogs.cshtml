@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "DevLogs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color:orangered;">@ViewBag.Err</h1>
+
+<div class="SubmitFloat">
+    <center><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">Add New Question</button></center>
+</div>
+
+<!--************************Add Question***************************-->
+<div class="modal custom fade" id="addModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" id="editbtn" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">Create New Log</h2>
+            </div>
+            <div class="modal-body">
+                <fieldset>
+                    
+                    <!--Modal Body-->
+
+                </fieldset>
+            </div>  <!--Modal Body-->
+
+        </div> <!--Modal Content-->
+    </div> <!--Modal Dialog-->
+</div>
+
+<!--************************List Questions*****************************-->
+<br />
+<ul class="EditLogs" style="list-style-type:none">
+    @Html.Raw("Load the list here bro")
+</ul>
+}
