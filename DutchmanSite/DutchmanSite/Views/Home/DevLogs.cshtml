@@ -2,15 +2,26 @@
 @{
     ViewBag.Title = "DevLogs";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
 }
 
-<h1 style="color:orangered;">@ViewBag.Err</h1>
-
-<div class="SubmitFloat">
-    <center><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">Add New Question</button></center>
+<!--**********Spaces to get site under the nav bar*********************-->
+<br />
+<br />
+<br />
+<br />
+<br />
+<!--************************New Log Button*****************************-->
+<div class="LogFloat">
+    <center><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">Create New Log</button></center>
 </div>
 
-<!--************************Add Question***************************-->
+<!--************************List Questions*****************************-->
+<ul class="EditLogs" style="list-style-type:none">
+    @Html.Raw(Logs.LogEditList())
+</ul>
+
+<!--***********************Add Question Modal**************************-->
 <div class="modal custom fade" id="addModal" role="dialog">
     <div class="modal-dialog">
 
@@ -21,20 +32,89 @@
                 <h2 class="modal-title">Create New Log</h2>
             </div>
             <div class="modal-body">
-                <fieldset>
-                    
-                    <!--Modal Body-->
+                <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                    <fieldset>
 
-                </fieldset>
+                        <!-- Value needs to be the view name. -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="site">Select Site</label>
+                            <div class="col-md-4">
+                                <select id="site" name="site" class="form-control">
+                                    <option value="Index">Home Page</option>
+                                    <option value="NiceBowling">Nice Bowling</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="icon">Glyph Icon</label>
+                            <div class="col-md-4">
+                                <input id="icon" name="icon" type="text" placeholder="" class="form-control input-md">
+                                <span class="help-block">ex. fas fa-flask fa-7x</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="iconText">Icon Subtitle</label>
+                            <div class="col-md-4">
+                                <input id="iconText" name="iconText" type="text" placeholder="" class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="title">Title</label>
+                            <div class="col-md-4">
+                                <input id="title" name="title" type="text" placeholder="" class="form-control input-md">
+                                <span class="help-block">Title of summery card</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="summery">Summery</label>
+                            <div class="col-md-4">
+                                <input id="summery" name="summery" type="text" placeholder="" class="form-control input-md">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="description">Modal Content</label>
+                            <div class="col-md-4">
+                                <textarea class="form-control" id="description" name="description">HTML OK in this feild</textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="isPublished"></label>
+                            <div class="col-md-4">
+                                <div class="radio">
+                                    <label for="isPublished-0">
+                                        <input type="radio" name="isPublished" id="isPublished-0" value="0" checked="checked">
+                                        Draft
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label for="isPublished-1">
+                                        <input type="radio" name="isPublished" id="isPublished-1" value="1">
+                                        Published
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="save"></label>
+                            <div class="col-md-8">
+                                <button type="submit" class="btn btn-info">Save</button>
+                                <button data-dismiss="modal" class="btn btn-danger">Exit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>  <!--Modal Body-->
 
         </div> <!--Modal Content-->
     </div> <!--Modal Dialog-->
 </div>
 
-<!--************************List Questions*****************************-->
-<br />
-<ul class="EditLogs" style="list-style-type:none">
-    @Html.Raw("Load the list here bro")
-</ul>
-}

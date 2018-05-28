@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DutchmanSite.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -92,8 +93,10 @@ namespace DutchmanSite.Controllers
 
         [HttpPost]
         [BasicAuthenticationAttribute("your-username", "your-password")]
-        public ActionResult DevLogs(string check)
+        public ActionResult DevLogs(string site, string icon, string iconText, string title, string summery, string description, int isPublished)
         {
+            DevLogsModel DevLog = new DevLogsModel();
+            DevLog.CreateNew(site, icon, iconText, title, summery, description, isPublished);
             return RedirectToAction("DevLogs");
         }
     }
