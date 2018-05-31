@@ -260,11 +260,15 @@ fieldset[disabled] .btn-xl:hover {
 .LogFloat{
     position: fixed;
     z-index: 10000;
-    bottom: 0;
+    top: 0;
     left:0;
     font-weight:bold;
     background: #222222;
 	line-height: 2em;
 	padding: .5em 1em .5em 1em;
     width: 100%;
+}
+
+.DevLogDescription{
+    float: right;
 }

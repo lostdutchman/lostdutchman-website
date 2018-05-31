@@ -53,8 +53,8 @@ namespace DutchmanSite.Helper
                         while (reader.Read())
                         {
                             var Log = new DevLogsModel();
-                            Log.PKEY = reader.GetInt32(reader.GetOrdinal("PKEY"));
-                            Log.IsPublished = reader.GetInt32(reader.GetOrdinal("isPublished"));
+                            Log.PKEY = reader.GetInt64(reader.GetOrdinal("PKEY"));
+                            Log.IsPublished = reader.GetBoolean(reader.GetOrdinal("isPublished"));
                             Log.Icon = reader.GetString(reader.GetOrdinal("Icon"));
                             Log.IconText = reader.GetString(reader.GetOrdinal("IconText"));
                             Log.Title = reader.GetString(reader.GetOrdinal("Title"));
