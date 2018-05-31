@@ -159,6 +159,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ChillWave.mp3" />
     <Content Include="Content\glaciære.mp3" />
+    <Content Include="Content\img\dreadproject.png" />
     <Content Include="Content\img\fortunethumbnail.png" />
     <Content Include="Content\img\macleod.jpg" />
     <Content Include="Content\img\mf4level2.gif" />
@@ -168,10 +169,10 @@
     <Content Include="Content\img\AlexaIcons.png" />
     <Content Include="Content\img\cassette-tape.png" />
     <Content Include="Content\img\masthead.png" />
-    <Content Include="Content\img\modernfairwaytitlethumb.png" />
+    <Content Include="Content\img\MF4project.png" />
     <Content Include="Content\img\navbarbrand.png" />
+    <Content Include="Content\img\NBproject.png" />
     <Content Include="Content\img\nicebowlinglogotrans.png" />
-    <Content Include="Content\img\NiceBowlingTitleThumb.png" />
     <Content Include="Content\img\polaroid1.png" />
     <Content Include="Content\img\retrocarpet.png" />
     <Content Include="Content\img\steviasphere.jpg" />
@@ -193,6 +194,9 @@
     <Content Include="Content\img\VHS.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
     <Content Include="Content\img\wyrdproject.png" />
+    <Content Include="Content\img\wyrdtransp.png" />
+    <Content Include="Content\MF4project.png" />
+    <Content Include="Content\NBproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
     <Content Include="Content\Vidian_-_aether_theories_1.mp3" />
