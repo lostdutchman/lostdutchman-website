@@ -195,8 +195,6 @@
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
     <Content Include="Content\img\wyrdproject.png" />
     <Content Include="Content\img\wyrdtransp.png" />
-    <Content Include="Content\MF4project.png" />
-    <Content Include="Content\NBproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
     <Content Include="Content\Vidian_-_aether_theories_1.mp3" />

@@ -152,7 +152,7 @@ section#portfolio {
 .portfolio-modal .modal-content {
     min-height: 100%;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     border: none;
     border-radius: 0;
     background-clip: border-box;
@@ -233,6 +233,10 @@ section#portfolio {
     display: none;
     opacity: 0;
 }
+
+.portfolio-modal .img-responsive {
+    margin-left: 70px;
+} 
 
 section#contact .section-heading {
     color: black;
