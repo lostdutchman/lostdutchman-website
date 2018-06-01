@@ -99,5 +99,29 @@ namespace DutchmanSite.Controllers
             DevLog.CreateNew(site, icon, iconText, title, summery, description, isPublished);
             return RedirectToAction("DevLogs");
         }
+
+        [HttpGet]
+        [BasicAuthenticationAttribute("your-username", "your-password")]
+        public ActionResult EditDevLog()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [BasicAuthenticationAttribute("your-username", "your-password")]
+        public ActionResult EditDevLog(string site, string icon, string iconText, string title, string summery, string description, int isPublished, long logID)
+        {
+            DevLogsModel DevLog = new DevLogsModel();
+            if(isPublished == 2)
+            {
+                DevLog.DeleteLog(logID);
+            }
+            else
+            {
+                DevLog.CreateNew(site, icon, iconText, title, summery, description, isPublished);
+                DevLog.DeleteLog(logID);
+            }
+            return RedirectToAction("DevLogs");
+        }
     }
 }

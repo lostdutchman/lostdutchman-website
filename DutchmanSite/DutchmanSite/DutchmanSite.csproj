@@ -254,6 +254,7 @@
     <Content Include="Views\Home\NiceBowling.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
     <Content Include="Views\Home\DevLogs.cshtml" />
+    <Content Include="Views\Home\EditDevLog.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

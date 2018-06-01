@@ -70,5 +70,58 @@ namespace DutchmanSite.Helper
             }
             return DevLogs;
         }
+
+        public List<DevLogsModel> SingleLog(long PKEY)
+        {
+            var DevLog = new List<DevLogsModel>();
+            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
+            {
+                connection.Open();
+                string query = String.Format("SELECT * FROM DevLogs WHERE PKEY =" + PKEY);
+                using (var command = new SqlCommand(query, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var Log = new DevLogsModel();
+                            Log.PKEY = reader.GetInt64(reader.GetOrdinal("PKEY"));
+                            Log.IsPublished = reader.GetBoolean(reader.GetOrdinal("isPublished"));
+                            Log.Icon = reader.GetString(reader.GetOrdinal("Icon"));
+                            Log.IconText = reader.GetString(reader.GetOrdinal("IconText"));
+                            Log.Title = reader.GetString(reader.GetOrdinal("Title"));
+                            Log.Summery = reader.GetString(reader.GetOrdinal("Summery"));
+                            Log.Description = reader.GetString(reader.GetOrdinal("Description"));
+                            Log.Site = reader.GetString(reader.GetOrdinal("Site"));
+                            Log.Date = reader.GetDateTime(reader.GetOrdinal("Date"));
+
+                            DevLog.Add(Log);
+                        }
+                    }
+                }
+            }
+            return DevLog;
+        }
+
+        public void Remove(long PKEY)
+        {
+            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
+            {
+                using (SqlCommand command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandType = CommandType.Text;
+                    command.CommandText = "DELETE FROM DevLogs WHERE PKEY = @Key";
+                    command.Parameters.AddWithValue("@Key", PKEY);
+
+                    try
+                    {
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                    }
+                    catch { throw; }
+                }
+            }
+        }
     }
 }

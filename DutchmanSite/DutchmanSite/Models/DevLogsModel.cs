@@ -54,7 +54,9 @@ namespace DutchmanSite.Models
                     sb.Append(Log.Site);
                     sb.Append(" | ");
                 }
-                sb.Append("<a href='/Home/EditDevLog/(PKEY)'>Edit Post</a></p>"); //make this edit page!
+                sb.Append("<a href='/Home/EditDevLog/"); //make this edit page!
+                sb.Append(Log.PKEY);
+                sb.Append("'>Edit Post</a></p>");
                 sb.Append("<i class='");
                 sb.Append(Log.Icon);
                 sb.Append("'></i></br><p><b>Icon Text:</b> ");
@@ -69,6 +71,77 @@ namespace DutchmanSite.Models
                 DevLogString = sb.ToString();
             }
             return DevLogString;
+        }
+
+        public string LogEdit(long PKEY)
+        {
+            DevLogDBHelper DB = new DevLogDBHelper();
+            List<DevLogsModel> Log = DB.SingleLog(PKEY);
+            string DevLogString = "";
+
+            StringBuilder sb = new StringBuilder(DevLogString);
+
+            //Select site dropdown
+            sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='site'>Select Site</label><div class='col-md-4'><select id='site' name='site' class='form-control'>");
+
+            //Manualy add each site line below as new sites are made
+            sb.Append("<option value='Index'>Home Page</option>");
+            sb.Append("<option value='NiceBowling'>Nice Bowling</option>");
+
+            sb.Append("</select></div></div>");
+
+            //Glyph Icon text feild
+            sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='icon'>Glyph Icon</label><div class='col-md-4'><input id='icon' name='icon' type='text' value='");
+            sb.Append(Log[0].Icon);
+            sb.Append("' class='form-control input-md'></div></div>");
+
+            //Glyph Icons subtitle feild
+            sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='iconText'>Icon Subtitle</label><div class='col-md-4'><input id='iconText' name='iconText' type='text'  value='");
+            sb.Append(Log[0].IconText);
+            sb.Append("' class='form-control input-md'></div></div>");
+
+            //Title feild
+            sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='title'>Title</label><div class='col-md-4'><input id='title' name='title' type='text' value='");
+            sb.Append(Log[0].Title);
+            sb.Append("' class='form-control input-md'><span class='help-block'>Title of summery card</span></div></div>");
+
+            //Summery feild
+             sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='summery'>Summery</label><div class='col-md-4'><input id='summery' name='summery' type='text' value='");
+            sb.Append(Log[0].Summery);
+            sb.Append("' class='form-control input-md'></div></div>");
+
+            //Description feild
+            sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='description'>Modal Content</label><div class='col-md-4'><textarea class='form-control' id='description' name='description'>");
+            sb.Append(Log[0].Description);
+            sb.Append("</textarea></div></div>");
+
+            //isPublished? radio buttons
+            sb.Append("<div class='form-group'><label class='col-md-4 control-label' for='isPublished'></label><div class='col-md-4'><div class='radio'>");
+            if (!Log[0].IsPublished)
+            {
+                sb.Append("<label for='isPublished-0'><input type='radio' name='isPublished' id='isPublished-0' value='0' checked='checked'>Draft</label></div><div class='radio'><label for='isPublished-1'><input type='radio' name='isPublished' id='isPublished-1' value='1'>Published</label>");
+            }
+            else
+            {
+                sb.Append("<label for='isPublished-0'><input type='radio' name='isPublished' id='isPublished-0' value='0'>Draft</label></div><div class='radio'><label for='isPublished-1'><input type='radio' name='isPublished' id='isPublished-1' value='1'checked='checked'>Published</label>");
+            }
+            sb.Append("</div><div class='radio'><label for='isPublished-2'><input type='radio' name='isPublished' id='isPublished-2' value='2'>Delete This</label>");
+            sb.Append("</div></div></div>");
+
+            //Primary Key hidden feild
+            sb.Append("<input type='hidden' name='logID' id='logID' value='");
+            sb.Append(Log[0].PKEY);
+            sb.Append("'>");
+
+            DevLogString = sb.ToString();
+
+            return DevLogString;
+        }
+
+        public void DeleteLog(long PKEY)
+        {
+            DevLogDBHelper DB = new DevLogDBHelper();
+            DB.Remove(PKEY);
         }
     }
 }
