@@ -26,6 +26,14 @@ namespace DutchmanSite.Models
             //sanitizing this value so that if its null or somehow an int other than 0/1 it will be saved as a draft.
             if (isPublished != 1) { isPublished = 0; }
 
+            //Sanitize all strings to not include "
+            site.Replace("\"", "'");
+            icon.Replace("\"", "'");
+            iconText.Replace("\"", "'");
+            title.Replace("\"", "'");
+            summery.Replace("\"", "'");
+            description.Replace("\"", "'");
+
             DBHelp.NewLog(site, icon, iconText, title, summery, description, isPublished);
         }
 

@@ -92,6 +92,7 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         [BasicAuthenticationAttribute("your-username", "your-password")]
         public ActionResult DevLogs(string site, string icon, string iconText, string title, string summery, string description, int isPublished)
         {
@@ -108,6 +109,7 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         [BasicAuthenticationAttribute("your-username", "your-password")]
         public ActionResult EditDevLog(string site, string icon, string iconText, string title, string summery, string description, int isPublished, long logID)
         {
