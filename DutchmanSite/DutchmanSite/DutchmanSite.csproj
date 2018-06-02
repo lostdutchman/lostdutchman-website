@@ -161,6 +161,7 @@
     <Content Include="Content\glaciære.mp3" />
     <Content Include="Content\img\dreadproject.png" />
     <Content Include="Content\img\fortunethumbnail.png" />
+    <Content Include="Content\img\hunger.png" />
     <Content Include="Content\img\macleod.jpg" />
     <Content Include="Content\img\mf4level2.gif" />
     <Content Include="Content\img\mf4level1.gif" />
@@ -171,10 +172,12 @@
     <Content Include="Content\img\masthead.png" />
     <Content Include="Content\img\MF4project.png" />
     <Content Include="Content\img\navbarbrand.png" />
+    <Content Include="Content\img\navbarsoftware.png" />
     <Content Include="Content\img\NBproject.png" />
     <Content Include="Content\img\nicebowlinglogotrans.png" />
     <Content Include="Content\img\polaroid1.png" />
     <Content Include="Content\img\retrocarpet.png" />
+    <Content Include="Content\img\salish.png" />
     <Content Include="Content\img\steviasphere.jpg" />
     <Content Include="Content\img\Action.png" />
     <Content Include="Content\img\alexa.png" />
