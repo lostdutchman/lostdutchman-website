@@ -146,6 +146,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\AlexaFlashBrief.cs" />
+    <Compile Include="Helper\HomePageSubtitle.cs" />
     <Compile Include="Helper\DevLogDBHelper.cs" />
     <Compile Include="Helper\FormEmail.cs" />
     <Compile Include="Helper\TodaysWord.cs" />

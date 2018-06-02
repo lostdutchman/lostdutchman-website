@@ -1,5 +1,7 @@
 ﻿@{
-ViewBag.Title = "Lost Dutchman Software";
+    ViewBag.Title = "Lost Dutchman Software";
+    DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
+    DutchmanSite.Helper.HomePageSubtitle Subtitle = new DutchmanSite.Helper.HomePageSubtitle();
 }
 @section head{
    <meta name="description" content="Lost Dutchman Software" />
@@ -38,7 +40,7 @@ ViewBag.Title = "Lost Dutchman Software";
     <header class="masthead">
         <div class="intro-text">
             <div class="intro-heading">Lost Dutchman</div>
-            <div class="intro-lead-in">Mindful Design, Intelligent Builds</div>
+            <div class="intro-lead-in">@Subtitle.GetSubtitle()</div>
             <a class="btn btn-xl" href="#about">Learn More</a>
         </div>
     </header>

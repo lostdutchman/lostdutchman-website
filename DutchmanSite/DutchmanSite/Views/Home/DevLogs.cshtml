@@ -3,7 +3,16 @@
     ViewBag.Title = "DevLogs";
     Layout = "~/Views/Shared/_Layout.cshtml";
     DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
+    string SortOption = Path.GetFileName(Request.Url.ToString());
 }
+
+<!--**********HOW TO UPDATE*********************
+    *Add site to multiple choice dropdown on this site
+    *Add site to sort order dropdown on this site
+    *Add site to Go To dropdown on this site
+    *Log Edit of the dev log model needs the new site listed as well. 
+    *Add to sort order on Log Edit List, for the dev log model
+    -->
 
 <!--**********Spaces to get site under the nav bar*********************-->
 <br />
@@ -11,12 +20,42 @@
 <br />
 <!--************************New Log Button*****************************-->
 <div class="LogFloat">
-    <center><button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">Create New Log</button></center>
+    <center>
+        <div class="btn-group">
+            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">Create New Log</button>
+        </div>
+        <div class="btn-group">
+            <div class="dropdown">
+                <button class="btn btn-info btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sort Order
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="~/Home/DevLogs/OldToNew">Oldest</a><br />
+                    <a class="dropdown-item" href="~/Home/DevLogs/NewToOld">Newest</a><br />
+                    <a class="dropdown-item" href="~/Home/DevLogs/HomeOldToNew">Home Page Oldest</a><br />
+                    <a class="dropdown-item" href="~/Home/DevLogs/HomeNewToOld">Home Page Newest</a><br />
+                    <a class="dropdown-item" href="~/Home/DevLogs/NBOldToNew">Nice Bolwing Oldest</a><br />
+                    <a class="dropdown-item" href="~/Home/DevLogs/NBNewToOld">Nice Bowling Newest</a><br />
+                </div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <div class="dropdown">
+                <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Go To Site
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="~/Home/Index">Home Page</a><br />
+                    <a class="dropdown-item" href="~/Home/NiceBowling">Nice Bowling</a><br />
+                </div>
+            </div>
+        </div>
+    </center>
 </div>
 
 <!--************************List Questions*****************************-->
 <ul class="EditLogs" style="list-style-type:none">
-    @Html.Raw(Logs.LogEditList())
+    @Html.Raw(Logs.LogEditList(SortOption))
 </ul>
 
 <!--***********************Add Question Modal**************************-->

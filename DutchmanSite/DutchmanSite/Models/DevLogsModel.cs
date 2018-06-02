@@ -29,13 +29,67 @@ namespace DutchmanSite.Models
             DBHelp.NewLog(site, icon, iconText, title, summery, description, isPublished);
         }
 
-        public string LogEditList()
+        public string LogEditList(string SortBy)
         {
             DevLogDBHelper DB = new DevLogDBHelper();
             var Temp = DB.ListAll();
             List<DevLogsModel> List = new List<DevLogsModel>();
-            //sort list here, can we pass in the method to sort by?
-            List = Temp.OrderByDescending(o => o.Date).ToList();
+            switch (SortBy)
+            {
+                case "OldToNew":
+                    List = Temp.OrderBy(o => o.Date).ToList();
+                    break;
+
+                case "NewToOld":
+                    List = Temp.OrderByDescending(o => o.Date).ToList();
+                    break;
+
+                case "HomeOldToNew":
+                    foreach(DevLogsModel log in Temp)
+                    {
+                        if(log.Site == "Index")
+                        {
+                            List.Add(log);
+                        }
+                    }
+                    List = List.OrderBy(o => o.Date).ToList();
+                    break;
+
+                case "HomeNewToOld":
+                    foreach (DevLogsModel log in Temp)
+                    {
+                        if (log.Site == "Index")
+                        {
+                            List.Add(log);
+                        }
+                    }
+                    List = List.OrderByDescending(o => o.Date).ToList();
+                    break;
+
+                case "NBOldToNew":
+                    foreach (DevLogsModel log in Temp)
+                    {
+                        if (log.Site == "NiceBowling")
+                        {
+                            List.Add(log);
+                        }
+                    }
+                    List = List.OrderBy(o => o.Date).ToList();
+                    break;
+
+                case "NBNewToOld":
+                    foreach (DevLogsModel log in Temp)
+                    {
+                        if (log.Site == "NiceBowling")
+                        {
+                            List.Add(log);
+                        }
+                    }
+                    List = List.OrderByDescending(o => o.Date).ToList();
+                    break;
+
+                default: List = Temp.OrderByDescending(o => o.Date).ToList(); break;
+            }
             string DevLogString = "";
             foreach (var Log in List)
             {
@@ -54,7 +108,7 @@ namespace DutchmanSite.Models
                     sb.Append(Log.Site);
                     sb.Append(" | ");
                 }
-                sb.Append("<a href='/Home/EditDevLog/"); //make this edit page!
+                sb.Append("<a href='/Home/EditDevLog/"); 
                 sb.Append(Log.PKEY);
                 sb.Append("'>Edit Post</a></p>");
                 sb.Append("<i class='");
