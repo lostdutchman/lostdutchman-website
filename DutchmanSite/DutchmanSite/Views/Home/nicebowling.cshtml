@@ -1,6 +1,8 @@
 ﻿
 @{
     ViewBag.Title = "Nice Bowling";
+    string Site = Path.GetFileName(Request.Url.ToString());
+    DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
 }
 
 @section head{
@@ -139,89 +141,7 @@
                 <h2 class="section-heading">Devlog</h2>
                 <p>Updates on Development</p>
                 <br />
-                @* Example Starto*@
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-3">
-                            <div class="devlog-item">
-                                <a class="devlog-link" data-toggle="modal" href="#devlogModal1">
-                                    <div class="devlog-hover">
-                                        <div class="devlog-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    @*Icon*@ <i class="fas fa-flask fa-7x"></i>
-                                    @*Icon Text*@ <p>Permanent</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-5">
-                            <div class="devlog-item">
-                                <div class="devlog-caption">
-                                    @*Title*@<h4>Beta Testing Signups!</h4>
-                                    @*Description*@ <p class="muted">Testers needed, no exp necessary!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-1"></div>
-                    </div>
-                </div>
-                @*Example Over*@
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-3">
-                            <div class="devlog-item">
-                                <a class="devlog-link" data-toggle="modal" href="#devlogModal2">
-                                    <div class="devlog-hover">
-                                        <div class="devlog-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <i class="fas fa-bowling-ball fa-7x"></i>
-                                    <p>April 28, 2018</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-5">
-                            <div class="devlog-item">
-                                <div class="devlog-caption">
-                                    <h4>April Devlog</h4>
-                                    <p class="muted">Bugs & Balls.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-1"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-3">
-                            <div class="devlog-item">
-                                <a class="devlog-link" data-toggle="modal" href="#devlogModal3">
-                                    <div class="devlog-hover">
-                                        <div class="devlog-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <i class="fas fa-bug fa-7x"></i>
-                                    <p>April 13, 2018</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-5">
-                            <div class="devlog-item">
-                                <div class="devlog-caption">
-                                    <h4>Bugfix Friday</h4>
-                                    <p class="muted">Friday the 13th brought some interesting things...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-1"></div>
-                    </div>
-                </div>
+                @Html.Raw(Logs.GetLog(Site))
             </article>
         </div>
     </div>
@@ -385,99 +305,5 @@
             </div>
         </div>
     </div>
-
-    <!--DEVLOG MODALS-->
-    <div class="devlog-modal modal fade" id="devlogModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="devlog-modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Beta Testing Openings!</h2>
-                                <p class="item-intro text-muted">Do you have some free times and the ability to form opinions?  We need you!</p>
-                                <p>Check out <a href="~/Home/BetaTest">this form</a> for detailed instructions and build downloads.  Perks available to repeat testers, too!</p>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Devlog
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="devlog-modal modal fade" id="devlogModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="moda-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>End of the month Devlog!</h2>
-                                <p class="item-intro text-muted">April 2018</p>
-                                <img class="img-fluid" src="~/Content/img/Action.png" alt="Pin hit screencap" />
-                                <p>Some technical troubles set us back over the month but we managed to finish off strong by putting some serious time into the ball physics and overall gamefeel of its weight and impact.  We also added a slew of new balls/effects and as we go forward into the next month, that will remain one of our topr priorities.  Asset quality will be another prime directive as we tweak and clean up various textures to better suit the retro/shiny environment inside the game.</p>
-                                <h6>New Features this Month:</h6>                                               <ul class="list-inline">
-                                    <li>Polyhedral Ball</li>
-                                    <li>Spikey Ball</li>
-                                    <li>Billiards Balls</li>
-                                    <li>Beach Ball</li>
-                                    <li>Bouncy Ball</li>
-                                    <li>Jackfruit Ball</li>
-                                    <li>Cannon Ball</li>
-                                    <li>Swinging Barrel Obstacle</li>
-                                    <li>2nd Type of Fish Added</li>
-                                    <li>Exaggerated Pin Size Changes</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Devlog
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="devlog-modal modal fade" id="devlogModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="moda-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Softbodies and bugs!</h2>
-                                <p class="item-intro text-muted">Softbodies are really cool but they can be quite unstable!</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/gamescreen.png" alt="Nice Bowling" />
-                                <p>While softbody objects have long been a critical compent in 3D game design- character clothing, models that interact/deform with the world, etc- Unity doesn't offer an in-editor way to create this kind of mesh without a lot of difficult coding.  There are, however, several high quality assets in the Unity Asset Store that are worth looking into.</p>
-                                <p>We imported a jelly mesh without much trouble, though sometimes on impact we get strange behavior like rapid expansion.</p>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Devlog
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @Html.Raw(Logs.GetLogModal(Site))
 </section>
