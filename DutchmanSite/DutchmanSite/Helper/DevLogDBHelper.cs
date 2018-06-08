@@ -130,7 +130,7 @@ namespace DutchmanSite.Helper
             using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
             {
                 connection.Open();
-                string query = String.Format("SELECT * FROM DevLogs WHERE Site='" + Website + "AND IsPublished=1 ORDER BY Date");
+                string query = String.Format("SELECT * FROM DevLogs WHERE Site='" + Website + "' AND IsPublished=1 ORDER BY Date DESC");
                 using (var command = new SqlCommand(query, connection))
                 {
                     using (var reader = command.ExecuteReader())
