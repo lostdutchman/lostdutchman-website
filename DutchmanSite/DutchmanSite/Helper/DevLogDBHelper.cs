@@ -123,5 +123,37 @@ namespace DutchmanSite.Helper
                 }
             }
         }
+
+        public List<DevLogsModel> PublishedLogs(string Website)
+        {
+            var DevLogs = new List<DevLogsModel>();
+            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
+            {
+                connection.Open();
+                string query = String.Format("SELECT * FROM DevLogs WHERE Site='" + Website + "AND IsPublished=1 ORDER BY Date");
+                using (var command = new SqlCommand(query, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var Log = new DevLogsModel();
+                            Log.PKEY = reader.GetInt64(reader.GetOrdinal("PKEY"));
+                            Log.IsPublished = reader.GetBoolean(reader.GetOrdinal("isPublished"));
+                            Log.Icon = reader.GetString(reader.GetOrdinal("Icon"));
+                            Log.IconText = reader.GetString(reader.GetOrdinal("IconText"));
+                            Log.Title = reader.GetString(reader.GetOrdinal("Title"));
+                            Log.Summery = reader.GetString(reader.GetOrdinal("Summery"));
+                            Log.Description = reader.GetString(reader.GetOrdinal("Description"));
+                            Log.Site = reader.GetString(reader.GetOrdinal("Site"));
+                            Log.Date = reader.GetDateTime(reader.GetOrdinal("Date"));
+
+                            DevLogs.Add(Log);
+                        }
+                    }
+                }
+            }
+            return DevLogs;
+        }
     }
 }
