@@ -1,5 +1,4 @@
-﻿
-body {
+﻿body {
     background-image: url("img/masthead.png");
     background-size: unset;
     background-repeat: no-repeat;
@@ -413,9 +412,7 @@ a.media-link {
     margin-bottom: 30px;
 }
 
-.devlog-modal .modal-content img {
-    margin-bottom: 30px;
-}
+
 
 .devlog-modal .modal-content button {
     cursor: pointer;
@@ -467,8 +464,9 @@ a.media-link {
 
 /************Image Gallery**************/
 
-div.carousel-inner {
-    max-height:100%;
+#myCarousel .item active {
+    border: none;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -477,21 +475,20 @@ div.carousel-inner {
     }
 }
 
-
 ol.carousel-indicators {
   position: absolute;
-  bottom: -15px;
+  bottom: 15px;
   margin: 0;
   left: 0;
   right: 0;
   width: auto;
 }
-
+ 
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
   float: left;
   width: 16.665%; /*Number of pictures / 100 for what this value needs to be.*/
-  height: 8px;
+  height: 15px;
   margin: 0;
   border-radius: 0;
   border: 0;
@@ -502,6 +499,7 @@ ol.carousel-indicators li.active {
   background: #fb14ff;
 }
 
-div.carousel-inner {
-    height: 620px;
+.carousel-inner .active {
+    margin-bottom: 0px;
 }
+

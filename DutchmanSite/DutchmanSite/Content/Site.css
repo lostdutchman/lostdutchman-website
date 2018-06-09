@@ -272,3 +272,8 @@ fieldset[disabled] .btn-xl:hover {
 .DevLogDescription{
     float: right;
 }
+
+#myCarousel {
+    height: 100px;
+    border: 0px;
+}
