@@ -127,32 +127,44 @@ namespace DutchmanSite.Helper
         public List<DevLogsModel> PublishedLogs(string Website)
         {
             var DevLogs = new List<DevLogsModel>();
-            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
+            try
             {
-                connection.Open();
-                string query = String.Format("SELECT * FROM DevLogs WHERE Site='" + Website + "' AND IsPublished=1 ORDER BY Date DESC");
-                using (var command = new SqlCommand(query, connection))
+                using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
                 {
-                    using (var reader = command.ExecuteReader())
+                    connection.Open();
+                    string query = String.Format("SELECT * FROM DevLogs WHERE Site='" + Website + "' AND IsPublished=1 ORDER BY Date DESC");
+                    using (var command = new SqlCommand(query, connection))
                     {
-                        while (reader.Read())
+                        using (var reader = command.ExecuteReader())
                         {
-                            var Log = new DevLogsModel();
-                            Log.PKEY = reader.GetInt64(reader.GetOrdinal("PKEY"));
-                            Log.IsPublished = reader.GetBoolean(reader.GetOrdinal("isPublished"));
-                            Log.Icon = reader.GetString(reader.GetOrdinal("Icon"));
-                            Log.IconText = reader.GetString(reader.GetOrdinal("IconText"));
-                            Log.Title = reader.GetString(reader.GetOrdinal("Title"));
-                            Log.Summery = reader.GetString(reader.GetOrdinal("Summery"));
-                            Log.Description = reader.GetString(reader.GetOrdinal("Description"));
-                            Log.Site = reader.GetString(reader.GetOrdinal("Site"));
-                            Log.Date = reader.GetDateTime(reader.GetOrdinal("Date"));
+                            while (reader.Read())
+                            {
+                                var Log = new DevLogsModel();
+                                Log.PKEY = reader.GetInt64(reader.GetOrdinal("PKEY"));
+                                Log.IsPublished = reader.GetBoolean(reader.GetOrdinal("isPublished"));
+                                Log.Icon = reader.GetString(reader.GetOrdinal("Icon"));
+                                Log.IconText = reader.GetString(reader.GetOrdinal("IconText"));
+                                Log.Title = reader.GetString(reader.GetOrdinal("Title"));
+                                Log.Summery = reader.GetString(reader.GetOrdinal("Summery"));
+                                Log.Description = reader.GetString(reader.GetOrdinal("Description"));
+                                Log.Site = reader.GetString(reader.GetOrdinal("Site"));
+                                Log.Date = reader.GetDateTime(reader.GetOrdinal("Date"));
 
-                            DevLogs.Add(Log);
+                                DevLogs.Add(Log);
+                            }
                         }
                     }
                 }
             }
+            catch
+            {
+                DevLogs[0].IconText = "For your eyes only.";
+                DevLogs[0].Icon = "fa fa-user-secret fa-7x";
+                DevLogs[0].Title = "We know your secrets.";
+                DevLogs[0].Summery = "Want to learn one of ours?";
+                DevLogs[0].Description = "<h2>This log means that we are having database issues.</h2> If you are not currently in a forgotten city hundreds of miles below the surface of the superstition mountains then you should never see this. Something has gone wrong and I've got to get this fixed before our horrible, <i>oozing</i> management team finds me.";
+            }
+
             return DevLogs;
         }
     }
