@@ -158,11 +158,13 @@ namespace DutchmanSite.Helper
             }
             catch
             {
-                DevLogs[0].IconText = "For your eyes only.";
-                DevLogs[0].Icon = "fa fa-user-secret fa-7x";
-                DevLogs[0].Title = "We know your secrets.";
-                DevLogs[0].Summery = "Want to learn one of ours?";
-                DevLogs[0].Description = "<h2>This log means that we are having database issues.</h2> If you are not currently in a forgotten city hundreds of miles below the surface of the superstition mountains then you should never see this. Something has gone wrong and I've got to get this fixed before our horrible, <i>oozing</i> management team finds me.";
+                var Log = new DevLogsModel();
+                Log.IconText = "For your eyes only.";
+                Log.Icon = "fas fa-user-secret fa-7x";
+                Log.Title = "We know your secrets.";
+                Log.Summery = "Want to learn one of ours?";
+                Log.Description = "<h4>This log means that we are having database issues.</h4> If you are not currently in a forgotten city hundreds of miles below the surface of the superstition mountains then you should never see this. Something has gone wrong and I've got to get this fixed before our horrible, <i>oozing</i> management team finds me.</br></br></br>";
+                DevLogs.Add(Log);
             }
 
             return DevLogs;
