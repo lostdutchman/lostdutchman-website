@@ -197,6 +197,9 @@ namespace DutchmanSite.Models
 
             DevLogString = sb.ToString();
 
+            //Select the correct site in the dropdown by default
+            DevLogString = DevLogString.Insert(DevLogString.IndexOf(Log[0].Site) + Log[0].Site.Length + 1, " selected");
+
             return DevLogString;
         }
 

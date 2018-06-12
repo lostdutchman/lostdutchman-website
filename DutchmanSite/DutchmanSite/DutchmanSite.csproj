@@ -149,6 +149,7 @@
     <Compile Include="Helper\HomePageSubtitle.cs" />
     <Compile Include="Helper\DevLogDBHelper.cs" />
     <Compile Include="Helper\FormEmail.cs" />
+    <Compile Include="Helper\ImgUpload.cs" />
     <Compile Include="Helper\TodaysWord.cs" />
     <Compile Include="Models\DevLogsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

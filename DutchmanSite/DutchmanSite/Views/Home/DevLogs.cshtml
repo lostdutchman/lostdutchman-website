@@ -25,8 +25,11 @@
             <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">Create New Log</button>
         </div>
         <div class="btn-group">
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imgUploadModal">Upload Images</button>
+        </div>
+        <div class="btn-group">
             <div class="dropdown">
-                <button class="btn btn-info btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sort Order
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -61,7 +64,10 @@
 <!--***********************Add Question Modal**************************-->
 <div class="modal custom fade" id="addModal" role="dialog">
     <div class="modal-dialog">
-
+        <!--Spaces to get site under the nav bar-->
+        <br />
+        <br />
+        <br />
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
@@ -155,3 +161,68 @@
     </div> <!--Modal Dialog-->
 </div>
 
+<!--***********************Upload Image Modal**************************-->
+<div class="modal custom fade" id="imgUploadModal" role="dialog">
+    <div class="modal-dialog">
+        <!--Spaces to get site under the nav bar-->
+        <br />
+        <br />
+        <br />
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" id="editbtn" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">Upload Image!</h2>
+            </div>
+            <div class="modal-body">
+            <p>You will need to use the full path when refrencing the images in the log.<br /><br />
+                http://www.LostDutchmanSoftware.com/Content/img/
+                <br /><br />
+                Image can not be larger than 15MB, must be type PNG, JPG, BMP, GIF, or TIF<br /><br />
+                <i>*If you upload an image with a name that has already been used it will have an incrementing integer appended to the image name.</i></p>
+                <!-- File Button -->
+                <div class="form-group col-md-12">
+                    <label class="col-md-4 control-label" for="filebutton">Upload Image:</label>
+                    <div class="col-sm-pull-8">
+                        <input id="filebutton" name="formFile" class="input-file" type="file" style="vertical-align:top;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="save"></label>
+                    <div class="col-md-8">
+                        <input type="button" class="btn btn-info" value="Upload" onclick="Upload();" />
+                        <button data-dismiss="modal" class="btn btn-danger">Exit</button>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>  <!--Modal Body-->
+
+        </div> <!--Modal Content-->
+    </div> <!--Modal Dialog-->
+</div>
+@section scripts{
+<script javascript>
+    function Upload() {
+        var formData = new FormData();
+        formData.append("file", document.getElementById("filebutton").files[0]);
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/Home/UploadImage", true);
+        xhr.addEventListener("load", function (evt) { UploadComplete(evt, xhr.responseText); }, false);
+        xhr.addEventListener("error", function (evt) { UploadFailed(evt, xhr.responseText); }, false);
+        xhr.send(formData);
+    }
+
+    function UploadComplete(evt, name) {
+        alert(name);
+
+    }
+
+    function UploadFailed(evt, response) {
+        alert(response);
+
+    }
+</script>
+}

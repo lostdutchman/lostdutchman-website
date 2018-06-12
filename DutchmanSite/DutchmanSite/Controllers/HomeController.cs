@@ -1,4 +1,5 @@
 ﻿using DutchmanSite.Models;
+using DutchmanSite.Helper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,7 +48,7 @@ namespace DutchmanSite.Controllers
         [HttpPost]
         public ActionResult Index(string name, string email, string message)
         {
-            Helper.FormEmail help = new Helper.FormEmail();
+            FormEmail help = new FormEmail();
             help.SendEmail(name, email, message);
             return View();
         }
@@ -55,14 +56,14 @@ namespace DutchmanSite.Controllers
         [HttpGet]
         public ActionResult TodaysWord(string id)
         {
-            Helper.TodaysWord help = new Helper.TodaysWord();
+            TodaysWord help = new TodaysWord();
             return Content(help.jsonBuilder(id), "application/json");
         }
 
         [HttpGet]
         public ActionResult Alexa(string id)
         {
-            Helper.AlexaFlashBrief help = new Helper.AlexaFlashBrief();
+            AlexaFlashBrief help = new AlexaFlashBrief();
             return Content(help.jsonBuilder(id), "application/json");
         }
 
@@ -124,6 +125,14 @@ namespace DutchmanSite.Controllers
                 DevLog.DeleteLog(logID);
             }
             return RedirectToAction("DevLogs");
+        }
+
+        [HttpPost]
+        [BasicAuthenticationAttribute("your-username", "your-password")]
+        public ActionResult UploadImage(HttpPostedFileBase file)
+        {
+            ImgUpload ImageHelp = new ImgUpload();
+            return Json(ImageHelp.Upload(file));
         }
     }
 }
