@@ -102,7 +102,7 @@ namespace DutchmanSite.Models
             foreach (var Log in List)
             {
                 StringBuilder sb = new StringBuilder(DevLogString);
-                sb.Append("<p><li class='well'>");
+                sb.Append("<li class='well'><div class='row'><div class='col-sm-4'><p>");
                 sb.Append(Log.Date.ToShortDateString());
                 if (Log.IsPublished)
                 {
@@ -125,11 +125,11 @@ namespace DutchmanSite.Models
                 sb.Append(Log.IconText);
                 sb.Append("</br><b>Title:</b> ");
                 sb.Append(Log.Title);
-                sb.Append("</br><b>Summery:</b> ");
+                sb.Append("</br><b>Summary:</b> ");
                 sb.Append(Log.Summery);
-                sb.Append("</p></br><div class='DevLogDescription'>");
+                sb.Append("</p></div><div class='container DevLogDescription col-sm-8'>");
                 sb.Append(Log.Description);
-                sb.Append("</div></li>");
+                sb.Append("</div></div></li>");
                 DevLogString = sb.ToString();
             }
             return DevLogString;
