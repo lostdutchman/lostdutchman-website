@@ -138,9 +138,15 @@ a.media-link {
     }
 }
 
-.media-modal .media-dialog {
-    max-width: none;
-    height: 100%;
+@media screen and (max-width:1200px){
+    h1#soundtrack {
+        font-size: 2.6em;
+    }
+}
+
+.media-modal .modal-dialog {
+    width: 100%;
+    height: 90%;
     margin: 0;
 }
 
@@ -418,7 +424,6 @@ a.media-link {
 }
 
 
-
 .devlog-modal .modal-content button {
     cursor: pointer;
 }
@@ -467,7 +472,12 @@ a.media-link {
     opacity: 0;
 }
 
+
 /************Image Gallery**************/
+
+#myCarousel {
+    height: 100%;
+}
 
 #myCarousel .item active {
     border: none;
@@ -508,3 +518,6 @@ ol.carousel-indicators li.active {
     margin-bottom: 0px;
 }
 
+a.right.carousel-control, a.left.carousel-control {
+    opacity: 0;
+}
