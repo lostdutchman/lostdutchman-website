@@ -1,18 +1,48 @@
 ﻿
 @{
     ViewBag.Title = "Nice Bowling";
+    string Site = Path.GetFileName(Request.Url.ToString());
+    DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
 }
 
 @section head{
+<meta name="description" content="Nice Bowling" />
+<meta name="keywords" content="nice bowling,bowling,bowling game,bowling video game,software studio,game studio,game dev,game development,sports game,mobile,mobile game,game developer,video game developer,video game studio,arizona software developer,arizona software dev,mesa software developer,mesa software company,mesa azrizona software company,arizona software company,lost dutchman software,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev" />
+<meta name="author" content="Lost Dutchman Software" />
 <link href="~/Content/NiceBowling.css" rel="stylesheet" type="text/css" />
 }
+
+<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="~/Home/Index"><img id="logo" src="~/Content/img/navbarsoftware.png" alt="Lost Dutchman Software" /></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-menubuilder navbar-inverse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#media">Media</a>
+            </li>
+            <li>
+                <a href="#buy">Buy</a>
+            </li>
+            <li>
+                <a href="#devlog">Devlog</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <section id="lander">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <article class="well clearfix">
-                    <img src="~/Content/img/nicebowlinglogotrans.png" align="left" />
+                    <img class="img-responsive" src="~/Content/img/nicebowlinglogotrans.png" align="left" id="toplogo"/>
                     <br />
                     <p> Nice Bowling is a quirky bowling game that is 100% committed to its aesthetic and  provides a variety of different random effects that make gameplay a different experience each time.</p>
                     <p>Modeled after the late 80's, early 90's obsession with chrome and neon, Nice  Bowling's unique look and retro/chillwave soundtrack will really bring you back. Gameplay is simple and clean, with a natural, responsive feel that tests your bowling prowess in a lighthearted environment.  Nice Bowling really shines in its 'added effect' playstyle.  Random events can trigger on any frame of play to a huge variety of outcomes- good luck bowling with a beach ball, a jelly blob, or a bouncy ball.  Sometimes fish rain from the sky and block the lane.  Sometimes there will be obsticals or ramps in your path.  Nice Bowling will be available on  PC and mobile summer 2018.</p>
@@ -21,87 +51,87 @@
                 <div id="media">
                     <div class="container">
                         <div class="row">
-                                <div class="col-md-4 media-item">
-                                    <a class="media-link" data-toggle="modal" href="#mediaModal1">
-                                        <div class="thumbnail">
-                                            <article class="well">
-                                                <div class="media-hover">
-                                                    <div class="media-hover-content">
-                                                        <i class="fa fa-plus fa-3x"></i>
-                                                    </div>
+                            <div class="col-md-4 media-item">
+                                <a class="media-link" data-toggle="modal" href="#mediaModal1">
+                                    <div class="thumbnail">
+                                        <article class="well">
+                                            <div class="media-hover">
+                                                <div class="media-hover-content">
+                                                    <i class="fa fa-plus fa-3x"></i>
                                                 </div>
-                                                <img class="img-fluid" src="~/Content/img/VHS.png" />
-                                                <h1>Video</h1>
-                                            </article>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-md-4 media-item">
-                                    <a class="media-link" data-toggle="modal" href="#mediaModal2">
-                                        <div class="thumbnail">
-                                            <article class="well">
-                                                <div class="media-hover">
-                                                    <div class="media-hover-content">
-                                                        <i class="fa fa-plus fa-3x"></i>
-                                                    </div>
+                                            </div>
+                                            <img class="img-fluid" src="~/Content/img/VHS.png" />
+                                            <h1>Video</h1>
+                                        </article>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 media-item">
+                                <a class="media-link" data-toggle="modal" href="#mediaModal2">
+                                    <div class="thumbnail">
+                                        <article class="well">
+                                            <div class="media-hover">
+                                                <div class="media-hover-content">
+                                                    <i class="fa fa-plus fa-3x"></i>
                                                 </div>
-                                                <img class="img" src="~/Content/img/polaroid1.png" />
-                                                <h1>Images</h1>
-                                            </article>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-md-4 media-item">
-                                    <a class="media-link" data-toggle="modal" href="#mediaModal3">
-                                        <div class="thumbnail">
-                                            <article class="well clearfix">
-                                                <div class="media-hover">
-                                                    <div class="media-hover-content">
-                                                        <i class="fa fa-plus fa-3x"></i>
-                                                    </div>
+                                            </div>
+                                            <img class="img" src="~/Content/img/polaroid1.png" />
+                                            <h1>Images</h1>
+                                        </article>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 media-item">
+                                <a class="media-link" data-toggle="modal" href="#mediaModal3">
+                                    <div class="thumbnail">
+                                        <article class="well clearfix">
+                                            <div class="media-hover">
+                                                <div class="media-hover-content">
+                                                    <i class="fa fa-plus fa-3x"></i>
                                                 </div>
-                                                <img class="img-fluid" src="~/Content/img/cassette-tape.png" />
-                                                <h1>Soundtrack</h1>
-                                            </article>
-                                        </div>
-                                    </a>
-                                </div>
+                                            </div>
+                                            <img class="img-fluid" src="~/Content/img/cassette-tape.png" />
+                                            <h1 id="soundtrack">Soundtrack</h1>
+                                        </article>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
-<div id="buy">  
+<div id="buy">
     <article class="well">
-        <h1>COMING SOON!</h1> 
+        <h1>COMING SOON!</h1>
         <br />
         <br />
         @*<ul class="list-inline buy-buttons">
-            <li class="list-inline-item">
-                <a href="http://www.lostdutchmansoftware.com">
-                    <i class="fab fa-steam"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="http://www.lostdutchmansoftware.com">
-                    <i class="fab fa-nintendo-switch"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="http://www.lostdutchmansoftware.com">
-                    <i class="fab fa-playstation"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="http://www.lostdutchmansoftware.com">
-                    <i class="fab fa-xbox"></i>
-                </a>
-            </li>
-       </ul>*@
-</article>
+                    <li class="list-inline-item">
+                        <a href="http://www.lostdutchmansoftware.com">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="http://www.lostdutchmansoftware.com">
+                            <i class="fab fa-nintendo-switch"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="http://www.lostdutchmansoftware.com">
+                            <i class="fab fa-playstation"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="http://www.lostdutchmansoftware.com">
+                            <i class="fab fa-xbox"></i>
+                        </a>
+                    </li>
+            </ul>*@
+    </article>
 </div>
 
 <section id="devlog">
@@ -111,90 +141,10 @@
                 <h2 class="section-heading">Devlog</h2>
                 <p>Updates on Development</p>
                 <br />
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                            <div class="col-sm-3">
-                                <div class="devlog-item">
-                                    <a class="devlog-link" data-toggle="modal" href="#devlogModal1">
-                                        <div class="devlog-hover">
-                                            <div class="devlog-hover-content">
-                                                <i class="fa fa-plus fa-3x"></i>
-                                            </div>
-                                        </div>
-                                        <i class="fas fa-flask fa-7x"></i>
-                                        <p>Permanent</p>
-                                    </a>
-                                </div>
-                            </div>
-                        <div class="col-sm-5">
-                            <div class="devlog-item">
-                                <div class="devlog-caption">
-                                    <h4>Beta Testing Signups!</h4>
-                                    <p class="muted">Testers needed, no exp necessary!</p>
-                                </div>
-                            </div>
-                        </div>
-                            <div class="col-sm-1"></div>
-                     </div>
-                 </div>
-                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-3">
-                            <div class="devlog-item">
-                                <a class="devlog-link" data-toggle="modal" href="#devlogModal2">
-                                    <div class="devlog-hover">
-                                        <div class="devlog-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <i class="fas fa-bowling-ball fa-7x"></i>
-                                    <p>April 28, 2018</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-5">
-                            <div class="devlog-item">
-                                <div class="devlog-caption">
-                                    <h4>April Devlog</h4>
-                                    <p class="muted">Bugs & Balls.</p>
-                                </div>
-                            </div>
-                          <div class="col-sm-1"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-3">
-                            <div class="devlog-item">
-                                <a class="devlog-link" data-toggle="modal" href="#devlogModal3">
-                                    <div class="devlog-hover">
-                                        <div class="devlog-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <i class="fas fa-bug fa-7x"></i>
-                                    <p>April 13, 2018</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-5">
-                            <div class="devlog-item">
-                                <div class="devlog-caption">
-                                    <h4>Bugfix Friday</h4>
-                                    <p class="muted">Friday the 13th brought some interesting things...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-1"></div>
-                    </div>
-                </div>          
-              </article>
-            </div>
-          </div>
+                @Html.Raw(Logs.GetLog(Site))
+            </article>
+        </div>
+    </div>
 
     <!--MEDIA MODALS-->
 
@@ -212,7 +162,9 @@
                             <div class="modal-body">
                                 <h1>Videos</h1>
                                 <p>Many of these videos are 'works in progress' but they're designed to show off both the artistic and mechanical aspects of the game in real time!</p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ENqtRIZPYIY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class="video-container"> 
+                                <iframe width="853" height="480" src="https://www.youtube.com/embed/ENqtRIZPYIY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
                                 <br />
                                 <p>Visit our <a href="https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g">Youtube channel</a> to check out this and other projects!</p>
                                 <br />
@@ -230,68 +182,67 @@
     </div>
 
     <div class="media-modal modal fade" id="mediaModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="moda-dialog">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl"></div>
                     </div>
                 </div>
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="modal-body">
                                 <h1>Images</h1>
                                 <br />
-                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                    <!-- Indicators -->
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                                        <li data-target="#myCarousel" data-slide-to="4"></li>
-                                        <li data-target="#myCarousel" data-slide-to="5"></li>
-                                        <li data-target="#myCarousel" data-slide-to="6"></li>
-                                    </ol>
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                                        </ol>
 
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner">
-                                        <div class="item active">
-                                            <img src="~/Content/img/FISH.png" alt="Fish in the Lane">
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="~/Content/img/FISH.png" alt="Fish in the Lane">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="~/Content/img/bouncyball.png" alt="Bouncy Ball">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="~/Content/img/manyballs.png" alt="Many Kinds of Balls">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="~/Content/img/credits.png" alt="Credits">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="~/Content/img/Obsticals.png" alt="Swinging Obsticals">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="~/Content/img/screencapbeachball.png" alt="Beach Ball">
+                                            </div>
                                         </div>
 
-                                        <div class="item">
-                                            <img src="~/Content/img/bouncyball.png" alt="Bouncy Ball">
-                                        </div>
-
-                                        <div class="item">
-                                            <img src="~/Content/img/manyballs.png" alt="Many Kinds of Balls">
-                                        </div>
-
-                                        <div class="item active">
-                                            <img src="~/Content/img/credits.png" alt="Credits">
-                                        </div>
-
-                                        <div class="item">
-                                            <img src="~/Content/img/Obsticals.png" alt="Swinging Obsticals">
-                                        </div>
-
-                                        <div class="item">
-                                            <img src="~/Content/img/screencapbeachball.png" alt="Beach Ball">
-                                        </div>
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-
-                                    <!-- Left and right controls -->
-                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                        <span class="glyphicon glyphicon-chevron-left"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                        <span class="glyphicon glyphicon-chevron-right"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
                                 <br />
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fa fa-times"></i>
@@ -304,7 +255,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="media-modal modal fade" id="mediaModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="moda-dialog">
             <div class="modal-content">
@@ -342,114 +293,16 @@
                                     Dang, your browser doesn't support this audio element.
                                 </audio>
                             </div>
-                                <p>All music used under Creative Commons 3.0</p>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <!--DEVLOG MODALS-->
-    <div class="devlog-modal modal fade" id="devlogModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="devlog-modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Beta Testing Openings!</h2>
-                                <p class="item-intro text-muted">Do you have some free times and the ability to form opinions?  We need you!</p>
-                                <p>Check out <a href="~/Home/BetaTest">this form</a> for detailed instructions and build downloads.  Perks available to repeat testers, too!</p>                               
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Devlog
-                                </button>
-                            </div>
+                            <p>All music used under Creative Commons 3.0</p>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="devlog-modal modal fade" id="devlogModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="moda-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>End of the month Devlog!</h2>
-                                <p class="item-intro text-muted">April 2018</p>
-                                <img class="img-fluid" src="~/Content/img/Action.png" alt="Pin hit screencap" />
-                                <p>Some technical troubles set us back over the month but we managed to finish off strong by putting some serious time into the ball physics and overall gamefeel of its weight and impact.  We also added a slew of new balls/effects and as we go forward into the next month, that will remain one of our topr priorities.  Asset quality will be another prime directive as we tweak and clean up various textures to better suit the retro/shiny environment inside the game.</p>
-                                <h6>New Features this Month:</h6>                                               <ul class="list-inline">
-                                    <li>Polyhedral Ball</li>
-                                    <li>Spikey Ball</li>
-                                    <li>Billiards Balls</li>
-                                    <li>Beach Ball</li>
-                                    <li>Bouncy Ball</li>
-                                    <li>Jackfruit Ball</li>
-                                    <li>Cannon Ball</li>
-                                    <li>Swinging Barrel Obstacle</li>
-                                    <li>2nd Type of Fish Added</li>
-                                    <li>Exaggerated Pin Size Changes</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Devlog
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="devlog-modal modal fade" id="devlogModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="moda-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Softbodies and bugs!</h2>
-                                <p class="item-intro text-muted">Softbodies are really cool but they can be quite unstable!</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/gamescreen.png" alt="Nice Bowling" />
-                                <p>While softbody objects have long been a critical compent in 3D game design- character clothing, models that interact/deform with the world, etc- Unity doesn't offer an in-editor way to create this kind of mesh without a lot of difficult coding.  There are, however, several high quality assets in the Unity Asset Store that are worth looking into.</p>
-                                <p>We imported a jelly mesh without much trouble, though sometimes on impact we get strange behavior like rapid expansion.</p>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Devlog
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @Html.Raw(Logs.GetLogModal(Site))
 </section>
-
-@section scripts{
-  <script type="text/javascript" src="~/Scripts/ImageGallery.js"></script>
-}

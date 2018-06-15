@@ -519,5 +519,5 @@ ol.carousel-indicators li.active {
 }
 
 a.right.carousel-control, a.left.carousel-control {
-    opacity: 0;
+    background-image: none
 }

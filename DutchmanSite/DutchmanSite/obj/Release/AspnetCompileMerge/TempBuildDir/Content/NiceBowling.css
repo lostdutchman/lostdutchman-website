@@ -1,10 +1,8 @@
-﻿
-body {
+﻿body {
     background-image: url("img/masthead.png");
     background-size: unset;
     background-repeat: no-repeat;
     text-decoration-color:white;
-    text-align:center;
     background-color:black;
 }
 
@@ -15,6 +13,13 @@ h1 {
 
 p {
     font-size: 18px;
+}
+
+@media screen and (max-width:1000px){
+    #toplogo {margin-right: 200px; 
+              margin-left: 70px;
+
+    }
 }
 
 .well {
@@ -83,6 +88,7 @@ div.col-md-4.media-item {
 
 a.media-link {
     max-height:353px;
+    text-align: center;
 }
 
 #media div.thumbnail {
@@ -132,11 +138,18 @@ a.media-link {
     }
 }
 
-.media-modal .media-dialog {
-    max-width: none;
-    height: 100%;
+@media screen and (max-width:1200px){
+    h1#soundtrack {
+        font-size: 2.6em;
+    }
+}
+
+.media-modal .modal-dialog {
+    width: 100%;
+    height: 90%;
     margin: 0;
 }
+
 
 .media-modal .modal-content {
     min-height: 100%;
@@ -149,6 +162,7 @@ a.media-link {
     box-shadow: none;
     background-color: gainsboro;
 }
+
 
 .media-modal .media-content h2 {
     font-size: 3em;
@@ -223,6 +237,22 @@ a.media-link {
     opacity: 0;
 }
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 #media img {
     max-width: 100%;
@@ -235,7 +265,7 @@ a.media-link {
 }
 
 #buy h1 {
-    vertical-align: auto;
+    text-align: center;
     font-size: 6em;
     color: #01cdfe;
     text-shadow: 6px 0px 7px #ff6ad5;
@@ -263,6 +293,7 @@ a.media-link {
 
 #devlog {
     background-image: url(img/retrocarpet.png);
+    text-align:center;
 }
 
 
@@ -392,9 +423,6 @@ a.media-link {
     margin-bottom: 30px;
 }
 
-.devlog-modal .modal-content img {
-    margin-bottom: 30px;
-}
 
 .devlog-modal .modal-content button {
     cursor: pointer;
@@ -444,10 +472,16 @@ a.media-link {
     opacity: 0;
 }
 
+
 /************Image Gallery**************/
 
-div.carousel-inner {
-    max-height:100%;
+#myCarousel {
+    height: 100%;
+}
+
+#myCarousel .item active {
+    border: none;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -456,21 +490,20 @@ div.carousel-inner {
     }
 }
 
-
 ol.carousel-indicators {
   position: absolute;
-  bottom: -15px;
+  bottom: 15px;
   margin: 0;
   left: 0;
   right: 0;
   width: auto;
 }
-
+ 
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
   float: left;
   width: 16.665%; /*Number of pictures / 100 for what this value needs to be.*/
-  height: 8px;
+  height: 15px;
   margin: 0;
   border-radius: 0;
   border: 0;
@@ -481,6 +514,10 @@ ol.carousel-indicators li.active {
   background: #fb14ff;
 }
 
-div.carousel-inner {
-    height: 620px;
+.carousel-inner .active {
+    margin-bottom: 0px;
+}
+
+a.right.carousel-control, a.left.carousel-control {
+    background-image: none
 }
