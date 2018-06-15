@@ -16,8 +16,8 @@ namespace DutchmanSite.Controllers
 
         public BasicAuthenticationAttribute(string username, string password)
         {
-            this.Username = "Temp";
-            this.Password = "Password1";
+            this.Username = "temp";
+            this.Password = "Password1!";
         }
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)
