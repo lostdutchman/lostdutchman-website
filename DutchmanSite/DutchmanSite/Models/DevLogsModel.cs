@@ -211,6 +211,7 @@ namespace DutchmanSite.Models
 
         public string GetLog(string WebPage)
         {
+            if(WebPage == "") { WebPage = "Index"; }
             DevLogDBHelper DB = new DevLogDBHelper();
             var List = DB.PublishedLogs(WebPage);
 
