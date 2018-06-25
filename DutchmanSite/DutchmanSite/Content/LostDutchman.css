@@ -322,3 +322,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     color: #b41a62 !important;
 }
 
+#devlog {
+    text-align: center;
+}

@@ -256,6 +256,7 @@ fieldset[disabled] .btn-xl:hover {
     background-color: white;
 }
 
+
 /*For the dev log floating bar*/
 .LogFloat{
     position: fixed;
@@ -317,9 +318,8 @@ fieldset[disabled] .btn-xl:hover {
 .DevLogDescription .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+
 }
-
-
 
 .DevLogDescription .modal-content button {
     cursor: pointer;
