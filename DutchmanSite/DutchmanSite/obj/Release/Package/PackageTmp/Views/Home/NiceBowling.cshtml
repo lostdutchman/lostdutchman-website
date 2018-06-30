@@ -1,6 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "Nice Bowling";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     string Site = Path.GetFileName(Request.Url.ToString());
     DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
 }
@@ -25,13 +26,13 @@
     <div class="collapse navbar-collapse navbar-menubuilder navbar-inverse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="#media">Media</a>
+                <a href="#mediaLink">Media</a>
             </li>
             <li>
-                <a href="#buy">Buy</a>
+                <a href="#buyLink">Buy</a>
             </li>
             <li>
-                <a href="#devlog">Devlog</a>
+                <a href="#devlogLink">Devlog</a>
             </li>
         </ul>
     </div>
@@ -48,6 +49,7 @@
                     <p>Modeled after the late 80's, early 90's obsession with chrome and neon, Nice  Bowling's unique look and retro/chillwave soundtrack will really bring you back. Gameplay is simple and clean, with a natural, responsive feel that tests your bowling prowess in a lighthearted environment.  Nice Bowling really shines in its 'added effect' playstyle.  Random events can trigger on any frame of play to a huge variety of outcomes- good luck bowling with a beach ball, a jelly blob, or a bouncy ball.  Sometimes fish rain from the sky and block the lane.  Sometimes there will be obsticals or ramps in your path.  Nice Bowling will be available on  PC and mobile summer 2018.</p>
                 </article>
 
+                <span class="anchor" id="mediaLink"></span>
                 <div id="media">
                     <div class="container">
                         <div class="row">
@@ -104,6 +106,7 @@
     </div>
 </section>
 
+<span class="anchor" id="buyLink"></span>
 <div id="buy">
     <article class="well">
         <h1>COMING SOON!</h1>
@@ -133,7 +136,7 @@
             </ul>*@
     </article>
 </div>
-
+<span class="anchor" id="devlogLink"></span>
 <section id="devlog">
     <div class="container">
         <div class="row">

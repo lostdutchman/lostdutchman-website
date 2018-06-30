@@ -1,5 +1,7 @@
 ﻿@{
     ViewBag.Title = "Lost Dutchman Software";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string Site = Path.GetFileName(Request.Url.ToString());
     DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
     DutchmanSite.Helper.HomePageSubtitle Subtitle = new DutchmanSite.Helper.HomePageSubtitle();
 }
@@ -24,13 +26,13 @@
     <div class="collapse navbar-collapse navbar-menubuilder navbar-inverse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="#about">About Us</a>
+                <a href="#aboutLink">About Us</a>
             </li>
             <li>
-                <a href="#portfolio">Projects</a>
+                <a href="#portfolioLink">Projects</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#contactLink">Contact</a>
             </li>
         </ul>
     </div>
@@ -44,6 +46,7 @@
     </div>
 </header>
 
+<span class="anchor" id="aboutLink"></span>
 <section id="about">
     <div class="container">
         <div class="row">
@@ -81,6 +84,7 @@
     </div>
 </section>
 
+<span class="anchor" id="portfolioLink"></span>
 <section id="portfolio" class="bg-light">
     <div class="container">
         <div class="row">
@@ -197,12 +201,29 @@
 </div>
 </section>
 
+<span class="anchor" id="devlogLink"></span>
+<section id="devlog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <article class="well clearfix">
+                    <h2 class="section-heading">News Feed</h2>
+                    <p>Project Updates, Musings, and more...</p>
+                    <br />
+                    @Html.Raw(Logs.GetLog(Site))
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<span class="anchor" id="contactLink"></span>
 <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Contact Us!</h2>
-                <h3 class="section-subheading text-muted">We want to hear about your project!</h3>
+                <h3 class="section-subheading text-muted">Use the form below to summon us!</h3>
             </div>
         </div>
         <div class="row">
@@ -293,203 +314,184 @@
     </div>
 </section>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright"></span>
-            </div>
-            @*<div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>*@
-        </div>
-    </div>
-</footer>
-
-<!-- portfolio modals-->
-
-<!-- SOFTWARE MODALS -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="moda-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <!-- portfolio modals-->
+    <!-- SOFTWARE MODALS -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Today's Japanese</h2>
-                            <h2>Today's Spanish</h2>
-                            <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON2.png" alt="Today's Japanese and Spanish" />
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/bubble.png" alt="Alexa voice commands" />
-                            <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
-                            <ul class="list-inline">
-                                <li>Date: February 2018</li>
-                                <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
-                                <li>Category: Single Solution Application</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Today's Japanese</h2>
+                                <h2>Today's Spanish</h2>
+                                <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON2.png" alt="Today's Japanese and Spanish" />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/bubble.png" alt="Alexa voice commands" />
+                                <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
+                                <ul class="list-inline">
+                                    <li>Date: February 2018</li>
+                                    <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
+                                    <li>Category: Single Solution Application</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="moda-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Modern Fairway 4</h2>
-                            <h2>Spec-Ops in the Rough</h2>
-                            <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level1.gif" alt="" />
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level2.gif" alt="" />
-                            <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
-                            <ul class="list-inline">
-                                <li>Date: April 2018</li>
-                                <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
-                                <li>Category: Game</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Modern Fairway 4</h2>
+                                <h2>Spec-Ops in the Rough</h2>
+                                <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level1.gif" alt="" />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level2.gif" alt="" />
+                                <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2018</li>
+                                    <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
+                                    <li>Category: Game</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- PUBLISHING MODALS -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="moda-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <!-- PUBLISHING MODALS -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/wyrdtransp.png" alt="The Wyrd of Stromgard" />
-                            <br />
-                            <br />
-                            <p class="item-intro text-muted">A fully fledged expansion for the Dungeon World ruleset</p>
-                            <p>The Wyrd of Stromgard expansion aims to deliver an intricately themed playspace for Dungeon World that hinges on interlocking pieces that may be tailored and customized to suit every game group and play style.  Taking heavy inspiration from the Icelandic epics and the Poetic and Prose Eddas, Stromgard is a fully fleshed out fantasy realm based on the mythical cannon of Norse lore.  Players can play as legendary archetypes like the berserking Bearskin, a clever and respectable Skald, a feral and cultish Hunter, and the powerful but reckless Stormcaller.  Players can also choose to play several 'racial' classes that are immensely powerful but tempered with equally troublesome weaknesses- the Troll may be able to break down buildings with its bare fists but will petrify in sunlight and while the Jotun may be strong and powerful, they will have difficulty finding solace in civilized corners of the world.  Multiple compendium classes are available to reward characters who undergo epic journeys.</p>
-                            <p>In addition to 5 class playbooks, 5 race playbooks, and 5 compendium classes, Stromgard also features other tools to create a believable, fantastic experience.  Extensive setting lore covers religion, society, conquest, and honor- all heavily based on what we know of real Vikings.</p>
-                            <p>One of Dungeon World's main tenets is to draw maps, but leave blanks.  The Wyrd of Stromgard offers players an elaborate stage setting that still has an endless amount of custimization potential.  Its interlocking parts can be removed entirely, built upon, swapped out, or otherwise altered without breaking the setting.  Stromgard was also designed to play nice with standard Dungeon World playbooks so that players have an even wider variety of tools in which to tell their epic Norse narrative.</p>
-                            <ul class="list-inline">
-                                <li>Date: Late 2018</li>
-                                <li>Category: Tabletop RPG</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/wyrdtransp.png" alt="The Wyrd of Stromgard" />
+                                <br />
+                                <br />
+                                <p class="item-intro text-muted">A fully fledged expansion for the Dungeon World ruleset</p>
+                                <p>The Wyrd of Stromgard expansion aims to deliver an intricately themed playspace for Dungeon World that hinges on interlocking pieces that may be tailored and customized to suit every game group and play style.  Taking heavy inspiration from the Icelandic epics and the Poetic and Prose Eddas, Stromgard is a fully fleshed out fantasy realm based on the mythical cannon of Norse lore.  Players can play as legendary archetypes like the berserking Bearskin, a clever and respectable Skald, a feral and cultish Hunter, and the powerful but reckless Stormcaller.  Players can also choose to play several 'racial' classes that are immensely powerful but tempered with equally troublesome weaknesses- the Troll may be able to break down buildings with its bare fists but will petrify in sunlight and while the Jotun may be strong and powerful, they will have difficulty finding solace in civilized corners of the world.  Multiple compendium classes are available to reward characters who undergo epic journeys.</p>
+                                <p>In addition to 5 class playbooks, 5 race playbooks, and 5 compendium classes, Stromgard also features other tools to create a believable, fantastic experience.  Extensive setting lore covers religion, society, conquest, and honor- all heavily based on what we know of real Vikings.</p>
+                                <p>One of Dungeon World's main tenets is to draw maps, but leave blanks.  The Wyrd of Stromgard offers players an elaborate stage setting that still has an endless amount of custimization potential.  Its interlocking parts can be removed entirely, built upon, swapped out, or otherwise altered without breaking the setting.  Stromgard was also designed to play nice with standard Dungeon World playbooks so that players have an even wider variety of tools in which to tell their epic Norse narrative.</p>
+                                <ul class="list-inline">
+                                    <li>Date: Late 2018</li>
+                                    <li>Category: Tabletop RPG</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="moda-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Fortuna Mythica</h2>
-                            <p class="item-intro text-muted">A flexible, narrative heavy RPG played with the luck of the cards.</p>
-                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/fortunethumbnail.png" alt="Fortuna Mythica" />
-                            <br />
-                                                              
-                            <p>Originally created for the <a href="http://200wordrpg.github.io">200 Word RPG Challenge</a>, Fortuna Mythica balances intuitive structure with the random element of card draws to structure epic storytelling.  Characters are built based upon the legendary figures the royal face cards are said to represent and they must overcome Hardships dictated by random pulls.</p>
-                            <p>Fortuna Mytica is available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
-                            <ul class="list-inline">
-                                <li>Date: April 2018</li>
-                                <li>Category: Tabletop RPG</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Fortuna Mythica</h2>
+                                <p class="item-intro text-muted">A flexible, narrative heavy RPG played with the luck of the cards.</p>
+                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/fortunethumbnail.png" alt="Fortuna Mythica" />
+                                <br />
+
+                                <p>Originally created for the <a href="http://200wordrpg.github.io">200 Word RPG Challenge</a>, Fortuna Mythica balances intuitive structure with the random element of card draws to structure epic storytelling.  Characters are built based upon the legendary figures the royal face cards are said to represent and they must overcome Hardships dictated by random pulls.</p>
+                                <p>Fortuna Mytica is available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2018</li>
+                                    <li>Category: Tabletop RPG</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="moda-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Dread: One Shots</h2>
-                            <p class="item-intro text-muted">Comprehensive campaign modules for the tabletop RPG Dread.</p>
-                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/hunger.png" alt="The Hunger" />
-                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/salish.png" alt="The Feet of the Salish Sea" />
-                              
-                            <p>These one-shots are detailed, ready to play Dread campaigns.  Both include narrative act structure, in-game materials like police reports, strategies for the GM, game guidance tips, and additional rules and mechanics to intensify play.</p>
-                            <p>The Hunger is set in 1870s Great Lakes America and features a Wendigo- a terrifying abomination from Cree lore.  Let your players try keep their paranoia and hunger at bay as daemonic forces tempt them and a heavy curse takes its toll.  This game includes six fully customizeable character roles with questionnaires, a section on cultural lore surrounding the Wendigo legends, two optional rules for introducing a hidden role, and a three act narrative that can be followed.</p>
-                            <p>The Feet of the Salish Sea is a modern story based on the real-life unsolved mystery of severed feet washing up on the shores of Washington State and British Columbia.  This module is deep into urban legends, mystery, and supernatural horrors.  Included in this file are: a detailed incident report, three character roles, GM guidance, a three act structure, and an improv/mystery mechanic that will streamline storytelling no matter how off-the-rails your characters go. </p>
-                            <p>Our Dread campaigns are available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
-                            <ul class="list-inline">
-                                <li>Date: March 2018</li>
-                                <li>Category: Tabletop RPG</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Dread: One Shots</h2>
+                                <p class="item-intro text-muted">Comprehensive campaign modules for the tabletop RPG Dread.</p>
+                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/hunger.png" alt="The Hunger" />
+                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/salish.png" alt="The Feet of the Salish Sea" />
+
+                                <p>These one-shots are detailed, ready to play Dread campaigns.  Both include narrative act structure, in-game materials like police reports, strategies for the GM, game guidance tips, and additional rules and mechanics to intensify play.</p>
+                                <p>The Hunger is set in 1870s Great Lakes America and features a Wendigo- a terrifying abomination from Cree lore.  Let your players try keep their paranoia and hunger at bay as daemonic forces tempt them and a heavy curse takes its toll.  This game includes six fully customizeable character roles with questionnaires, a section on cultural lore surrounding the Wendigo legends, two optional rules for introducing a hidden role, and a three act narrative that can be followed.</p>
+                                <p>The Feet of the Salish Sea is a modern story based on the real-life unsolved mystery of severed feet washing up on the shores of Washington State and British Columbia.  This module is deep into urban legends, mystery, and supernatural horrors.  Included in this file are: a detailed incident report, three character roles, GM guidance, a three act structure, and an improv/mystery mechanic that will streamline storytelling no matter how off-the-rails your characters go. </p>
+                                <p>Our Dread campaigns are available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
+                                <ul class="list-inline">
+                                    <li>Date: March 2018</li>
+                                    <li>Category: Tabletop RPG</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+<!--Log Modals-->
+@Html.Raw(Logs.GetLogModal(Site))
