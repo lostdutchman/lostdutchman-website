@@ -373,32 +373,8 @@ fieldset[disabled] .btn-xl:hover {
     border: 0px;
 }
 
-#devlog {
-    text-align: center;
-}
 
-#devlog .devlog-item {
-    right: 0;
-    left:100px;
-    margin: 0 0 15px;
-}
-
-#devlog .devlog-item .devlog-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer;
-    padding-top: 7px;
-}
-
-#devlog .devlog-item .devlog-link .devlog-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    opacity: 0;
-    background: #7d1150;
+.testing {
+    color: red;
+    font-size: x-large;
 }
