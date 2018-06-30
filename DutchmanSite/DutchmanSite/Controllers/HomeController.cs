@@ -74,6 +74,12 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpGet]
+        public ActionResult WyrdOfStromgard()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public ActionResult Error()
         {
             return View();

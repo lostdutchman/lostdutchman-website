@@ -96,6 +96,28 @@ namespace DutchmanSite.Models
                     List = List.OrderByDescending(o => o.Date).ToList();
                     break;
 
+                case "WoSOldToNew":
+                    foreach (DevLogsModel log in Temp)
+                    {
+                        if (log.Site == "WyrdOfStromgard")
+                        {
+                            List.Add(log);
+                        }
+                    }
+                    List = List.OrderBy(o => o.Date).ToList();
+                    break;
+
+                case "WoSNewToOld":
+                    foreach (DevLogsModel log in Temp)
+                    {
+                        if (log.Site == "WyrdOfStromgard")
+                        {
+                            List.Add(log);
+                        }
+                    }
+                    List = List.OrderBy(o => o.Date).ToList();
+                    break;
+
                 default: List = Temp.OrderByDescending(o => o.Date).ToList(); break;
             }
             string DevLogString = "";
@@ -148,6 +170,7 @@ namespace DutchmanSite.Models
 
             //Manualy add each site line below as new sites are made
             sb.Append("<option value='Index'>Home Page</option>");
+            sb.Append("<option value='WyrdOfStromgard'>Stromgard</option>");
             sb.Append("<option value='NiceBowling'>Nice Bowling</option>");
 
             sb.Append("</select></div></div>");

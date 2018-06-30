@@ -373,6 +373,14 @@ fieldset[disabled] .btn-xl:hover {
     border: 0px;
 }
 
+/*Fix the Anchor header issue*/
+.anchor{
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+
 
 .testing {
     color: green;

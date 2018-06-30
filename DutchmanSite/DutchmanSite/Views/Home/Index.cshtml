@@ -1,5 +1,6 @@
 ﻿@{
     ViewBag.Title = "Lost Dutchman Software";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     string Site = Path.GetFileName(Request.Url.ToString());
     DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
     DutchmanSite.Helper.HomePageSubtitle Subtitle = new DutchmanSite.Helper.HomePageSubtitle();
@@ -25,13 +26,13 @@
     <div class="collapse navbar-collapse navbar-menubuilder navbar-inverse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="#about">About Us</a>
+                <a href="#aboutLink">About Us</a>
             </li>
             <li>
-                <a href="#portfolio">Projects</a>
+                <a href="#portfolioLink">Projects</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#contactLink">Contact</a>
             </li>
         </ul>
     </div>
@@ -45,6 +46,7 @@
     </div>
 </header>
 
+<span class="anchor" id="aboutLink"></span>
 <section id="about">
     <div class="container">
         <div class="row">
@@ -82,6 +84,7 @@
     </div>
 </section>
 
+<span class="anchor" id="portfolioLink"></span>
 <section id="portfolio" class="bg-light">
     <div class="container">
         <div class="row">
@@ -198,6 +201,7 @@
 </div>
 </section>
 
+<span class="anchor" id="devlogLink"></span>
 <section id="devlog">
     <div class="container">
         <div class="row">
@@ -213,6 +217,7 @@
     </div>
 </section>
 
+<span class="anchor" id="contactLink"></span>
 <section id="contact">
     <div class="container">
         <div class="row">
