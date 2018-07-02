@@ -19,13 +19,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/07/2018 07:54:26</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>06/30/2018 15:35:11</publishTime>
+      <publishTime>07/02/2018 10:03:25</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>06/30/2018 15:35:10</publishTime>
+      <publishTime>07/02/2018 10:03:25</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>06/30/2018 15:34:54</publishTime>
+      <publishTime>07/02/2018 10:03:12</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>04/07/2018 07:54:27</publishTime>
@@ -373,7 +373,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/07/2018 07:54:27</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/30/2018 15:34:57</publishTime>
+      <publishTime>07/02/2018 10:03:14</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>04/07/2018 07:54:26</publishTime>
@@ -436,7 +436,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/07/2018 07:54:23</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/30/2018 14:51:15</publishTime>
+      <publishTime>07/02/2018 09:52:55</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
       <publishTime>06/30/2018 14:51:15</publishTime>
