@@ -14,9 +14,6 @@ namespace DutchmanSite.Helper
     {
         public void NewLog(string site, string icon, string iconText, string title, string summery, string description, int isPublished)
         {
-            //Backup existing DB before creating new logs.
-            Backup();
-
             using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ToString()))
             {
                 using (SqlCommand command = new SqlCommand())
@@ -174,22 +171,23 @@ namespace DutchmanSite.Helper
             return DevLogs;
         }
 
-        public void Backup()
-        {
-            string connectionString = ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ConnectionString;
-            var sqlConStrBuilder = new SqlConnectionStringBuilder(connectionString);
-            string backupFileName = String.Format("{0}{1}DB_{2}.BAK", HostingEnvironment.ApplicationPhysicalPath + @"Content\DatabaseBackups\", sqlConStrBuilder.InitialCatalog, DateTime.Now.ToString("yyyy-MM-dd_hh-mm"));
+        //This cannot be used unless/until we move to a hosting account where the hosting and sql database are on the same server
+        //public void Backup()
+        //{
+        //    string connectionString = ConfigurationManager.ConnectionStrings["LostDutchmanSite"].ConnectionString;
+        //    var sqlConStrBuilder = new SqlConnectionStringBuilder(connectionString);
+        //    string backupFileName = String.Format("{0}{1}DB_{2}.BAK", HostingEnvironment.ApplicationPhysicalPath + @"Content\DatabaseBackups\", sqlConStrBuilder.InitialCatalog, DateTime.Now.ToString("yyyy-MM-dd_hh-mm"));
 
-            using (var connection = new SqlConnection(sqlConStrBuilder.ConnectionString))
-            {
-                string query = String.Format("BACKUP DATABASE {0} TO DISK='{1}'", sqlConStrBuilder.InitialCatalog, backupFileName);
+        //    using (var connection = new SqlConnection(sqlConStrBuilder.ConnectionString))
+        //    {
+        //        string query = String.Format("BACKUP DATABASE {0} TO disk='{1}'", sqlConStrBuilder.InitialCatalog, backupFileName);
 
-                using (var command = new SqlCommand(query, connection))
-                {
-                    connection.Open();
-                    command.ExecuteNonQuery();
-                }
-            }
-        }
+        //        using (var command = new SqlCommand(query, connection))
+        //        {
+        //            connection.Open();
+        //            command.ExecuteNonQuery();
+        //        }
+        //    }
+        //}
     }
 }
