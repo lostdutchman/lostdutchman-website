@@ -11,8 +11,6 @@
 
 @media screen and (max-width:1000px){
     #toplogo {margin-right: 200px; 
-              margin-left: 70px;
-
     }
 }
 
@@ -83,13 +81,14 @@ p {
     background: #ff6ad5;
 }
 
-.folio-item {
-    max-height: 350px;
-}
-
 a.folio-link {
     max-height:353px;
     text-align: center;
+}
+
+.folio-caption {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px black;
 }
 
 /*BUY*/
@@ -138,6 +137,10 @@ a.folio-link {
     margin: 0;
 }
 
+.modal-content h1 {
+    text-align:center;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -167,7 +170,7 @@ a.folio-link {
 
 ol.carousel-indicators {
   position: absolute;
-  bottom: 15px;
+  bottom: 0px;
   margin: 0;
   left: 0;
   right: 0;

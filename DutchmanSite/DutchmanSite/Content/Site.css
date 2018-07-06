@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl:hover {
 .folio-link {
     position: relative;
     display: block;
-    max-width:400px;
+    max-width:360px;
     margin: 0 auto;
     cursor: pointer; 
 }
@@ -336,10 +336,22 @@ fieldset[disabled] .btn-xl:hover {
     width: auto;
 }
 
-.devlog-modal .modal-content {
+.devlog-modal {
+    min-height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: gainsboro;
+} 
+
+.modal-content {
     min-height: 100%;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     border: none;
     border-radius: 0;
     background-clip: border-box;
