@@ -180,6 +180,7 @@
     <Content Include="Content\img\nicebowlinglogotrans.png" />
     <Content Include="Content\img\polaroid1.png" />
     <Content Include="Content\img\retrocarpet.png" />
+    <Content Include="Content\img\runestone.jpg" />
     <Content Include="Content\img\salish.png" />
     <Content Include="Content\img\screen_monster_color.jpg" />
     <Content Include="Content\img\steviasphere.jpg" />
@@ -198,6 +199,7 @@
     <Content Include="Content\img\Obsticals.png" />
     <Content Include="Content\img\screen3.png" />
     <Content Include="Content\img\screencapbeachball.png" />
+    <Content Include="Content\img\usewDW.png" />
     <Content Include="Content\img\VHS.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
     <Content Include="Content\img\wyrdproject.png" />
@@ -224,6 +226,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="fonts\Lazer84.ttf" />
+    <Content Include="fonts\Debute.ttf" />
     <None Include="Properties\PublishProfiles\LostDutchman Website.pubxml" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
