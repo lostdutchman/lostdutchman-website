@@ -180,9 +180,8 @@
     <Content Include="Content\img\nicebowlinglogotrans.png" />
     <Content Include="Content\img\polaroid1.png" />
     <Content Include="Content\img\retrocarpet.png" />
-    <Content Include="Content\img\runestone.jpg" />
+    <Content Include="Content\img\runestone.png" />
     <Content Include="Content\img\salish.png" />
-    <Content Include="Content\img\screen_monster_color.jpg" />
     <Content Include="Content\img\steviasphere.jpg" />
     <Content Include="Content\img\Action.png" />
     <Content Include="Content\img\alexa.png" />
@@ -199,9 +198,10 @@
     <Content Include="Content\img\Obsticals.png" />
     <Content Include="Content\img\screen3.png" />
     <Content Include="Content\img\screencapbeachball.png" />
-    <Content Include="Content\img\usewDW.png" />
+    <Content Include="Content\img\useDW.png" />
     <Content Include="Content\img\VHS.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
+    <Content Include="Content\img\wyrdmasthead.png" />
     <Content Include="Content\img\wyrdproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />

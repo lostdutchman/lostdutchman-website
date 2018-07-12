@@ -62,7 +62,7 @@ p {
 }
 
 #lander {
-    background-image: url("img/screen_monster_color.jpg");
+    background-image: url("img/wyrdmasthead.png");
     background-repeat: no-repeat;
     background-position: left center;
     -webkit-background-size: cover;
@@ -140,8 +140,6 @@ p {
     position: absolute;
     z-index: 100;
     left: 0;
-    width: 80px;
-    height: 80px;
     margin-left: 0;
     text-align: center;
     color: black;
