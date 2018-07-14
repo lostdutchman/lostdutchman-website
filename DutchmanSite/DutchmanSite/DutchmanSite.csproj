@@ -167,7 +167,9 @@
     <Content Include="Content\img\DWtile.png" />
     <Content Include="Content\img\fortunethumbnail.png" />
     <Content Include="Content\img\hunger.png" />
+    <Content Include="Content\img\inspotile.png" />
     <Content Include="Content\img\macleod.jpg" />
+    <Content Include="Content\img\maptile.png" />
     <Content Include="Content\img\mf4level2.gif" />
     <Content Include="Content\img\mf4level1.gif" />
     <Content Include="Content\img\404.png" />
@@ -176,6 +178,7 @@
     <Content Include="Content\img\cassette-tape.png" />
     <Content Include="Content\img\masthead.png" />
     <Content Include="Content\img\MF4project.png" />
+    <Content Include="Content\img\monstertile.png" />
     <Content Include="Content\img\navbarbrand.png" />
     <Content Include="Content\img\navbarsoftware.png" />
     <Content Include="Content\img\NBproject.png" />
