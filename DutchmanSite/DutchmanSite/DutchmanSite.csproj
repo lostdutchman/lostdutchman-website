@@ -161,8 +161,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ChillWave.mp3" />
     <Content Include="Content\glaciære.mp3" />
+    <Content Include="Content\img\charatile.png" />
     <Content Include="Content\img\colortransparent.png" />
     <Content Include="Content\img\dreadproject.png" />
+    <Content Include="Content\img\DWtile.png" />
     <Content Include="Content\img\fortunethumbnail.png" />
     <Content Include="Content\img\hunger.png" />
     <Content Include="Content\img\macleod.jpg" />
@@ -179,6 +181,7 @@
     <Content Include="Content\img\NBproject.png" />
     <Content Include="Content\img\nicebowlinglogotrans.png" />
     <Content Include="Content\img\polaroid1.png" />
+    <Content Include="Content\img\racetile.png" />
     <Content Include="Content\img\retrocarpet.png" />
     <Content Include="Content\img\runestone.png" />
     <Content Include="Content\img\salish.png" />
