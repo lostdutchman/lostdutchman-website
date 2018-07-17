@@ -26,14 +26,23 @@ body {
     background-size: cover;
 }
 
-h1 {
+h1,h2 {
     font-family: Debute;
+}
+
+h1 {
+    font-size: 5em;
+    
+}
+
+a {
+    color: #768b9c;
 }
 
 p {
     font-size: 20px;
     font-weight: 500;
-    font-family: serif;
+    font-family: sabon, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .well {
@@ -47,4 +56,14 @@ p {
 
 .folio-hover {
     background: #2a3546;
+}
+
+#buy h1 {
+    text-align:center;
+    color: #2a3546;
+    text-shadow: 6px 0px 7px #979bab;
+}
+
+.date {
+    letter-spacing: 2px;
 }
