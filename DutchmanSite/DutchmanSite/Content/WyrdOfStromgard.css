@@ -26,13 +26,19 @@ body {
     background-size: cover;
 }
 
-h1,h2 {
+.btn-primary {
+    border-color: #1d1c2c;
+    background-color: #768b9c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1,h2,h3 {
     font-family: Debute;
+    letter-spacing: 1px;
 }
 
 h1 {
-    font-size: 5em;
-    
+    font-size: 5em;  
 }
 
 a {
