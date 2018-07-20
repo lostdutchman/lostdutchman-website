@@ -32,6 +32,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.btn-primary:hover {
+    color: white;
+    border-color: #1d1c2c;
+    background-color: #6b7588;
+}
+
 h1,h2,h3 {
     font-family: Debute;
     letter-spacing: 1px;

@@ -165,6 +165,7 @@
     <Content Include="Content\img\colortransparent.png" />
     <Content Include="Content\img\dreadproject.png" />
     <Content Include="Content\img\DWtile.png" />
+    <Content Include="Content\img\fae.png" />
     <Content Include="Content\img\fortunethumbnail.png" />
     <Content Include="Content\img\hunger.png" />
     <Content Include="Content\img\inspotile.png" />

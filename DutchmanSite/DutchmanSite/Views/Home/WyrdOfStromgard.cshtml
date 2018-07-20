@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 folio-item">
-                <a class="folio-link" data-toggle="modal" href="#folioModalOST">
+                <a class="folio-link" data-toggle="modal" href="#folioRaceClasses">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
@@ -109,16 +109,16 @@
         <span class="anchor" id="mediaLink"></span>
         <div class="row">
             <div class="col-md-4 col-sm-6 folio-item">
-                <a class="folio-link" data-toggle="modal" href="#folioModalVideo">
+                <a class="folio-link" data-toggle="modal" href="#folioStromgard">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="~/Content/img/maptile.png" alt="vhs" />
+                    <img class="img-fluid" src="~/Content/img/maptile.png" alt="map" />
                 </a>
                 <div class="folio-caption">
-                    <h2>The World</h2>
+                    <h2>Stromgard</h2>
                     <p class="text-muted">Learn about Stromgard's societies and lore.</p>
                 </div>
             </div>
@@ -227,13 +227,15 @@
                                 <br />
                                 <p>The Wyrd of Stromgard boasts 5 unique player classes based off mythical archetypes from Norse lore.  Each archetype represents a wide spectrum of specific narrative feels depending on build and play style.  Movesets were derived from legends and tales, representing what amazing deeds these characters accomplished in their larger than life stories.</p>
                                 <h3>The Bearskin</h3>
-                                <p>The Bearskin is a physical powerhouse.  In the heat of battle they succumb to their bloodrage, transforming them from mortal warrior to a nearly-impervious force of sheer destruction.  They have nerves of steel, an indomitable will to triumph, and can single handedly turn an enemy onslaught into a one-sided bloodbath.  The Bearskin cannot keep up their frenzy forever, on the other hand, and they crash hard, leaving them vulnerable.  A Bearskin's allies also learn quickly to give them room during a fight, less they wind up amongst the body count.</p>
+                                <p>In the heat of battle they succumb to their bloodrage, transforming them from mortal warrior to a nearly-impervious force of sheer destruction.  The Bearskin cannot keep up their frenzy forever, on the other hand, and they crash hard, leaving them vulnerable.  A Bearskin's allies also learn quickly to give them room during a fight, less they wind up amongst the body count.</p>
                                 <h3>The Skald</h3>
                                 <p>The Skald is a lorekeeper and academic, a highly valued member of society by all classes and creeds.  Jarls depend on them to record their lineage, heroes want them to sing of their deeds...  People believe that Skalds hold great magic in their words, and they are often consulted as mediators and trustworthy enough to have the final say in many grave matters.  Skalds will find it easy to leverage their social status in most situations, from deescalating combat or intentionally inflaming it.  Skalds are also talented fighters in their own right and can hold their own in a hairy situation.</p>
                                 <h3>The Hunter</h3>
-                                <p>Hailing from a mysterious, shadowy cult, Hunters are devoted to a ghastly phenomenon called The Wild Hunt.  This mysterious occurence consists of a ravenous, demonic hunting party rampaging across the land, dragging unpunished criminals, murderers, oathbreakers and other unworthy out of their hiding places to be dragged off to Helheim, jail of the dishonorable dead.  The Hunter is a vigilante, skilled at stalking in the shadows but a hard hitting, sadistic fighter bent on debilitating their enemy.  They're ruthless and sometimes quite bloodthirsty but don't expect to take one into a fight where you intend to let your enemies live.</p>
+                                <p>Hailing from a mysterious, shadowy cult, Hunters are devoted to a ghastly phenomenon called The Wild Hunt-a mysterious occurence that consists of a demonic hunting party rampaging across the land, dragging unpunished wrongdoers out of their hiding places to be hauled off to Helheim, purgatory for the dishonorable dead.  The Hunter is a vigilante, skilled at stalking in the shadows but a hard hitting, sadistic fighter bent on debilitating their enemy.  They can be quite feral and bloodthirsty- it would be foolish to take one into a fight where you intend to let your enemies live.</p>
                                 <h3>The Stormcaller</h3>
+                                <p>A powerful elementalist, the Stormcaller is a conduit for the natural forces of desctruction in the world.  They can breathe life into ice and snow, summon storms, master the art of lightning step, produce magical weapons, even throw the cycle of seasons out of balance.  A single Stormcaller could make a small fleet of ships utterly unstoppable and their powers are highly sought after.</p>
                                 <h3>The Crone</h3>
+                                <p>Not many hold the same level of simultaneous fear and respect a Crone does.  Regarded as wisepeople and skilled herbalists, they're also seen as unpredictable and wildly powerful psuedo-deities that could just as easily cause fatal disease as cure it.  To their credit, a Crone does usually quite the array of awful tricks up their sleeves- blights, sickness, mind reading, shadow travel, curses, and Hel knows what else.  Crones may look like a walking pile of dirty robes more often than not, but there is real and tangible terror hiding in that slight form.</p>
                                 <br />
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fa fa-times"></i>
@@ -247,7 +249,7 @@
         </div>
     </div>
 
-    <div class="media-modal modal fade" id="mediaModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="media-modal modal fade" id="folioRaceClasses" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="moda-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -259,36 +261,70 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="modal-body">
-                                <h1>Soundtrack</h1>
-                                <p>Nice Bowling has a Nice Soundtrack.  Especially if you're into vapor/retrowave with a chill leaning.</p>
-                                <div class="player1">
-                                    <h3>~Aether Theories~ - Vidian</h3>
-                                    <img src="~/Content/img/avy.jpg" width="100" height="100" />
-                                    <audio controls>
-                                        <source src=~/Content/Vidian_-_aether_theories_1.mp3 type="audio/mp3" />
-                                        Dang, your browser doesn't support this audio element.
-                                    </audio>
-                                </div>
-                                <div class="player2">
-                                    <h3>glaciaere (Abandonded) - Stevia Sphere</h3>
-                                    <img src="~/Content/img/steviasphere.jpg" width="100" height="100" />
-                                    <audio controls>
-                                        <source src=~/Content/glaciære.mp3 type="audio/mp3" />
-                                        Dang, your browser doesn't support this audio element.
-                                    </audio>
-                                </div>
-                                <h3>Chill Wave - Kevin MacLeod</h3>
-                                <img src="~/Content/img/macleod.jpg" width="100" height="100" />
-                                <audio controls>
-                                    <source src=~/Content/ChillWave.mp3 type="audio/mp3" />
-                                    Dang, your browser doesn't support this audio element.
-                                </audio>
-                            </div>
-                            <p>All music used under Creative Commons 3.0</p>
+                                <h2>Racial Classes</h2>
+                                <p>In The Wyrd of Stromgard, the standard classes may be played by any semi-mortal race you choose- elves, dwarves, humans, gnomes, halflings, etc- and instead of the "Racial" starting move of standard Dungeon World, we've replaced it with a more open "Background" move, thereby making all classes available to all races.</p>
+                                <p>But The Wyrd of Stromgard also includes 5 racial classes.  These special Racial Classes represent a unique, more powerful race with its own inherent abilities and powers.  These characters are, in some cases, literal demigods and come with unique skillsets that make them unable to pick up traditional class abilities but are typically a notch or two more powerful than the average bear, so to speak.  Racial Classes also come with powerful vulnerabilities to match their strength, making them an interesting play choice for players looking for a new challenge.</p>
+                                <br />
+                                <img src="~/Content/img/fae.png" class="center-block"/>
+                                <h3>The Fae</h3>
+                                <p>The Fae are a varied people with many physical forms and inclinations but they all have agendas and they are skilled at manipulation.  With unique setbacks like being unable to touch pure iron or stand the sound of bells, the Fae make the most of their skills by entrancing mortals and magically binding them to contractual terms.  They'll also straight up shank you if they need, too.</p>
+                                <h3>The Troll</h3>
+                                <p>Trolls are dealt a rough hand in Stromgard.  Their homes in the mountain foothills of the world are slowly being overrun with humans and other mortals, building villages and cutting timber.  Trolls are hated, told as nighttime stories to misbehaving children, and for the most part, they're hunted on sight.  But trolls have been around for aeons.  They're immensely powerful, could tear a fortified wall down with their bare hands, and fuel their monstrous regenerative powers by consuming huge amounts of food.  Their one weakness is the sun, which warm light will cause flesh to seize and petrify almost instantly.</p>
+                                <h3>The Dvergr</h3>
+                                <p>The Dvergr are closely related to common dwarves and share much of their culture.  The are innately magical, however, and retain their more primal forms.  They are creatures of equal parts mundane flesh and living rock, an insular people that have a pragmatic approach to honor and oaths that makes it somewhat difficult to mesh with others.  Their affinity for the earth makes them the best smiths in the land and their deep knowledge of the divine make them an interesting companion. </p>
+                                <h3>The Alfir</h3>
+                                <p>Literally, the Light Elves.  The Alfir are a sub race of the Vanir, the lesser gods who don't reside is Asgard with the higher gods, the Aesir.  After several Vanir/Aesir conflicts, the Alfir have thrown their lot in with the power hierarchy coming out of Asgard.  They believe strongly that order and gorvernance will bring all the realms to a peaceful age.  Above all they hate those who seek to keep the world wild and chaotic- personified by their almost universal predjiduce against Jontar and any who carry their blood.  Most mortal elves and even some rural humans worship the Alfir in some capacity.</p>
+                                <h3>The Jotunnborn</h3>
+                                <p>The J&oumltunborn are a subgroup inside the wider J&oumltnar people, a race of animalistic ice giants that- as a whole- reject the spread of civilization and hold true to the laws of nature and beasts.  Many J&oumltnar openly and violently rebel against the gods, giving rise to the popular belief that they are actively trying to bring on the apocalypse that will ultimately kill the gods.  However, nearly every race- including the high gods of Asgard- intermarry with J&oumltnar, making loyalties difficult to pin down.  J&oumltunnborn are just that, the product of a J&oumltnar marriage somewhere in the line that has retained some of their 'ice giant' heritage.  Most J&oumltunnborn have difficulty integrating into groups of people because of prejudice.</p>
+                               
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fa fa-times"></i>
                                 Close
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="media-modal modal fade" id="folioStromgard" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="moda-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="modal-body">
+                                <h2>The World</h2>
+                                <p>Stromgard is a fictional realm within Midgard, the plane of mortals.  It's a large expanse covering rolling hills and fields as well as steep and trecherous crags north of the capital settlement.  The people of Stromgard are hardy but poor and they value strength, self sufficiency, and honor in their people and hold them to the laws of the land.  Because of the general level of wealth, full iron blades or axeheads can be difficult to obtain outside of the capital.</p>
+                                <h3>Societies</h3>
+                                <p>Stromgard is primarily populated by humans, who live in a multitude of settlements strewn about the land.  Elves and dwarves both live in Stromgard in great numbers, the former gravitating towards their forest cities and the latter burrowing into every mountain in the region.  Gnomes are also commonly found, typically living close to dwarven communities.  Halfings are also a staple of Stromgardian populations, though they typically only settle where the land is fertile and easily farmed.  More often than not, these societies tend to be racially insular to some degree, though there is no standing bad blood or open feuds between any of these groups as a whole.  Above looks and race, in Stromgard, your honor and strength say more about your worth.</p>
+                                <h3>Conquest</h3>
+                                <p>More than anything else, life in Stromgard (for humans, at any rate) is fueled by conquest and exploration.  Every spring, the realm prepares to send out its best boats, helmsmen, and warriors to find new land and also sack it.  It is a brutal practice, but the rewards and glory are plentiful.  As is the iminent danger of sea monsters, other warriors, and storms.  Warriors that bring new resources or settle far off lands or even make treaties with foreign ports are lavishly decorated on their return, and their war spoils open many doors for them.</p>
+                                <h3>Lore</h3>
+                                <p>The Gods say that the world as we know it sits spread out on the branches of a cosmic tree.  The world is divided into nine seperate realms, or planes, as follows:
+                                        <p>Asgard - Home to the Aesir gods and Odin, chief among them</p>
+                                        <p>Vanaheim - Realm of the lesser gods, the Vanir</p>
+                                        <p>Alfheim - Realm to the divine light elves</p>
+                                        <p>Myrkheim - Ancestral home of the dwarven peoples</p>
+                                        <p>Midgard - Realm of mortals</p>
+                                        <p>J&oumltunheim - Technically, this realm surrounds Midgard and is home to the J&oumltnar</p>
+                                        <p>Svaralfheim - Home of the rarely seen and extremely insular divine moon elves.</p>
+                                        <p>Hel - this realm, ruled by the goddess Hel, houses the dead</p>
+                                        <p>Niflheim - A special subrealm of Hel for the dishonorable dead.</p>
+                                        <p>Muspelheim - A plane of pure fire and ash that houses the fire demons and their god-king, Surt</p>
+                               
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
