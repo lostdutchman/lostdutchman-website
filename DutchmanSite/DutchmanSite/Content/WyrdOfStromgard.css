@@ -51,10 +51,22 @@ a {
     color: #768b9c;
 }
 
+a.active, a:active, a:focus, a:hover {
+    color: #2a3546;
+}
+
 p {
     font-size: 20px;
     font-weight: 500;
     font-family: sabon, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-subheading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .well {
@@ -70,6 +82,12 @@ p {
     background: #2a3546;
 }
 
+div.realms p {
+    margin-left: 50px;
+    line-height: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #buy h1 {
     text-align:center;
     color: #2a3546;
@@ -77,5 +95,17 @@ p {
 }
 
 .date {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.devlog-hover {
+    background: #2a3546;
+}
+
+a.devlog-link {
+    color: #1d1c2c;
+}
+
+footer p {
+    color: white;
 }

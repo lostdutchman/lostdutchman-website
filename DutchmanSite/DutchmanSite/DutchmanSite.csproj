@@ -169,6 +169,8 @@
     <Content Include="Content\img\fortunethumbnail.png" />
     <Content Include="Content\img\hunger.png" />
     <Content Include="Content\img\inspotile.png" />
+    <Content Include="Content\img\kelpie.png" />
+    <Content Include="Content\img\linnorm.png" />
     <Content Include="Content\img\macleod.jpg" />
     <Content Include="Content\img\maptile.png" />
     <Content Include="Content\img\mf4level2.gif" />
