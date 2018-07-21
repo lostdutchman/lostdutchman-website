@@ -242,7 +242,9 @@ namespace DutchmanSite.Models
             foreach (var Log in List)
             {
                 StringBuilder sb = new StringBuilder(DevLogString);
-                sb.Append("<div class='container-fluid'><div class='row'><div class='col-sm-3'></div><div class='col-sm-3'><div class='devlog-item'><a class='devlog-link' data-toggle='modal' href='#devlogModal1'><div class='devlog-hover'><div class='devlog-hover-content'><i class='fa fa-plus fa-3x'></i></div></div><i class='");
+                sb.Append("<div class='container-fluid'><div class='row'><div class='col-sm-3'></div><div class='col-sm-3'><div class='devlog-item'><a class='devlog-link' data-toggle='modal' href='#DL");
+                sb.Append(Log.PKEY);
+                sb.Append("'><div class='devlog-hover'><div class='devlog-hover-content'><i class='fa fa-plus fa-3x'></i></div></div><i class='");
                 sb.Append(Log.Icon);
                 sb.Append("'></i><p>");
                 sb.Append(Log.IconText);
@@ -258,6 +260,7 @@ namespace DutchmanSite.Models
 
         public string GetLogModal(string WebPage)
         {
+            if (WebPage == "") { WebPage = "Index"; }
             DevLogDBHelper DB = new DevLogDBHelper();
             var List = DB.PublishedLogs(WebPage);
 
@@ -265,7 +268,9 @@ namespace DutchmanSite.Models
             foreach (var Log in List)
             {
                 StringBuilder sb = new StringBuilder(DevLogString);
-                sb.Append("<div class='devlog-modal modal fade' id='devlogModal1' tabindex='-1' role='dialog' aria-hidden='true'><div class='devlog-modal-dialog'><div class='modal-content'>            <div class='close-modal' data-dismiss='modal'><div class='lr'><div class='rl'></div></div></div><div class='container'><div class='row'><div class='col-sm-12 mx-auto'><div class='modal-body'>");
+                sb.Append("<div class='devlog-modal modal fade' id='DL");
+                sb.Append(Log.PKEY);
+                sb.Append("' tabindex='-1' role='dialog' aria-hidden='true'><div class='devlog-modal-dialog'><div class='modal-content'><div class='close-modal' data-dismiss='modal'><div class='lr'><div class='rl'></div></div></div><div class='container'><div class='row'><div class='col-sm-12 mx-auto'><div class='modal-body'>");
                 sb.Append(Log.Description);
                 sb.Append("<button class='btn btn-primary' data-dismiss='modal' type='button'><i class='fa fa-times'></i>Close Devlog</button></div></div></div></div></div></div></div>");
                 DevLogString = sb.ToString();
