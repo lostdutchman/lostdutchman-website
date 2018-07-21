@@ -27,6 +27,15 @@
     }
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 /*MASTHEAD*/
 
 header.masthead {
@@ -42,6 +51,7 @@ header.masthead {
 }
 
 .intro-lead-in {
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -50,6 +60,7 @@ header.masthead {
 }
 
 .intro-heading {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;

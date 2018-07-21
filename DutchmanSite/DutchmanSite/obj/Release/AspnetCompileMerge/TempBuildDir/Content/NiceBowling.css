@@ -1,4 +1,26 @@
-﻿body {
+﻿/*!
+ * Start Bootstrap - Agency v4.0.0-beta (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+@font-face {
+    font-family: Lazer84;
+    src: url('../fonts/Lazer84.ttf') format('truetype');
+}
+
+@media screen and (max-width:1000px){
+    #toplogo {margin-right: 200px; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.carousel-inner {
+        max-height: 250px;
+    }
+}
+
+body {
     background-image: url("img/masthead.png");
     background-size: unset;
     background-repeat: no-repeat;
@@ -9,17 +31,10 @@
 h1 {
     font-family: lazer84;
     font-size: 3em;
-}    
+}  
 
 p {
     font-size: 18px;
-}
-
-@media screen and (max-width:1000px){
-    #toplogo {margin-right: 200px; 
-              margin-left: 70px;
-
-    }
 }
 
 .well {
@@ -32,29 +47,28 @@ p {
     background-position: center;
 }
 
-#media .media-item {
-    right: 0;
-    margin: 0 0 15px;
+/*FOLIO ELEMENTS SPECIFIC TO NB*/
+
+#folio {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-#media a {
-    text-decoration: none;
+#folio a {
+    text-decoration:none;
 }
 
-#media h1 {
+#folio h1 {
     color: #01cdfe;
     text-shadow: 6px 0px 7px purple;
 }
 
-#media .media-item .media-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer;
+#folio img {
+    max-width: 100%;
+    border: black;
 }
 
-#media .media-item .media-link .media-hover {
+.folio-hover {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -67,174 +81,63 @@ p {
     background: #ff6ad5;
 }
 
-#media .media-item .media-link .media-hover:hover {
-    opacity: 0.8;
-}
-
-#media .media-item .media-link .media-hover .media-hover-content {
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    color: white;
-}
-
-div.col-md-4.media-item {
-    max-height:350px;
-}
-
-a.media-link {
-    max-height:353px;
-    text-align: center;
-}
-
-#media div.thumbnail {
+a.folio-link {
     max-height:353px;
 }
 
-#media article.well {
-    max-height:323px;
+.folio-caption {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px black;
 }
 
-#media img.img {
-    max-width: 75%;
+/*BUY*/
+#buy .article {
+    padding-top: 0px;   
 }
 
-#media .media-item .media-link .media-hover .media-hover-content i {
-    margin-top: -12px;
-}
-
-#media .media-item .media-link .media-hover .media-hover-content h3,
-#media .media-item .media-link .media-hover .media-hover-content h4 {
-    margin: 0;
-}
-
-#media .media-item .media-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
+#buy .well {
+    background-color:black;
+    color: dimgray;
+    padding-top: 5px;
     text-align: center;
-    background-color: white;
+    font-size: x-large;
 }
 
-#media .media-item .media-caption h4 {
-    margin: 0;
-    text-transform: none;
+#buy h1 {
+    color: #01cdfe;
+    text-shadow: 6px 0px 7px purple;
 }
 
-#media .media-item .media-caption p {
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
-    font-family: neotechbold, Helvetica, Arial, sans-serif;
+/*    NOT IN USE YET
+.buy-buttons {
+    font-size: 60px;
+    line-height: 50px;
+    display: inline;
+    width: 40px;
+    height: 40px;
+    outline: none;
+}*/
+
+/*DEVLOG SECTIONAL FORMATTING*/
+#devlog {
+    background-image: url(img/retrocarpet.png);
 }
 
-@media (min-width: 767px) {
-    #media .media-item {
-        margin: 0 0 30px;
-    }
+#devlog .well {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px black;
 }
 
-@media screen and (max-width:1200px){
-    h1#soundtrack {
-        font-size: 2.6em;
-    }
-}
+/*MODAL ELEMENTS SPECIFIC TO NB*/
 
-.media-modal .modal-dialog {
+.modal-dialog {
     width: 100%;
     height: 90%;
     margin: 0;
 }
 
-
-.media-modal .modal-content {
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center;
-    border: none;
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: gainsboro;
-}
-
-
-.media-modal .media-content h2 {
-    font-size: 3em;
-    margin-bottom: 15px;
-}
-
-.media-modal .modal-content p {
-    margin-bottom: 30px;
-}
-
-.media-modal .modal-content p.item-intro {
-     font-size: 16px;
-     font-style: italic;
-     margin: 20px 0 30px;
-     font-family: neotechbold, Helvetica, Arial, sans-serif;
-}
-
-.media-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.media-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.media-modal .modal-content button {
-    cursor: pointer;
-}
-
-.media-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.media-modal .close-modal:hover {
-    opacity: 0.3;
-}
-
-.media-modal .close-modal .lr {
-    /* Safari and Chrome */
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #222222;
-}
-
-.media-modal .close-modal .lr .rl {
-    /* Safari and Chrome */
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    background-color: #222222;
-}
-
-.media-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
+.modal-content h1 {
+    text-align:center;
 }
 
 .video-container {
@@ -253,53 +156,7 @@ a.media-link {
     height: 100%;
 }
 
-#media img {
-    max-width: 100%;
-    border: black;
-}
-
-#media {
-    padding-top:0px;
-    padding-bottom: 0px;
-}
-
-#buy h1 {
-    text-align: center;
-    font-size: 6em;
-    color: #01cdfe;
-    text-shadow: 6px 0px 7px #ff6ad5;
-    padding-bottom:25px;
-}
-
-#buy .article{
-    padding-top: 0px;
-}
-
-#buy .well {
-    background-color:black;
-    color: dimgray;
-    padding-top: 5px;
-}
-
-#buy .buy-buttons {
-    font-size: 60px;
-    line-height: 50px;
-    display: inline;
-    width: 40px;
-    height: 40px;
-    outline: none;
-}
-
-#devlog {
-    background-image: url(img/retrocarpet.png);
-}
-
-#devlog .well {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px black;
-}
-
-/************Image Gallery**************/
+/*Img Gallery*/
 
 #myCarousel {
     height: 100%;
@@ -310,15 +167,9 @@ a.media-link {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 600px) {
-    div.carousel-inner {
-        max-height: 250px;
-    }
-}
-
 ol.carousel-indicators {
   position: absolute;
-  bottom: 15px;
+  bottom: 0px;
   margin: 0;
   left: 0;
   right: 0;
@@ -336,14 +187,14 @@ ol.carousel-indicators li.active {
   background: transparent;
 }
 
-ol.carousel-indicators li.active {
-  background: #fb14ff;
-}
-
 .carousel-inner .active {
     margin-bottom: 0px;
 }
 
 a.right.carousel-control, a.left.carousel-control {
     background-image: none
+}
+
+ol.carousel-indicators li.active {
+  background: #fb14ff;
 }

@@ -18,56 +18,21 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
-@font-face {
-    font-family: Lazer84;
-    src: url('../fonts/Lazer84.ttf') format('truetype');
-}
-
-body {
-    overflow-x: hidden;
-    font-family: nexaBold, Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: #b41a62;
-}
-
-p {
-    line-height: 1.75;
-}
-
-a {
-    color: #b41a62;
-}
-
-a.active, a:active, a:focus, a:hover {
-    color: #b41a62;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-weight: 700;
-    font-family: 'nexaBold', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-section {
-    padding: 100px 0;
-}
-
-section h2.section-heading {
-   font-size: 40px;
-   margin-top: 0;
-   margin-bottom: 15px;
-}
-
-section h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
-    font-family: neotechbold, Helvetica, Arial, sans-serif;
-}
-
 @media (min-width: 768px) {
     section {
         padding: 150px 0;
+    }
+}
+
+@media (min-width: 767px) {
+    #devlog .devlog-item {
+        margin: 0 0 30px;
+    }
+}
+
+@media (min-width: 767px) {
+    #folio .folio-item {
+        margin: 0 0 30px;
     }
 }
 
@@ -89,21 +54,61 @@ img::-moz-selection {
     background: transparent;
 }
 
-#mainNav {
-    background-color: #222222;
+/*FULL BODY FORMATS*/
+body {
+    overflow-x: hidden;
+    font-family: nexaBold, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: #b41a62;
 }
+
+p {
+    line-height: 1.75;
+    font-size: 1em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    font-family: 'nexaBold', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    color: #b41a62;
+}
+
+a.active, a:active, a:focus, a:hover {
+    color: #b41a62;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.section-heading {
+   font-size: 40px;
+   margin-top: 0;
+   margin-bottom: 15px;
+}
+
+.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    font-family: neotechbold, Helvetica, Arial, sans-serif;
+}
+
+.text-primary {
+    color: #b41a62;
+}
+
+/*MAIN NAVBAR*/
 
 .navbar-fixed-top {
     background-color: #222222;
     border: solid 1px #222222;
     height: 90px;
     position: fixed;
-}
-
-#collapse {
-    background-color: #222222;
-    border-color: black;
-    padding-left: 100px;
 }
 
 .navbar-brand {
@@ -114,7 +119,7 @@ img::-moz-selection {
     position: absolute;
 }
 
-.nav.navbar-nav.navbar-right li a {
+.navbar-nav.navbar-right li a {
     font-size: large;
     font-weight: bold;
     display: inline-block;
@@ -122,34 +127,38 @@ img::-moz-selection {
     margin-top: 20px;
     margin-right: 15px;
     padding-right: 30px;
-    font-family: nexaBold, Arial, Helvetica, sans-serif;
 }
 
-.nav.navbar-nav.navbar-right li a:hover {
+.navbar-nav.navbar-right li a:hover {
     color: #b41a62;
 }
 
-footer {
-    padding: 25px 0;
-    text-align: center;
+#collapse {
+    background-color: #222222;
+    border-color: black;
+    padding-left: 100px;
 }
 
-footer span.copyright {
-    font-size: 90%;
-    line-height: 40px;
-    text-transform: none;
-    font-family: neotechbold, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+.navbar-nav.navbar-right li.active a{
+    background-color: #222222;
+    color: #b41a62;
 }
 
-footer ul.quicklinks {
-    font-size: 90%;
-    line-height: 40px;
-    margin-bottom: 0;
-    text-transform: none;
-    font-family: neotechbold, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+.navbar-nav.navbar-right li.active a:hover{
+    background-color: #222222;
+    color: #b41a62;
 }
+
+/*ANCHOR TAGS*/
+
+.anchor{
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+
+/*BUTTONS*/
 
 .btn-primary {
     font-weight: 700;
@@ -256,8 +265,188 @@ fieldset[disabled] .btn-xl:hover {
     background-color: white;
 }
 
+/*FOLIO CONTAINERS*/
 
-/*For the dev log floating bar*/
+.folio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+.folio-link {
+    position: relative;
+    display: block;
+    max-width:360px;
+    margin: 0 auto;
+    cursor: pointer; 
+    text-align: center;
+}
+
+.folio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: #7d1150;
+}
+
+.folio-hover:hover {
+    opacity: 0.8;
+}
+
+.folio-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+
+.folio-hover-content i {
+    margin-top: -12px;
+}
+
+.folio-hover-content h3, .folio-hover-content h4 {
+    margin: 0;
+}
+
+.folio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.folio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+.folio-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    font-family: neotechbold, Helvetica, Arial, sans-serif;
+}
+
+/*GENERAL MODALS*/
+
+.devlog-modal .modal-dialog {
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+
+.modal-dialog {
+    width: auto;
+}
+
+.devlog-modal {
+    min-height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: gainsboro;
+} 
+
+.modal-content {
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: left;
+    border: none;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: gainsboro;
+}
+
+.devlog-modal img {
+    max-width:600px;
+}
+
+.modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    margin-bottom: 30px;
+}
+
+.modal-content p.item-intro {
+     font-size: 16px;
+     font-style: italic;
+     margin: 20px 0 30px;
+     font-family: neotechbold, Helvetica, Arial, sans-serif;
+}
+
+.modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+.modal-content button {
+    cursor: pointer;
+}
+
+.close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.close-modal:hover {
+    opacity: 0.3;
+}
+
+.close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #222222;
+}
+
+.close-modal .lr .rl {
+    /* Safari and Chrome */
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #222222;
+}
+
+.modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+/*DEVLOG*/
+
 .LogFloat{
     position: fixed;
     z-index: 10000;
@@ -275,7 +464,7 @@ fieldset[disabled] .btn-xl:hover {
     overflow: hidden;
 }
 
-#devlog {
+#devlog .section-heading, .subheading {
     text-align: center;
 }
 
@@ -285,16 +474,17 @@ fieldset[disabled] .btn-xl:hover {
     margin: 0 0 15px;
 }
 
-#devlog .devlog-item .devlog-link {
+.devlog-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer;
     padding-top: 7px;
+    text-align: center;
 }
 
-#devlog .devlog-item .devlog-link .devlog-hover {
+.devlog-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -305,11 +495,11 @@ fieldset[disabled] .btn-xl:hover {
     background: #7d1150;
 }
 
-#devlog .devlog-item .devlog-link .devlog-hover:hover {
+.devlog-hover:hover {
     opacity: 0.8;
 }
 
-#devlog .devlog-item .devlog-link .devlog-hover .devlog-hover-content {
+.devlog-hover-content {
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -320,16 +510,16 @@ fieldset[disabled] .btn-xl:hover {
     color: white;
 }
 
-#devlog .devlog-item .devlog-link .devlog-hover .devlog-hover-content i {
+.devlog-hover-content i {
     margin-top: -12px;
 }
 
-#devlog .devlog-item .devlog-link .devlog-hover .devlog-hover-content h3,
-#devlog .devlog-item .devlog-link .devlog-hover .devlog-hover-content h4 {
+.devlog-hover-content h3,
+.devlog-hover-content h4 {
     margin: 0;
 }
 
-#devlog .devlog-item .devlog-caption {
+.devlog-caption {
     max-width: 400px;
     margin: 0px auto;
     padding: 50px;
@@ -337,12 +527,12 @@ fieldset[disabled] .btn-xl:hover {
     background-color: white;
 }
 
-#devlog .devlog-item .devlog-caption h4 {
+.devlog-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#devlog .devlog-item .devlog-caption p {
+.devlog-caption p {
     font-size: 16px;
     font-style: italic;
     margin: 0;
@@ -350,205 +540,15 @@ fieldset[disabled] .btn-xl:hover {
     font-family: neotechbold, Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 767px) {
-    #devlog .devlog-item {
-        margin: 0 0 30px;
-    }
-}
-
-.devlog-modal .modal-dialog {
-    max-width: none;
-    height: 100%;
-    margin: 0;
-}
-
-.devlog-modal .modal-content {
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center;
-    border: none;
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: gainsboro;
-}
-
-.devlog-modal img {
-    max-width:600px;
-}
-
-.devlog-modal .modal-content h2 {
-    font-size: 3em;
-    margin-bottom: 15px;
-}
-
-.devlog-modal .modal-content p {
-    margin-bottom: 30px;
-}
-
-.devlog-modal .modal-content p.item-intro {
-     font-size: 16px;
-     font-style: italic;
-     margin: 20px 0 30px;
-     font-family: neotechbold, Helvetica, Arial, sans-serif;
-}
-
-.devlog-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-
-.devlog-modal .modal-content button {
-    cursor: pointer;
-}
-
-.devlog-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.devlog-modal .close-modal:hover {
-    opacity: 0.3;
-}
-
-.devlog-modal .close-modal .lr {
-    /* Safari and Chrome */
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #222222;
-}
-
-.devlog-modal .close-modal .lr .rl {
-    /* Safari and Chrome */
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    background-color: #222222;
-}
-
-.devlog-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
-}
-
-/*Devlog Description Preview Only*/
-
-.DevLogDescription .modal-dialog {
-    max-width: none;
-    height: 100%;
-    margin: 0;
-}
-
-.DevLogDescription .modal-content {
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center;
-    border: none;
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: gainsboro;
-}
+/*DEVLOG DESCRIPTION PREVIEW*/
 
 .DevLogDescription img {
     max-width:600px;
 }
 
-.DevLogDescription .modal-content h2 {
-    font-size: 3em;
-    margin-bottom: 15px;
-}
+/*FOOTER*/
 
-.DevLogDescription .modal-content p {
-    margin-bottom: 30px;
-}
-
-.DevLogDescription .modal-content p.item-intro {
-     font-size: 16px;
-     font-style: italic;
-     margin: 20px 0 30px;
-     font-family: neotechbold, Helvetica, Arial, sans-serif;
-}
-
-.DevLogDescription .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.DevLogDescription .modal-content button {
-    cursor: pointer;
-}
-
-.DevLogDescription .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.DevLogDescription .close-modal:hover {
-    opacity: 0.3;
-}
-
-.DevLogDescription .close-modal .lr {
-    /* Safari and Chrome */
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #222222;
-}
-
-.DevLogDescription .close-modal .lr .rl {
-    /* Safari and Chrome */
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    background-color: #222222;
-}
-
-.DevLogDescription .modal-backdrop {
-    display: none;
-    opacity: 0;
-}
-#myCarousel {
-    height: 100px;
-    border: 0px;
-}
-
-/*Fix the Anchor header issue*/
-.anchor{
-  display: block;
-  height: 100px; /*same height as header*/
-  margin-top: -100px; /*same height as header*/
-  visibility: hidden;
+footer {
+    padding: 25px 0;
+    text-align: center;
 }
