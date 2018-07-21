@@ -140,6 +140,16 @@ section {
     padding-left: 100px;
 }
 
+.navbar-nav.navbar-right li.active a{
+    background-color: #222222;
+    color: #b41a62;
+}
+
+.navbar-nav.navbar-right li.active a:hover{
+    background-color: #222222;
+    color: #b41a62;
+}
+
 /*ANCHOR TAGS*/
 
 .anchor{
