@@ -16,8 +16,8 @@ namespace DutchmanSite.Controllers
 
         public BasicAuthenticationAttribute(string username, string password)
         {
-            this.Username = "temp";
-            this.Password = "Password1!";
+            this.Username = "Far over the misty mountains cold";
+            this.Password = "To dungeons deep and caverns old";
         }
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)
@@ -88,7 +88,7 @@ namespace DutchmanSite.Controllers
         [HttpGet]
         public ActionResult BetaTest()
         {
-            return Redirect("https://goo.gl/forms/khMbXVcsEgDfJtrz1");
+            return Redirect("https://docs.google.com/forms/d/e/1FAIpQLSf4GacszQah45byshI1cR2SiOUwLb6ef452YDM8I8AN6-P-jQ/viewform?usp=sf_link");
         }
 
         [HttpGet]

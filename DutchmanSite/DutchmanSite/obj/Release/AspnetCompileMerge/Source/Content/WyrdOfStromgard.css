@@ -9,8 +9,13 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
+::selection {
+    background: #979bab;
+}
+
 body {
     text-decoration-color:white;
+    -webkit-tap-highlight-color: #979bab;
     background-color:#1d1c2c;
     background-image: url("img/wyrdmasthead.png");
     background-position-y: 50px;
@@ -71,6 +76,10 @@ p {
     border: 1px black;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 #lander .container {
     padding-top: 100px; 
 }
@@ -81,6 +90,18 @@ p {
 
 .folio-hover {
     background: #2a3546;
+}
+
+img.media-object {
+    width:auto;
+}
+
+.imgLeft img {
+    float: left;
+}
+
+.imgRight img {
+    float: right;
 }
 
 div.realms p {
