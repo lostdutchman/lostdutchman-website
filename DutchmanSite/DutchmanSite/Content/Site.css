@@ -18,6 +18,33 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
+@media (max-width: 1100px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 @media (min-width: 768px) {
     section {
         padding: 150px 0;
@@ -337,27 +364,9 @@ fieldset[disabled] .btn-xl:hover {
 
 /*GENERAL MODALS*/
 
-.devlog-modal .modal-dialog {
-    max-width: none;
-    height: 100%;
-    margin: 0;
-}
-
 .modal-dialog {
-    width: auto;
+    width: 75%;
 }
-
-.devlog-modal {
-    min-height: 100%;
-    padding: 50px 0;
-    text-align: center;
-    border: none;
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: gainsboro;
-} 
 
 .modal-content {
     min-height: 100%;
