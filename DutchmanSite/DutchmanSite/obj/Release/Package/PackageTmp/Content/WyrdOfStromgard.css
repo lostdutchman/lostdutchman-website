@@ -17,15 +17,10 @@ body {
     text-decoration-color:white;
     -webkit-tap-highlight-color: #979bab;
     background-color:#1d1c2c;
-    background-image: url("img/wyrdmasthead.png");
+    background-image: url("img/wyrdmasthead.jpg");
     background-position-y: 50px;
     background-repeat: no-repeat;
-    background-position: left center;
-    background-position-x: 50%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+    background-attachment: fixed;
 }
 
 .btn-primary {

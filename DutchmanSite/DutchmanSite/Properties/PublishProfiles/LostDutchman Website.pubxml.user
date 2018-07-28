@@ -19,13 +19,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:38</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>07/23/2018 11:16:38</publishTime>
+      <publishTime>07/28/2018 09:53:58</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>07/23/2018 11:16:38</publishTime>
+      <publishTime>07/28/2018 09:53:58</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>07/23/2018 11:16:19</publishTime>
+      <publishTime>07/28/2018 09:53:11</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -213,6 +213,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/avy.jpg">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/bearskin.png">
+      <publishTime>07/28/2018 09:29:51</publishTime>
+    </File>
     <File Include="Content/img/bg.jpeg">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -303,6 +306,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/navbarbrand.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/navbarpub.png">
+      <publishTime>07/28/2018 09:29:51</publishTime>
+    </File>
     <File Include="Content/img/navbarsoftware.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -360,6 +366,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/wildtextures-old-paper-texture-3.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/wyrdmasthead.jpg">
+      <publishTime>07/28/2018 09:29:51</publishTime>
+    </File>
     <File Include="Content/img/wyrdmasthead.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -373,16 +382,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/21/2018 09:56:01</publishTime>
     </File>
     <File Include="Content/NiceBowling.css">
-      <publishTime>07/13/2018 09:08:39</publishTime>
+      <publishTime>07/28/2018 09:29:51</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/21/2018 09:17:16</publishTime>
+      <publishTime>07/28/2018 09:29:51</publishTime>
     </File>
     <File Include="Content/Vidian_-_aether_theories_1.mp3">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>07/23/2018 11:09:52</publishTime>
+      <publishTime>07/28/2018 09:29:51</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -418,7 +427,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>07/23/2018 11:16:24</publishTime>
+      <publishTime>07/28/2018 09:53:49</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -481,13 +490,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/21/2018 08:32:52</publishTime>
+      <publishTime>07/28/2018 09:49:33</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>07/28/2018 09:29:51</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>07/23/2018 11:09:52</publishTime>
+      <publishTime>07/28/2018 09:29:51</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
