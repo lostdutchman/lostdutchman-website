@@ -176,6 +176,11 @@ section {
     color: #b41a62;
 }
 
+.navbar-nav.navbar-right li.active a:focus{
+    background-color: #222222;
+    color: #b41a62;
+}
+
 /*ANCHOR TAGS*/
 
 .anchor{
