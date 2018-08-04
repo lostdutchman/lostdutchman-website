@@ -84,8 +84,13 @@ p {
     padding:  0 30px 0 30px; 
 }
 
+.folio-caption {
+    width:360px;
+}
+
 .folio-hover {
     background: #2a3546;
+    width: 360px;
 }
 
 .folio-caption {
