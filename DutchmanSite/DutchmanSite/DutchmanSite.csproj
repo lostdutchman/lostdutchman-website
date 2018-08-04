@@ -162,7 +162,6 @@
     <Content Include="Content\ChillWave.mp3" />
     <Content Include="Content\glaciære.mp3" />
     <Content Include="Content\img\navbarpub.png" />
-    <Content Include="Content\img\wyrdmasthead.jpg" />
     <Content Include="Content\img\bearskin.png" />
     <Content Include="Content\img\charatile.png" />
     <Content Include="Content\img\colortransparent.png" />
@@ -214,6 +213,7 @@
     <Content Include="Content\img\use-with-dw-OnDark-BW-web.png" />
     <Content Include="Content\img\VHS.png" />
     <Content Include="Content\img\wildtextures-old-paper-texture-3.png" />
+    <Content Include="Content\img\wyrdmasthead.jpg" />
     <Content Include="Content\img\wyrdproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
