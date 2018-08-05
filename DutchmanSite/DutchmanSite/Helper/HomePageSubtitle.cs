@@ -22,7 +22,7 @@ namespace DutchmanSite.Helper
                 "'Winning' the Arms Race",
                 "Lorem ipsum dolor sit amet",
                 "I like your shirt",
-                "Dry-roasted flavorless wild caught RPG's",
+                "Dry-roasted, flavorless wild caught RPG's",
                 "Precipitation: 0%",
                 "https://libraryofbabel.info/bookmark.cgi?found_it:5",
                 "The voice of a cat being pet”",
@@ -30,7 +30,30 @@ namespace DutchmanSite.Helper
                 "Don't let me forget to pick up some Jalapenos on the way home",
                 "It's pronounced Mango!",
                 "The good stuffs further down",
-                "We won't tell"
+                "We won't tell",
+                "Do you know what happens when you burn a lock of their hair?",
+                "Doing business with Cryptids",
+                "Mothman sold me a bike behind Filiberto's",
+                "Profound feeling of Desert Melancholy",
+                "A heavy moon hangs low over the saguaros",
+                "The business end of a Jumping Cholla",
+                "Did you know that scorpions glow under UV light? It's proof of their sins.",
+                "Did you know that Arizona has two distinct seasons?  Hot and Angry Hot.",
+                "If insomnia had its own website.",
+                "You chose... wisely.",
+                "Wisdom of the ancients",
+                "Serving shade and looks since 2017",
+                "Over 10 people served!",
+                "Throw your head back and scream",
+                "Our favorite color is puce",
+                "Now you're cursed",
+                "The Jersey Devil drinks fruit tea",
+                "I miss the clam chowder by the ferry terminal",
+                "Scarab beetles are crunchy bugs",
+                "When cats look around the room all crazy-like",
+                "Getting worked up about art"
+                
+
 
         };
 
