@@ -121,6 +121,9 @@ a.folio-link {
 /*DEVLOG SECTIONAL FORMATTING*/
 #devlog {
     background-image: url(img/retrocarpet.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #devlog .well {
