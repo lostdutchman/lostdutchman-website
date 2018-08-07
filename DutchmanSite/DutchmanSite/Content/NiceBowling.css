@@ -21,9 +21,6 @@
 }
 
 body {
-    background-image: url("img/masthead.png");
-    background-size: unset;
-    background-repeat: no-repeat;
     text-decoration-color:white;
     background-color:black;
 }
@@ -45,6 +42,50 @@ p {
 .container  {
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/*VIDEO BACKGROUND*/
+
+.fullscreenVideoBG {
+  position: fixed;
+  top: 6em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.videoBG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .videoBG {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .videoBG {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreenVideoBG {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreenVideoBG {
+    display: none;
+  }
 }
 
 /*FOLIO ELEMENTS SPECIFIC TO NB*/
@@ -92,7 +133,7 @@ a.folio-link {
 
 /*BUY*/
 #buy .article {
-    padding-top: 0px;   
+    padding-top: 0px; 
 }
 
 #buy .well {
@@ -101,6 +142,7 @@ a.folio-link {
     padding-top: 5px;
     text-align: center;
     font-size: x-large;
+    padding-bottom: 15px;
 }
 
 #buy h1 {
@@ -120,6 +162,7 @@ a.folio-link {
 
 /*DEVLOG SECTIONAL FORMATTING*/
 #devlog {
+    padding-top: 0px;
     background-image: url(img/retrocarpet.png);
     background-attachment: fixed;
     background-repeat: no-repeat;

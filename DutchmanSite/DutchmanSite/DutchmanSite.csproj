@@ -220,6 +220,8 @@
     <Content Include="Content\img\wyrdproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
+    <Content Include="Content\Video\NiceBowlingBackground.mp4" />
+    <Content Include="Content\Video\NiceBowlingBackground.png" />
     <Content Include="Content\Vidian_-_aether_theories_1.mp3" />
     <Content Include="Content\WyrdOfStromgard.css" />
     <Content Include="favicon.ico" />
