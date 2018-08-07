@@ -80,7 +80,7 @@ p {
 
 @media (max-width: 767px) {
   .fullscreenVideoBG {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background: url('~/Content/Video/NiceBowlingBackground.png') center center / cover no-repeat;
   }
 
   .fullscreenVideoBG {
@@ -204,6 +204,9 @@ a.folio-link {
 
 #myCarousel {
     height: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: auto;
 }
 
 #myCarousel .item active {
@@ -223,7 +226,7 @@ ol.carousel-indicators {
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
   float: left;
-  width: 16.665%; /*Number of pictures / 100 for what this value needs to be.*/
+  width: 8.333%; /*100 / number of pics for what this value needs to be.*/
   height: 15px;
   margin: 0;
   border-radius: 0;
