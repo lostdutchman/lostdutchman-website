@@ -6,12 +6,43 @@
     DutchmanSite.Helper.HomePageSubtitle Subtitle = new DutchmanSite.Helper.HomePageSubtitle();
 }
 @section head{
-   <meta name="description" content="Lost Dutchman Software" />
-   <meta name="keywords" content="software design,software,today's japanese,today's spanish,nice bowling,software design,software studio,software solutions,app development,app developer,video game developer,video game studio,arizona software developer,mesa software developer,mesa software company,arizona software company,app development,phone app development,Android app development,single solution development,single solution developer,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,single solution application,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev,alexa app" />
+    <meta name="description" content="Lost Dutchman Software" />
+    <meta name="keywords" content="software design,software,today's japanese,today's spanish,nice bowling,software design,software studio,software solutions,app development,app developer,video game developer,video game studio,arizona software developer,mesa software developer,mesa software company,arizona software company,app development,phone app development,Android app development,single solution development,single solution developer,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,single solution application,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev,alexa app" />
     <meta name="author" content="Lost Dutchman Software" />
     <link href="~/Content/LostDutchman.css" rel="stylesheet" type="text/css" />
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px Helvetica,Arial,sans-serif;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <style type="text/css">
+        #mc-embedded-subscribe-form input[type=checkbox] {
+            display: inline;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        #mergeRow-gdpr {
+            margin-top: 20px;
+        }
+
+            #mergeRow-gdpr fieldset label {
+                font-weight: normal;
+            }
+
+        #mc-embedded-subscribe-form .mc_fieldset {
+            border: none;
+            min-height: 0px;
+            padding-bottom: 0px;
+        }
+    </style>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    }
+}
 
 <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="navbar-header">
@@ -39,7 +70,7 @@
             </li>
             <li>
                 <a href="#contactLink">Contact</a>
-            </li>            
+            </li>
         </ul>
     </div>
 </div>
@@ -149,80 +180,139 @@
         <br />
         <br />
         <br />
-    <span class="anchor" id="publishingLink"></span>
-    <div class="row">
-        <div>
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Publishing Projects</h2>
-                <h3 class="section-subheading text-muted">Check out what we've been working on in the tabletop realm!</h3>
+        <span class="anchor" id="publishingLink"></span>
+        <div class="row">
+            <div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Publishing Projects</h2>
+                    <h3 class="section-subheading text-muted">Check out what we've been working on in the tabletop realm!</h3>
+                </div>
             </div>
-        </div>
-    <div class="row">
-        <div class="col-md-4 col-sm-6 folio-item">
-            <a class="folio-link" data-toggle="modal" href="~/Home/WyrdOfStromgard">
-                <div class="folio-hover">
-                    <div class="folio-hover-content">
-                        <i class="fa fa-plus fa-3x"></i>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 folio-item">
+                    <a class="folio-link" data-toggle="modal" href="~/Home/WyrdOfStromgard">
+                        <div class="folio-hover">
+                            <div class="folio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Content/img/wyrdproject.png" alt="The Wyrd of Stromgard" />
+                    </a>
+                    <div class="folio-caption">
+                        <h4>The Wyrd of Stromgard</h4>
+                        <p class="text-muted">Norse Fantasy RPG expansion for Dungeon World</p>
                     </div>
                 </div>
-                <img class="img-fluid" src="~/Content/img/wyrdproject.png" alt="The Wyrd of Stromgard" />
-            </a>
-            <div class="folio-caption">
-                <h4>The Wyrd of Stromgard</h4>
-                <p class="text-muted">Norse Fantasy RPG expansion for Dungeon World</p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 folio-item">
-            <a class="folio-link" data-toggle="modal" href="#folioModalFortuna">
-                <div class="folio-hover">
-                    <div class="folio-hover-content">
-                        <i class="fa fa-plus fa-3x"></i>
+                <div class="col-md-4 col-sm-6 folio-item">
+                    <a class="folio-link" data-toggle="modal" href="#folioModalFortuna">
+                        <div class="folio-hover">
+                            <div class="folio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Content/img/fortunethumbnail.png" alt="Fortuna Mythica" />
+                    </a>
+                    <div class="folio-caption">
+                        <h4>Fortuna Mythica</h4>
+                        <p class="text-muted">Our entry into the <a href="https://200wordrpg.github.io/">200 Word RPG Challenge</a>.  Use ordinary playing cards to build legendary heroes and put them up against mythical challenges.</p>
                     </div>
                 </div>
-                <img class="img-fluid" src="~/Content/img/fortunethumbnail.png" alt="Fortuna Mythica" />
-            </a>
-            <div class="folio-caption">
-                <h4>Fortuna Mythica</h4>
-                <p class="text-muted">Our entry into the <a href="https://200wordrpg.github.io/">200 Word RPG Challenge</a>.  Use ordinary playing cards to build legendary heroes and put them up against mythical challenges.</p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 folio-item">
-            <a class="folio-link" data-toggle="modal" href="#folioModalDread">
-                <div class="folio-hover">
-                    <div class="folio-hover-content">
-                        <i class="fa fa-plus fa-3x"></i>
+                <div class="col-md-4 col-sm-6 folio-item">
+                    <a class="folio-link" data-toggle="modal" href="#folioModalDread">
+                        <div class="folio-hover">
+                            <div class="folio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Content/img/dreadproject.png" alt="Dread One Shots" />
+                    </a>
+                    <div class="folio-caption">
+                        <h4>Dread</h4>
+                        <h4>Supplemental Content</h4>
+                        <p class="text-muted">Made for the tabletop rpg, Dread, these one-shots provide a complete experience to guide the GM and players through multiple horror scenarios.</p>
                     </div>
                 </div>
-                <img class="img-fluid" src="~/Content/img/dreadproject.png" alt="Dread One Shots" />
-            </a>
-            <div class="folio-caption">
-                <h4>Dread</h4>
-                <h4>Supplemental Content</h4>
-                <p class="text-muted">Made for the tabletop rpg, Dread, these one-shots provide a complete experience to guide the GM and players through multiple horror scenarios.</p>
             </div>
         </div>
     </div>
-    </div>
-</div>
 </section>
 
 <section id="devlog">
     <span class="anchor" id="devlogLink"></span>
     <div class="container">
-        <div class="row">            
-                <article class="well clearfix">
-                    <h2 class="section-heading">News Feed</h2>
-                    <p class="subheading">Project Updates, Musings, and more...</p>
-                    <br />
-                    @Html.Raw(Logs.GetLog(Site))
-                </article>            
+        <div class="row">
+            <article class="well clearfix">
+                <h2 class="section-heading">News Feed</h2>
+                <p class="subheading">Project Updates, Musings, and more...</p>
+                <br />
+                @Html.Raw(Logs.GetLog(Site))
+            </article>
         </div>
     </div>
 </section>
-
+<span class="anchor" id="contactLink"></span>
 <section id="contact">
     <div class="container">
-        <span class="anchor" id="contactLink"></span>
+        <!-- Begin MailChimp Signup Form -->
+        <center>
+            <button class="btn btn-xl get" data-toggle="collapse" data-target="#mc_embed_signup">Subscribe to our mailing list</button>
+        </center>
+
+        <div id="mc_embed_signup" class="collapse">
+            <form action="https://LostDutchmanSoftware.us18.list-manage.com/subscribe/post?u=2200440a13a64a02d6a8d6e32&amp;id=f4a0a2adee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">
+                            Email Address  <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group input-group">
+                        <strong>What do you want us to email you about? </strong>
+                        <ul>
+                            <li><input type="checkbox" value="1" name="group[2297][1]" id="mce-group[2297]-2297-0"><label for="mce-group[2297]-2297-0">Everything Lost Dutchman Software does!</label></li>
+                            <li><input type="checkbox" value="2" name="group[2297][2]" id="mce-group[2297]-2297-1"><label for="mce-group[2297]-2297-1">Nice Bowling</label></li>
+                            <li><input type="checkbox" value="4" name="group[2297][4]" id="mce-group[2297]-2297-2"><label for="mce-group[2297]-2297-2">Wyrd of Stromgard</label></li>
+                        </ul>
+                    </div>
+                    <div class="mc-field-group input-group">
+                        <strong>Email Format </strong>
+                        <ul>
+                            <li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
+                            <li><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
+                        </ul>
+                    </div>
+                    <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+                        <div class="content__gdpr">
+                            <label>Marketing Permissions</label>
+                            <p>Lost Dutchman Software will use the information you provide on this form to provide updates and marketing via email. Give us permission to email you in accordence with GDPR regulations.</p>
+                            <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                                <label class="checkbox subfield" for="gdpr_30589"><input type="checkbox" id="gdpr_30589" name="gdpr[30589]" value="Y" class="av-checkbox gdpr"><span>Send me the SPAM</span> </label>
+                            </fieldset>
+                            <p>You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us. But really, you probably just should not subscribe and save yourself the time. We will treat your information with respect and will only use it to send you update/marketing emails. By clicking below, you agree that we may process your information in accordance with these terms.</p>
+                        </div>
+                        <div class="content__gdprLegal">
+                            <p>We use MailChimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to MailChimp for processing. Learn more about MailChimp's privacy practices <a href="https://mailchimp.com/legal/" target="_blank">here</a>.</p>
+                        </div>
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2200440a13a64a02d6a8d6e32_f4a0a2adee" tabindex="-1" value=""></div>
+                    <center><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl get"></div></center>
+                </div>
+            </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+    <!--End mc_embed_signup-->
+
+<br />
+<br />
+<br />
+<br />
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Contact Us!</h2>
@@ -279,6 +369,7 @@
             </div>
         </div>
         <br />
+
         <br />
         <div class="row">
             <div class="col-lg-12 mx-auto text-center">
@@ -316,159 +407,157 @@
         </div>
     </div>
 </section>
-
-    <!-- portfolio modals-->
-    <!-- SOFTWARE MODALS -->
-    <div class="folio-modal modal fade" id="folioModalAlexa" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Today's Japanese</h2>
-                                <h2>Today's Spanish</h2>
-                                <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON2.png" alt="Today's Japanese and Spanish" />
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/bubble.png" alt="Alexa voice commands" />
-                                <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
-                                <ul class="list-inline">
-                                    <li>Date: February 2018</li>
-                                    <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
-                                    <li>Category: Single Solution Application</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="folio-modal modal fade" id="folioModalMF4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Modern Fairway 4</h2>
-                                <h2>Spec-Ops in the Rough</h2>
-                                <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level1.gif" alt="" />
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level2.gif" alt="" />
-                                <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
-                                <ul class="list-inline">
-                                    <li>Date: April 2018</li>
-                                    <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
-                                    <li>Category: Game</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- PUBLISHING MODALS -->
-    <div class="folio-modal modal fade" id="folioModalFortuna" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Fortuna Mythica</h2>
-                                <p class="item-intro text-muted">A flexible, narrative heavy RPG played with the luck of the cards.</p>
-                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/fortunethumbnail.png" alt="Fortuna Mythica" />
-                                <br />
-
-                                <p>Originally created for the <a href="http://200wordrpg.github.io">200 Word RPG Challenge</a>, Fortuna Mythica balances intuitive structure with the random element of card draws to structure epic storytelling.  Characters are built based upon the legendary figures the royal face cards are said to represent and they must overcome Hardships dictated by random pulls.</p>
-                                <p>Fortuna Mytica is available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
-                                <ul class="list-inline">
-                                    <li>Date: April 2018</li>
-                                    <li>Category: Tabletop RPG</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="folio-modal modal fade" id="folioModalDread" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 mx-auto">
-                            <div class="modal-body">
-                                <h2>Dread: One Shots</h2>
-                                <p class="item-intro text-muted">Comprehensive campaign modules for the tabletop RPG Dread.</p>
-                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/hunger.png" alt="The Hunger" />
-                                <br />
-                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/salish.png" alt="The Feet of the Salish Sea" />
-                                <br />
-                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/thousand.png" alt="The Feet of the Salish Sea" />
-                                <br />
-
-                                <p>These one-shots are detailed, ready to play Dread campaigns.  Both include narrative act structure, in-game materials like police reports, strategies for the GM, game guidance tips, and additional rules and mechanics to intensify play.</p>
-                                <p>The Hunger is set in 1870s Great Lakes America and features a Wendigo- a terrifying abomination from Cree lore.  Let your players try keep their paranoia and hunger at bay as daemonic forces tempt them and a heavy curse takes its toll.  This game includes six fully customizable character roles with questionnaires, a section on cultural lore surrounding the Wendigo legends, two optional rules for introducing a hidden role, and a three act narrative that can be followed.</p>
-                                <p>The Feet of the Salish Sea is a modern story based on the real-life unsolved mystery of severed feet washing up on the shores of Washington State and British Columbia.  This module is deep into urban legends, mystery, and supernatural horrors.  Included in this file are: a detailed incident report, three character roles, GM guidance, a three act structure, and an improv/mystery mechanic that will streamline storytelling no matter how off-the-rails your characters go. </p>
-                                <p>Our Dread campaigns are available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
-                                <ul class="list-inline">
-                                    <li>Date: March 2018</li>
-                                    <li>Category: Tabletop RPG</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fa fa-times"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!--Log Modals-->
-@Html.Raw(Logs.GetLogModal(Site))
-
 <hr />
 <footer>
     <p>&copy; @DateTime.Now.Year - Lost Dutchman Software</p>
 </footer>
+
+<!--MODALS -->
+<div class="folio-modal modal fade" id="folioModalAlexa" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body">
+                            <h2>Today's Japanese</h2>
+                            <h2>Today's Spanish</h2>
+                            <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
+                            <img class="img-fluid d-block mx-auto" src="~/Content/img/APP_ICON2.png" alt="Today's Japanese and Spanish" />
+                            <img class="img-fluid d-block mx-auto" src="~/Content/img/bubble.png" alt="Alexa voice commands" />
+                            <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
+                            <ul class="list-inline">
+                                <li>Date: February 2018</li>
+                                <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
+                                <li>Category: Single Solution Application</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="folio-modal modal fade" id="folioModalMF4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body">
+                            <h2>Modern Fairway 4</h2>
+                            <h2>Spec-Ops in the Rough</h2>
+                            <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
+                            <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level1.gif" alt="" />
+                            <img class="img-fluid d-block mx-auto" src="~/Content/img/mf4level2.gif" alt="" />
+                            <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
+                            <ul class="list-inline">
+                                <li>Date: April 2018</li>
+                                <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
+                                <li>Category: Game</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PUBLISHING MODALS -->
+<div class="folio-modal modal fade" id="folioModalFortuna" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body">
+                            <h2>Fortuna Mythica</h2>
+                            <p class="item-intro text-muted">A flexible, narrative heavy RPG played with the luck of the cards.</p>
+                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/fortunethumbnail.png" alt="Fortuna Mythica" />
+                            <br />
+
+                            <p>Originally created for the <a href="http://200wordrpg.github.io">200 Word RPG Challenge</a>, Fortuna Mythica balances intuitive structure with the random element of card draws to structure epic storytelling.  Characters are built based upon the legendary figures the royal face cards are said to represent and they must overcome Hardships dictated by random pulls.</p>
+                            <p>Fortuna Mytica is available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
+                            <ul class="list-inline">
+                                <li>Date: April 2018</li>
+                                <li>Category: Tabletop RPG</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="folio-modal modal fade" id="folioModalDread" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body">
+                            <h2>Dread: One Shots</h2>
+                            <p class="item-intro text-muted">Comprehensive campaign modules for the tabletop RPG Dread.</p>
+                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/hunger.png" alt="The Hunger" />
+                            <br />
+                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/salish.png" alt="The Feet of the Salish Sea" />
+                            <br />
+                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/thousand.png" alt="The Feet of the Salish Sea" />
+                            <br />
+
+                            <p>These one-shots are detailed, ready to play Dread campaigns.  Both include narrative act structure, in-game materials like police reports, strategies for the GM, game guidance tips, and additional rules and mechanics to intensify play.</p>
+                            <p>The Hunger is set in 1870s Great Lakes America and features a Wendigo- a terrifying abomination from Cree lore.  Let your players try keep their paranoia and hunger at bay as daemonic forces tempt them and a heavy curse takes its toll.  This game includes six fully customizable character roles with questionnaires, a section on cultural lore surrounding the Wendigo legends, two optional rules for introducing a hidden role, and a three act narrative that can be followed.</p>
+                            <p>The Feet of the Salish Sea is a modern story based on the real-life unsolved mystery of severed feet washing up on the shores of Washington State and British Columbia.  This module is deep into urban legends, mystery, and supernatural horrors.  Included in this file are: a detailed incident report, three character roles, GM guidance, a three act structure, and an improv/mystery mechanic that will streamline storytelling no matter how off-the-rails your characters go. </p>
+                            <p>Our Dread campaigns are available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
+                            <ul class="list-inline">
+                                <li>Date: March 2018</li>
+                                <li>Category: Tabletop RPG</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Log Modals-->
+@Html.Raw(Logs.GetLogModal(Site))

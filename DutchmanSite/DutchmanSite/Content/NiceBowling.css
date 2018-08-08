@@ -78,16 +78,6 @@ p {
   }
 }
 
-@media (max-width: 767px) {
-  .fullscreenVideoBG {
-    background: url('~/Content/Video/NiceBowlingBackground.png') center center / cover no-repeat;
-  }
-
-  .fullscreenVideoBG {
-    display: none;
-  }
-}
-
 /*FOLIO ELEMENTS SPECIFIC TO NB*/
 
 #folio {
