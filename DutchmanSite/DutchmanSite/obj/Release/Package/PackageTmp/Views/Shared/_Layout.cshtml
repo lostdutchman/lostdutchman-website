@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="~/fonts/Nexa Bold.otf" rel="stylesheet" type="text/css" />
     <script src="https://use.fontawesome.com/951cb33584.js"></script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"2200440a13a64a02d6a8d6e32","lid":"f4a0a2adee"}) })</script>
     @RenderSection("head", required: false)
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="80" >
+
+
    
         @RenderBody()
-    <hr />
-    <footer>
-        <p>&copy; @DateTime.Now.Year - Lost Dutchman Software</p>
-    </footer>
-    
+   
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

@@ -18,9 +18,10 @@ body {
     -webkit-tap-highlight-color: #979bab;
     background-color:#1d1c2c;
     background-image: url("img/wyrdmasthead.jpg");
-    background-position-y: 50px;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .btn-primary {
@@ -83,8 +84,17 @@ p {
     padding:  0 30px 0 30px; 
 }
 
+.folio-caption {
+    width:360px;
+}
+
 .folio-hover {
     background: #2a3546;
+    width: 360px;
+}
+
+.folio-caption {
+    min-width: 360px;
 }
 
 img.media-object {

@@ -19,13 +19,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:38</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>07/28/2018 09:53:58</publishTime>
+      <publishTime>08/07/2018 20:06:46</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>07/28/2018 09:53:58</publishTime>
+      <publishTime>08/07/2018 20:06:46</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>07/28/2018 09:53:11</publishTime>
+      <publishTime>08/07/2018 17:01:28</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -186,6 +186,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/ChillWave.mp3">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/Future_City_Funk.mp3">
+      <publishTime>08/06/2018 18:44:55</publishTime>
+    </File>
     <File Include="Content/glaciære.mp3">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -212,6 +215,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/avy.jpg">
       <publishTime>07/13/2018 09:08:39</publishTime>
+    </File>
+    <File Include="Content/img/badsnacks.JPG">
+      <publishTime>08/06/2018 18:44:55</publishTime>
     </File>
     <File Include="Content/img/bearskin.png">
       <publishTime>07/28/2018 09:29:51</publishTime>
@@ -315,6 +321,42 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/NBproject.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/NBScreenshots/BeachBall.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/BigPins2.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/billiards2.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/Bomb2.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/Bumpers2.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/Explosion3.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/Fish2.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/minigolf.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/SpikeBall2PNG.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/SpikeBall3.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/Tiny2.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
+    <File Include="Content/img/NBScreenshots/Title.PNG">
+      <publishTime>08/07/2018 08:43:14</publishTime>
+    </File>
     <File Include="Content/img/nicebowlinglogotrans.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -357,6 +399,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/steviasphere.jpg">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/thousand.png">
+      <publishTime>08/06/2018 18:44:55</publishTime>
+    </File>
     <File Include="Content/img/use-with-dw-OnDark-BW-web.png">
       <publishTime>07/21/2018 08:00:58</publishTime>
     </File>
@@ -367,7 +412,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/img/wyrdmasthead.jpg">
-      <publishTime>07/28/2018 09:29:51</publishTime>
+      <publishTime>08/04/2018 19:39:48</publishTime>
     </File>
     <File Include="Content/img/wyrdmasthead.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -382,16 +427,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/21/2018 09:56:01</publishTime>
     </File>
     <File Include="Content/NiceBowling.css">
-      <publishTime>07/28/2018 09:29:51</publishTime>
+      <publishTime>08/07/2018 15:27:15</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/28/2018 09:29:51</publishTime>
+      <publishTime>08/02/2018 13:22:27</publishTime>
+    </File>
+    <File Include="Content/Video/NiceBowlingBackground.mp4">
+      <publishTime>08/06/2018 18:57:06</publishTime>
+    </File>
+    <File Include="Content/Video/NiceBowlingBackground.png">
+      <publishTime>08/06/2018 19:02:30</publishTime>
     </File>
     <File Include="Content/Vidian_-_aether_theories_1.mp3">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>07/28/2018 09:29:51</publishTime>
+      <publishTime>08/04/2018 19:39:48</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -427,7 +478,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>07/28/2018 09:53:49</publishTime>
+      <publishTime>08/07/2018 20:06:37</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -480,6 +531,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/respond.min.js">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
+    <File Include="Scripts/Style.js">
+      <publishTime>08/02/2018 13:16:34</publishTime>
+    </File>
     <File Include="Views/Home/DevLogs.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
@@ -487,22 +541,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Views/Home/Error.cshtml">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/04/2018 19:37:52</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/28/2018 09:49:33</publishTime>
+      <publishTime>08/07/2018 16:42:21</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
-      <publishTime>07/28/2018 09:29:51</publishTime>
+      <publishTime>08/07/2018 16:52:59</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>07/28/2018 09:29:51</publishTime>
+      <publishTime>08/06/2018 19:50:59</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/21/2018 09:52:00</publishTime>
+      <publishTime>08/07/2018 20:05:58</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>07/13/2018 09:08:41</publishTime>
