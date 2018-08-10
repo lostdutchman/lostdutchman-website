@@ -1,11 +1,7 @@
 ﻿//////////////////////////////////////////////////////////////////////////
 //Smoth Page Scrolling for anchor links, with code to keep it accessable//
 //////////////////////////////////////////////////////////////////////////
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
+$('.AnchorScroll')
   .click(function (event) {
       // On-page links
       if (
