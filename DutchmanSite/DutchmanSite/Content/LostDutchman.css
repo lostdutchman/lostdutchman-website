@@ -69,6 +69,43 @@ header.masthead {
     font-family: neotechbold, Helvetica, Arial, sans-serif;
 }
 
+/*MAILING LIST FORMATTING*/
+
+#Spam .modal-content h2 {
+    color: white;
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+    align-content: center;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+#Spam .modal-content p.item-intro {
+    color: white;
+    text-align: center;
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+#Spam .modal-content {
+    background: linear-gradient(#7d1150,#46093d,#250e39);
+}
+
+#Spam.label {
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+}
+
+#Spam .close-modal .lr  {
+    background-color: white;
+}
+
+#Spam .close-modal .rl {
+    background-color: white;
+}
+
+
 /*ABOUT SECTION*/
 
 .service-heading {
