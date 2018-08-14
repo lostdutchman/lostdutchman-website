@@ -163,9 +163,6 @@
     <Content Include="Content\img\badsnacks.JPG" />
     <Content Include="Content\ChillWave.mp3" />
     <Content Include="Content\glaciære.mp3" />
-    <Content Include="Content\img\dmscreenproto.jpg" />
-    <Content Include="Content\img\dmscreenproto2.JPG" />
-    <Content Include="Content\img\dmscreenproto3.JPG" />
     <Content Include="Content\img\navbarpub.png" />
     <Content Include="Content\img\bearskin.png" />
     <Content Include="Content\img\charatile.png" />
@@ -229,7 +226,6 @@
     <Content Include="Content\img\wyrdproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
-    <Content Include="Content\Video\nbanimationdemo.mp4" />
     <Content Include="Content\Video\NiceBowlingBackground.mp4" />
     <Content Include="Content\Video\NiceBowlingBackground.png" />
     <Content Include="Content\Vidian_-_aether_theories_1.mp3" />

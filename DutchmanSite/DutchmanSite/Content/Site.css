@@ -340,13 +340,13 @@ fieldset[disabled] .btn-xl:hover {
     font: 14px Helvetica, Arial, sans-serif;
 }
 
-#Spam div#mc_embed_signup .indicates-required {
+#Spam .indicates-required {
     text-align: right;
     margin-right: 4%;
     font-size: 11px;
 }
 
-#Spam div#mc_embed_signup .mc-field-group {
+#Spam .mc-field-group {
     width: 96%;
     padding-bottom: 3%;
     min-height: 50px;
@@ -372,6 +372,14 @@ fieldset[disabled] .btn-xl:hover {
 
 #Spam .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
     margin-left: -15px;
+}
+
+#Spam #gdpr_30589 {
+    margin-left: 5px;
+}
+
+#Spam #consent {
+    margin-left: 25px;
 }
 
 /*FOLIO CONTAINERS*/

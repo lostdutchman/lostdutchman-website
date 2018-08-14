@@ -105,7 +105,7 @@ p {
         box-shadow: 0.02vw 0.2vw 0 #250e39;
  }
 
-#Spam .modal-content h2 {
+#Spam h2 {
     color: black;
     font-family: Lazer84;
     font-size: 4em;
@@ -115,7 +115,7 @@ p {
     text-align: center;
 }
 
-#Spam .modal-content p.item-intro {
+#Spam p.item-intro {
     color: black;
     text-align: center;
     font-family: Nexa, Arial, Helvetica, sans-serif;

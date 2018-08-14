@@ -9,6 +9,12 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
+@media screen and (max-width: 786px) {
+   body {
+        padding-top: 15px;
+    }
+}
+
 ::selection {
     background: #979bab;
 }
@@ -19,6 +25,9 @@ body {
     background-color:#1d1c2c;
     background-image: url("img/wyrdmasthead.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -52,22 +61,22 @@ body {
  }
 
 #Spam .modal-content h2 {
-    color: #2a3546;
+    color: #d8dce9;
     font-size: 4em;
     align-content: center;
-    text-shadow: 5px 1px #676975;
+    text-shadow: 4px 1px #2d2b4e;
     letter-spacing: 2px;
     text-align: center;
 }
 
 #Spam .modal-content p.item-intro {
-    color: black;
+    color: #d8dce9;
     text-align: center;
     font-family: Nexa, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.5em;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px  #676975;
+    text-shadow: 1px 1px 1px #2d2b4e;
 }
 
 #Spam .modal-content {
@@ -84,6 +93,10 @@ body {
     background-color: #768b9c;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+
+
+/*Button Colors*/
 
 .btn-primary {
     border-color: #1d1c2c;
@@ -102,6 +115,7 @@ h1,h2,h3 {
     letter-spacing: 1px;
 }
 
+/* TEXT */
 h1 {
     font-size: 5em;  
 }
