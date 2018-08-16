@@ -19,8 +19,11 @@
 }
 
 @media (max-width: 1100px) {
-    .navbar-header {
+   .navbar-header {
         float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
     }
     .navbar-toggle {
         display: block;
@@ -29,20 +32,27 @@
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
     .navbar-collapse.collapse {
         display: none!important;
     }
     .navbar-nav {
         float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
         float: none;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .collapse.in{
+  		display:block !important;
+	}
 }
 
 @media (min-width: 768px) {
@@ -295,6 +305,81 @@ fieldset[disabled] .btn-xl:hover {
 .btn-xl .badge {
     color: #b41a62;
     background-color: white;
+}
+
+/*MAILING LIST STANDARD FORMAT*/
+
+.emailIcon{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: linear-gradient(#7d1150,#46093d,#250e39);
+    background-size: 400% 400%;
+    box-shadow: 0.5vw 0.5vw 0 black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right:20px;
+}
+
+.emailIcon:hover {
+        animation: gradient 10s ease infinite;
+        font-size: 2.05vw;
+        box-shadow: 0.02vw 0.2vw 0 #250e39;
+ }
+
+#Spam div#mc_embed_signup {
+    background: white;
+    padding: 15px 0 15px 3%;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+#Spam .indicates-required {
+    text-align: right;
+    margin-right: 4%;
+    font-size: 11px;
+}
+
+#Spam .mc-field-group {
+    width: 96%;
+    padding-bottom: 3%;
+    min-height: 50px;
+}
+
+#Spam input#mce-EMAIL.required.email {
+    width: 100%;
+}
+
+#Spam ul {
+    list-style: none;
+}
+
+#Spam input[type=checkbox] {
+    margin-right: 10px;
+}
+
+#Spam p {
+    line-height: 1.75;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Spam .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-left: -15px;
+}
+
+#Spam #gdpr_30589 {
+    margin-left: 5px;
+}
+
+#Spam #consent {
+    margin-left: 25px;
 }
 
 /*FOLIO CONTAINERS*/

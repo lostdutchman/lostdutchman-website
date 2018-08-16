@@ -1,6 +1,10 @@
 ﻿using System.IO;
 using System.Web;
 
+/// <summary>
+/// If image upoad stops working re-set the file directory permissions. https://www.godaddy.com/help/set-directory-permissions-windows-6481?locale=en
+/// </summary>
+
 namespace DutchmanSite.Helper
 {
     public class ImgUpload

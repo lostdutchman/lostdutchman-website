@@ -78,6 +78,42 @@ p {
   }
 }
 
+/*EMAIL LIST*/
+
+.emailIcon{
+    background: linear-gradient(#f266ad,#9b3ac1,black);
+    box-shadow: 0.5vw 0.5vw 0 #4dfbc6;
+}
+
+#Spam h2 {
+    color: black;
+    font-family: Lazer84;
+    font-size: 4em;
+    align-content: center;
+    text-shadow: 8px 1px 8px #4dfbc6;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#Spam p.item-intro {
+    color: black;
+    text-align: center;
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #4dfbc6;
+}
+
+#Spam .modal-content {
+    background: linear-gradient(#f266ad,#9b3ac1,black);
+}
+
+#Spam.label {
+    font-family: Nexa, Arial, Helvetica, sans-serif;
+}
+
+
 /*FOLIO ELEMENTS SPECIFIC TO NB*/
 
 #folio {
