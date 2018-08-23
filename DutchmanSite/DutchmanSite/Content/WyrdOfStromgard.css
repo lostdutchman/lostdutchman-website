@@ -19,6 +19,11 @@
     background: #979bab;
 }
 
+/*Will this fix Android Chrome?*/
+html{
+    min-height: 100%;
+}
+
 body {
     text-decoration-color:white;
     -webkit-tap-highlight-color: #979bab;

@@ -10,37 +10,6 @@
     <meta name="keywords" content="software design,software,today's japanese,today's spanish,nice bowling,software design,software studio,software solutions,app development,app developer,video game developer,video game studio,arizona software developer,mesa software developer,mesa software company,arizona software company,app development,phone app development,Android app development,single solution development,single solution developer,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,single solution application,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev,alexa app" />
     <meta name="author" content="Lost Dutchman Software" />
     <link href="~/Content/LostDutchman.css" rel="stylesheet" type="text/css" />
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica,Arial,sans-serif;
-        }
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <style type="text/css">
-        #mc-embedded-subscribe-form input[type=checkbox] {
-            display: inline;
-            width: auto;
-            margin-right: 10px;
-        }
-
-        #mergeRow-gdpr {
-            margin-top: 20px;
-        }
-
-            #mergeRow-gdpr fieldset label {
-                font-weight: normal;
-            }
-
-        #mc-embedded-subscribe-form .mc_fieldset {
-            border: none;
-            min-height: 0px;
-            padding-bottom: 0px;
-        }
-    </style>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 }
 
@@ -131,23 +100,6 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 folio-item">
-                <a class="folio-link" data-toggle="modal" href="#folioModalAlexa">
-                    <div class="folio-hover">
-                        <div class="folio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="~/Content/img/LostDutchman/AlexaIcons.png" alt="Today's Japanese and Spanish" />
-                </a>
-                <div class="folio-caption">
-                    <h4>Today's Japanese</h4>
-                    <h4>Today's Spanish</h4>
-                    <p class="text-muted">Word-a-day language learning program</p>
-                    <br />
-                    <img class="img-fluid" src="~/Content/img/LostDutchman/AlexaTag.png" alt="Today's Japanese" />
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 folio-item">
                 <a class="folio-link" href="~/Home/NiceBowling">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
@@ -174,6 +126,23 @@
                     <h4>Modern Fairway 4</h4>
                     <h4>Spec-Ops in the Rough</h4>
                     <p class="text-muted">Made for <a href="https://ldjam.com/">Ludum Dare #41</a>, the theme was "Mix two incompatible genres".  We combined golf and a modern first person shooter.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 folio-item">
+                <a class="folio-link" data-toggle="modal" href="#folioModalAlexa">
+                    <div class="folio-hover">
+                        <div class="folio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/LostDutchman/AlexaIcons.png" alt="Today's Japanese and Spanish" />
+                </a>
+                <div class="folio-caption">
+                    <h4>Today's Japanese</h4>
+                    <h4>Today's Spanish</h4>
+                    <p class="text-muted">Word-a-day language learning program</p>
+                    <br />
+                    <img class="img-fluid" src="~/Content/img/LostDutchman/AlexaTag.png" alt="Today's Japanese" />
                 </div>
             </div>
         </div>
@@ -347,12 +316,19 @@
         </div>
     </div>
 </section>
+
+<!--MailChimp Email Signup Form-->
+<button class="emailIcon" data-toggle="modal" data-target="#Spam">
+    <i class="fa fa-envelope fa-2x"></i>
+</button>
+
+<!--End of visable page-->
 <hr />
 <footer>
     <p>&copy; @DateTime.Now.Year - Lost Dutchman Software</p>
 </footer>
 
-<!--MODALS -->
+<!--Software MODALS -->
 <div class="folio-modal modal fade" id="folioModalAlexa" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -499,5 +475,6 @@
         </div>
     </div>
 </div>
+
 <!--Log Modals-->
 @Html.Raw(Logs.GetLogModal(Site))

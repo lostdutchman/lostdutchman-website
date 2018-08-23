@@ -360,18 +360,10 @@ fieldset[disabled] .btn-xl:hover {
     list-style: none;
 }
 
-#Spam input[type=checkbox] {
-    margin-right: 10px;
-}
-
 #Spam p {
     line-height: 1.75;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#Spam .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
-    margin-left: -15px;
 }
 
 #Spam #gdpr_30589 {
@@ -380,6 +372,12 @@ fieldset[disabled] .btn-xl:hover {
 
 #Spam #consent {
     margin-left: 25px;
+}
+
+#mc-embedded-subscribe-form input[type=checkbox] {
+    display: inline;
+    width: auto;
+    margin-right: 10px;
 }
 
 /*FOLIO CONTAINERS*/
