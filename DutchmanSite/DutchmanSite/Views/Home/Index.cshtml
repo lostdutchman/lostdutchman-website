@@ -13,16 +13,11 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 }
 
-<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
+<nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <a class="navbar-brand" href="#page-top"><img id="logo" src="~/Content/img/Navbar/navbarbrand.png" alt="Lost Dutchman Software" /></a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-menubuilder">
+            <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
     <div class="collapse navbar-collapse navbar-menubuilder navbar-inverse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
@@ -42,7 +37,7 @@
             </li>
         </ul>
     </div>
-</div>
+</nav>
 
 <header class="masthead">
     <div class="intro-text">
@@ -99,6 +94,81 @@
             </div>
         </div>
 
+
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+                <li data-target="#myCarousel" data-slide-to="10"></li>
+                <li data-target="#myCarousel" data-slide-to="11"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/Title.PNG" alt="Title Screen">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/Bomb2.PNG" alt="Bomb">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/Explosion3.PNG" alt="Bomb Explosion">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/minigolf.PNG" alt="Mini Golf">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/Fish2.PNG" alt="Fish in the Lane">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/BeachBall.PNG" alt="Beach Ball">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/Tiny2.PNG" alt="Marble Sized Ball">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/BigPins2.PNG" alt="Giant Pins">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall2PNG.PNG" alt="Sticky Ball">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall3.PNG" alt="Snowball Effect">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/Bumpers2.PNG" alt="Bumpers">
+                </div>
+                <div class="item">
+                    <img src="~/Content/img/NiceBowling/NBScreenshots/billiards2.PNG" alt="Billiards">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" data-target="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" data-target="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+
+
         <!-- KAZOETE -->
         <div class="row">
             <div class="col-md-4 col-sm-6 folio-item">
@@ -115,9 +185,7 @@
                     <p class="text-muted">A simple game for targeted study of Japanese counting.</p>
                 </div>
             </div>
-
-            @*NICE BOWLING MODAL
-                
+            <!-- Nice Bowling -->
                 <div class="col-md-4 col-sm-6 folio-item">
                 <a class="folio-link" href="~/Home/NiceBowling">
                     <div class="folio-hover">
@@ -131,8 +199,8 @@
                     <h4>Nice Bowling!</h4>
                     <p class="text-muted">Retrowave bowling game with a plethora of lane, ball, and pin effects to make for a unique experience.</p>
                 </div>
-            </div>*@
-
+            </div>
+            <!-- Modern Fairway 4: Spec Ops in the Rough -->
             <div class="col-md-4 col-sm-6 folio-item">
                 <a class="folio-link" data-toggle="modal" href="#folioModalMF4">
                     <div class="folio-hover">
@@ -148,6 +216,7 @@
                     <p class="text-muted">Made for <a href="https://ldjam.com/">Ludum Dare #41</a>, the theme was "Mix two incompatible genres".  We combined golf and a modern first person shooter.</p>
                 </div>
             </div>
+            <!-- Todays Japanese -->
             <div class="col-md-4 col-sm-6 folio-item">
                 <a class="folio-link" data-toggle="modal" href="#folioModalAlexa">
                     <div class="folio-hover">
@@ -178,6 +247,7 @@
                 </div>
             </div>
             <div class="row">
+                <!-- Wyrd of Stromgard -->
                 <div class="col-md-4 col-sm-6 folio-item">
                     <a class="folio-link" data-toggle="modal" href="~/Home/WyrdOfStromgard">
                         <div class="folio-hover">
@@ -192,6 +262,7 @@
                         <p class="text-muted">Norse Fantasy RPG expansion for Dungeon World</p>
                     </div>
                 </div>
+                <!-- Fortuna Mythica -->
                 <div class="col-md-4 col-sm-6 folio-item">
                     <a class="folio-link" data-toggle="modal" href="#folioModalFortuna">
                         <div class="folio-hover">
@@ -206,6 +277,7 @@
                         <p class="text-muted">Our entry into the <a href="https://200wordrpg.github.io/">200 Word RPG Challenge</a>.  Use ordinary playing cards to build legendary heroes and put them up against mythical challenges.</p>
                     </div>
                 </div>
+                <!-- Dread -->
                 <div class="col-md-4 col-sm-6 folio-item">
                     <a class="folio-link" data-toggle="modal" href="#folioModalDread">
                         <div class="folio-hover">
