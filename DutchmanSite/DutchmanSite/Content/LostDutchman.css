@@ -141,7 +141,7 @@ textarea.form-control {
 #contact ::-moz-placeholder {
     font-weight: 700;
     color: #808080;
-    /* Firefox 19+ */
+     Firefox 19+ 
     font-family: nexaBold, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -159,7 +159,7 @@ textarea.form-control {
 
 /*SOCIAL BUTTONS*/
 
- ul.social-buttons {
+ul.social-buttons {
     margin-bottom: 0;
 }
 
