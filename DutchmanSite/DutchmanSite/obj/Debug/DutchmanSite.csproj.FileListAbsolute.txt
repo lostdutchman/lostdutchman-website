@@ -472,3 +472,8 @@ C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Syst
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.PerfCounterCollector.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Diagnostics.DiagnosticSource.xml
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Diagnostics.DiagnosticSource.dll
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.PerfCounterCollector.xml
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Diagnostics.DiagnosticSource.xml

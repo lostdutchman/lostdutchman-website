@@ -18,7 +18,7 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
-@media (max-width: 1100px) {
+/*@media (max-width: 1100px) {
    .navbar-header {
         float: none;
     }
@@ -53,7 +53,7 @@
     .collapse.in{
   		display:block !important;
 	}
-}
+}*/
 
 @media (min-width: 768px) {
     section {
@@ -139,9 +139,15 @@ section {
     color: #b41a62;
 }
 
-/*MAIN NAVBAR*/
+MAIN NAVBAR .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
 
-.navbar-fixed-top {
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+    color: #b41a62;
+}
+/*.navbar-fixed-top {
     background-color: #222222;
     border: solid 1px #222222;
     height: 90px;
@@ -198,7 +204,7 @@ section {
   height: 100px; /*same height as header*/
  margin-top: -100px; /*same height as header*/
   visibility: hidden;
-}
+}*/
 
 /*BUTTONS*/
 
