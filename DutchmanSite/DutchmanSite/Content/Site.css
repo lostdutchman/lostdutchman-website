@@ -18,44 +18,7 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
-/*@media (max-width: 1100px) {
-   .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-		top: 0;
-		border-width: 0 0 1px;
-	}
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-		margin-top: 7.5px;
-	}
-	.navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-  		display:block !important;
-	}
-}*/
-
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     section {
         padding: 150px 0;
     }
@@ -89,7 +52,8 @@ img::selection {
 
 img::-moz-selection {
     background: transparent;
-}
+}*/
+
 
 /*FULL BODY FORMATS*/
 body {
@@ -141,6 +105,7 @@ section {
 
 .navbar-custom .navbar-nav .nav-link {
     color: white;
+    font-size: 20px;
 }
 
 .navbar-custom .navbar-nav .nav-item:active .nav-link {
@@ -150,31 +115,7 @@ section {
     color: #b41a62;
 }
 
-/*.navbar-fixed-top {
-    background-color: #222222;
-    border: solid 1px #222222;
-    height: 90px;
-    position: fixed;
-}
-
-.navbar-brand {
-    margin-left: 5px;
-    resize: both;
-    width: 100%;
-    height: auto;
-    position: absolute;
-}
-
-.navbar-nav.navbar-right li a {
-    font-size: large;
-    font-weight: bold;
-    display: inline-block;
-    color: white;
-    margin-top: 20px;
-    margin-right: 15px;
-    padding-right: 30px;
-}
-
+/*
 .navbar-nav.navbar-right li a:hover {
     color: #b41a62;
 }
@@ -185,27 +126,12 @@ section {
     padding-left: 100px;
 }
 
-.navbar-nav.navbar-right li.active a{
-    background-color: #222222;
-    color: #b41a62;
-}
-
-.navbar-nav.navbar-right li.active a:hover{
-    background-color: #222222;
-    color: #b41a62;
-}
-
-.navbar-nav.navbar-right li.active a:focus{
-    background-color: #222222;
-    color: #b41a62;
-}
-
 /*ANCHOR TAGS*/
 
 .anchor{
   display: block;
   height: 100px; /*same height as header*/
- margin-top: -100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
   visibility: hidden;
 }*/
 
