@@ -139,14 +139,17 @@ section {
     color: #b41a62;
 }
 
-MAIN NAVBAR .navbar-dark .navbar-nav .nav-link {
-    color: white !important;
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
 }
 
-.navbar-dark .nav-item.active .nav-link,
-.navbar-dark .nav-item:hover .nav-link {
+.navbar-custom .navbar-nav .nav-item:active .nav-link {
     color: #b41a62;
 }
+.navbar-custom .navbar-nav .nav-item:hover .nav-link {
+    color: #b41a62;
+}
+
 /*.navbar-fixed-top {
     background-color: #222222;
     border: solid 1px #222222;
