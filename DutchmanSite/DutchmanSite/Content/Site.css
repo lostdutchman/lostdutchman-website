@@ -18,23 +18,6 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
-/*@media (min-width: 768px) {
-    section {
-        padding: 150px 0;
-    }
-}
-
-@media (min-width: 767px) {
-    #devlog .devlog-item {
-        margin: 0 0 30px;
-    }
-}
-
-@media (min-width: 767px) {
-    #folio .folio-item {
-        margin: 0 0 30px;
-    }
-}
 
 ::-moz-selection {
     background: #b41a62;
@@ -52,14 +35,13 @@ img::selection {
 
 img::-moz-selection {
     background: transparent;
-}*/
-
+}
 
 /*FULL BODY FORMATS*/
+
 body {
-    overflow-x: hidden;
     font-family: nexaBold, Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: #b41a62;
+    overflow-x: hidden;
 }
 
 p {
@@ -67,7 +49,7 @@ p {
     font-size: 1em;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: 'nexaBold', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -99,9 +81,7 @@ section {
     font-family: neotechbold, Helvetica, Arial, sans-serif;
 }
 
-.text-primary {
-    color: #b41a62;
-}
+/*NAVBAR*/
 
 .navbar-custom .navbar-nav .nav-link {
     color: white;
@@ -111,19 +91,9 @@ section {
 .navbar-custom .navbar-nav .nav-item:active .nav-link {
     color: #b41a62;
 }
+
 .navbar-custom .navbar-nav .nav-item:hover .nav-link {
     color: #b41a62;
-}
-
-/*
-.navbar-nav.navbar-right li a:hover {
-    color: #b41a62;
-}
-
-#collapse {
-    background-color: #222222;
-    border-color: black;
-    padding-left: 100px;
 }
 
 /*ANCHOR TAGS*/
@@ -133,56 +103,9 @@ section {
   height: 100px; /*same height as header*/
   margin-top: -100px; /*same height as header*/
   visibility: hidden;
-}*/
+}
 
 /*BUTTONS*/
-
-.btn-primary {
-    font-weight: 700;
-    color: white;
-    border-color: #b41a62;
-    background-color: #b41a62;
-    font-family: nexaBold, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-.btn-primary.focus, .btn-primary:focus {
-    color: white;
-    border-color: #7d1150;
-    background-color: #b41a62;
-}
-
-.btn-primary:hover {
-    color: white;
-    border-color: #7d1150;
-    background-color: #b41a62;
-}
-
-.btn-primary.active, .btn-primary:active,
-.open > .btn-primary.dropdown-toggle {
-    color: white;
-    border-color: #7d1150;
-    background-color: #b41a62;
-}
-
-.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
-.open > .btn-primary.dropdown-toggle.focus,
-.open > .btn-primary.dropdown-toggle:focus,
-.open > .btn-primary.dropdown-toggle:hover {
-     color: white;
-     border-color: #7d1150;
-     background-color: #7d1150;
-}
-
-.btn-primary.active, .btn-primary:active,
-.open > .btn-primary.dropdown-toggle {
-    background-image: none;
-}
-
-.btn-primary .badge {
-    color: #b41a62;
-    background-color: white;
-}
 
 .btn-xl {
     font-size: 18px;
@@ -196,50 +119,25 @@ section {
     text-transform: uppercase;
 }
 
-.btn-xl.focus, .btn-xl:focus {
+.btn-primary {
+    font-weight: 700;
     color: white;
     border-color: #b41a62;
-    background-color: #7d1150;
+    background-color: #b41a62;
+    font-family: nexaBold, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
-.btn-xl:hover {
+.btn-primary:hover {
     color: white;
-    border-color: #b41a62;
-    background-color: #7d1150;
+    border-color: #7d1150;
+    background-color: #b41a62;
 }
 
-.btn-xl.active, .btn-xl:active,
-.open > .btn-xl.dropdown-toggle {
+.btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #b41a62;
-    background-color: #7d1150;
-}
-
-.btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
-.open > .btn-xl.dropdown-toggle.focus,
-.open > .btn-xl.dropdown-toggle:focus,
-.open > .btn-xl.dropdown-toggle:hover {
-    color: white;
-    border-color: #b41a62;
-    background-color: #7d1150;
-}
-
-.btn-xl.active, .btn-xl:active,
-.open > .btn-xl.dropdown-toggle {
-    background-image: none;
-}
-
-.btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl.focus,
-fieldset[disabled] .btn-xl:focus,
-fieldset[disabled] .btn-xl:hover {
-    border-color: #b41a62;
-    background-color: #7d1150;
-}
-
-.btn-xl .badge {
-    color: #b41a62;
-    background-color: white;
+    border-color: #7d1150;
+    background-color: #b41a62;
 }
 
 /*MAILING LIST STANDARD FORMAT*/
@@ -317,11 +215,6 @@ fieldset[disabled] .btn-xl:hover {
 
 /*FOLIO CONTAINERS*/
 
-.folio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
 .folio-link {
     position: relative;
     display: block;
@@ -386,10 +279,6 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 /*GENERAL MODALS*/
-
-.modal-dialog {
-    width: 75%;    
-}
 
 .modal-content {
     min-height: 100%;
