@@ -96,7 +96,6 @@ header.masthead {
     background-color: white;
 }
 
-
 /*ABOUT SECTION*/
 
 .service-heading {
@@ -105,10 +104,6 @@ header.masthead {
 }
 
 /*CONTACT FORM*/
-
-#contact .section-heading {
-    color: black;
-}
 
 .form-group {
     margin-bottom: 25px;
