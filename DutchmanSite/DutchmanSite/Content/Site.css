@@ -87,7 +87,8 @@ section {
     font-size: 20px;
 }
 
-.navbar-custom .navbar-nav .nav-item:active .nav-link {
+/**********************THIS DOES NOT WORK*************************************/
+.navbar-custom .nav-link .active{ 
     color: #b41a62;
 }
 
