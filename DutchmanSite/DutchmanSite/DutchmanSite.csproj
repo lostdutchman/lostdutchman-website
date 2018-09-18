@@ -260,7 +260,16 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include=".bowerrc" />
     <None Include="Properties\PublishProfiles\LostDutchman Website.pubxml" />
+    <Content Include="Scripts\assets\ajax-loader.gif" />
+    <Content Include="Scripts\assets\owl.carousel.css" />
+    <Content Include="Scripts\assets\owl.carousel.min.css" />
+    <Content Include="Scripts\assets\owl.theme.default.css" />
+    <Content Include="Scripts\assets\owl.theme.default.min.css" />
+    <Content Include="Scripts\assets\owl.theme.green.css" />
+    <Content Include="Scripts\assets\owl.theme.green.min.css" />
+    <Content Include="Scripts\assets\owl.video.play.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -288,6 +297,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\owl.carousel.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
@@ -301,6 +312,8 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Scripts\zepto.js" />
+    <Content Include="Scripts\zepto.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -331,6 +344,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\LICENSE" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

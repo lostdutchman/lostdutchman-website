@@ -94,15 +94,9 @@
                 <h3 class="section-subheading text-muted">Check out some of our recent games and apps.</h3>
             </div>
         </div>
-
-        
-
-
-
-
-        <!-- Nice Bowling -->
-        <div class="row">
-            <div class="col-md-4 col-sm-6 folio-item">
+        <div class="owl-carousel">
+            <!-- Nice Bowling -->
+            <div>
                 <a class="folio-link" href="~/Home/NiceBowling">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
@@ -117,7 +111,7 @@
                 </div>
             </div>
             <!-- Modern Fairway 4: Spec Ops in the Rough -->
-            <div class="col-md-4 col-sm-6 folio-item">
+            <div>
                 <a class="folio-link" data-toggle="modal" href="#folioModalMF4">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
@@ -133,7 +127,7 @@
                 </div>
             </div>
             <!-- KAZOETE -->
-            <div class="col-md-4 col-sm-6 folio-item">
+            <div>
                 <a class="folio-link" data-toggle="modal" href="#folioModalKazoete">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
@@ -148,7 +142,7 @@
                 </div>
             </div>
             <!-- Todays Japanese -->
-            <div class="col-md-4 col-sm-6 folio-item">
+            <div>
                 <a class="folio-link" data-toggle="modal" href="#folioModalAlexa">
                     <div class="folio-hover">
                         <div class="folio-hover-content">
@@ -165,7 +159,7 @@
                     <img class="img-fluid" src="~/Content/img/LostDutchman/AlexaTag.png" alt="Today's Japanese" />
                 </div>
             </div>
-        </div>
+        </div> <!-- End of carasoul -->
         <br />
         <br />
         <br />
@@ -534,3 +528,30 @@
 
 <!--Log Modals-->
 @Html.Raw(Logs.GetLogModal(Site))
+
+@section scripts{
+    <script>
+        //////////////////////
+        //Call Owl slideshow//
+        //////////////////////
+        $(document).ready(function () {
+
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        });
+    </script>
+    }
