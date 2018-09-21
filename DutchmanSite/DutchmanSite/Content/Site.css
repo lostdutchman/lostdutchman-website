@@ -87,12 +87,17 @@ section {
     font-size: 20px;
 }
 
-/**********************THIS DOES NOT WORK*************************************/
 .navbar-custom .nav-link .active{ 
     color: #b41a62;
 }
 
 .navbar-custom .navbar-nav .nav-item:hover .nav-link {
+    color: #b41a62;
+}
+
+/*FOR SCROLLING FOCUS*/
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
     color: #b41a62;
 }
 
@@ -148,7 +153,6 @@ section {
 .fa-stack-2x {
     color: #b41a62;
 }
-
 
 /*MAILING LIST UNIVERSAL FORMAT*/
 
@@ -374,6 +378,12 @@ section {
     display: none;
     opacity: 0;
 }
+
+.iframeHolder {
+    position: relative;
+    overflow: hidden;
+}
+
 
 /*DEVLOG*/
 
