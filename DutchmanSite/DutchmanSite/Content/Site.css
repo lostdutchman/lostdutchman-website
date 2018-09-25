@@ -384,28 +384,6 @@ section {
     overflow: hidden;
 }
 
-/*OWL CAROUSEL NAV*/
-div.owl-nav {
-    position: relative;
-    bottom: 400px;
-}
-
-button.owl-next {
-    margin-right: 0px;
-}
-
-button.owl-prev {
-   margin-left: 0px;
-}
-
-.fa-chevron-left, .fa-chevron-right {
-    color: #b41a62;
-}
-
-.fa-chevron-left:hover, .fa-chevron-right:hover {
-    color: #7d1150;
-}
-
 /*DEVLOG*/
 
 .LogFloat{

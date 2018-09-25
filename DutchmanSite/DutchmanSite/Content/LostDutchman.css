@@ -18,6 +18,24 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .owl-prev {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        margin-left: 250px;    
+    }
+
+    .owl-next {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        right: 300px;
+    }
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -101,6 +119,32 @@ header.masthead {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+/*OWL CAROUSEL*/
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    margin-left: -45px;    
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    right: -17px;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    color: #b41a62;
+}
+
+.fa-chevron-left:hover, .fa-chevron-right:hover {
+    color: #7d1150;
 }
 
 /*CONTACT FORM*/
