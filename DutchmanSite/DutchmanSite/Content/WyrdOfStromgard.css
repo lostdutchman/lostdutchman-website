@@ -9,12 +9,6 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
-@media screen and (max-width: 786px) {
-   body {
-        padding-top: 15px;
-    }
-}
-
 ::selection {
     background: #979bab;
 }
@@ -55,7 +49,6 @@ body {
 }
 
 #Spam .modal-content p.item-intro {
-    color: #d8dce9;
     text-align: center;
     font-family: Nexa, Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -79,8 +72,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-
-
 /*Button Colors*/
 
 .btn-primary {
@@ -95,12 +86,13 @@ body {
     background-color: #6b7588;
 }
 
+/* TEXT */
+
 h1,h2,h3 {
     font-family: Debute;
     letter-spacing: 1px;
 }
 
-/* TEXT */
 h1 {
     font-size: 5em;  
 }
@@ -132,33 +124,12 @@ p {
     border: 1px black;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
 #lander .container {
     padding-top: 100px; 
 }
 
 #lander p {
     padding:  0 30px 0 30px; 
-}
-
-.folio-caption {
-    width:360px;
-}
-
-.folio-hover {
-    background: #2a3546;
-    width: 360px;
-}
-
-.folio-caption {
-    min-width: 360px;
-}
-
-img.media-object {
-    width:auto;
 }
 
 .imgLeft img {
@@ -175,15 +146,16 @@ div.realms p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#buy .clearfix {
-    overflow:auto;
-}
-
 #buy h1 {
     text-align:center;
     color: #2a3546;
     text-shadow: 6px 0px 7px #979bab;
 }
+
+/*#buy .clearfix {
+    overflow:auto;
+}
+
 
 #buy img {
     padding-left: 15px;
@@ -199,10 +171,10 @@ div.realms p {
 #buy .center-block {
     display: table;
     margin: auto;
-}
+}*/
 
 .date {
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .devlog-hover {

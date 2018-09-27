@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 1000px) {
-    .owl-prev {
+    button.owl-prev {
         width: 0px;
         height: 0px;
         position: absolute;
@@ -27,12 +27,30 @@
         margin-left: 250px;    
     }
 
-    .owl-next {
+    button.owl-next {
         width: 0px;
         height: 0px;
         position: absolute;
         top: 85%;
         right: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    button.owl-prev {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        margin-left: 200px;    
+    }
+
+    button.owl-next {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        right: 250px;
     }
 }
 
