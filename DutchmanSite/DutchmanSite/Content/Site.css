@@ -80,6 +80,10 @@ section {
     font-family: neotechbold, Helvetica, Arial, sans-serif;
 }
 
+.folio-hover:hover {
+    background: #1d1c2c;
+}
+
 /*NAVBAR*/
 
 .navbar-custom .navbar-nav .nav-link {
