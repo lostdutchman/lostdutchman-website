@@ -54,11 +54,11 @@ body {
     font-weight: 400;
     font-size: 1.5em;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px #2d2b4e;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 #Spam .modal-content {
-    background: linear-gradient(#979bab,#1d1c2c);
+    background: linear-gradient(#5f5d7d,#000000);
 }
 
 #Spam.label {
@@ -71,6 +71,7 @@ body {
     background-color: #768b9c;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
 
 /*Button Colors*/
 
@@ -110,7 +111,7 @@ a.active, a:active, a:focus, a:hover {
     color: #2a3546;
 }
 
-.folio-hover {
+.folio-hover:hover {
     background: #1d1c2c;
 }
 
