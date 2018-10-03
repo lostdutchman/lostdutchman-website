@@ -13,30 +13,28 @@
 <link href="~/Content/NiceBowling.css" rel="stylesheet" type="text/css" />
 }
 
-<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="~/Home/Index"><img id="logo" src="~/Content/img/Navbar/navbarbrandsoft.png" alt="Lost Dutchman Software" /></a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse navbar-menubuilder navbar-inverse" id="collapse">
-        <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a class ="AnchorScroll" href="#mediaLink">Media</a>
+<nav id="navbarLinks" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" style="background-color: #222222;">
+    <a class="navbar-brand" href="#page-top"><img id="logo" src="~/Content/img/Navbar/navbarbrandsoft.png" alt="Lost Dutchman Software" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#about">About</a>
             </li>
-            <li>
-                <a class ="AnchorScroll" href="#buyLink">Buy</a>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#media">Media</a>
             </li>
-            <li>
-                <a class ="AnchorScroll" href="#devlogLink">Devlog</a>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#buy">Buy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#devlog">Devlog</a>
             </li>
         </ul>
     </div>
-</div>
+</nav>
 
 <div class="fullscreenVideoBG">
     <video autoplay muted loop poster="~/Content/Video/NiceBowlingBackground.png" class="videoBG">
@@ -46,8 +44,9 @@
 
 <section id="lander">
     <div class="container">
+        <span class="anchor" id="about"></span>
             <div class="col-lg-12">
-                <article class="well clearfix">
+                <article class="well">                    
                     <img class="img-responsive" src="~/Content/img/NiceBowling/NBtransLogo.png" align="left" id="toplogo"/>
                     <br />
                     <p> Nice Bowling is a quirky bowling game that is 100% committed to its aesthetic and  provides a variety of different random effects that make gameplay a different experience each time.</p>
@@ -56,7 +55,7 @@
 
                 <div id="folio">
                   <div class="container">
-                      <span class="anchor" id="mediaLink"></span>
+                      <span class="anchor" id="media"></span>
                       <div class="row">
                           <div class="col-md-4 col-sm-6 folio-item">
                               <a class="folio-link" data-toggle="modal" href="#folioModalVideo">
@@ -139,9 +138,8 @@
 </div>
 
 <section id="devlog">
-    <span class="anchor" id="devlogLink"></span>
+    <span class="anchor" id="devlog"></span>
     <div class="container">
-        <div class="row">
             <article class="well clearfix">
                 <h2 class="section-heading">Devlog</h2>
                 <p class="subheading">Updates on Development</p>
