@@ -453,6 +453,10 @@ section {
     margin-top: -12px;
 }
 
+#devlog h1, h1.section-heading, p.subheading {
+    text-align: center;
+}
+
 .devlog-hover-content h3,
 .devlog-hover-content h4 {
     margin: 0;

@@ -155,9 +155,7 @@ div.folio-caption {
     background-position: center center;
 }
 
-#devlog h1, p.subheading {
-    text-align: center;
-}
+
 
 /*MODAL ELEMENTS SPECIFIC TO NB*/
 
@@ -167,6 +165,7 @@ div.folio-caption {
 
 .modal-content h1 {
     text-align:center;
+    font-size: 3.5em;
 }
 
 .video-container {
@@ -187,46 +186,12 @@ div.folio-caption {
 
 /*Img Gallery*/
 
-#myCarousel {
-    height: 100%;
-    max-width: 1280px;
+.owl-carousel {
+    overflow:hidden;
+}
+
+.owl-carousel .item img {
     display: block;
-    margin: auto;
-}
-
-#myCarousel .item active {
-    border: none;
-    margin-bottom: 0px;
-}
-
-ol.carousel-indicators {
-  position: absolute;
-  bottom: 0px;
-  margin: 0;
-  left: 0;
-  right: 0;
-  width: auto;
-}
- 
-ol.carousel-indicators li,
-ol.carousel-indicators li.active {
-  float: left;
-  width: 8.333%; /*100 / number of pics for what this value needs to be.*/
-  height: 15px;
-  margin: 0;
-  border-radius: 0;
-  border: 0;
-  background: transparent;
-}
-
-.carousel-inner .active {
-    margin-bottom: 0px;
-}
-
-a.right.carousel-control, a.left.carousel-control {
-    background-image: none
-}
-
-ol.carousel-indicators li.active {
-  background: #fb14ff;
+    width: 100%;
+    height: auto;
 }

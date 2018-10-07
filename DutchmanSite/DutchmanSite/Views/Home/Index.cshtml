@@ -221,19 +221,18 @@
         </div>
 </section>
 
-<section id="devlog">
-    <span class="anchor" id="devlogLink"></span>
+<span class="anchor" id="devlog"></span>
+<section>
     <div class="container">
-        <div class="row">
-            <article class="well clearfix">
-                <h2 class="section-heading">News Feed</h2>
-                <p class="subheading">Project Updates, Musings, and more...</p>
-                <br />
-                @Html.Raw(Logs.GetLog(Site))
-            </article>
-        </div>
+        <article class="well clearfix">
+            <h1 class="section-heading">Devlog</h1>
+            <p class="subheading">Updates on Development</p>
+            <br />
+            @Html.Raw(Logs.GetLog(Site))
+        </article>
     </div>
 </section>
+
 <span class="anchor" id="contactLink"></span>
 <section id="contact">
     <div class="container">
@@ -330,231 +329,232 @@
             </div>
         </div>
     </div>
-</section>
+</section> 
 
-<!--MailChimp Email Signup Form-->
-<button class="emailIcon" data-toggle="modal" data-target="#Spam">
-    <i class="fa fa-envelope fa-2x"></i>
-</button>
+    <!--MailChimp Email Signup Form-->
+    <button class="emailIcon" data-toggle="modal" data-target="#Spam">
+        <i class="fa fa-envelope fa-2x"></i>
+    </button>
 
-<!--End of visable page-->
-<hr />
-<footer>
-    <p>&copy; @DateTime.Now.Year - Lost Dutchman Software</p>
-</footer>
+    <!--End of visable page-->
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - Lost Dutchman Software</p>
+    </footer>
 
-<!--Software MODALS -->
-<div class="folio-modal-lg modal fade" id="folioModalKazoete" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+
+    <!--Software MODALS -->
+    <div class="folio-modal-lg modal fade" id="folioModalKazoete" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Kazoete</h2>
-                            <p class="item-intro text-muted">Quick study app for counting practice!</p>
-                            <div class="iframeHolder">  
-                            <iframe frameborder="0" src="https://itch.io/embed/249053?border_width=3&amp;bg_color=fad089&amp;fg_color=000000&amp;link_color=f5634a&amp;border_color=ed303c" width="556" height="171"></iframe>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Kazoete</h2>
+                                <p class="item-intro text-muted">Quick study app for counting practice!</p>
+                                <div class="iframeHolder">
+                                    <iframe frameborder="0" src="https://itch.io/embed/249053?border_width=3&amp;bg_color=fad089&amp;fg_color=000000&amp;link_color=f5634a&amp;border_color=ed303c" width="556" height="171"></iframe>
+                                </div>
+                                <p>Kazoete provides focused study for honing your counting skills in Japanese.  It provides three modes for varying literacy levels including romanji, hiragana, and kanji.  Simply match the number to it's Japanese counterpart.  You're given a set amount of mistakes you're able to make per level before you'll have to start over from the beginning.</p>
+                                <ul class="list-inline">
+                                    <li>Date: August 2018</li>
+                                    <li>Category: Single Solution Application</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
                             </div>
-                            <p>Kazoete provides focused study for honing your counting skills in Japanese.  It provides three modes for varying literacy levels including romanji, hiragana, and kanji.  Simply match the number to it's Japanese counterpart.  You're given a set amount of mistakes you're able to make per level before you'll have to start over from the beginning.</p>                            
-                            <ul class="list-inline">
-                                <li>Date: August 2018</li>
-                                <li>Category: Single Solution Application</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="folio-modal-lg modal fade" id="folioModalAlexa" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <div class="folio-modal-lg modal fade" id="folioModalAlexa" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Today's Japanese</h2>
-                            <h2>Today's Spanish</h2>
-                            <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/AlexaAPPIcons.png" alt="Today's Japanese and Spanish" />
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/AlexaCommands.png" alt="Alexa voice commands" />
-                            <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
-                            <ul class="list-inline">
-                                <li>Date: February 2018</li>
-                                <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
-                                <li>Category: Single Solution Application</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Today's Japanese</h2>
+                                <h2>Today's Spanish</h2>
+                                <p class="item-intro text-muted">Amazon Alexa skill for daily language Learning</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/AlexaAPPIcons.png" alt="Today's Japanese and Spanish" />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/AlexaCommands.png" alt="Alexa voice commands" />
+                                <p>The aim of Today's Japanese and Today's Spanish is to provide Alexa users with a wide variety of vocabulary that they can practice whenever they have a spare moment.  We made certain to not only contain common words and phrases, but also words of varying difficulty (while still being accessible to learners of all levels).  Today's Japanese and Spanish contains a new word every day and you'll have access to common, meaningful subjects like animals, colors, seasons, greetings, family members, and some basic phrases for conversation.</p>
+                                <ul class="list-inline">
+                                    <li>Date: February 2018</li>
+                                    <li><a href="https://www.amazon.com/dp/B07B2LCK35/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520008742&sr=1-1&keywords=todays+japanese">View on Amazon Echo Skill Market here</a></li>
+                                    <li>Category: Single Solution Application</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="folio-modal-lg modal fade" id="folioModalMF4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <div class="folio-modal-lg modal fade" id="folioModalMF4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Modern Fairway 4</h2>
-                            <h2>Spec-Ops in the Rough</h2>
-                            <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/MF4lvl1.gif" alt="Modern Fairway 4 Level 1" />
-                            <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/MF4lvl2.gif" alt="Modern Fairway 4 Level 2" />
-                            <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
-                            <ul class="list-inline">
-                                <li>Date: April 2018</li>
-                                <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
-                                <li>Category: Game</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Modern Fairway 4</h2>
+                                <h2>Spec-Ops in the Rough</h2>
+                                <p class="item-intro text-muted">Our first Ludum Dare project - created in just 3 days.</p>
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/MF4lvl1.gif" alt="Modern Fairway 4 Level 1" />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/LostDutchman/MF4lvl2.gif" alt="Modern Fairway 4 Level 2" />
+                                <p>The Ludum Dare challenge is simple: a theme chosen and once its revealed, you have 72 hours to create a game for submission and review by the rest of the community.  Ludum Dare #41 was our first official game jam and we had a blast.  The theme chosen was "combine two incompatible genres" and we did the most outlandish thing we could think of- combine a first person shooter with golf.  And we really combined everything.  The drama and grittiness of an FPS is all over the menu and overall styling of the game but the golf courses are low poly, brightly colored, and downright cute.  Most importantly, even the mechanics are combined- you shoot the ball into the hole with a variety of high powered weapons.</p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2018</li>
+                                    <li><a href="https://ldjam.com/events/ludum-dare/41/modern-fairway-4-spec-ops-in-the-rough">Check out Modern Fairway 4 on Ludum Dare!</a></li>
+                                    <li>Category: Game</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- PUBLISHING MODALS -->
-<div class="folio-modal-lg modal fade" id="folioModalFortuna" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <!-- PUBLISHING MODALS -->
+    <div class="folio-modal-lg modal fade" id="folioModalFortuna" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Fortuna Mythica</h2>
-                            <p class="item-intro text-muted">A flexible, narrative heavy RPG played with the luck of the cards.</p>
-                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/LostDutchman/fortunaproject.png" alt="Fortuna Mythica" />
-                            <br />
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Fortuna Mythica</h2>
+                                <p class="item-intro text-muted">A flexible, narrative heavy RPG played with the luck of the cards.</p>
+                                <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/LostDutchman/fortunaproject.png" alt="Fortuna Mythica" />
+                                <br />
 
-                            <p>Originally created for the <a href="http://200wordrpg.github.io">200 Word RPG Challenge</a>, Fortuna Mythica balances intuitive structure with the random element of card draws to structure epic storytelling.  Characters are built based upon the legendary figures the royal face cards are said to represent and they must overcome Hardships dictated by random pulls.</p>
-                            <p>Fortuna Mytica is available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
-                            <ul class="list-inline">
-                                <li>Date: April 2018</li>
-                                <li>Category: Tabletop RPG</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                                <p>Originally created for the <a href="http://200wordrpg.github.io">200 Word RPG Challenge</a>, Fortuna Mythica balances intuitive structure with the random element of card draws to structure epic storytelling.  Characters are built based upon the legendary figures the royal face cards are said to represent and they must overcome Hardships dictated by random pulls.</p>
+                                <p>Fortuna Mytica is available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2018</li>
+                                    <li>Category: Tabletop RPG</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="folio-modal-lg modal fade" id="folioModalDread" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
+    <div class="folio-modal-lg modal fade" id="folioModalDread" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                        <div class="modal-body">
-                            <h2>Dread: One Shots</h2>
-                            <p class="item-intro text-muted">Comprehensive campaign modules for the tabletop RPG Dread.</p>
-                            <iframe frameborder="0" src="https://itch.io/embed/258913?linkback=true&amp;border_width=4&amp;bg_color=414a4c&amp;fg_color=ffffff&amp;link_color=0e1111&amp;border_color=355a62" width="558" height="173"></iframe>
-                            <br />
-                            <iframe frameborder="0" src="https://itch.io/embed/258924?border_width=4&amp;bg_color=4c5b61&amp;fg_color=ffffff&amp;link_color=1e2a3c&amp;border_color=0e1428" width="558" height="173"></iframe>
-                            <br />
-                            <iframe frameborder="0" src="https://itch.io/embed/283351?border_width=4&amp;bg_color=e3ddd4&amp;link_color=bc2b39&amp;border_color=6e2e35" width="558" height="173"></iframe>
-                            <br />
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="modal-body">
+                                <h2>Dread: One Shots</h2>
+                                <p class="item-intro text-muted">Comprehensive campaign modules for the tabletop RPG Dread.</p>
+                                <iframe frameborder="0" src="https://itch.io/embed/258913?linkback=true&amp;border_width=4&amp;bg_color=414a4c&amp;fg_color=ffffff&amp;link_color=0e1111&amp;border_color=355a62" width="558" height="173"></iframe>
+                                <br />
+                                <iframe frameborder="0" src="https://itch.io/embed/258924?border_width=4&amp;bg_color=4c5b61&amp;fg_color=ffffff&amp;link_color=1e2a3c&amp;border_color=0e1428" width="558" height="173"></iframe>
+                                <br />
+                                <iframe frameborder="0" src="https://itch.io/embed/283351?border_width=4&amp;bg_color=e3ddd4&amp;link_color=bc2b39&amp;border_color=6e2e35" width="558" height="173"></iframe>
+                                <br />
 
-                            <p>These one-shots are detailed, ready to play Dread campaigns.  Both include narrative act structure, in-game materials like police reports, strategies for the GM, game guidance tips, and additional rules and mechanics to intensify play.</p>
-                            <p>The Hunger is set in 1870s Great Lakes America and features a Wendigo- a terrifying abomination from Cree lore.  Let your players try keep their paranoia and hunger at bay as daemonic forces tempt them and a heavy curse takes its toll.  This game includes six fully customizable character roles with questionnaires, a section on cultural lore surrounding the Wendigo legends, two optional rules for introducing a hidden role, and a three act narrative that can be followed.</p>
-                            <p>The Feet of the Salish Sea is a modern story based on the real-life unsolved mystery of severed feet washing up on the shores of Washington State and British Columbia.  This module is deep into urban legends, mystery, and supernatural horrors.  Included in this file are: a detailed incident report, three character roles, GM guidance, a three act structure, and an improv/mystery mechanic that will streamline storytelling no matter how off-the-rails your characters go. </p>
-                            <p>Based on Richard Adams' <em>Watership Down</em>, A Thousand Enemies is a scenario for Dread that has players taking on the roles of intelligent rabbits in a world with endless threats and unrelenting danger.  </p>
-                            <p>Our Dread campaigns are available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
-                           
-                            <ul class="list-inline">
-                                <li>Date: Periodic release</li>
-                                <li>Category: Tabletop RPG</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
+                                <p>These one-shots are detailed, ready to play Dread campaigns.  Both include narrative act structure, in-game materials like police reports, strategies for the GM, game guidance tips, and additional rules and mechanics to intensify play.</p>
+                                <p>The Hunger is set in 1870s Great Lakes America and features a Wendigo- a terrifying abomination from Cree lore.  Let your players try keep their paranoia and hunger at bay as daemonic forces tempt them and a heavy curse takes its toll.  This game includes six fully customizable character roles with questionnaires, a section on cultural lore surrounding the Wendigo legends, two optional rules for introducing a hidden role, and a three act narrative that can be followed.</p>
+                                <p>The Feet of the Salish Sea is a modern story based on the real-life unsolved mystery of severed feet washing up on the shores of Washington State and British Columbia.  This module is deep into urban legends, mystery, and supernatural horrors.  Included in this file are: a detailed incident report, three character roles, GM guidance, a three act structure, and an improv/mystery mechanic that will streamline storytelling no matter how off-the-rails your characters go. </p>
+                                <p>Based on Richard Adams' <em>Watership Down</em>, A Thousand Enemies is a scenario for Dread that has players taking on the roles of intelligent rabbits in a world with endless threats and unrelenting danger.  </p>
+                                <p>Our Dread campaigns are available for download- for free- at our <a href="http://lostdutchman.itch.io/">Itch.io</a> page.</p>
+
+                                <ul class="list-inline">
+                                    <li>Date: Periodic release</li>
+                                    <li>Category: Tabletop RPG</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!--Log Modals-->
-@Html.Raw(Logs.GetLogModal(Site))
+    <!--Log Modals-->
+    @Html.Raw(Logs.GetLogModal(Site))
 
-@section scripts{
-    <script>
-        //////////////////////
-        //Call Owl slideshow//
-        //////////////////////
-        $(document).ready(function () {
+    @section scripts{
+        <script>
+            //////////////////////
+            //Call Owl slideshow//
+            //////////////////////
+            $(document).ready(function () {
 
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 3
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 3
+                        }
                     }
-                }
-            })
-            $(".owl-prev").html('<i class="fa fa-chevron-left fa-4x"></i>');
-            $(".owl-next").html('<i class="fa fa-chevron-right fa-4x"></i>');
-        });
-    </script>
+                })
+                $(".owl-prev").html('<i class="fa fa-chevron-left fa-4x"></i>');
+                $(".owl-next").html('<i class="fa fa-chevron-right fa-4x"></i>');
+            });
+        </script>
     }

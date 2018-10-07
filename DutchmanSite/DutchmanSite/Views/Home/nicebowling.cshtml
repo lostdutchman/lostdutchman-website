@@ -164,8 +164,8 @@
 
 <!--MEDIA MODALS-->
 
-<div class="folio-modal modal fade" id="folioTrailers" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="folio-modal-lg modal fade" id="folioTrailers" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -174,7 +174,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 mx-auto">
                         <div class="modal-body">
                             <h1>Videos</h1>
                             <p>A rare VHS recording of the original 1995 Nice Bowling game</p>
@@ -197,8 +197,8 @@
     </div>
 </div>
 
-<div class="folio-modal modal fade" id="folioScreenshots" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="folio-modal-lg modal fade" id="folioScreenshots" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -211,7 +211,46 @@
                         <div class="modal-body">
                             <h1>Images</h1>
                             <br />
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <v class="owl-carousel">
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Title.PNG" alt="Title Screen">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Bomb2.PNG" alt="Bomb">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Explosion3.PNG" alt="Bomb Explosion">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/minigolf.PNG" alt="Mini Golf">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Fish2.PNG" alt="Fish in the Lane">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/BeachBall.PNG" alt="Beach Ball">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Tiny2.PNG" alt="Marble Sized Ball" />
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/BigPins2.PNG" alt="Giant Pins">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall2PNG.PNG" alt="Sticky Ball">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall3.PNG" alt="Snowball Effect">
+                                </div>
+                                <div class="item">
+                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Bumpers2.PNG" alt="Bumpers">
+                                </div>
+                         <div class="item">
+                                <img src="~/Content/img/NiceBowling/NBScreenshots/billiards2.PNG" alt="Billiards">
+                           </div>
+                    </div>
+
+                            @*<div id="myCarousel" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -275,7 +314,7 @@
                                 <a class="carousel-control-next" data-target="#myCarousel" data-slide="next">
                                     <span class="carousel-control-next-icon"></span>
                                 </a>
-                            </div>
+                            </div>*@
                             <br />
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fa fa-times"></i>
@@ -287,10 +326,9 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="folio-modal modal fade" id="folioModalOST" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="folio-modal-lg modal fade" id="folioModalOST" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -299,7 +337,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 mx-auto">
                         <div class="modal-body">
                             <h1>Soundtrack</h1>
                             <p>Nice Bowling has a Nice Soundtrack.  Especially if you're into vapor/retrowave with a chill leaning.</p>
@@ -345,3 +383,23 @@
 
 <!--Devlog Modals-->
 @Html.Raw(Logs.GetLogModal(Site))
+
+
+@section scripts{
+    <script>
+            //////////////////////
+            //Call Owl slideshow//
+            //////////////////////
+            $(document).ready(function () {
+
+                $('.owl-carousel').owlCarousel({
+                    item: 1,
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                })
+                $(".owl-prev").html('<i class="fa fa-chevron-left fa-4x"></i>');
+                $(".owl-next").html('<i class="fa fa-chevron-right fa-4x"></i>');
+            });
+    </script>
+}
