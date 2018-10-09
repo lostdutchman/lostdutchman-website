@@ -184,14 +184,7 @@ div.folio-caption {
     height: 100%;
 }
 
-/*Img Gallery*/
-
-.owl-carousel {
-    overflow:hidden;
-}
-
-.owl-carousel .item img {
-    display: block;
-    width: 100%;
-    height: auto;
+/*IMG Gallery Fix*/
+#folioScreenshots .modal-content{
+        overflow: hidden;
 }
