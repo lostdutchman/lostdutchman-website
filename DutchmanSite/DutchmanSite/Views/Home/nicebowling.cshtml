@@ -48,10 +48,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <article class="well">
-                    <img class="img-responsive" src="~/Content/img/NiceBowling/NBtransLogo.png" align="left" id="toplogo" />
+                    <img class="img-fluid" src="~/Content/img/NiceBowling/NBtransLogo.png" align="left" id="toplogo" />
                     <br />
-                    <p> Nice Bowling is a quirky bowling game that is 100% committed to its aesthetic and  provides a variety of different random effects that make gameplay a different experience each time.</p>
-                    <p>Modeled after the late 80's, early 90's obsession with chrome and neon, Nice  Bowling's unique look and retro/chillwave soundtrack will really bring you back. Gameplay is simple and clean, with a natural, responsive feel that tests your bowling prowess in a lighthearted environment.  Nice Bowling really shines in its 'added effect' playstyle.  Random events can trigger on any frame of play to a huge variety of outcomes- good luck bowling with a beach ball, a jelly blob, or a bouncy ball.  Sometimes fish rain from the sky and block the lane.  Sometimes there will be obstacles or ramps in your path.  Nice Bowling will be available on  PC and mobile summer 2018.</p>
+                    <p>Nice Bowling is a quirky bowling game that is 100% committed to its aesthetic and  provides a variety of different random effects that make gameplay a different experience each time.</p>
+                    <p>Modeled after the late 80's, early 90's obsession with chrome and neon, Nice  Bowling's unique look and retro/chillwave soundtrack will really bring you back. Gameplay is simple and clean, with a natural, responsive feel that tests your bowling prowess in a lighthearted environment.  Nice Bowling really shines in its 'added effect' playstyle.  Random events can trigger on any frame of play to a huge variety of outcomes- good luck bowling with a beach ball, a jelly blob, or a bouncy ball.  Sometimes fish rain from the sky and block the lane.  Sometimes there will be obstacles or ramps in your path.  Nice Bowling will be available on  PC and mobile soon!.</p>
                 </article>
             </div>
         </div>
@@ -73,11 +73,11 @@
                 </a>
                 <div class="folio-caption">
                     <h1>Trailers</h1>
-                    <p class="text-muted">Check out some work-in-progress vids</p>
+                    <p>Check out some work-in-progress vids</p>
                 </div>
         </div>
         <div class="col-md-4 col-sm-6 folio-item">
-            <a class="folio-link" data-toggle="modal" href="#folioScreenshots">
+            <a class="folio-link" data-toggle="modal" href="#folioModalPics">
                 <div class="folio-hover">
                     <div class="folio-hover-content">
                         <i class="fa fa-plus fa-3x"></i>
@@ -87,7 +87,7 @@
             </a>
             <div class="folio-caption">
                 <h1>Screenshots</h1>
-                <p class="text-muted">I hope you like neon and chrome</p>
+                <p>I hope you like neon and chrome</p>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 folio-item">
@@ -101,7 +101,7 @@
             </a>
             <div class="folio-caption">
                 <h1>Soundtrack</h1>
-                <p class="text-muted">Tasty jams</p>
+                <p>Tasty jams</p>
             </div>
         </div>
         </div>
@@ -177,6 +177,7 @@
                     <div class="col-sm-12 mx-auto">
                         <div class="modal-body">
                             <h1>Videos</h1>
+                            <br />
                             <p>A rare VHS recording of the original 1995 Nice Bowling game</p>
                             <div class="video-container">
                                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/h3yQiJkDAW8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -197,7 +198,7 @@
     </div>
 </div>
 
-<div class="folio-modal-lg modal fade" id="folioScreenshots" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="folio-modal-lg modal fade" id="folioModalPics" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -211,53 +212,82 @@
                         <div class="modal-body">
                             <h1>Images</h1>
                             <br />
-                            <div class="owl-carousel">
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Title.PNG" alt="Title Screen">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                                    <li data-target="#myCarousel" data-slide-to="9"></li>
+                                    <li data-target="#myCarousel" data-slide-to="10"></li>
+                                    <li data-target="#myCarousel" data-slide-to="11"></li>
+                                </ol>
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/Title.PNG" class="img-fluid" alt="Title Screen">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/Bomb2.PNG" class="img-fluid" alt="Bomb">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/Explosion3.PNG" class="img-fluid" alt="Bomb Explosion">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/minigolf.PNG" class="img-fluid" alt="Mini Golf">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/Fish2.PNG" class="img-fluid" alt="Fish in the Lane">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/BeachBall.PNG" class="img-fluid" alt="Beach Ball">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/Tiny2.PNG" class="img-fluid" alt="Marble Sized Ball">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/BigPins2.PNG" class="img-fluid" alt="Giant Pins">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall2PNG.PNG" class="img-fluid" alt="Sticky Ball">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall3.PNG" class="img-fluid" alt="Snowball Effect">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/Bumpers2.PNG" class="img-fluid" alt="Bumpers">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/Content/img/NiceBowling/NBScreenshots/billiards2.PNG" class="img-fluid" alt="Billiards">
+                                    </div>
                                 </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Bomb2.PNG" alt="Bomb">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Explosion3.PNG" alt="Bomb Explosion">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/minigolf.PNG" alt="Mini Golf">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Fish2.PNG" alt="Fish in the Lane">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/BeachBall.PNG" alt="Beach Ball">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Tiny2.PNG" alt="Marble Sized Ball" />
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/BigPins2.PNG" alt="Giant Pins">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall2PNG.PNG" alt="Sticky Ball">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/SpikeBall3.PNG" alt="Snowball Effect">
-                                </div>
-                                <div class="item">
-                                    <img src="~/Content/img/NiceBowling/NBScreenshots/Bumpers2.PNG" alt="Bumpers">
-                                </div>
-                         <div class="item">
-                                <img src="~/Content/img/NiceBowling/NBScreenshots/billiards2.PNG" alt="Billiards">
-                           </div>
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" data-target="#myCarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" data-target="#myCarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                            <br />
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close
+                            </button>
                         </div>
-                        <br />
-                        <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close</button>
-                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <div class="folio-modal-lg modal fade" id="folioModalOST" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -302,6 +332,7 @@
                                 Dang, your browser doesn't support this audio element.
                             </audio>
                         </div>
+                        <br />
                         <button class="btn btn-primary" data-dismiss="modal" type="button">
                             <i class="fa fa-times"></i>
                             Close
@@ -315,22 +346,3 @@
 
 <!--Devlog Modals-->
 @Html.Raw(Logs.GetLogModal(Site))
-
-
-@section scripts{
-    <script>
-            //////////////////////
-            //Call Owl slideshow//
-            //////////////////////
-            $(document).ready(function () {
-                $('.owl-carousel').owlCarousel({
-                    loop: true,
-                    margin: 18,
-                    nav: true,
-                    items: 1
-                })
-                $(".owl-prev").html('<i class="fa fa-chevron-left fa-4x"></i>');
-                $(".owl-next").html('<i class="fa fa-chevron-right fa-4x"></i>');
-            });
-    </script>
-}
