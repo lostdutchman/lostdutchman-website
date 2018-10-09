@@ -46,10 +46,16 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(string name, string email, string message)
+        public ActionResult Index(string name, string email, string message, string Question1, string Question2)
         {
             FormEmail help = new FormEmail();
-            help.SendEmail(name, email, message);
+            if (Question1 == "" && Question2 == "")//capcha
+            {
+                help.SendEmail(name, email, message);
+            }
+            else {
+                help.Spam();
+            }
             return View();
         }
 
