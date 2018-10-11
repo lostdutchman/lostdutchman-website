@@ -54,6 +54,12 @@
     }
 }
 
+/*@media (max-width:767px) {
+    #folioModalDread .iframe[Attributes_Style] {
+        width: 208px;
+    }
+}*/
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -94,6 +100,12 @@ header.masthead {
     margin-bottom: 50px;
     text-transform: uppercase;
     font-family: neotechbold, Helvetica, Arial, sans-serif;
+}
+
+.widget_container .iframe {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
 }
 
 /*MAILING LIST FORMATTING*/
