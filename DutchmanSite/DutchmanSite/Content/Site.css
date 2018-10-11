@@ -489,6 +489,15 @@ section {
     max-width:600px;
 }
 
+#devlog div.devlog-modal-dialog.modal-lg, .modal-content {
+    position: absolute;
+    min-height: 50%;
+    max-width: 80%;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+
 /*FOOTER*/
 
 footer {

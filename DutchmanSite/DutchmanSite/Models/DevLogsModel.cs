@@ -268,7 +268,7 @@ namespace DutchmanSite.Models
             foreach (var Log in List)
             {
                 StringBuilder sb = new StringBuilder(DevLogString);
-                sb.Append("<div class='devlog-modal-lg modal fade' id='DL");
+                sb.Append("<div class='devlog-modal-lg modal' id='DL");
                 sb.Append(Log.PKEY);
                 sb.Append("' tabindex='-1' role='dialog' aria-hidden='true'><div class='devlog-modal-dialog modal-lg'><div class='modal-content'><div class='close-modal' data-dismiss='modal'><div class='lr'><div class='rl'></div></div></div><div class='container-fluid'><div class='row'><div class='col-lg-12 mx-auto'><div class='modal-body'>");
                 sb.Append(Log.Description);
