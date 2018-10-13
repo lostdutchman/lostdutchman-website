@@ -9,6 +9,13 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
+@media (max-width:1000px){
+    .col-sm-6 {
+           flex: 0 0 100%;
+           max-width: 100%;
+    }
+}
+
 ::selection {
     background: #979bab;
 }
@@ -154,6 +161,10 @@ div.realms p {
     margin-left: 50px;
     line-height: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#folio .folio-caption {
+    max-width: 360px;
 }
 
 #buy h1 {
