@@ -6,25 +6,19 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("/Content/css")
     @Scripts.Render("/bundles/modernizr")
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="~/fonts/Nexa Bold.otf" rel="stylesheet" type="text/css" />
     <script src="https://use.fontawesome.com/951cb33584.js"></script>
     @RenderSection("head", required: false)
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="80" >
-
-
    
-        @RenderBody()
-   
-    <!--MailChimp Email Signup Form-->
-    <button class="emailIcon" data-toggle="modal" data-target="#Spam">
-        <i class="fa fa-envelope fa-2x"></i>
-    </button>
+    @RenderBody()
+
     <!--Email Signup Form Modal-->
-    <div class="folio-modal modal fade" id="Spam" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="folio-modal-lg modal fade" id="Spam" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -93,7 +87,6 @@
             </div>
         </div>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

@@ -185,6 +185,7 @@
     <Content Include="Content\img\NiceBowling\badsnacks.JPG" />
     <Content Include="Content\Audio\ChillWave.mp3" />
     <Content Include="Content\Audio\glaciære.mp3" />
+    <Content Include="Content\img\ScreenSelector.png" />
     <Content Include="Content\img\Stromgard\CoverMockup.png" />
     <Content Include="Content\img\Navbar\navbarbrandpub.png" />
     <Content Include="Content\img\Stromgard\bearskin.png" />

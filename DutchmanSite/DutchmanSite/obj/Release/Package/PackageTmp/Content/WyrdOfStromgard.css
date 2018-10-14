@@ -9,9 +9,10 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
-@media screen and (max-width: 786px) {
-   body {
-        padding-top: 15px;
+@media (max-width:1000px){
+    .col-sm-6 {
+           flex: 0 0 100%;
+           max-width: 100%;
     }
 }
 
@@ -19,11 +20,16 @@
     background: #979bab;
 }
 
+/*Will this fix Android Chrome?*/
+html{
+    min-height: 100%;
+}
+
 body {
     text-decoration-color:white;
     -webkit-tap-highlight-color: #979bab;
     background-color:#1d1c2c;
-    background-image: url("img/wyrdmasthead.jpg");
+    background-image: url("img/Stromgard/wyrdmasthead.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,17 +56,16 @@ body {
 }
 
 #Spam .modal-content p.item-intro {
-    color: #d8dce9;
     text-align: center;
     font-family: Nexa, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.5em;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px #2d2b4e;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 #Spam .modal-content {
-    background: linear-gradient(#979bab,#1d1c2c);
+    background: linear-gradient(#5f5d7d,#000000);
 }
 
 #Spam.label {
@@ -73,7 +78,6 @@ body {
     background-color: #768b9c;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
 
 
 /*Button Colors*/
@@ -90,12 +94,18 @@ body {
     background-color: #6b7588;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: #6b7588;
+    border-color: #1d1c2c;
+}
+
+/* TEXT */
+
 h1,h2,h3 {
     font-family: Debute;
     letter-spacing: 1px;
 }
 
-/* TEXT */
 h1 {
     font-size: 5em;  
 }
@@ -106,6 +116,10 @@ a {
 
 a.active, a:active, a:focus, a:hover {
     color: #2a3546;
+}
+
+.folio-hover:hover {
+    background: #1d1c2c;
 }
 
 p {
@@ -127,33 +141,12 @@ p {
     border: 1px black;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
 #lander .container {
     padding-top: 100px; 
 }
 
 #lander p {
     padding:  0 30px 0 30px; 
-}
-
-.folio-caption {
-    width:360px;
-}
-
-.folio-hover {
-    background: #2a3546;
-    width: 360px;
-}
-
-.folio-caption {
-    min-width: 360px;
-}
-
-img.media-object {
-    width:auto;
 }
 
 .imgLeft img {
@@ -170,8 +163,8 @@ div.realms p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#buy .clearfix {
-    overflow:auto;
+#folio .folio-caption {
+    max-width: 360px;
 }
 
 #buy h1 {
@@ -191,13 +184,8 @@ div.realms p {
     font-size: 16px;
 }
 
-#buy .center-block {
-    display: table;
-    margin: auto;
-}
-
 .date {
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .devlog-hover {

@@ -9,53 +9,59 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>C:\Users\Jeremy\Documents\My Web Sites\LostDutchamn</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include=".bowerrc">
+      <publishTime>09/18/2018 10:37:30</publishTime>
+    </File>
     <File Include="ApplicationInsights.config">
-      <publishTime>07/13/2018 09:08:38</publishTime>
+      <publishTime>08/31/2018 06:59:30</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
-      <publishTime>07/13/2018 09:08:38</publishTime>
+      <publishTime>08/31/2018 06:59:30</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>08/16/2018 09:23:49</publishTime>
+      <publishTime>10/14/2018 12:27:45</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>08/16/2018 09:23:49</publishTime>
+      <publishTime>10/14/2018 12:27:45</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>08/16/2018 09:18:43</publishTime>
+      <publishTime>10/14/2018 12:25:59</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>06/27/2017 12:59:34</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.DependencyCollector.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/10/2018 15:11:42</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/10/2018 15:22:22</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/10/2018 16:20:26</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Web.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/10/2018 15:19:22</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.WindowsServer.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/10/2018 15:21:20</publishTime>
     </File>
     <File Include="bin/Microsoft.ApplicationInsights.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/10/2018 16:18:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>04/26/2018 22:08:08</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/24/2018 13:38:22</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>03/24/2018 17:44:14</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -135,29 +141,68 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/10/2018 22:38:08</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/10/2018 22:38:32</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>05/10/2018 22:42:40</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/Audio/AetherTheories.mp3">
+      <publishTime>08/22/2018 16:55:56</publishTime>
+    </File>
+    <File Include="Content/Audio/ChillWave.mp3">
+      <publishTime>08/22/2018 16:55:57</publishTime>
+    </File>
+    <File Include="Content/Audio/FutureCityFunk.mp3">
+      <publishTime>08/22/2018 16:55:53</publishTime>
+    </File>
+    <File Include="Content/Audio/glaciære.mp3">
+      <publishTime>08/22/2018 16:55:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>08/31/2018 06:59:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>08/31/2018 06:59:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -172,16 +217,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>07/13/2018 09:08:39</publishTime>
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>07/13/2018 09:08:39</publishTime>
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>07/13/2018 09:08:39</publishTime>
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>07/13/2018 09:08:39</publishTime>
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Content/ChillWave.mp3">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -194,6 +239,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/404.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
+    </File>
+    <File Include="Content/img/404/404BG.png">
+      <publishTime>08/22/2018 16:55:57</publishTime>
+    </File>
+    <File Include="Content/img/404/404Text.png">
+      <publishTime>10/14/2018 12:06:30</publishTime>
     </File>
     <File Include="Content/img/50pxtrans.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -285,6 +336,60 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/linnorm.png">
       <publishTime>07/21/2018 08:00:58</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/AlexaAPPIcons.png">
+      <publishTime>10/14/2018 12:05:37</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/AlexaCommands.png">
+      <publishTime>10/14/2018 12:05:28</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/AlexaIcons.png">
+      <publishTime>10/14/2018 12:05:10</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/AlexaTag.png">
+      <publishTime>10/14/2018 12:06:13</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/dreadproject.png">
+      <publishTime>10/14/2018 12:06:14</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/fortunaproject.png">
+      <publishTime>08/22/2018 16:55:53</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/HungerGame.png">
+      <publishTime>10/14/2018 12:06:04</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/kazoetecap.JPG">
+      <publishTime>10/14/2018 10:29:30</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/kazoetecap2.JPG">
+      <publishTime>10/14/2018 10:29:22</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/kazoetetile.png">
+      <publishTime>10/14/2018 12:05:57</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/LostDutchmanBG.jpeg">
+      <publishTime>10/14/2018 10:29:07</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/MF4lvl1.gif">
+      <publishTime>08/22/2018 16:55:53</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/MF4lvl2.gif">
+      <publishTime>08/22/2018 16:55:53</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/MF4project.png">
+      <publishTime>10/14/2018 12:06:11</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/NBproject.png">
+      <publishTime>10/14/2018 12:06:03</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/SalishGame.png">
+      <publishTime>10/14/2018 12:05:56</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/ThousandGame.png">
+      <publishTime>08/22/2018 16:55:53</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/wyrdproject.png">
+      <publishTime>10/14/2018 12:05:51</publishTime>
+    </File>
     <File Include="Content/img/macleod.jpg">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -311,6 +416,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/monstertile.png">
       <publishTime>07/21/2018 08:00:58</publishTime>
+    </File>
+    <File Include="Content/img/Navbar/navbarbrand.png">
+      <publishTime>10/14/2018 12:05:47</publishTime>
+    </File>
+    <File Include="Content/img/Navbar/navbarbrandpub.png">
+      <publishTime>10/14/2018 12:05:41</publishTime>
+    </File>
+    <File Include="Content/img/Navbar/navbarbrandsoft.png">
+      <publishTime>10/14/2018 12:05:53</publishTime>
     </File>
     <File Include="Content/img/navbarbrand.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -360,6 +474,69 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/NBScreenshots/Title.PNG">
       <publishTime>08/07/2018 08:43:14</publishTime>
     </File>
+    <File Include="Content/img/NiceBowling/badsnacks.JPG">
+      <publishTime>10/14/2018 10:28:18</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/CassetteTape.png">
+      <publishTime>08/22/2018 16:55:55</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/macleod.jpg">
+      <publishTime>10/14/2018 10:28:12</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/BeachBall.PNG">
+      <publishTime>10/14/2018 12:02:22</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/BigPins2.PNG">
+      <publishTime>10/14/2018 12:01:54</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/billiards2.PNG">
+      <publishTime>10/14/2018 12:00:18</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/Bomb2.PNG">
+      <publishTime>10/14/2018 12:00:56</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/Bumpers2.PNG">
+      <publishTime>10/14/2018 11:59:35</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/Explosion3.PNG">
+      <publishTime>10/14/2018 12:05:36</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/Fish2.PNG">
+      <publishTime>10/14/2018 12:06:53</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/minigolf.PNG">
+      <publishTime>10/14/2018 12:05:16</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/SpikeBall2PNG.PNG">
+      <publishTime>10/14/2018 12:03:41</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/SpikeBall3.PNG">
+      <publishTime>10/14/2018 12:04:53</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/Tiny2.PNG">
+      <publishTime>10/14/2018 12:03:24</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBScreenshots/Title.PNG">
+      <publishTime>10/14/2018 12:03:52</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/NBtransLogo.png">
+      <publishTime>10/14/2018 11:58:52</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/Polaroid.png">
+      <publishTime>10/14/2018 11:58:02</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/RetroBG.png">
+      <publishTime>10/14/2018 12:16:33</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/steviasphere.jpg">
+      <publishTime>10/14/2018 10:28:05</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/VHS.png">
+      <publishTime>08/22/2018 16:55:56</publishTime>
+    </File>
+    <File Include="Content/img/NiceBowling/Vidian.jpg">
+      <publishTime>08/22/2018 16:55:55</publishTime>
+    </File>
     <File Include="Content/img/nicebowlinglogotrans.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
@@ -399,8 +576,50 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/screencapbeachball.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/ScreenSelector.png">
+      <publishTime>10/14/2018 11:37:53</publishTime>
+    </File>
     <File Include="Content/img/steviasphere.jpg">
       <publishTime>07/13/2018 09:08:39</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/bearskin.png">
+      <publishTime>10/14/2018 11:57:47</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/Charatile.png">
+      <publishTime>10/14/2018 11:57:29</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/CoverMockup.png">
+      <publishTime>10/14/2018 11:57:42</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/DWtile.png">
+      <publishTime>10/14/2018 11:57:27</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/fae.png">
+      <publishTime>10/14/2018 11:57:26</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/Inspotile.png">
+      <publishTime>10/14/2018 11:46:31</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/kelpie.png">
+      <publishTime>10/14/2018 11:46:57</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/linnorm.png">
+      <publishTime>10/14/2018 11:58:09</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/Maptile.png">
+      <publishTime>10/14/2018 11:57:47</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/Monstertile.png">
+      <publishTime>10/14/2018 11:57:47</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/Racetile.png">
+      <publishTime>10/14/2018 11:57:42</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/WyrdLogoTrans.png">
+      <publishTime>10/14/2018 12:02:16</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/wyrdmasthead.jpg">
+      <publishTime>10/14/2018 10:26:49</publishTime>
     </File>
     <File Include="Content/img/thousand.png">
       <publishTime>08/06/2018 18:44:55</publishTime>
@@ -427,13 +646,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2018 07:29:47</publishTime>
     </File>
     <File Include="Content/LostDutchman.css">
-      <publishTime>08/16/2018 08:10:23</publishTime>
+      <publishTime>10/14/2018 08:42:40</publishTime>
     </File>
     <File Include="Content/NiceBowling.css">
-      <publishTime>08/16/2018 09:13:58</publishTime>
+      <publishTime>10/14/2018 08:42:40</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>08/16/2018 08:36:52</publishTime>
+      <publishTime>10/14/2018 10:16:01</publishTime>
     </File>
     <File Include="Content/Video/NiceBowlingBackground.mp4">
       <publishTime>08/06/2018 18:57:06</publishTime>
@@ -445,7 +664,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>08/16/2018 09:16:30</publishTime>
+      <publishTime>10/14/2018 08:42:40</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -478,16 +697,82 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>09/18/2018 13:15:03</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>08/16/2018 09:23:45</publishTime>
+      <publishTime>10/14/2018 12:27:33</publishTime>
+    </File>
+    <File Include="Scripts/assets/ajax-loader.gif">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.carousel.css">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.carousel.min.css">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.theme.default.css">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.theme.default.min.css">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.theme.green.css">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.theme.green.min.css">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/assets/owl.video.play.png">
+      <publishTime>09/18/2018 13:21:21</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>08/31/2018 06:59:20</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.js">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -507,20 +792,77 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/jquery-3.2.1.slim.min.map">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>08/31/2018 06:58:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>08/31/2018 06:58:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>08/31/2018 06:58:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>08/31/2018 06:58:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>08/31/2018 06:58:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>08/31/2018 06:58:10</publishTime>
+    </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/31/2018 06:58:11</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/31/2018 06:58:11</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/31/2018 06:58:33</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>07/13/2018 09:08:41</publishTime>
+      <publishTime>08/31/2018 06:58:33</publishTime>
+    </File>
+    <File Include="Scripts/LICENSE">
+      <publishTime>09/18/2018 13:21:21</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>07/13/2018 09:08:41</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>08/31/2018 06:58:43</publishTime>
+    </File>
+    <File Include="Scripts/owl.carousel.js">
+      <publishTime>09/18/2018 13:21:17</publishTime>
+    </File>
+    <File Include="Scripts/owl.carousel.min.js">
+      <publishTime>09/18/2018 13:21:17</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>08/31/2018 07:46:28</publishTime>
     </File>
     <File Include="Scripts/respond.js">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -535,7 +877,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Scripts/Style.js">
-      <publishTime>08/10/2018 13:13:02</publishTime>
+      <publishTime>09/18/2018 10:09:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>08/31/2018 07:46:28</publishTime>
+    </File>
+    <File Include="Scripts/zepto.js">
+      <publishTime>09/18/2018 09:34:36</publishTime>
+    </File>
+    <File Include="Scripts/zepto.min.js">
+      <publishTime>09/18/2018 09:34:36</publishTime>
     </File>
     <File Include="Views/Home/DevLogs.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -544,22 +916,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Views/Home/Error.cshtml">
-      <publishTime>08/04/2018 19:37:52</publishTime>
+      <publishTime>10/14/2018 10:01:46</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/10/2018 13:21:22</publishTime>
+      <publishTime>10/14/2018 10:10:41</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
-      <publishTime>08/10/2018 12:27:03</publishTime>
+      <publishTime>10/14/2018 09:18:48</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>08/16/2018 08:10:23</publishTime>
+      <publishTime>10/14/2018 10:01:46</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/16/2018 08:10:23</publishTime>
+      <publishTime>10/14/2018 08:42:40</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -568,7 +940,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/21/2018 09:57:38</publishTime>
+      <publishTime>10/14/2018 12:27:27</publishTime>
     </File>
   </ItemGroup>
 </Project>

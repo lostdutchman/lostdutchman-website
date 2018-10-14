@@ -18,6 +18,49 @@
     }
 }
 
+@media (max-width: 1000px) {
+    button.owl-prev {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        margin-left: 250px;    
+    }
+
+    button.owl-next {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        right: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    button.owl-prev {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        margin-left: 200px;    
+    }
+
+    button.owl-next {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 85%;
+        right: 250px;
+    }
+}
+
+@media (max-width:1000px){
+    .col-sm-6 {
+           flex: 0 0 100%;
+           max-width: 100%;
+    }
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -32,7 +75,7 @@
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("img/bg.jpeg");
+    background-image: url("img/LostDutchman/LostDutchmanBG.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -96,7 +139,6 @@ header.masthead {
     background-color: white;
 }
 
-
 /*ABOUT SECTION*/
 
 .service-heading {
@@ -104,11 +146,33 @@ header.masthead {
     text-transform: none;
 }
 
-/*CONTACT FORM*/
+/*OWL CAROUSEL*/
 
-#contact .section-heading {
-    color: black;
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    margin-left: -45px;    
 }
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    right: -17px;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    color: #b41a62;
+}
+
+.fa-chevron-left:hover, .fa-chevron-right:hover {
+    color: #7d1150;
+}
+
+/*CONTACT FORM*/
 
 .form-group {
     margin-bottom: 25px;
@@ -141,7 +205,7 @@ textarea.form-control {
 #contact ::-moz-placeholder {
     font-weight: 700;
     color: #808080;
-    /* Firefox 19+ */
+     Firefox 19+ 
     font-family: nexaBold, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -159,7 +223,7 @@ textarea.form-control {
 
 /*SOCIAL BUTTONS*/
 
- ul.social-buttons {
+ul.social-buttons {
     margin-bottom: 0;
 }
 
