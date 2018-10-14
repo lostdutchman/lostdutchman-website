@@ -464,7 +464,6 @@ C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Micr
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.Web.xml
-C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojResolveAssemblyReference.cache
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.dll
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.dll

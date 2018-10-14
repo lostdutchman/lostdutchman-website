@@ -16,8 +16,8 @@ namespace DutchmanSite.Controllers
 
         public BasicAuthenticationAttribute(string username, string password)
         {
-            this.Username = "Far over the misty mountains cold";
-            this.Password = "To dungeons deep and caverns old";
+            this.Username = "FB#< v5bh]ES$NKPwKq~6 &@~37Xq{^ 4(6 > U5DX7z";
+            this.Password = "LnZ8eW@8!A6c,.9uL2  PWG^K46U:96b8hr6@N2Hk";
         }
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)
@@ -54,7 +54,7 @@ namespace DutchmanSite.Controllers
                 help.SendEmail(name, email, message);
             }
             else {
-                help.Spam();
+                help.Spam("failed capcha");
             }
             return View();
         }
@@ -94,7 +94,7 @@ namespace DutchmanSite.Controllers
         [HttpGet]
         public ActionResult BetaTest()
         {
-            return Redirect("https://docs.google.com/forms/d/e/1FAIpQLSf4GacszQah45byshI1cR2SiOUwLb6ef452YDM8I8AN6-P-jQ/viewform?usp=sf_link");
+            return Redirect("https://goo.gl/forms/zYEzG8BRxkw0F3Ho2");
         }
 
         [HttpGet]

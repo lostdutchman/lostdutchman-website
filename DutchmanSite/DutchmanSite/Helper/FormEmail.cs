@@ -15,15 +15,15 @@ namespace DutchmanSite.Helper
                 message.To.Add(new MailAddress("lostdutchmansoftware@gmail.com"));
 
                 message.Subject = "Form Inquiry LostDutchamSoftware.com, " + DateTime.Now.ToString("yyyy-MM-dd HH:mm");
-                message.Body = "Name:" + name + "\nEmail:" + emailaddress + "\n" + content;
+                message.Body = "Name: " + name + "\nEmail: " + emailaddress + "\n\n" + content;
 
                 SmtpClient client = new SmtpClient();
                 client.Send(message);
             }
-            else { Spam(); }
+            else { Spam("Failed to enter valid data"); }
         }
 
-        public void Spam()
+        public void Spam(string str)
         {
             MailMessage message = new MailMessage();
             message.From = new MailAddress("lostdutchmansoftware@gmail.com");
@@ -31,7 +31,7 @@ namespace DutchmanSite.Helper
             message.To.Add(new MailAddress("lostdutchmansoftware@gmail.com"));
 
             message.Subject = "Spam Blocked! " + DateTime.Now.ToString("yyyy-MM-dd HH:mm");
-            message.Body = "Blocked Spam with my own code";
+            message.Body = "Blocked Spam with my own code. Reason: " + str;
 
             SmtpClient client = new SmtpClient();
             client.Send(message);

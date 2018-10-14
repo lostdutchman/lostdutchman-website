@@ -10,7 +10,6 @@ namespace DutchmanSite
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
-                        "~/Scripts/owl.carousel.min.js",
                         "~/Scripts/Style.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -27,8 +26,6 @@ namespace DutchmanSite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Scripts/assets/owl.carousel.min.css",
-                      "~/Scripts/assets/owl.theme.default.min.css",
                       "~/Content/Site.css"));
         }
     }

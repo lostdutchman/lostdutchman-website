@@ -233,6 +233,12 @@ section {
     margin-right: 10px;
 }
 
+#mc_embed_signup{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+
 /*FOLIO CONTAINERS*/
 
 .folio-link {
@@ -300,6 +306,10 @@ section {
 
 /*GENERAL MODALS*/
 
+.modal-lg {
+    max-width: 50%;
+}
+
 .modal-content {
     min-height: 100%;
     padding: 100px 0;
@@ -310,6 +320,9 @@ section {
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: gainsboro;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .devlog-modal img {
