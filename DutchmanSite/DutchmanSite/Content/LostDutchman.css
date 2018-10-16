@@ -86,7 +86,7 @@ header.masthead {
 
 .intro-lead-in {
     animation: 1.5s ease-out 0s 1 slideInFromLeft;
-    font-size: 40px;
+    font-size: 4vw;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
@@ -95,7 +95,7 @@ header.masthead {
 
 .intro-heading {
     animation: 1s ease-out 0s 1 slideInFromLeft;
-    font-size: 75px;
+    font-size: 6vw;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
