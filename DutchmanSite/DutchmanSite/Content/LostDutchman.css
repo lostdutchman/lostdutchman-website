@@ -9,6 +9,14 @@
         padding-top: 125px;
         padding-bottom: 75px;
     }
+
+   header.masthead .intro-heading {
+       font-size: 9.5vw;
+    }
+   
+  header.masthead .intro-lead-in {
+        font-size: 5.7vw;
+    }
 }
 
 @media screen and (min-width: 786px) {
