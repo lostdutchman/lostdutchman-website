@@ -20,23 +20,15 @@
     background: #979bab;
 }
 
-/*Will this fix Android Chrome?*/
-html{
-    min-height: 100%;
-}
-
 body {
     text-decoration-color:white;
     -webkit-tap-highlight-color: #979bab;
     background-color:#1d1c2c;
-    background-image: url("img/Stromgard/wyrdmasthead.jpg");
+    background: url("img/Stromgard/wyrdmasthead.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 /*MAILING LIST*/

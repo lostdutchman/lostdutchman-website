@@ -22,13 +22,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2018 06:59:30</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/14/2018 12:27:45</publishTime>
+      <publishTime>10/19/2018 10:48:27</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/14/2018 12:27:45</publishTime>
+      <publishTime>10/19/2018 10:48:26</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>10/14/2018 12:25:59</publishTime>
+      <publishTime>10/19/2018 10:47:26</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/27/2017 12:59:34</publishTime>
@@ -646,13 +646,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2018 07:29:47</publishTime>
     </File>
     <File Include="Content/LostDutchman.css">
-      <publishTime>10/14/2018 08:42:40</publishTime>
+      <publishTime>10/19/2018 09:18:23</publishTime>
     </File>
     <File Include="Content/NiceBowling.css">
       <publishTime>10/14/2018 08:42:40</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>10/14/2018 10:16:01</publishTime>
+      <publishTime>10/19/2018 09:18:23</publishTime>
     </File>
     <File Include="Content/Video/NiceBowlingBackground.mp4">
       <publishTime>08/06/2018 18:57:06</publishTime>
@@ -664,7 +664,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>10/14/2018 08:42:40</publishTime>
+      <publishTime>10/19/2018 10:29:29</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -697,10 +697,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>09/18/2018 13:15:03</publishTime>
+      <publishTime>10/19/2018 10:43:47</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/14/2018 12:27:33</publishTime>
+      <publishTime>10/19/2018 10:48:15</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>09/18/2018 13:21:21</publishTime>
@@ -877,7 +877,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Scripts/Style.js">
-      <publishTime>09/18/2018 10:09:10</publishTime>
+      <publishTime>10/19/2018 10:23:31</publishTime>
     </File>
     <File Include="Scripts/umd/popper-utils.js">
       <publishTime>08/31/2018 07:46:28</publishTime>
@@ -919,19 +919,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/14/2018 10:01:46</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/14/2018 10:10:41</publishTime>
+      <publishTime>10/19/2018 09:18:23</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
       <publishTime>10/14/2018 09:18:48</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>10/14/2018 10:01:46</publishTime>
+      <publishTime>10/19/2018 10:13:49</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/14/2018 08:42:40</publishTime>
+      <publishTime>10/19/2018 10:24:50</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -940,7 +940,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/14/2018 12:27:27</publishTime>
+      <publishTime>10/19/2018 10:48:13</publishTime>
     </File>
   </ItemGroup>
 </Project>

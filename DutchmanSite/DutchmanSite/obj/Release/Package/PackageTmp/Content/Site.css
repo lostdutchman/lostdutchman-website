@@ -18,6 +18,10 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
+.navbar {
+    flex-wrap: nowrap;
+}
+
 ::-moz-selection {
     background: #b41a62;
     text-shadow: none;
