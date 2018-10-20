@@ -443,7 +443,7 @@ section {
 
 #devlog .devlog-item {
     right: 0;
-    left:100px;
+    left: 100px;
     margin: 0 0 15px;
 }
 
@@ -523,7 +523,6 @@ section {
     max-width:600px;
 }
 
-#devlog 
 /*FOOTER*/
 
 footer {
