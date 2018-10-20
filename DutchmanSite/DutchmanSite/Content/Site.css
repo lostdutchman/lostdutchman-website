@@ -18,6 +18,21 @@
     src: local('neotechbold'), url('../fonts/neotechbold.otf') format('opentype');
 }
 
+@media (max-width:1000px){
+    div.modal-dialog.modal-lg {
+        max-width: 100%; 
+        margin-left:20px;
+    }
+}
+
+
+@media (max-width:1000px){
+    .col-sm-6 {
+           flex: 0 0 100%;
+           max-width: 100%;
+    }
+}
+
 .navbar {
     flex-wrap: nowrap;
 }
@@ -508,14 +523,7 @@ section {
     max-width:600px;
 }
 
-#devlog div.devlog-modal-dialog.modal-lg, .modal-content {
-    position: absolute;
-    min-height: 50%;
-    max-width: 80%;
-    margin-top: 150px;
-    margin-left: 150px;
-}
-
+#devlog 
 /*FOOTER*/
 
 footer {

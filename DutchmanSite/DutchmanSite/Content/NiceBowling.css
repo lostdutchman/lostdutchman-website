@@ -26,7 +26,7 @@ body {
 
 h1 {
     font-family: lazer84;
-    font-size: 2em;
+    font-size: 8vw;
     color: #01cdfe;
     text-shadow: 6px 0px 7px purple;
 }
@@ -183,7 +183,7 @@ div.folio-caption {
 
 .modal-content h1 {
     text-align:center;
-    font-size: 3.5em;
+    font-size: 8vw;
 }
 
 .video-container {

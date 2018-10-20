@@ -9,12 +9,12 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
-@media (max-width:1000px){
+/*@media (max-width:1000px){
     .col-sm-6 {
            flex: 0 0 100%;
            max-width: 100%;
     }
-}
+}*/
 
 ::selection {
     background: #979bab;
@@ -71,7 +71,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-
 /*Button Colors*/
 
 .btn-primary {
@@ -99,7 +98,7 @@ h1,h2,h3 {
 }
 
 h1 {
-    font-size: 5em;  
+    font-size: 8vw;  
 }
 
 a {
