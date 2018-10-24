@@ -33,6 +33,10 @@
     }
 }
 
+.devlog-modal-dialog.modal-lg {
+    max-width: 100%;
+}
+
 .navbar {
     flex-wrap: nowrap;
 }
