@@ -9,15 +9,42 @@
     src: url('../fonts/Lazer84.ttf') format('truetype');
 }
 
-@media screen and (min-width:1000px){
-    #toplogo {margin-right: 265px; 
-                margin-left:210px;}
-    }
 
-@media screen and (max-width: 990px) and (min-width:590px) {
-    #media .folio-caption h1 {
-        font-size:3vw;
+/*@media screen and (max-width: 992px) and (min-width:768px) {
+    #toplogo {
+        padding-right:29px;
     }
+}*/
+
+@media (min-width: 787px) {
+  h1 {
+    font-size: 2.3em;
+  }
+
+  section#lander {
+    padding: 100px 25px 2px 50px;
+}
+}
+
+@media (max-width: 786px) {
+  h1 {      
+     font-size: 8vw;
+  }
+
+  .navbar {
+        padding-bottom: 1.2rem;
+  }
+
+  div.modal-dialog.modal-lg {
+    width: 100%;
+    margin-left: 0px;
+}
+}
+
+@media (max-width: 1000px) {
+      #lander .offset-2 {
+      margin-left: 0px;
+  }
 }
 
 body {
@@ -26,7 +53,6 @@ body {
 
 h1 {
     font-family: lazer84;
-    font-size: 8vw;
     color: #01cdfe;
     text-shadow: 6px 0px 7px purple;
 }
@@ -44,23 +70,13 @@ p {
     border: 1px black;
 }
 
-#toplogo {
-    padding-top:0px;
-}
-
  #lander .container {
     padding-top: 75px;
 }
 
  #lander p {
-     margin-right: 25px;
-     margin-left: 25px;
-     padding-bottom: 15px;
+     padding-bottom: 30px;
  }
-
-section#lander {
-    padding: 100px 25px 25px 50px;
-}
 
 #media .folio-caption p {
     color: white;
@@ -98,6 +114,18 @@ section#lander {
     width: 300%;
     left: -100%;
   }
+}
+
+#folioModalOST img {
+    margin: 10px;
+}
+
+.folio-hover {
+    background: #f266ad;
+}
+
+.folio-hover:hover {
+    background: #f266ad;
 }
 
 /*EMAIL LIST*/

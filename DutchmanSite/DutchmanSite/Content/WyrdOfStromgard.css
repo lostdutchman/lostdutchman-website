@@ -122,10 +122,6 @@ a.active, a:active, a:focus, a:hover {
     color: #2a3546;
 }
 
-.folio-hover:hover {
-    background: #1d1c2c;
-}
-
 p {
     font-size: 20px;
     font-weight: 500;
@@ -165,6 +161,14 @@ div.realms p {
     margin-left: 50px;
     line-height: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.folio-hover {
+    background: #1d1c2c;
+}
+
+.folio-hover:hover {
+    background: #1d1c2c;
 }
 
 #folio .folio-caption {
