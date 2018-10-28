@@ -8,7 +8,8 @@ namespace DutchmanSite.Helper
     {
         public void SendEmail(string name, string emailaddress, string content)
         {
-            if (name.Length > 2 && emailaddress.Length > 5 && content.Length > 5) {
+            if(NotSpam(name, emailaddress, content))
+            {
                 MailMessage message = new MailMessage();
                 message.From = new MailAddress("lostdutchmansoftware@gmail.com");
 
@@ -20,7 +21,24 @@ namespace DutchmanSite.Helper
                 SmtpClient client = new SmtpClient();
                 client.Send(message);
             }
-            else { Spam("Failed to enter valid data"); }
+        }
+
+        public bool NotSpam(string name, string emailaddress, string content)
+        {
+            //Make sure that the info sent is valid
+            if (name.Length < 2 || emailaddress.Length < 5 || content.Length < 5) 
+            {
+                Spam("Failed to enter valid data");
+                return false;
+            }
+            //All spam so far has had bit.ly links.
+            else if(content.Contains("http://bit.ly/"))
+            {
+                Spam("bit.ly link spam.");
+                return false;
+            }
+            //Not Spam
+            return true; 
         }
 
         public void Spam(string str)

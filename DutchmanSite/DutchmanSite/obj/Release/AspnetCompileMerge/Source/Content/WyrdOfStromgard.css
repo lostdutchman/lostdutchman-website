@@ -9,11 +9,41 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
-@media (max-width:1000px){
+/*@media (max-width:1000px){
     .col-sm-6 {
            flex: 0 0 100%;
            max-width: 100%;
     }
+}*/
+
+@media (min-width: 601px) {
+  body {
+    background: url("img/Stromgard/wyrdmasthead.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  body {      
+     background: url("img/Stromgard/phonebg.jpg") no-repeat fixed;
+     background-size: 414px 736px;
+     /*background-size: 100% 105%;*/
+  }
+}
+
+@media (max-width: 786px) {
+    #buy h1 {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 1000px) {
+      #buy .offset-2 {
+      margin-left: 0px;
+  }
 }
 
 ::selection {
@@ -23,12 +53,7 @@
 body {
     text-decoration-color:white;
     -webkit-tap-highlight-color: #979bab;
-    background-color:#1d1c2c;
-    background: url("img/Stromgard/wyrdmasthead.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-color:#1d1c2c;      
 }
 
 /*MAILING LIST*/
@@ -71,7 +96,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-
 /*Button Colors*/
 
 .btn-primary {
@@ -99,7 +123,7 @@ h1,h2,h3 {
 }
 
 h1 {
-    font-size: 5em;  
+    font-size: 6em; 
 }
 
 a {
@@ -108,10 +132,6 @@ a {
 
 a.active, a:active, a:focus, a:hover {
     color: #2a3546;
-}
-
-.folio-hover:hover {
-    background: #1d1c2c;
 }
 
 p {
@@ -153,6 +173,14 @@ div.realms p {
     margin-left: 50px;
     line-height: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.folio-hover {
+    background: #1d1c2c;
+}
+
+.folio-hover:hover {
+    background: #1d1c2c;
 }
 
 #folio .folio-caption {

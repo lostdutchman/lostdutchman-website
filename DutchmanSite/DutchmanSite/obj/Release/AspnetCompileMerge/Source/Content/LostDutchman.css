@@ -154,6 +154,10 @@ header.masthead {
     text-transform: none;
 }
 
+.folio-hover {
+    background: #7d1150;
+}
+
 /*OWL CAROUSEL*/
 
 .owl-prev {

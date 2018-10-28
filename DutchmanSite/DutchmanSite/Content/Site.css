@@ -25,15 +25,17 @@
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:1000px) {
     .col-sm-6 {
-           flex: 0 0 100%;
-           max-width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 
-.navbar {
-    flex-wrap: nowrap;
+@media (max-width:470px){
+    #logo {
+        width: 300px;
+    }
 }
 
 ::-moz-selection {
