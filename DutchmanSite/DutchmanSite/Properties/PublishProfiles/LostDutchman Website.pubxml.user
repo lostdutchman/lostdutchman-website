@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Jeremy\Documents\My Web Sites\LostDutchamn</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\Jeremy\Documents\My Web Sites\LostDutchmanOct28</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include=".bowerrc">
@@ -18,17 +18,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>08/31/2018 06:59:30</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/28/2018 15:23:39</publishTime>
+      <publishTime>10/28/2018 18:07:48</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/28/2018 15:23:39</publishTime>
+      <publishTime>10/28/2018 18:07:48</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>10/28/2018 15:22:11</publishTime>
+      <publishTime>10/28/2018 18:07:35</publishTime>
+    </File>
+    <File Include="bin/DutchmanSite.pdb">
+      <publishTime>10/28/2018 18:07:35</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/27/2017 12:59:34</publishTime>
@@ -55,7 +61,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/26/2018 22:08:08</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>05/24/2018 13:38:22</publishTime>
+      <publishTime>09/05/2018 16:10:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -784,10 +790,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/19/2018 10:43:47</publishTime>
+      <publishTime>10/28/2018 18:03:13</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/28/2018 15:23:22</publishTime>
+      <publishTime>10/28/2018 18:07:38</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>09/18/2018 13:21:21</publishTime>
@@ -1006,13 +1012,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/14/2018 10:01:46</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/28/2018 14:35:59</publishTime>
+      <publishTime>10/28/2018 17:34:09</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
-      <publishTime>10/28/2018 15:16:15</publishTime>
+      <publishTime>10/28/2018 17:34:10</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>10/28/2018 14:35:57</publishTime>
+      <publishTime>10/28/2018 17:34:10</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
@@ -1027,7 +1033,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/19/2018 10:48:13</publishTime>
+      <publishTime>10/28/2018 18:07:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

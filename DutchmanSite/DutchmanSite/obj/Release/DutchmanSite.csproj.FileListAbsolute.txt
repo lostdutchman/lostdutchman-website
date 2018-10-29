@@ -129,7 +129,6 @@ C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Micr
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.Web.xml
-C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csprojResolveAssemblyReference.cache
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.dll
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.pdb
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.dll
@@ -137,3 +136,5 @@ C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Syst
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.PerfCounterCollector.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CoreCompileInputs.cache
+C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CopyComplete
