@@ -476,6 +476,4 @@ C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Syst
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.Optimization.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.dll
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
-C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojAssemblyReference.cache
-C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CoreCompileInputs.cache
-C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CopyComplete
+C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojResolveAssemblyReference.cache

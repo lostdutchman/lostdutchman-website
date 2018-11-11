@@ -138,3 +138,4 @@ C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Micr
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CoreCompileInputs.cache
 C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CopyComplete
+C:\Users\Jeremy\Documents\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csprojAssemblyReference.cache
