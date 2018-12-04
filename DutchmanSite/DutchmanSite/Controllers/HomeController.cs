@@ -49,12 +49,9 @@ namespace DutchmanSite.Controllers
         public ActionResult Index(string name, string email, string message, string Question1, string Question2)
         {
             FormEmail help = new FormEmail();
-            if (Question1 == "" && Question2 == "")//capcha
+            if (Question1 == "" && Question2 == "")//capcha validation
             {
                 help.SendEmail(name, email, message);
-            }
-            else {
-                help.Spam("failed capcha");
             }
             return View();
         }
