@@ -3,20 +3,20 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     string Site = Path.GetFileName(Request.Url.ToString());
     DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
-    DutchmanSite.Helper.HomePageSubtitle Subtitle = new DutchmanSite.Helper.HomePageSubtitle();
+    string Subtitle = new DutchmanSite.Helper.HomePageSubtitle().GetSubtitle();
 }
 @section head{
     <meta name="description" content="Lost Dutchman Software" />
-    <meta name="keywords" content="software design,software,today's japanese,today's spanish,nice bowling,software design,software studio,software solutions,app development,app developer,video game developer,video game studio,arizona software developer,mesa software developer,mesa software company,arizona software company,app development,phone app development,Android app development,single solution development,single solution developer,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,single solution application,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev,alexa app, alexa skill, itch, ttrpg, free game, table top rpg, kickstarter" />
+    <meta name="keywords" content="software design,software,today's japanese,today's spanish,nice bowling,wyrd of stromgard,software design,software studio,software solutions,app development,app developer,video game developer,video game studio,arizona software developer,mesa software developer,mesa software company,arizona software company,app development,phone app development,Android app development,single solution development,single solution developer,lost dutchman,lost dutchman software,lost dutchman mesa,lost dutchman arizona,single solution application,indie game developer,indie game studio,unity developers,unity games developers,indie developer,gamedev,game dev,alexa app, alexa skill, ttrpg, free game, table top rpg" />
     <meta name="author" content="Lost Dutchman Software" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="http://lostdutchmansoftware.com/Content/img/Stromgard/wyrdmasthead.jpg" />
-    <meta property="og:image" content="http://lostdutchmansoftware.com/Content/img/Stromgard/wyrdmasthead.jpg" />
+    <meta name="twitter:image" content="http://lostdutchmansoftware.com/Content/img/LostDutchman/cardimage.png" />
+    <meta property="og:image" content="http://lostdutchmansoftware.com/Content/img/LostDutchman/cardimage.png" />
     <meta name="twitter:site" content="@("@softdutch")" />
     <meta name="twitter:title" content="Lost Dutchman Software" />
-    <meta name="twitter:description" content="The Wyrd of Stromgard on Kickstarter now!" />
+    <meta name="twitter:description" content=" We would like to believe that we know how to run a business. @Subtitle" />
     <meta property="og:title" content="Lost Dutchman Software" />
-    <meta property="og:description" class="speakable-description" content="The Wyrd of Stromgard on Kickstarter now!" />
+    <meta property="og:description" class="speakable-description" content=" We would like to believe that we know how to run a business. @Subtitle" />
     <meta property="og:url" content="http://lostdutchmansoftware.com/">
     <meta property="og:type" content="website" />
     <link rel="stylesheet" href="~/Scripts/assets/owl.carousel.min.css">
@@ -55,7 +55,7 @@
 <header class="masthead">
     <div class="intro-text">
         <div class="intro-heading">Lost Dutchman</div>
-        <div class="intro-lead-in">@Subtitle.GetSubtitle()</div>
+        <div class="intro-lead-in">@Subtitle</div>
     </div>
 </header>
 
