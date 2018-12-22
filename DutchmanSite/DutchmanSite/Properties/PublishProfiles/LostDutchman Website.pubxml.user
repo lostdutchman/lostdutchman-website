@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Jeremy\Documents\My Web Sites\LostDutchmanNov11</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\Jeremy\Documents\My Web Sites\LostDutchmanDec22</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include=".bowerrc">
@@ -25,16 +25,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2018 06:59:30</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>11/11/2018 09:36:01</publishTime>
+      <publishTime>12/22/2018 14:15:04</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>11/11/2018 09:36:01</publishTime>
+      <publishTime>12/22/2018 14:15:04</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>11/11/2018 09:35:44</publishTime>
+      <publishTime>12/22/2018 14:14:47</publishTime>
     </File>
     <File Include="bin/DutchmanSite.pdb">
-      <publishTime>11/11/2018 09:35:44</publishTime>
+      <publishTime>12/22/2018 14:14:47</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/27/2017 12:59:34</publishTime>
@@ -435,6 +435,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/LostDutchman/AlexaTag.png">
       <publishTime>10/14/2018 12:06:13</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/cardimage.png">
+      <publishTime>12/18/2018 16:58:36</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/dreadproject.png">
       <publishTime>10/14/2018 12:06:14</publishTime>
     </File>
@@ -687,11 +690,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/fae.png">
       <publishTime>10/14/2018 11:57:26</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/gmex.png">
+      <publishTime>12/22/2018 13:50:36</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/Inspotile.png">
       <publishTime>10/14/2018 11:46:31</publishTime>
     </File>
     <File Include="Content/img/Stromgard/kelpie.png">
       <publishTime>10/14/2018 11:46:57</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/KelPreview.png">
+      <publishTime>12/22/2018 13:50:36</publishTime>
     </File>
     <File Include="Content/img/Stromgard/kickstarterbannersite.png">
       <publishTime>11/11/2018 08:44:54</publishTime>
@@ -708,8 +717,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/phonebg.jpg">
       <publishTime>10/28/2018 10:50:59</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/physbook.png">
+      <publishTime>12/22/2018 13:50:36</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/PlaybookPreview.png">
+      <publishTime>12/22/2018 13:50:36</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/Racetile.png">
       <publishTime>10/14/2018 11:57:42</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/sitelogo.png">
+      <publishTime>12/22/2018 13:50:36</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/spread.png">
+      <publishTime>12/22/2018 13:50:36</publishTime>
     </File>
     <File Include="Content/img/Stromgard/WyrdLogoTrans.png">
       <publishTime>10/14/2018 12:02:16</publishTime>
@@ -796,7 +817,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/28/2018 18:03:13</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/11/2018 09:35:49</publishTime>
+      <publishTime>12/22/2018 14:14:53</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>09/18/2018 13:21:21</publishTime>
@@ -1015,13 +1036,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/14/2018 10:01:46</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/11/2018 08:58:42</publishTime>
+      <publishTime>12/18/2018 17:12:17</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
       <publishTime>11/11/2018 08:55:56</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>11/11/2018 08:58:42</publishTime>
+      <publishTime>12/22/2018 14:05:01</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2018 09:08:41</publishTime>
