@@ -206,10 +206,12 @@
     <Content Include="Content\FavIcon\ms-icon-150x150.png" />
     <Content Include="Content\FavIcon\ms-icon-310x310.png" />
     <Content Include="Content\FavIcon\ms-icon-70x70.png" />
+    <Content Include="Content\img\LostDutchman\banner.png" />
     <Content Include="Content\img\LostDutchman\cardimage.png" />
     <Content Include="Content\img\LostDutchman\kazoetecap.JPG" />
     <Content Include="Content\img\LostDutchman\kazoetecap2.JPG" />
     <Content Include="Content\img\LostDutchman\kazoetetile.png" />
+    <Content Include="Content\img\LostDutchman\MRprojecttile.png" />
     <Content Include="Content\img\NiceBowling\badsnacks.JPG" />
     <Content Include="Content\Audio\ChillWave.mp3" />
     <Content Include="Content\Audio\glaciære.mp3" />
