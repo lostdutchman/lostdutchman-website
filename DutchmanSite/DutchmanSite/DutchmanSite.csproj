@@ -212,6 +212,7 @@
     <Content Include="Content\img\LostDutchman\kazoetecap2.JPG" />
     <Content Include="Content\img\LostDutchman\kazoetetile.png" />
     <Content Include="Content\img\LostDutchman\MRprojecttile.png" />
+    <Content Include="Content\img\LostDutchman\newwyrdtile.png" />
     <Content Include="Content\img\NiceBowling\badsnacks.JPG" />
     <Content Include="Content\Audio\ChillWave.mp3" />
     <Content Include="Content\Audio\glaciære.mp3" />
@@ -274,7 +275,6 @@
     <Content Include="Content\img\NiceBowling\VHS.png" />
     <Content Include="Content\img\404\404BG.png" />
     <Content Include="Content\img\Stromgard\wyrdmasthead.jpg" />
-    <Content Include="Content\img\LostDutchman\wyrdproject.png" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
     <Content Include="Content\Video\NiceBowlingBackground.mp4" />
