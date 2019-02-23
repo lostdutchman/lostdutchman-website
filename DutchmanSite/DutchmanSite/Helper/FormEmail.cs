@@ -26,9 +26,9 @@ namespace DutchmanSite.Helper
         public bool NotSpam(string name, string emailaddress, string content)
         {
             //Make sure that the info sent is valid
-            if (name.Length < 2 || emailaddress.Length < 6 || content.Length < 5) { return false; }
-            //Stop the bit.ly spam
-            else if(content.Contains("http://bit.ly/")) { return false; }
+            if (name.Length < 2 || emailaddress.Length < 7 || content.Length < 5) { return false; }
+            //Contains URL's
+            else if(content.ToLower().Contains("http://") || content.ToLower().Contains("https://") || content.ToLower().Contains("www.")) { return false; }
             //Not Spam
             return true; 
         }

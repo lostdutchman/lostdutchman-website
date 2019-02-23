@@ -182,55 +182,70 @@
                 <h3 class="section-subheading text-muted">Check out some of our recent games and other projects!</h3>
             </div>
         </div>
-            <div class="row">
-                <!-- Wyrd of Stromgard -->
-                <div class="col-md-4 col-sm-6 folio-item">
-                    <a class="folio-link" href="~/Home/WyrdOfStromgard">
-                        <div class="folio-hover">
-                            <div class="folio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
+        <div class="owl-carousel">
+            <!-- Wyrd of Stromgard -->
+            <div>
+                <a class="folio-link" href="~/Home/WyrdOfStromgard">
+                    <div class="folio-hover">
+                        <div class="folio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
                         </div>
-                        <img class="img-fluid" src="~/Content/img/LostDutchman/wyrdproject.png" alt="The Wyrd of Stromgard" />
-                    </a>
-                    <div class="folio-caption">
-                        <h4>The Wyrd of Stromgard</h4>
-                        <p class="text-muted">Norse Fantasy RPG expansion for Dungeon World</p>
                     </div>
-                </div>
-                <!-- Fortuna Mythica -->
-                <div class="col-md-4 col-sm-6 folio-item">
-                    <a class="folio-link" data-toggle="modal" href="#folioModalFortuna">
-                        <div class="folio-hover">
-                            <div class="folio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="~/Content/img/LostDutchman/fortunaproject.png" alt="Fortuna Mythica" />
-                    </a>
-                    <div class="folio-caption">
-                        <h4>Fortuna Mythica</h4>
-                        <p class="text-muted">Our entry into the <a href="https://200wordrpg.github.io/">200 Word RPG Challenge</a>.  Use ordinary playing cards to build legendary heroes and put them up against mythical challenges.</p>
-                    </div>
-                </div>
-                <!-- Dread -->
-                <div class="col-md-4 col-sm-6 folio-item">
-                    <a class="folio-link" data-toggle="modal" href="#folioModalDread">
-                        <div class="folio-hover">
-                            <div class="folio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="~/Content/img/LostDutchman/dreadproject.png" alt="Dread One Shots" />
-                    </a>
-                    <div class="folio-caption">
-                        <h4>Dread</h4>
-                        <h4>Supplemental Content</h4>
-                        <p class="text-muted">Made for the tabletop rpg, Dread, these one-shots provide a complete experience to guide the GM and players through multiple horror scenarios.</p>
-                    </div>
+                    <img class="img-fluid" src="~/Content/img/LostDutchman/newwyrdtile.png" alt="The Wyrd of Stromgard" />
+                </a>
+                <div class="folio-caption">
+                    <h4>The Wyrd of Stromgard</h4>
+                    <p class="text-muted">Norse Fantasy RPG expansion for Dungeon World</p>
                 </div>
             </div>
-        </div>
+            <!-- Monster Roster -->
+            <div>
+                <a class="folio-link" data-toggle="modal" href="#folioModalMONSTER">
+                    <div class="folio-hover">
+                        <div class="folio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/LostDutchman/MRprojecttile.png" alt="Monster Roster: Desert Denizens" />
+                </a>
+                <div class="folio-caption">
+                    <h4>Monster Roster</h4>
+                    <h4>Desert Denizens</h4>
+                    <p class="text-muted">Made for Dungeon World, the Monster Roster is a complete and highly detailed manual of 15 unique and interesting monsters.</p>
+                </div>
+            </div>
+            <!-- Dread -->
+            <div>
+                <a class="folio-link" data-toggle="modal" href="#folioModalDread">
+                    <div class="folio-hover">
+                        <div class="folio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/LostDutchman/dreadproject.png" alt="Dread One Shots" />
+                </a>
+                <div class="folio-caption">
+                    <h4>Dread</h4>
+                    <h4>Supplemental Content</h4>
+                    <p class="text-muted">Made for the tabletop rpg, Dread, these one-shots provide a complete experience to guide the GM and players through multiple horror scenarios.</p>
+                </div>
+            </div>
+            <!-- Fortuna Mythica -->
+            <div>
+                <a class="folio-link" data-toggle="modal" href="#folioModalFortuna">
+                    <div class="folio-hover">
+                        <div class="folio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/Content/img/LostDutchman/fortunaproject.png" alt="Fortuna Mythica" />
+                </a>
+                <div class="folio-caption">
+                    <h4>Fortuna Mythica</h4>
+                    <p class="text-muted">Our entry into the <a href="https://200wordrpg.github.io/">200 Word RPG Challenge</a>.  Use ordinary playing cards to build legendary heroes and put them up against mythical challenges.</p>
+                </div>
+            </div>
+        </div> 
 </section>
 
 <span class="anchor" id="devlogLink"></span>
@@ -272,7 +287,7 @@
                         <div class="col-md-5">
                             <div class="form-group">
                                 <textarea class="form-control" name="message" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message"></textarea>
-                                <p class="help-block text-danger"></p>
+                                <p class="help-block text-danger">Messages containing links will be lost in the desert</p>
                             </div>
                             <div style="position: absolute; left: -5010px;" aria-hidden="true"><input type="text" name="Question1" tabindex="-1" value=""></div>
                             <div style="position: absolute; left: -5015px;" aria-hidden="true"><input type="text" name="Question2" tabindex="-1" value=""></div>
@@ -444,6 +459,42 @@
     </div>
 
     <!-- PUBLISHING MODALS -->
+<div class="folio-modal-lg modal fade" id="folioModalMONSTER" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body">
+                            <h2>Monster Roster I</h2>
+                            <h2>Desert Denizens</h2>
+                            <p class="item-intro text-muted">"A helpful codex of monstrous creatures inspired by the myths of arid lands all over the world"</p>
+                            <img class="img-fluid d-block mx-auto img-responsive" src="~/Content/img/LostDutchman/banner.png" alt="Monster Roster" />
+                            <br />
+
+                            <p>The Monster Roster is a complete and highly detailed manual of 15 unique and interesting monsters for your Dungeon World games.
+                            Each creature was inspired by the real life myths and legends of desert-dwelling peoples the world over including Assyria, Mesopotamia, Mexico, Persia, the Middle East, and the North American Southwest.</p>
+                            <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/373592?border_width=2&amp;bg_color=feeee1&amp;fg_color=01686d&amp;link_color=2aaea6&amp;border_color=3f2832" width="554" height="169"></iframe>
+                            <ul class="list-inline">
+                                <li>Date: February 2019</li>
+                                <li>Category: Tabletop RPG</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="folio-modal-lg modal fade" id="folioModalFortuna" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
