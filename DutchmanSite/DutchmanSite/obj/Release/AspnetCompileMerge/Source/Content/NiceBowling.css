@@ -65,6 +65,15 @@ p {
     font-size: 18px;
 }
 
+#changelog {
+    font-size: 2em;
+}
+
+figcaption {
+    font-size:.5em;
+    color: #b41a62;
+}
+
 .well {
     background-color: rgba(255, 255, 255, 0.75);
     border: 1px black;
@@ -184,7 +193,6 @@ div.folio-caption {
     font-size: 4em;
 }
 
-/*    NOT IN USE YET
 .buy-buttons {
     font-size: 60px;
     line-height: 50px;
@@ -192,7 +200,7 @@ div.folio-caption {
     width: 40px;
     height: 40px;
     outline: none;
-}*/
+}
 
 /*DEVLOG SECTIONAL FORMATTING*/
 #devlog {

@@ -2,8 +2,6 @@
 @{
     ViewBag.Title = "Nice Bowling";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    string Site = Path.GetFileName(Request.Url.ToString());
-    DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
 }
 
 @section head{
@@ -302,7 +300,6 @@
     </div>
 </div>
 
-
 <div class="folio-modal-lg modal fade" id="folioModalOST" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -361,6 +358,3 @@
         </div>
     </div>
 </div>
-
-<!--Devlog Modals-->
-@Html.Raw(Logs.GetLogModal(Site))

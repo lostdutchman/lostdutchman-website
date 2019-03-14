@@ -2,8 +2,6 @@
 @{
     ViewBag.Title = "WyrdOfStromgard";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    string Site = Path.GetFileName(Request.Url.ToString());
-    DutchmanSite.Models.DevLogsModel Logs = new DutchmanSite.Models.DevLogsModel();
 }
 
 @section head{
@@ -202,16 +200,6 @@
         <br />
     </div>
 </div>
-
-<section id="devlog">
-    <article class="well">
-        <br />
-        <h1 class="text-center">Devlog</h1>
-        <h3 class="section-subheading">Updates on Development</h3>
-        <br />
-        @Html.Raw(Logs.GetLog(Site))
-    </article>
-</section>
 
 <!--MailChimp Email Signup Form-->
 <button class="emailIcon" data-toggle="modal" data-target="#Spam">
@@ -480,6 +468,3 @@
         </div>
     </div>
 </div>
-
-<!--Dev log Modals-->
-@Html.Raw(Logs.GetLogModal(Site))
