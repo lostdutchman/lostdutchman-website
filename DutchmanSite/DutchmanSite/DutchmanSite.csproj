@@ -240,6 +240,8 @@
     <Content Include="Content\img\Stromgard\PlaybookPreview.png" />
     <Content Include="Content\img\Stromgard\sitelogo.png" />
     <Content Include="Content\img\Stromgard\spread.png" />
+    <Content Include="Content\img\Stromgard\texturedlogo.png" />
+    <Content Include="Content\img\Stromgard\whatsinside.png" />
     <Content Include="Content\img\Stromgard\WyrdLogoTrans.png" />
     <Content Include="Content\img\LostDutchman\dreadproject.png" />
     <Content Include="Content\img\Stromgard\DWtile.png" />

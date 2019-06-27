@@ -127,11 +127,11 @@ h1 {
 }
 
 a {
-    color: #768b9c;
+    color: #5f5d7d;
 }
 
 a.active, a:active, a:focus, a:hover {
-    color: #2a3546;
+    color: #768b9c;
 }
 
 p {
@@ -167,6 +167,15 @@ p {
 
 .imgRight img {
     float: right;
+}
+
+.whatsinside img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 45px;
+
 }
 
 div.realms p {
