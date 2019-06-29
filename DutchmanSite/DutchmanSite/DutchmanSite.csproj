@@ -232,7 +232,10 @@
     <Content Include="Content\img\ScreenSelector.png" />
     <Content Include="Content\img\Navbar\navbarbrandpub.png" />
     <Content Include="Content\img\Stromgard\adventuretile.png" />
+    <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\bearskin.png" />
+    <Content Include="Content\img\Stromgard\dtrpglogo.png" />
+    <Content Include="Content\img\Stromgard\fundsuccess.png" />
     <Content Include="Content\img\Stromgard\gmex.png" />
     <Content Include="Content\img\Stromgard\gmtitle.png" />
     <Content Include="Content\img\Stromgard\historytile.png" />
