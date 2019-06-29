@@ -397,7 +397,6 @@ E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.DependencyColl
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.WindowsServer.xml
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AI.Web.xml
-E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojResolveAssemblyReference.cache
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.dll
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\Microsoft.AspNet.TelemetryCorrelation.dll
@@ -553,3 +552,6 @@ D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.C
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CopyComplete
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.dll
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojAssemblyReference.cache
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CoreCompileInputs.cache
+E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CopyComplete
