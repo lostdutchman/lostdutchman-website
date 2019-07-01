@@ -235,10 +235,12 @@
     <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\bearskin.png" />
     <Content Include="Content\img\Stromgard\dtrpglogo.png" />
+    <Content Include="Content\img\Stromgard\Edda.jpg" />
     <Content Include="Content\img\Stromgard\fundsuccess.png" />
     <Content Include="Content\img\Stromgard\gmex.png" />
     <Content Include="Content\img\Stromgard\gmtitle.png" />
     <Content Include="Content\img\Stromgard\historytile.png" />
+    <Content Include="Content\img\Stromgard\itchlogo.png" />
     <Content Include="Content\img\Stromgard\KelPreview.png" />
     <Content Include="Content\img\Stromgard\monstertiles.png" />
     <Content Include="Content\img\Stromgard\phonebg.jpg" />

@@ -38,12 +38,20 @@
     #buy h1 {
         font-size: 8vw;
     }
+
 }
 
 @media (max-width: 1000px) {
       #buy .offset-2 {
       margin-left: 0px;
   }
+    #fund.img-fluid {
+        max-width: 90%;
+    }
+    #funddiv.offset-1 {
+        margin-left: 4%;
+    }
+
 }
 
 ::selection {
@@ -201,12 +209,12 @@ div.realms p {
     text-shadow: 6px 0px 7px #979bab;
 }
 
-#buy img {
-   
+#fund.img-fluid {
+    padding-top: 35px;
 }
 
-#fund.img-fluid {
-
+#shoplinks .img-fluid {
+    padding: 30px 10px 10px 10px;
 }
 
 #buy p {
