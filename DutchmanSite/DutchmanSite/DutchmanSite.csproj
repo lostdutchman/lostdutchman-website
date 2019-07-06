@@ -235,6 +235,7 @@
     <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\bearskin.png" />
     <Content Include="Content\img\Stromgard\beowulf.jpeg" />
+    <Content Include="Content\img\Stromgard\compendiumspread.png" />
     <Content Include="Content\img\Stromgard\dtrpglogo.png" />
     <Content Include="Content\img\Stromgard\Edda.jpg" />
     <Content Include="Content\img\Stromgard\fundsuccess.png" />
@@ -248,11 +249,12 @@
     <Content Include="Content\img\Stromgard\phonebg.jpg" />
     <Content Include="Content\img\Stromgard\physbook.png" />
     <Content Include="Content\img\Stromgard\PlaybookPreview.png" />
+    <Content Include="Content\img\Stromgard\playbookspread.png" />
     <Content Include="Content\img\Stromgard\playbookstile.png" />
     <Content Include="Content\img\Stromgard\settingtile.png" />
-    <Content Include="Content\img\Stromgard\sitelogo.png" />
     <Content Include="Content\img\Stromgard\spread.png" />
     <Content Include="Content\img\Stromgard\texturedlogo.png" />
+    <Content Include="Content\img\Stromgard\treeemb.png" />
     <Content Include="Content\img\Stromgard\whatsinside.png" />
     <Content Include="Content\img\Stromgard\WyrdLogoTrans.png" />
     <Content Include="Content\img\LostDutchman\dreadproject.png" />
@@ -262,7 +264,6 @@
     <Content Include="Content\img\Stromgard\kelpie.png" />
     <Content Include="Content\img\Stromgard\linnorm.png" />
     <Content Include="Content\img\NiceBowling\macleod.jpg" />
-    <Content Include="Content\img\Stromgard\Maptile.png" />
     <Content Include="Content\img\LostDutchman\MF4lvl2.gif" />
     <Content Include="Content\img\LostDutchman\MF4lvl1.gif" />
     <Content Include="Content\img\404\404Text.png" />
