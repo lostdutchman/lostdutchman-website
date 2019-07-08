@@ -235,7 +235,7 @@
     <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\bearskin.png" />
     <Content Include="Content\img\Stromgard\beowulf.jpeg" />
-    <Content Include="Content\img\Stromgard\compendiumspread.png" />
+    <Content Include="Content\img\Stromgard\compendium.png" />
     <Content Include="Content\img\Stromgard\dtrpglogo.png" />
     <Content Include="Content\img\Stromgard\Edda.jpg" />
     <Content Include="Content\img\Stromgard\fundsuccess.png" />
@@ -245,6 +245,8 @@
     <Content Include="Content\img\Stromgard\itchlogo.png" />
     <Content Include="Content\img\Stromgard\KelPreview.png" />
     <Content Include="Content\img\Stromgard\mapsite.png" />
+    <Content Include="Content\img\Stromgard\monsterbreakdown.png" />
+    <Content Include="Content\img\Stromgard\monsters.png" />
     <Content Include="Content\img\Stromgard\monstertiles.png" />
     <Content Include="Content\img\Stromgard\phonebg.jpg" />
     <Content Include="Content\img\Stromgard\physbook.png" />

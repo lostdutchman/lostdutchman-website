@@ -177,6 +177,10 @@ p {
     float: right;
 }
 
+#compendium img {
+    max-width: 80%;
+}
+
 .whatsinside img {
     display: block;
     margin-left: auto;
