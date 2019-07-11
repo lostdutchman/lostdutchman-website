@@ -9,12 +9,12 @@
     src: url('../fonts/Debute.ttf') format('truetype');
 }
 
-/*@media (max-width:1000px){
+@media (max-width:1000px){
     .col-sm-6 {
            flex: 0 0 100%;
            max-width: 100%;
     }
-}*/
+}
 
 @media (min-width: 601px) {
   body {
@@ -38,12 +38,14 @@
     #buy h1 {
         font-size: 8vw;
     }
-
 }
 
 @media (max-width: 1000px) {
-      #buy .offset-2 {
-      margin-left: 0px;
+    #folio .folio-caption {
+        margin-bottom:10px;
+    }
+    #buy .offset-2 {
+        margin-left: 0px;
   }
     #fund.img-fluid {
         max-width: 90%;
@@ -51,7 +53,9 @@
     #funddiv.offset-1 {
         margin-left: 4%;
     }
-
+    #monster.img-fluid {
+        max-width: 90%;
+    }
 }
 
 ::selection {
@@ -135,7 +139,7 @@ h1 {
 }
 
 a {
-    color: #5f5d7d;
+    color: #196d3f;
 }
 
 a.active, a:active, a:focus, a:hover {
@@ -179,6 +183,7 @@ p {
 
 #compendium img {
     max-width: 80%;
+    align-content:center;
 }
 
 .whatsinside img {
