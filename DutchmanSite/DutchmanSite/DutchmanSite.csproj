@@ -231,11 +231,14 @@
     <Content Include="Content\img\NiceBowling\retrowave.gif" />
     <Content Include="Content\img\ScreenSelector.png" />
     <Content Include="Content\img\Navbar\navbarbrandpub.png" />
+    <Content Include="Content\img\Stromgard\adventurebreakdown.png" />
     <Content Include="Content\img\Stromgard\adventuretile.png" />
     <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\bearskin.png" />
     <Content Include="Content\img\Stromgard\beowulf.jpeg" />
+    <Content Include="Content\img\Stromgard\birdemb.png" />
     <Content Include="Content\img\Stromgard\compendium.png" />
+    <Content Include="Content\img\Stromgard\dragonemb.png" />
     <Content Include="Content\img\Stromgard\dtrpglogo.png" />
     <Content Include="Content\img\Stromgard\Edda.jpg" />
     <Content Include="Content\img\Stromgard\fundsuccess.png" />
