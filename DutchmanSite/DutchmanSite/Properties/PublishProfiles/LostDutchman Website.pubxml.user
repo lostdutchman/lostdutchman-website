@@ -25,16 +25,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>05/17/2019 10:00:55</publishTime>
+      <publishTime>07/20/2019 11:16:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>05/17/2019 10:00:54</publishTime>
+      <publishTime>07/20/2019 11:16:00</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>05/17/2019 10:00:48</publishTime>
+      <publishTime>07/20/2019 11:15:53</publishTime>
     </File>
     <File Include="bin/DutchmanSite.pdb">
-      <publishTime>05/17/2019 10:00:48</publishTime>
+      <publishTime>07/20/2019 11:15:53</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>02/23/2019 09:03:52</publishTime>
@@ -729,26 +729,65 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/steviasphere.jpg">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/adventurebreakdown.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/adventuretile.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/availablenow.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/bearskin.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/beowulf.jpeg">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/birdemb.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/Charatile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/compendium.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/CoverMockup.png">
       <publishTime>10/14/2018 11:57:42</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/dragonemb.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/dtrpglogo.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/DWtile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/Edda.jpg">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/fae.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/fundsuccess.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/gmex.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/gmtitle.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/historytile.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/Inspotile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/itchlogo.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/kelpie.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -762,11 +801,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/linnorm.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/mapsite.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/Maptile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/monsterbreakdown.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/monsters.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/Monstertile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/monstertiles.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/phonebg.jpg">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -777,14 +828,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/PlaybookPreview.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/playbookspread.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/playbookstile.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/Racetile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/settingtile.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/sitelogo.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/Stromgard/spread.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/texturedlogo.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/treeemb.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/whatsinside.png">
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/WyrdLogoTrans.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -823,7 +892,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2019 09:49:14</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/Video/NiceBowlingBackground.mp4">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -835,7 +904,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2019 09:03:49</publishTime>
@@ -871,7 +940,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:52</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>05/17/2019 10:00:49</publishTime>
+      <publishTime>07/20/2019 11:15:54</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -1099,7 +1168,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2019 12:42:04</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>04/12/2019 17:10:18</publishTime>
+      <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/23/2019 09:03:48</publishTime>
