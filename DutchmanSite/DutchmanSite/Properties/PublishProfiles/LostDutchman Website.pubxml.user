@@ -25,16 +25,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>07/20/2019 11:16:00</publishTime>
+      <publishTime>07/20/2019 12:44:55</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>07/20/2019 11:16:00</publishTime>
+      <publishTime>07/20/2019 12:44:55</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>07/20/2019 11:15:53</publishTime>
+      <publishTime>07/20/2019 12:44:49</publishTime>
     </File>
     <File Include="bin/DutchmanSite.pdb">
-      <publishTime>07/20/2019 11:15:53</publishTime>
+      <publishTime>07/20/2019 12:44:49</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>02/23/2019 09:03:52</publishTime>
@@ -736,7 +736,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/availablenow.png">
-      <publishTime>07/20/2019 11:13:43</publishTime>
+      <publishTime>07/20/2019 12:44:16</publishTime>
     </File>
     <File Include="Content/img/Stromgard/bearskin.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -772,7 +772,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/Stromgard/fundsuccess.png">
-      <publishTime>07/20/2019 11:13:43</publishTime>
+      <publishTime>07/20/2019 12:44:16</publishTime>
     </File>
     <File Include="Content/img/Stromgard/gmex.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -814,7 +814,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
     <File Include="Content/img/Stromgard/Monstertile.png">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>07/20/2019 12:44:16</publishTime>
     </File>
     <File Include="Content/img/Stromgard/monstertiles.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
@@ -847,7 +847,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/Stromgard/texturedlogo.png">
-      <publishTime>07/20/2019 11:13:43</publishTime>
+      <publishTime>07/20/2019 12:44:16</publishTime>
     </File>
     <File Include="Content/img/Stromgard/treeemb.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
@@ -904,7 +904,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>07/20/2019 11:13:43</publishTime>
+      <publishTime>07/20/2019 12:44:16</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2019 09:03:49</publishTime>
@@ -940,7 +940,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:52</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>07/20/2019 11:15:54</publishTime>
+      <publishTime>07/20/2019 12:44:50</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -1168,7 +1168,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2019 12:42:04</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>07/20/2019 11:13:43</publishTime>
+      <publishTime>07/20/2019 12:44:16</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/23/2019 09:03:48</publishTime>
