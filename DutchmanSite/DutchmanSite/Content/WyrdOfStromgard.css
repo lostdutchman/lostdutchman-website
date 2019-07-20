@@ -186,12 +186,34 @@ p {
     align-content:center;
 }
 
+.mainlogo img, .available img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:15px;
+}
+
+ .available img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .whatsinside img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 90%;
     padding-bottom: 65px;
+}
+
+.funddiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 div.realms p {
@@ -218,9 +240,6 @@ div.realms p {
     text-shadow: 6px 0px 7px #979bab;
 }
 
-#fund.img-fluid {
-    padding-top: 35px;
-}
 
 #shoplinks .img-fluid {
     padding: 30px 10px 10px 10px;

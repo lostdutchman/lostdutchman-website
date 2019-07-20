@@ -247,7 +247,7 @@
     <Content Include="Content\img\Stromgard\mapsite.png" />
     <Content Include="Content\img\Stromgard\monsterbreakdown.png" />
     <Content Include="Content\img\Stromgard\monsters.png" />
-    <Content Include="Content\img\Stromgard\monstertiles.png" />
+    <Content Include="Content\img\Stromgard\monstertile.png" />
     <Content Include="Content\img\Stromgard\phonebg.jpg" />
     <Content Include="Content\img\Stromgard\playbookspread.png" />
     <Content Include="Content\img\Stromgard\playbookstile.png" />
