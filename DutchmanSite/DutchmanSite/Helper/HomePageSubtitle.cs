@@ -24,7 +24,7 @@ namespace DutchmanSite.Helper
                 "I like your shirt",
                 "Dry-roasted, flavorless wild caught RPG's",
                 "Precipitation: 0%",
-                "https://libraryofbabel.info/bookmark.cgi?found_it:5",
+                "https://libraryofbabel.info/bookmark.cgi?b.ieufd.yhajrw.o182",
                 "The voice of a cat being pet”",
                 "I <3 C# Lists",
                 "Don't let me forget to pick up some Jalapenos on the way home",
@@ -51,10 +51,8 @@ namespace DutchmanSite.Helper
                 "I miss the clam chowder by the ferry terminal",
                 "Scarab beetles are crunchy bugs",
                 "When cats look around the room all crazy-like",
-                "Getting worked up about art"
-                
-
-
+                "Getting worked up about art",
+                "A random subtitle to hide the fact that we can't come up with a good one"
         };
 
         public string GetSubtitle()

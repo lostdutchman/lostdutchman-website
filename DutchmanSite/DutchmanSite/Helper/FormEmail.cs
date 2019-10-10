@@ -29,6 +29,10 @@ namespace DutchmanSite.Helper
             if (name.Length < 2 || emailaddress.Length < 7 || content.Length < 5) { return false; }
             //Contains URL's
             else if(content.ToLower().Contains("http://") || content.ToLower().Contains("https://") || content.ToLower().Contains("www.")) { return false; }
+            //Ad Agency
+            else if (content.ToLower().Contains("online presence") || content.ToLower().Contains("digital agency") || content.ToLower().Contains("advertising service") || content.ToLower().Contains("converting visitors") || content.ToLower().Contains("do not respond") || content.ToLower().Contains("most visited websites")) { return false; }
+            //Blacklist
+            else if (emailaddress.ToLower().Contains("alychidesigns.com")) { return false; }
             //Not Spam
             return true; 
         }
