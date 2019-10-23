@@ -209,7 +209,6 @@ D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.WebPages.Deploym
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.WebPages.Razor.xml
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.Optimization.xml
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csprojAssemblyReference.cache
-D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CoreCompileInputs.cache
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CopyComplete
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.dll
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.pdb

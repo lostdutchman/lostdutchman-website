@@ -207,14 +207,18 @@ p {
     padding-bottom: 65px;
 }
 
-.funddiv img {
+#shoptext{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/*.funddiv img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 35px;
     padding-right: 5px;
     padding-left: 5px;
-}
+}*/
 
 div.realms p {
     margin-left: 50px;
