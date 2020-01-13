@@ -238,10 +238,13 @@
     <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\beowulf.jpeg" />
     <Content Include="Content\img\Stromgard\birdemb.png" />
+    <Content Include="Content\img\Stromgard\BloodEagleTile.png" />
     <Content Include="Content\img\Stromgard\compendium.png" />
     <Content Include="Content\img\Stromgard\dragonemb.png" />
     <Content Include="Content\img\Stromgard\dtrpglogo.png" />
     <Content Include="Content\img\Stromgard\Edda.jpg" />
+    <Content Include="Content\img\Stromgard\ExpansesTile.png" />
+    <Content Include="Content\img\Stromgard\exploreMore.png" />
     <Content Include="Content\img\Stromgard\fundsuccess.png" />
     <Content Include="Content\img\Stromgard\gmtitle.png" />
     <Content Include="Content\img\Stromgard\historytile.png" />
@@ -251,9 +254,11 @@
     <Content Include="Content\img\Stromgard\monsters.png" />
     <Content Include="Content\img\Stromgard\monstertile.png" />
     <Content Include="Content\img\Stromgard\phonebg.jpg" />
+    <Content Include="Content\img\Stromgard\PlayAidsTile.png" />
     <Content Include="Content\img\Stromgard\playbookspread.png" />
     <Content Include="Content\img\Stromgard\playbookstile.png" />
     <Content Include="Content\img\Stromgard\settingtile.png" />
+    <Content Include="Content\img\Stromgard\ShadowsTile.png" />
     <Content Include="Content\img\Stromgard\texturedlogo.png" />
     <Content Include="Content\img\Stromgard\treeemb.png" />
     <Content Include="Content\img\Stromgard\whatsinside.png" />
