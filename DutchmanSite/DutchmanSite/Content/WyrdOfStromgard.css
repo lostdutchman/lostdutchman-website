@@ -44,6 +44,9 @@
     #folio .folio-caption {
         margin-bottom:10px;
     }
+    #extras .folio-caption {
+        margin-bottom: 10px;
+    }
     #buy .offset-2 {
         margin-left: 0px;
   }
@@ -238,12 +241,16 @@ div.realms p {
     max-width: 360px;
 }
 
+#extras .folio-caption {
+    max-width: 360px;
+    margin-bottom:15px;
+}
+
 #buy h1 {
     text-align:center;
     color: #2a3546;
     text-shadow: 6px 0px 7px #979bab;
 }
-
 
 #shoplinks .img-fluid {
     padding: 30px 10px 10px 10px;
