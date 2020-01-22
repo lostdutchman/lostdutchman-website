@@ -202,7 +202,8 @@ p {
     margin-right: auto;
 }
 
-.whatsinside img {
+.whatsinside img,
+.extras img{
     display: block;
     margin-left: auto;
     margin-right: auto;
