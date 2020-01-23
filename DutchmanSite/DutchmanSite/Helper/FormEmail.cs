@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Net;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 
 namespace DutchmanSite.Helper
 {
@@ -30,11 +30,37 @@ namespace DutchmanSite.Helper
             //Contains URL's
             else if(content.ToLower().Contains("http://") || content.ToLower().Contains("https://") || content.ToLower().Contains("www.")) { return false; }
             //Ad Agency
-            else if (content.ToLower().Contains("online presence") || content.ToLower().Contains("digital agency") || content.ToLower().Contains("advertising service") || content.ToLower().Contains("converting visitors") || content.ToLower().Contains("do not respond") || content.ToLower().Contains("most visited websites")) { return false; }
+            else if (content.ToLower().Contains("online presence") || content.ToLower().Contains("digital agency") || content.ToLower().Contains("advertising service") || content.ToLower().Contains("converting visitors") || content.ToLower().Contains("do not respond") || content.ToLower().Contains("most visited websites") || content.ToLower().Contains("online promotion") || content.ToLower().Contains("offer our services")) { return false; }
+            //Contains a different email in the body
+            else if (HasSecondEmailInBody(emailaddress, content)) { return false; }
             //Blacklist
-            else if (emailaddress.ToLower().Contains("alychidesigns.com")) { return false; }
+            else if (emailaddress.ToLower().Contains("alychidesigns.com") || emailaddress.ToLower().Contains("glmux.com") || emailaddress.ToLower().Contains("jessicarobert")) { return false; }
             //Not Spam
             return true; 
+        }
+
+        public bool HasSecondEmailInBody(string emailaddress, string content)
+        {
+            const string MatchEmailPattern =
+               @"(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@"
+               + @"((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\."
+                 + @"([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
+               + @"([a-zA-Z]+[\w-]+\.)+[a-zA-Z]{2,4})";
+
+            Regex rx = new Regex(MatchEmailPattern, RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+            // Find matches.
+            MatchCollection matches = rx.Matches(content);
+
+            foreach (Match match in matches)
+            {
+                if(match.Value.ToString().ToLower() != emailaddress.ToLower())
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
