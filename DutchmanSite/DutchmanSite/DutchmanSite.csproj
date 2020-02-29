@@ -275,8 +275,6 @@
     <Content Include="Content\img\Stromgard\WyrdLogoTrans.png" />
     <Content Include="Content\img\LostDutchman\HungerGame.png" />
     <Content Include="Content\img\NiceBowling\macleod.jpg" />
-    <Content Include="Content\img\LostDutchman\MF4lvl2.gif" />
-    <Content Include="Content\img\LostDutchman\MF4lvl1.gif" />
     <Content Include="Content\img\404\404Text.png" />
     <Content Include="Content\img\NiceBowling\CassetteTape.png" />
     <Content Include="Content\img\Navbar\navbarbrand.png" />
@@ -315,6 +313,8 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include=".bowerrc" />
     <Content Include="Content\FavIcon\manifest.json" />
+    <Content Include="Content\img\LostDutchman\mwf1.webm" />
+    <Content Include="Content\img\LostDutchman\mwf2.webm" />
     <None Include="Properties\PublishProfiles\LostDutchman Website.pubxml" />
     <Content Include="Scripts\assets\ajax-loader.gif" />
     <Content Include="Scripts\assets\owl.carousel.css" />
