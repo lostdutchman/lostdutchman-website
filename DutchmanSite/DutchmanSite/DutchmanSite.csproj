@@ -205,6 +205,7 @@
     <Content Include="Content\FavIcon\ms-icon-310x310.png" />
     <Content Include="Content\FavIcon\ms-icon-70x70.png" />
     <Content Include="Content\img\404\404BG.jpg" />
+    <Content Include="Content\img\LostDutchman\AlexaAPPIcons.jpg" />
     <Content Include="Content\img\LostDutchman\AlexaCommands.jpg" />
     <Content Include="Content\img\LostDutchman\AlexaIcons.jpg" />
     <Content Include="Content\img\LostDutchman\banner.jpg" />
@@ -216,14 +217,14 @@
     <Content Include="Content\img\LostDutchman\kazoetecap2.JPG" />
     <Content Include="Content\img\LostDutchman\kazoetetile.jpg" />
     <Content Include="Content\img\LostDutchman\LostDutchmanBG.jpg" />
+    <Content Include="Content\Audio\ChillWave.mp3" />
+    <Content Include="Content\Audio\glaciære.mp3" />
     <Content Include="Content\img\LostDutchman\MF4project.jpg" />
     <Content Include="Content\img\LostDutchman\MRprojecttile2.jpg" />
     <Content Include="Content\img\LostDutchman\projectitlewyrd.jpg" />
     <Content Include="Content\img\LostDutchman\projecttilegm.jpg" />
     <Content Include="Content\img\LostDutchman\projecttilenb.jpg" />
-    <Content Include="Content\img\LostDutchman\rosterbanner2.png" />
-    <Content Include="Content\Audio\ChillWave.mp3" />
-    <Content Include="Content\Audio\glaciære.mp3" />
+    <Content Include="Content\img\LostDutchman\rosterbanner2.jpg" />
     <Content Include="Content\img\NiceBowling\badsnacks.jpg" />
     <Content Include="Content\img\NiceBowling\google-play-badge.png" />
     <Content Include="Content\img\NiceBowling\NBScreenshots\City.png" />
@@ -285,7 +286,6 @@
     <Content Include="Content\img\LostDutchman\SalishGame.png" />
     <Content Include="Content\img\NiceBowling\steviasphere.jpg" />
     <Content Include="Content\img\LostDutchman\AlexaTag.png" />
-    <Content Include="Content\img\LostDutchman\AlexaAPPIcons.png" />
     <Content Include="Content\img\LostDutchman\ThousandGame.png" />
     <Content Include="Content\img\NiceBowling\VHS.png" />
     <Content Include="Content\img\Stromgard\wyrdmasthead.jpg" />
