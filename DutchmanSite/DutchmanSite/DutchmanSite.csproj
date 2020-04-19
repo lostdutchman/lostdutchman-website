@@ -398,6 +398,8 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Scripts\LICENSE" />
     <Content Include="Views\Home\NiceBowlingLegalJargon.cshtml" />
+    <Content Include="Views\Home\SumoSpin.cshtml" />
+    <Content Include="Views\Home\SumoSpinLegalJargon.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
