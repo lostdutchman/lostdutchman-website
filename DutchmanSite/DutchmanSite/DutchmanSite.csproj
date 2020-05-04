@@ -167,6 +167,7 @@
     <Compile Include="Helper\HomePageSubtitle.cs" />
     <Compile Include="Helper\FormEmail.cs" />
     <Compile Include="Helper\ImgUpload.cs" />
+    <Compile Include="Helper\StromgardPrompts.cs" />
     <Compile Include="Helper\TodaysWord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

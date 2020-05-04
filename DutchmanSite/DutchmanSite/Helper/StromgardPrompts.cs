@@ -5,9 +5,9 @@ using System.Web;
 
 namespace DutchmanSite.Helper
 {
-    public class HomePageSubtitle
+    public class StromgardPrompt
     {
-        private List<string> SubtitleList = new List<string> {
+        private List<string> PromptList = new List<string> {
                 "Four Dvergr hold up each corner of the sky, frozen with their burden in perpetuity.  Interacting with or even talking about them has been strictly forbidden in dwarven culture for unknown reasons.",
                 "Odin asks the dwarves to procure a legendary material for the building of the first humans.  Because he wishes them to be upstanding and civilized, he requests that the most valorious be the ones to bring it to him.",
                 "At the end of the Aesir-Vanir war, the gods agreed to exchange hostages to broker peace between both groups.  Hoenir and Mimir were traded by the Aesir for Freyr, Njord, and Freya- a stacked trade in the Aesir's favor.  A party of neutral background is needed to oversee the tense transaction.",
@@ -59,10 +59,10 @@ namespace DutchmanSite.Helper
                 "The gnomes of Stromgard craft impossible, amazing things though it often comes with intense collateral damage.  Two summers ago they accidentially unleashed a giant mechanical cat powered by something that smelled terrible and was incredibly explosive.  Now, there are colored plumes of smoke rising from the nearest gnome village accompanied by ominous flashing lights.  The entire region is put on edge and waiting for whatever new horror they've created to make its presence known."
         };
 
-        public string GetSubtitle()
+        public string GetPrompt()
         {
             Random Rand = new Random();
-            return SubtitleList[Rand.Next(0, SubtitleList.Count)];
+            return PromptList[Rand.Next(0, PromptList.Count)];
         }
     }
 }

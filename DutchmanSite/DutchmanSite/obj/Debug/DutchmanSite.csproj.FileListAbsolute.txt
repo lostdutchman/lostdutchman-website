@@ -554,3 +554,4 @@ D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojAssemblyReference.cache
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CoreCompileInputs.cache
 E:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CopyComplete
+D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CoreCompileInputs.cache
