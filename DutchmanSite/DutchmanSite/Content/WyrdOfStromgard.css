@@ -196,6 +196,12 @@ p {
     padding-top:15px;
 }
 
+h6 {
+    font-family: sabon, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
  .available img {
     display: block;
     margin-left: auto;
