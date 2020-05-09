@@ -4,5 +4,46 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@section head{
+    <meta name="description" content="Sumo Spin" />
+    <meta name="keywords" content="SumoSpin,sumo,spin,video game,indie game,arcade game,two player game,competetive,single mechanic,atari,atari style,browser game,mobile game,vintage,robot sumo,roomba sumo,lost dutchman software,lost dutchman,lost dutchman mesa,lost dutchman arizona,mesa,arizona " />
+
+    @* Need to make a twitter card for this project *@
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="http://lostdutchmansoftware.com/Content/img/Stromgard/wyrdmasthead.jpg" />
+    <meta property="og:image" content="http://lostdutchmansoftware.com/Content/img/Stromgard/wyrdmasthead.jpg" />
+    <meta name="twitter:site" content="@("@softdutch")" />
+    <meta name="twitter:title" content="The Wyrd of Stromgard" />
+    <meta name="twitter:description" content="The Wyrd of Stromgard is a Dungeon World expansion inspired by surviving Norse literary sources. Back it on Kickstarter today!" />
+    <meta property="og:title" content="The Wyrd of Stromgard" />
+    <meta property="og:description" class="speakable-description" content="The Wyrd of Stromgard is a Dungeon World expansion inspired by surviving Norse literary sources. Back it on Kickstarter today!" />
+    <meta property="og:url" content="http://lostdutchmansoftware.com/Home/WyrdOfStromgard">
+    <meta property="og:type" content="website" />
+    <link href="~/Content/SumoSpin.css" rel="stylesheet" type="text/css" />
+}
+
+<nav id="navbarLinks" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" style="background-color: #222222;">
+    <a class="navbar-brand" href="~/Home/Index"><img id="logo" class="img-fluid" src="~/Content/img/Navbar/navbarbrandpub.png" alt="Lost Dutchman Publishing" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#media">Media</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#Buy">Buy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#more">Extras</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <h2>SumoSpin</h2>
 

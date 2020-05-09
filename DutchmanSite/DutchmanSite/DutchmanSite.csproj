@@ -291,11 +291,14 @@
     <Content Include="Content\img\LostDutchman\ThousandGame.png" />
     <Content Include="Content\img\NiceBowling\VHS.png" />
     <Content Include="Content\img\Stromgard\wyrdmasthead.jpg" />
+    <Content Include="Content\img\LostDutchman\sumoprojecttile.jpg" />
+    <Content Include="Content\img\SumoSpin\SumoBG.jpg" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
     <Content Include="Content\Video\NiceBowlingBackground.mp4" />
     <Content Include="Content\Video\NiceBowlingBackground.png" />
     <Content Include="Content\Audio\AetherTheories.mp3" />
+    <Content Include="Content\SumoSpin.css" />
     <Content Include="Content\WyrdOfStromgard.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

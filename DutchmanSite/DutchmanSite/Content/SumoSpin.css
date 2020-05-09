@@ -1,0 +1,22 @@
+﻿/*!
+ * Start Bootstrap - Agency v4.0.0-beta (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+@media (max-width:1000px){
+    .col-sm-6 {
+           flex: 0 0 100%;
+           max-width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+  body {
+    background: url("img/SumoSpin/SumoBG.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
