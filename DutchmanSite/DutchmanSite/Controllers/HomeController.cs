@@ -47,6 +47,18 @@ namespace DutchmanSite.Controllers
         }
 
         [HttpGet]
+        public ActionResult SumoSpin()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult SumoSpinLegalJargon()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public ActionResult WyrdOfStromgard()
         {
             return View();
