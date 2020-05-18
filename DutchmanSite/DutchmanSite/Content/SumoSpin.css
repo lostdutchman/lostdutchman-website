@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+
+@font-face {
+    font-family: MP16OSF;
+    src: url('../fonts/MP16OSF.ttf') format('truetype');
+}
+
 @media (max-width:1000px){
     .col-sm-6 {
            flex: 0 0 100%;
@@ -13,10 +19,23 @@
 
 @media (min-width: 601px) {
   body {
-    background: url("img/SumoSpin/SumoBG.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background: url("img/SumoSpin/SumoBG.jpg") no-repeat center center;
+    background-size: cover, contain;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
   }
+}
+
+
+#lander .container {
+    padding-top: 100px;
+}
+
+
+.mainlogo img, .available img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
 }

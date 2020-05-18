@@ -223,6 +223,7 @@
     <Content Include="Content\img\LostDutchman\MF4project.jpg" />
     <Content Include="Content\img\LostDutchman\MRprojecttile2.jpg" />
     <Content Include="Content\img\LostDutchman\projectitlewyrd.jpg" />
+    <Content Include="Content\img\LostDutchman\projecttilesumo.jpg" />
     <Content Include="Content\img\LostDutchman\projecttilegm.jpg" />
     <Content Include="Content\img\LostDutchman\projecttilenb.jpg" />
     <Content Include="Content\img\LostDutchman\rosterbanner2.jpg" />
@@ -291,7 +292,7 @@
     <Content Include="Content\img\LostDutchman\ThousandGame.png" />
     <Content Include="Content\img\NiceBowling\VHS.png" />
     <Content Include="Content\img\Stromgard\wyrdmasthead.jpg" />
-    <Content Include="Content\img\LostDutchman\sumoprojecttile.jpg" />
+    <Content Include="Content\img\SumoSpin\sumologo.png" />
     <Content Include="Content\img\SumoSpin\SumoBG.jpg" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
@@ -320,6 +321,7 @@
     <Content Include="Content\FavIcon\manifest.json" />
     <Content Include="Content\img\LostDutchman\mwf1.webm" />
     <Content Include="Content\img\LostDutchman\mwf2.webm" />
+    <Content Include="fonts\MP16OSF.ttf" />
     <None Include="Properties\PublishProfiles\LostDutchman Website.pubxml" />
     <Content Include="Scripts\assets\ajax-loader.gif" />
     <Content Include="Scripts\assets\owl.carousel.css" />
