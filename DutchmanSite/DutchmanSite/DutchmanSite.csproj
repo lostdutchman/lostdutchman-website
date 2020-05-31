@@ -292,6 +292,8 @@
     <Content Include="Content\img\LostDutchman\ThousandGame.png" />
     <Content Include="Content\img\NiceBowling\VHS.png" />
     <Content Include="Content\img\Stromgard\wyrdmasthead.jpg" />
+    <Content Include="Content\img\SumoSpin\Contentbg.jpg" />
+    <Content Include="Content\img\SumoSpin\SumoBGopa.jpg" />
     <Content Include="Content\img\SumoSpin\sumologo.png" />
     <Content Include="Content\img\SumoSpin\SumoBG.jpg" />
     <Content Include="Content\NiceBowling.css" />
