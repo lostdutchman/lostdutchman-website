@@ -293,9 +293,12 @@
     <Content Include="Content\img\NiceBowling\VHS.png" />
     <Content Include="Content\img\Stromgard\wyrdmasthead.jpg" />
     <Content Include="Content\img\SumoSpin\Contentbg.jpg" />
+    <Content Include="Content\img\SumoSpin\logo.png" />
     <Content Include="Content\img\SumoSpin\SumoBGopa.jpg" />
     <Content Include="Content\img\SumoSpin\sumologo.png" />
     <Content Include="Content\img\SumoSpin\SumoBG.jpg" />
+    <Content Include="Content\img\SumoSpin\timeline.jpg" />
+    <Content Include="Content\img\SumoSpin\timelinesmall.jpg" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
     <Content Include="Content\Video\NiceBowlingBackground.mp4" />

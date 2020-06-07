@@ -10,6 +10,14 @@
     src: url('../fonts/MP16OSF.ttf') format('truetype');
 }
 
+::selection {
+    background: #00ff00;
+}
+
+::moz-selection {
+    background: #00ff00;
+}
+
 @media (max-width:1000px){
     .col-sm-6 {
            flex: 0 0 100%;
@@ -17,13 +25,57 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .timelineL img {
+        display: none;
+    }
+
+    .timelineS img {
+        display: initial;
+        padding-left: 1em;
+    }
+}
+
+.timelineL img {
+    display: initial;
+    padding-left: 3em;
+}
+
+.timelineS img{
+    display: none;
+}
+
 body {
-    background: url("img/SumoSpin/SumoBGopa.jpg") no-repeat center center;
+    background: url("img/SumoSpin/SumoBGopa.jpg") no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
   
+
+h1, h2 {
+    font-family: MP16OSF;
+    align-content: center;
+    text-align: center
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.well {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px black;
+}
+
+p {
+    font-size: 1.5em;
+}
+
 .mainlogo img {
     display: block;
     margin-left: auto;
@@ -31,17 +83,32 @@ body {
     padding-top: 7em;
 }
 
-h1, h2 {
-    font-family: MP16OSF;
-    align-content: center;
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 18px nexaBold;
 }
 
-#lander h1, #playlinks h1 {
-    font-size: 6em;
-    text-align: center;
+#mc_embed_signup .ul {
+        padding: 0;
 }
 
-.well {
-    background-color: rgba(255, 255, 255, 0.75);
-    border: 1px black;
+#mc-embedded-subscribe-form input[type=checkbox] {
+    display: block;
+    width: auto;
+    margin-right: 10px;
+}
+
+#mergeRow-gdpr {
+    margin-top: 20px;
+}
+
+#mergeRow-gdpr fieldset label {
+        font-weight: normal;
+}
+
+#mc-embedded-subscribe-form .mc_fieldset {
+    border: none;
+    min-height: 0px;
+    padding-bottom: 0px;
 }
