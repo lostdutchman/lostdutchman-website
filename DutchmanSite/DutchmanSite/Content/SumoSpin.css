@@ -18,14 +18,19 @@
     background: #00ff00;
 }
 
-@media (max-width:1000px){
+/*@media (max-width:1000px){
     .col-sm-6 {
            flex: 0 0 100%;
            max-width: 100%;
     }
+}*/
+@media (max-width: 768px) {
+    .title h1 {
+        font-size:64px;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .timelineL img {
         display: none;
     }
@@ -34,11 +39,10 @@
         display: initial;
         padding-left: 1em;
     }
-}
+}*/
 
 .timelineL img {
     display: initial;
-    padding-left: 3em;
 }
 
 .timelineS img{
@@ -52,11 +56,11 @@ body {
     -o-background-size: cover;
 }
   
-
-h1, h2 {
+h1, h2, h3 {
     font-family: MP16OSF;
     align-content: center;
-    text-align: center
+    text-align: center;
+    overflow: hidden;
 }
 
 h1 {
@@ -74,6 +78,13 @@ h2 {
 
 p {
     font-size: 1.5em;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.article {
+    margin: auto;
+    position: relative;
 }
 
 .mainlogo img {
@@ -83,32 +94,29 @@ p {
     padding-top: 7em;
 }
 
-#mc_embed_signup {
-    background: #fff;
-    clear: left;
-    font: 18px nexaBold;
-}
-
-#mc_embed_signup .ul {
-        padding: 0;
-}
-
-#mc-embedded-subscribe-form input[type=checkbox] {
+.input-group {
     display: block;
+}
+
+#mailchimp div.mc-field-group.input-group ul li {
+    list-style-type: none;
+    white-space: nowrap; /* added */
+}
+
+#mc-embedded-subscribe-form input[type=radio] {
+    display: inline;
     width: auto;
     margin-right: 10px;
 }
 
-#mergeRow-gdpr {
-    margin-top: 20px;
+div#mc_embed_signup_scroll p, div#mc_embed_signup_scroll p > a {
+    font-size: 11px;
 }
 
-#mergeRow-gdpr fieldset label {
-        font-weight: normal;
+input#mc-embedded-subscribe.button {
+    background-color: #0094ff;
 }
 
-#mc-embedded-subscribe-form .mc_fieldset {
-    border: none;
-    min-height: 0px;
-    padding-bottom: 0px;
+input#mc-embedded-subscribe.button:hover {
+    background-color: #00aaff;
 }
