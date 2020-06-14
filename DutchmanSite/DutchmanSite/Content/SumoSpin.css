@@ -18,35 +18,10 @@
     background: #00ff00;
 }
 
-/*@media (max-width:1000px){
-    .col-sm-6 {
-           flex: 0 0 100%;
-           max-width: 100%;
-    }
-}*/
 @media (max-width: 768px) {
     .title h1 {
         font-size:64px;
     }
-}
-
-/*@media screen and (max-width: 768px) {
-    .timelineL img {
-        display: none;
-    }
-
-    .timelineS img {
-        display: initial;
-        padding-left: 1em;
-    }
-}*/
-
-.timelineL img {
-    display: initial;
-}
-
-.timelineS img{
-    display: none;
 }
 
 body {
@@ -69,6 +44,8 @@ h1 {
 
 h2 {
     font-size: 2.5em;
+    padding-top: .75em;
+    padding-bottom: .5em;
 }
 
 .well {
@@ -91,7 +68,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 7em;
+    padding-top:3em;
 }
 
 .input-group {
