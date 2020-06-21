@@ -226,6 +226,7 @@
     <Content Include="Content\img\LostDutchman\projecttilesumo.jpg" />
     <Content Include="Content\img\LostDutchman\projecttilegm.jpg" />
     <Content Include="Content\img\LostDutchman\projecttilenb.jpg" />
+    <Content Include="Content\img\LostDutchman\rosterbanner3.jpg" />
     <Content Include="Content\img\LostDutchman\rosterbanner2.jpg" />
     <Content Include="Content\img\NiceBowling\badsnacks.jpg" />
     <Content Include="Content\img\NiceBowling\google-play-badge.png" />
@@ -299,6 +300,7 @@
     <Content Include="Content\img\SumoSpin\SumoBGopa.jpg" />
     <Content Include="Content\img\SumoSpin\sumologo.png" />
     <Content Include="Content\img\SumoSpin\SumoBG.jpg" />
+    <Content Include="Content\img\SumoSpin\timeline.jpg" />
     <Content Include="Content\img\SumoSpin\timelinesmall.jpg" />
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
