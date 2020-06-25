@@ -25,16 +25,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>01/23/2020 13:53:46</publishTime>
+      <publishTime>06/25/2020 01:26:10</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>01/23/2020 13:53:46</publishTime>
+      <publishTime>06/25/2020 01:26:10</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>01/23/2020 13:53:42</publishTime>
+      <publishTime>06/25/2020 01:26:03</publishTime>
     </File>
     <File Include="bin/DutchmanSite.pdb">
-      <publishTime>01/23/2020 13:53:42</publishTime>
+      <publishTime>06/25/2020 01:26:03</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>02/23/2019 09:03:52</publishTime>
@@ -327,6 +327,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/404.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
+    <File Include="Content/img/404/404BG.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/404/404BG.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
@@ -423,11 +426,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/linnorm.png">
       <publishTime>07/21/2018 08:00:58</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/AlexaAPPIcons.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/AlexaAPPIcons.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/AlexaCommands.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/AlexaCommands.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/AlexaIcons.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/AlexaIcons.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -435,17 +447,29 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/LostDutchman/AlexaTag.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/banner.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/banner.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/cardimage.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/dreadproject.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/dreadproject.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/fortunaproject.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/fortunaproject.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/gmthumb.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/gmthumb.png">
       <publishTime>10/10/2019 10:25:27</publishTime>
@@ -459,11 +483,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/LostDutchman/kazoetecap2.JPG">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/kazoetetile.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/kazoetetile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/LostDutchmanBG.jpeg">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/LostDutchmanBG.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/MF4lvl1.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -471,11 +501,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/LostDutchman/MF4lvl2.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/MF4project.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/MF4project.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/MRprojecttile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/MRprojecttile2.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/mwf1.webm">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/mwf2.webm">
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/NBproject.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -483,14 +525,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/LostDutchman/newwyrdtile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/projectitlewyrd.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/projectitlewyrd.png">
       <publishTime>03/14/2019 09:49:14</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/projecttilegm.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/projecttilegm.png">
       <publishTime>10/10/2019 10:25:27</publishTime>
     </File>
+    <File Include="Content/img/LostDutchman/projecttilenb.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
     <File Include="Content/img/LostDutchman/projecttilenb.png">
       <publishTime>03/14/2019 09:49:14</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/projecttilesumo.jpg">
+      <publishTime>06/01/2020 00:09:19</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/rosterbanner2.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
+    </File>
+    <File Include="Content/img/LostDutchman/rosterbanner3.jpg">
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="Content/img/LostDutchman/SalishGame.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -586,7 +646,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2018 08:43:14</publishTime>
     </File>
     <File Include="Content/img/NiceBowling/badsnacks.JPG">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/NiceBowling/CassetteTape.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -675,6 +735,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/NiceBowling/Polaroid.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/NiceBowling/RetroBG.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/NiceBowling/RetroBG.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
@@ -688,7 +751,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Content/img/NiceBowling/Vidian.jpg">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/nicebowlinglogotrans.png">
       <publishTime>07/13/2018 09:08:39</publishTime>
@@ -738,6 +801,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/adventurebreakdown.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/adventuretile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/adventuretile.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
@@ -752,6 +818,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/Stromgard/birdemb.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/BloodEagleTile.jpg">
+      <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Content/img/Stromgard/BloodEagleTile.png">
       <publishTime>01/23/2020 12:35:07</publishTime>
@@ -777,6 +846,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/Edda.jpg">
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/ExpansesTile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/ExpansesTile.png">
       <publishTime>01/23/2020 12:35:07</publishTime>
     </File>
@@ -794,6 +866,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/Stromgard/gmtitle.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/historytile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/Stromgard/historytile.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
@@ -816,6 +891,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/linnorm.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/mapsite.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/mapsite.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
@@ -827,6 +905,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/Stromgard/monsters.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/monstertile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/Stromgard/Monstertile.png">
       <publishTime>07/20/2019 12:44:16</publishTime>
@@ -840,6 +921,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/physbook.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/PlayAidsTile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/PlayAidsTile.png">
       <publishTime>01/23/2020 12:35:07</publishTime>
     </File>
@@ -849,14 +933,26 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/Stromgard/playbookspread.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/playbookstile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/playbookstile.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/promptgenerator.png">
+      <publishTime>06/01/2020 00:09:19</publishTime>
     </File>
     <File Include="Content/img/Stromgard/Racetile.png">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Content/img/Stromgard/settingtile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
+    </File>
     <File Include="Content/img/Stromgard/settingtile.png">
       <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/img/Stromgard/ShadowsTile.jpg">
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/img/Stromgard/ShadowsTile.png">
       <publishTime>01/23/2020 12:35:07</publishTime>
@@ -881,6 +977,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/Stromgard/wyrdmasthead.jpg">
       <publishTime>02/23/2019 09:03:48</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/Contentbg.jpg">
+      <publishTime>06/01/2020 00:09:19</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/dividerb.png">
+      <publishTime>06/25/2020 01:19:57</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/dividerg.png">
+      <publishTime>06/25/2020 01:19:57</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/logo.png">
+      <publishTime>06/25/2020 01:19:57</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/SumoBG.jpg">
+      <publishTime>06/01/2020 00:09:19</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/SumoBGopa.jpg">
+      <publishTime>06/01/2020 00:09:19</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/sumologo.png">
+      <publishTime>06/01/2020 00:09:19</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/timeline.jpg">
+      <publishTime>06/25/2020 01:19:57</publishTime>
+    </File>
+    <File Include="Content/img/SumoSpin/timelinesmall.jpg">
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="Content/img/thousand.png">
       <publishTime>08/06/2018 18:44:55</publishTime>
@@ -907,13 +1030,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2018 07:29:47</publishTime>
     </File>
     <File Include="Content/LostDutchman.css">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>03/14/2020 10:55:56</publishTime>
     </File>
     <File Include="Content/NiceBowling.css">
-      <publishTime>03/14/2019 09:49:14</publishTime>
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="Content/Site.css">
       <publishTime>07/20/2019 11:13:43</publishTime>
+    </File>
+    <File Include="Content/SumoSpin.css">
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="Content/Video/NiceBowlingBackground.mp4">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -925,7 +1051,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>01/23/2020 12:35:07</publishTime>
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2019 09:03:49</publishTime>
@@ -951,6 +1077,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="fonts/Lazer84.ttf">
       <publishTime>02/23/2019 09:03:49</publishTime>
     </File>
+    <File Include="fonts/MP16OSF.ttf">
+      <publishTime>06/01/2020 00:09:20</publishTime>
+    </File>
     <File Include="fonts/neotechbold.otf">
       <publishTime>02/23/2019 09:03:49</publishTime>
     </File>
@@ -961,7 +1090,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:52</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>01/23/2020 13:53:43</publishTime>
+      <publishTime>06/25/2020 01:26:05</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -1177,25 +1306,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Views/Home/Error.cshtml">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/04/2019 10:17:37</publishTime>
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
-      <publishTime>05/17/2019 09:57:11</publishTime>
+      <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
     <File Include="Views/Home/NiceBowlingLegalJargon.cshtml">
       <publishTime>03/14/2019 12:42:04</publishTime>
     </File>
+    <File Include="Views/Home/SumoSpin.cshtml">
+      <publishTime>06/25/2020 01:19:57</publishTime>
+    </File>
+    <File Include="Views/Home/SumoSpinLegalJargon.cshtml">
+      <publishTime>06/01/2020 00:09:20</publishTime>
+    </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>01/23/2020 12:35:07</publishTime>
+      <publishTime>06/01/2020 00:09:20</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/23/2019 09:03:48</publishTime>
+      <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>02/23/2019 09:03:48</publishTime>

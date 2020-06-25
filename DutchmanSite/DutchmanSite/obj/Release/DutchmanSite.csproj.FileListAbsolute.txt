@@ -212,3 +212,4 @@ D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CopyComplete
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.dll
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.pdb
+D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Release\DutchmanSite.csproj.CoreCompileInputs.cache

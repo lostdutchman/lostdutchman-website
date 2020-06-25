@@ -17,13 +17,14 @@
 }
 
 @media (min-width: 601px) {
-  body {
-    background: url("img/Stromgard/wyrdmasthead.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
+    body {
+        background: url("img/Stromgard/wyrdmasthead.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
 }
 
 @media (max-width: 600px) {
@@ -194,6 +195,12 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top:15px;
+}
+
+h6 {
+    font-family: sabon, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
 }
 
  .available img {
