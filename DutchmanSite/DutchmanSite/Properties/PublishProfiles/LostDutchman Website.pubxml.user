@@ -25,16 +25,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>06/25/2020 01:26:10</publishTime>
+      <publishTime>07/06/2020 06:48:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>06/25/2020 01:26:10</publishTime>
+      <publishTime>07/06/2020 06:48:00</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>06/25/2020 01:26:03</publishTime>
+      <publishTime>07/06/2020 06:47:53</publishTime>
     </File>
     <File Include="bin/DutchmanSite.pdb">
-      <publishTime>06/25/2020 01:26:03</publishTime>
+      <publishTime>07/06/2020 06:47:53</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>02/23/2019 09:03:52</publishTime>
@@ -1030,16 +1030,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2018 07:29:47</publishTime>
     </File>
     <File Include="Content/LostDutchman.css">
-      <publishTime>03/14/2020 10:55:56</publishTime>
+      <publishTime>07/06/2020 04:52:02</publishTime>
+    </File>
+    <File Include="Content/LostDutchman.min.css">
+      <publishTime>07/06/2020 04:54:21</publishTime>
     </File>
     <File Include="Content/NiceBowling.css">
       <publishTime>06/25/2020 01:19:57</publishTime>
     </File>
+    <File Include="Content/NiceBowling.min.css">
+      <publishTime>07/06/2020 04:53:56</publishTime>
+    </File>
     <File Include="Content/Site.css">
-      <publishTime>07/20/2019 11:13:43</publishTime>
+      <publishTime>07/06/2020 05:02:21</publishTime>
     </File>
     <File Include="Content/SumoSpin.css">
-      <publishTime>06/25/2020 01:19:57</publishTime>
+      <publishTime>07/06/2020 00:56:45</publishTime>
+    </File>
+    <File Include="Content/SumoSpin.min.css">
+      <publishTime>07/06/2020 04:55:17</publishTime>
     </File>
     <File Include="Content/Video/NiceBowlingBackground.mp4">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -1052,6 +1061,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/WyrdOfStromgard.css">
       <publishTime>06/25/2020 01:19:57</publishTime>
+    </File>
+    <File Include="Content/WyrdOfStromgard.min.css">
+      <publishTime>07/06/2020 04:55:25</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2019 09:03:49</publishTime>
@@ -1087,10 +1099,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:49</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>02/23/2019 09:03:52</publishTime>
+      <publishTime>07/06/2020 02:25:17</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/25/2020 01:26:05</publishTime>
+      <publishTime>07/06/2020 06:47:54</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -1269,6 +1281,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/Style.js">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
+    <File Include="Scripts/Style.min.js">
+      <publishTime>07/06/2020 02:02:09</publishTime>
+    </File>
     <File Include="Scripts/umd/popper-utils.js">
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
@@ -1318,10 +1333,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/14/2019 12:42:04</publishTime>
     </File>
     <File Include="Views/Home/SumoSpin.cshtml">
-      <publishTime>06/25/2020 01:19:57</publishTime>
+      <publishTime>07/06/2020 06:45:26</publishTime>
     </File>
     <File Include="Views/Home/SumoSpinLegalJargon.cshtml">
-      <publishTime>06/01/2020 00:09:20</publishTime>
+      <publishTime>07/06/2020 00:56:45</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
       <publishTime>06/01/2020 00:09:20</publishTime>
@@ -1339,7 +1354,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/14/2019 12:48:26</publishTime>
+      <publishTime>07/06/2020 06:47:53</publishTime>
     </File>
   </ItemGroup>
 </Project>

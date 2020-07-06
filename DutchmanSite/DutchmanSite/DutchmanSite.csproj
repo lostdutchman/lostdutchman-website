@@ -302,13 +302,25 @@
     <Content Include="Content\img\SumoSpin\SumoBG.jpg" />
     <Content Include="Content\img\SumoSpin\timeline.jpg" />
     <Content Include="Content\img\SumoSpin\timelinesmall.jpg" />
+    <Content Include="Content\LostDutchman.min.css">
+      <DependentUpon>LostDutchman.css</DependentUpon>
+    </Content>
     <Content Include="Content\NiceBowling.css" />
     <Content Include="Content\LostDutchman.css" />
+    <Content Include="Content\NiceBowling.min.css">
+      <DependentUpon>NiceBowling.css</DependentUpon>
+    </Content>
+    <Content Include="Content\SumoSpin.min.css">
+      <DependentUpon>SumoSpin.css</DependentUpon>
+    </Content>
     <Content Include="Content\Video\NiceBowlingBackground.mp4" />
     <Content Include="Content\Video\NiceBowlingBackground.png" />
     <Content Include="Content\Audio\AetherTheories.mp3" />
     <Content Include="Content\SumoSpin.css" />
     <Content Include="Content\WyrdOfStromgard.css" />
+    <Content Include="Content\WyrdOfStromgard.min.css">
+      <DependentUpon>WyrdOfStromgard.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -330,6 +342,7 @@
     <Content Include="Content\img\LostDutchman\mwf1.webm" />
     <Content Include="Content\img\LostDutchman\mwf2.webm" />
     <Content Include="fonts\MP16OSF.ttf" />
+    <None Include="bundleconfig.json" />
     <None Include="Properties\PublishProfiles\LostDutchman Website.pubxml" />
     <Content Include="Scripts\assets\ajax-loader.gif" />
     <Content Include="Scripts\assets\owl.carousel.css" />
@@ -377,6 +390,9 @@
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Style.js" />
+    <Content Include="Scripts\Style.min.js">
+      <DependentUpon>Style.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\umd\popper-utils.js" />
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
@@ -465,7 +481,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.9.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.9.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets'))" />
   </Target>
+  <Import Project="..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets" Condition="Exists('..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

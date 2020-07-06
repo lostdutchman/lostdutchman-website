@@ -1,0 +1,32 @@
+[
+  {
+    "outputFileName": "Scripts/Style.min.js",
+    "inputFiles": [
+      "Scripts/Style.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/LostDutchman.min.css",
+    "inputFiles": [
+      "Content/LostDutchman.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/NiceBowling.min.css",
+    "inputFiles": [
+      "Content/NiceBowling.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/SumoSpin.min.css",
+    "inputFiles": [
+      "Content/SumoSpin.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/WyrdOfStromgard.min.css",
+    "inputFiles": [
+      "Content/WyrdOfStromgard.css"
+    ]
+  }
+]
