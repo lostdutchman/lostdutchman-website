@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
@@ -21,7 +22,49 @@ namespace DutchmanSite.Helper
 
                 SmtpClient client = new SmtpClient();
                 client.Send(message);
+
+                AutoReply(name, emailaddress)
             }
+        }
+
+        public void AutoReply(string name, string emailaddress)
+        {
+            MailMessage message = new MailMessage();
+            message.From = new MailAddress("lostdutchmansoftware@gmail.com");
+
+            message.To.Add(new MailAddress(emailaddress));
+
+            message.Subject = "Form Inquiry Recived " + ReplyDate();
+            message.Body = "Hello " + name + ",\nYour message has been sent to an undisclosed location deep beneth the Superstition Mountains several years ago.  It was probably only intercepted by a few secret governemt organizations.  We will do our best to not send the reply before you have sent us this inquary." + ReplyExtra();
+
+            SmtpClient client = new SmtpClient();
+            client.Send(message);
+        }
+
+        private string ReplyDate()
+        {
+            DateTime date = DateTime.Now;
+            Random random = new Random();
+            TimeSpan time = new TimeSpan((random.Next(2, 6)),(random.Next(0, 12)),(random.Next(0, 25)));
+            return date.Subtract(time).ToString("yyyy-MM-dd");
+        }
+        private string ReplyExtra()
+        {
+            Random random = new Random();
+            List<string> ReplyStrings = new List<string>{
+                "\n\nP.S. Please do not respond back with spoilers about the future, we got into a lot of trouble when we influenced the 2020 elections after hearing that Trump somehow got elected for a second term.  We might not get off so easy next time.",
+                "",
+                "",
+                "\n\nP.S. Since your in the future already, what kind of games should we be working on now to release in your time.",
+                "\n\nP.S. Did Wyrd of Stromgard do OK?",
+                "",
+                " If you are reading this auto response it means the world has not ended!  I'm glad, even if that means I lost the bet..",
+                "",
+                "",
+                "",
+                ""
+            };
+            return ReplyStrings[random.Next(0, ReplyStrings.Count)];
         }
 
         public bool NotSpam(string name, string emailaddress, string content)
