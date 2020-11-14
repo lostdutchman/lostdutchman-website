@@ -23,7 +23,7 @@ namespace DutchmanSite.Helper
                 SmtpClient client = new SmtpClient();
                 client.Send(message);
 
-                AutoReply(name, emailaddress)
+                AutoReply(name, emailaddress);
             }
         }
 
@@ -55,7 +55,7 @@ namespace DutchmanSite.Helper
                 "\n\nP.S. Please do not respond back with spoilers about the future, we got into a lot of trouble when we influenced the 2020 elections after hearing that Trump somehow got elected for a second term.  We might not get off so easy next time.",
                 "",
                 "",
-                "\n\nP.S. Since your in the future already, what kind of games should we be working on now to release in your time.",
+                "\n\nP.S. Since you're in the future already, what kind of games should we be working on now to release in your time?",
                 "\n\nP.S. Did Wyrd of Stromgard do OK?",
                 "",
                 " If you are reading this auto response it means the world has not ended!  I'm glad, even if that means I lost the bet..",
