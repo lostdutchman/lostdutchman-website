@@ -84,7 +84,7 @@ namespace DutchmanSite.Helper
             //Contains a different email in the body
             else if (HasSecondEmailInBody(emailaddress, content)) { return false; }
             //Blacklist
-            else if (emailaddress.ToLower().Contains("alychidesigns.com") || emailaddress.ToLower().Contains("glmux.com") || emailaddress.ToLower().Contains("jessicarobert") || emailaddress.ToLower().Contains("lostdutchmansoftware.com") || emailaddress.ToLower().Contains("casa-versicherung.de") || emailaddress.ToLower().Contains("lostdutchmansoftware.com")) { return false; }
+            else if (emailaddress.ToLower().Contains("alychidesigns.com") || emailaddress.ToLower().Contains("glmux.com") || emailaddress.ToLower().Contains("jessicarobert") || emailaddress.ToLower().Contains("lostdutchmansoftware.com") || emailaddress.ToLower().Contains("casa-versicherung.de") || emailaddress.ToLower().Contains("sonantic.io") || emailaddress.ToLower().Contains("lostdutchmansoftware.com")) { return false; }
             //Not Spam
             return true; 
         }
