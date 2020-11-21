@@ -75,6 +75,28 @@ p {
     display: block;
 }
 
+.resp-container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 980px;
+    height: 688px;
+}
+
+/*@media only screen and (max-width: 992px) {
+    .resp-container {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .resp-container {
+        width: 50%;
+        height: 50%;
+    }
+}*/
+
+
 #mailchimp div.mc-field-group.input-group ul li {
     list-style-type: none;
     white-space: nowrap; /* added */
