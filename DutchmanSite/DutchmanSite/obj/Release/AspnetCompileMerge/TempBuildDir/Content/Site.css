@@ -442,6 +442,12 @@ section {
     overflow: hidden;
 }
 
+#modalvid .video{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
 /*DEVLOG*/
 
 .LogFloat{

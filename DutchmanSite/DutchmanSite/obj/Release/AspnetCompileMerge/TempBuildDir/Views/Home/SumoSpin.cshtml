@@ -6,21 +6,27 @@
 
 @section head{
     <meta name="description" content="Sumo Spin" />
-    <meta name="keywords" content="SumoSpin,sumo,spin,video game,indie game,arcade game,two player game,competetive,single mechanic,atari,atari style,browser game,mobile game,vintage,robot sumo,roomba sumo,lost dutchman software,lost dutchman,lost dutchman mesa,lost dutchman arizona,mesa,arizona " />
+    <meta name="keywords" content="SumoSpin,sumo,king of the hill,spin,video game,indie game,arcade game,two player game,competetive,single mechanic,atari,atari style,browser game,mobile game,vintage,robot sumo,roomba sumo,one button,lost dutchman software,lost dutchman,lost dutchman mesa,lost dutchman arizona,mesa,arizona " />
 
-    @* Need to make a twitter card for this project *@
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="http://lostdutchmansoftware.com/Content/img/Stromgard/wyrdmasthead.jpg" />
-    <meta property="og:image" content="http://lostdutchmansoftware.com/Content/img/Stromgard/wyrdmasthead.jpg" />
+    <meta name="twitter:image" content="http://lostdutchmansoftware.com/Content/img/SumoSpin/logo.png" />
+    <meta property="og:image" content="http://lostdutchmansoftware.com/Content/img/SumoSpin/logo.png" />
     <meta name="twitter:site" content="@("@softdutch")" />
-    <meta name="twitter:title" content="The Wyrd of Stromgard" />
-    <meta name="twitter:description" content="The Wyrd of Stromgard is a Dungeon World expansion inspired by surviving Norse literary sources. Back it on Kickstarter today!" />
-    <meta property="og:title" content="The Wyrd of Stromgard" />
-    <meta property="og:description" class="speakable-description" content="The Wyrd of Stromgard is a Dungeon World expansion inspired by surviving Norse literary sources. Back it on Kickstarter today!" />
-    <meta property="og:url" content="http://lostdutchmansoftware.com/Home/WyrdOfStromgard">
+    <meta name="twitter:title" content="Sumo Spin" />
+    <meta name="twitter:description" content="2 Players, One Phone or Computer, First to 3 wins! Sumo Spin features Fast Paced, Retro style, Single Button, Head to Head, King of the Hill action. Try it for free now!" />
+    <meta property="og:description" class="speakable-description" content="2 Players, One Phone or Computer, First to 3 wins! Sumo Spin features Fast Paced, Retro style, Single Button, Head to Head, King of the Hill action. Try it for free now!" />
+    <meta property="og:url" content="http://lostdutchmansoftware.com/Home/SumoSpin">
     <meta property="og:type" content="website" />
     <link href="~/Content/SumoSpin.css" rel="stylesheet" type="text/css" />
 
+    @* Unitys headder requierments *@
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Desktop.json", { onProgress: UnityProgress });
+    </script>
 }
 
 <nav id="navbarLinks" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" style="background-color: #222222;">
@@ -31,14 +37,11 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link AnchorScroll" href="#about">About</a>
+                <a class="nav-link AnchorScroll" href="#play">Play</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link AnchorScroll" href="#news">Newsletter</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link AnchorScroll" href="#play">Play</a>
-            </li>
+            </li>            
             <li class="nav-item">
                 <a class="nav-link AnchorScroll" href="#lifecycle">Lifecycle</a>
             </li>
@@ -53,7 +56,7 @@
             <div class="col-lg-12">
                 <div class="mainlogo"> <img class="img-fluid" src="~/Content/img/SumoSpin/sumologo.png" /></div>
                 <br />
-                <span class="anchor" id="about"></span>
+                <span class="anchor" id="play"></span>
                 <article class="well">
                     <br />
                     <br />
@@ -72,16 +75,15 @@
                         <h2>Classic Gameplay, Classic Look, Classic Competition</h2>
                         <p>It's all about charging and smashing in Sumo Spin.  Lock on to your opponent, build up power, then charge!  Smash them out of the ring to win!</p>
 
-                        <p>Inspired by late-era Atari and early Nintendo games, Sumo Spin keeps it simple with a spinning mechanic and straightforward lock & load gameplay.  Bask in its sweet chunky pixels and relive the glory days of single mechanic sports-adjacent gaming!</p>
+                        <p>Inspired by late-era Atari and early Nintendo games, Sumo Spin keeps it simple with a spinning mechanic and straightforward lock & load gameplay.  Bask in its sweet chunky pixels and relive the glory days of single mechanic sports-adjacent gaming!  You can play Sumo Spin in browser at <a href="https://lostdutchman.itch.io/sumospin">Itch.io</a> for free, check it out!</p>
                     </div>
                     <br />
+                    
                     <div class="col-lg-8 offset-2 col-md-8 col-sm-8 col-8">
-                        <h2>You can play Sumo Spin right now!</h2>
-                        <div class="col-lg-8"><p> Play Sumo Spin for free in browser at: </p></div>
-                        <div class="col-lg-8"><a href="https://lostdutchman.itch.io/sumospin"><img class="img-fluid" src="~/Content/img/Stromgard/itchlogo.png" /></a></div>
-                    </div>
+                            <a href="https://lostdutchman.itch.io/sumospin"><img class="img-fluid" src="~/Content/img/SumoSpin/playsumo.jpg"/></a>                         
+                        </div>
+                                
                     <br />
-                    <br />                   
                 </article>
             </div>
         </div>
@@ -211,19 +213,19 @@
                     </div>
                     <br />
                     <h1>Lifecycle</h1>
-                    <br />                                          
-                          <div class="col-lg-auto col-md-auto col-sm-auto">
-                              <picture>
-                                  <source media="(min-width:1200px)" srcset="~/Content/img/SumoSpin/timeline.jpg">
-                                  <source media="(min-width:992px)" srcset="~/Content/img/SumoSpin/timeline.jpg"
-                                          sizes="(max-width: 975px)">
+                    <br />
+                    <div class="col-lg-auto col-md-auto col-sm-auto">
+                        <picture>
+                            <source media="(min-width:1200px)" srcset="~/Content/img/SumoSpin/timeline.jpg">
+                            <source media="(min-width:992px)" srcset="~/Content/img/SumoSpin/timeline.jpg"
+                                    sizes="(max-width: 975px)">
 
-                                  <source media="(min-width:576px)" srcset="~/Content/img/SumoSpin/timelinesmall.jpg">
-                                  <source media="(min-width:250px)" srcset="~/Content/img/SumoSpin/timelinesmall.jpg"
-                                          sizes="(max-width: 450px)">
-                                  <img class="img-fluid" src="~/Content/img/SumoSpin/timelinesmall.jpg" alt="SumoSpin Timeline" style="width:auto;">
-                              </picture>
-                          </div>                     
+                            <source media="(min-width:576px)" srcset="~/Content/img/SumoSpin/timelinesmall.jpg">
+                            <source media="(min-width:250px)" srcset="~/Content/img/SumoSpin/timelinesmall.jpg"
+                                    sizes="(max-width: 450px)">
+                            <img class="img-fluid" src="~/Content/img/SumoSpin/timelinesmall.jpg" alt="SumoSpin Timeline" style="width:auto;">
+                        </picture>
+                    </div>
                     <br />
                     <br />
                     <div class="col-lg-8 offset-2 col-md-8 col-sm-8 col-8">
