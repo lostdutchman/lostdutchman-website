@@ -25,7 +25,7 @@ namespace DutchmanSite.Helper
                 "Dry-roasted, flavorless wild caught RPG's",
                 "Precipitation: 0%",
                 "https://libraryofbabel.info/bookmark.cgi?b.ieufd.yhajrw.o182",
-                "The voice of a cat being pet”",
+                "The voice of a cat being pet",
                 "I <3 C# Lists",
                 "Don't let me forget to pick up some Jalapenos on the way home",
                 "It's pronounced Mango!",
