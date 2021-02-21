@@ -52,13 +52,32 @@ namespace DutchmanSite.Helper
             //Contains no letters
             else if (!Regex.IsMatch(content.ToLower(), "[a-z]")) { return false; }
             //Ad Agency
-            else if (content.ToLower().Contains("online presence") || content.ToLower().Contains("digital agency") || content.ToLower().Contains("advertising service") || content.ToLower().Contains("converting visitors") || content.ToLower().Contains("do not respond") || content.ToLower().Contains("most visited websites") || content.ToLower().Contains("online promotion") || content.ToLower().Contains("offer our services") || content.ToLower().Contains("wе will sеnd up tо") || content.ToLower().Contains("seo")) { return false; }
+            else if (
+                content.ToLower().Contains("online presence") ||
+                content.ToLower().Contains("digital agency") ||
+                content.ToLower().Contains("advertising service") ||
+                content.ToLower().Contains("converting visitors") ||
+                content.ToLower().Contains("do not respond") || 
+                content.ToLower().Contains("most visited websites") || 
+                content.ToLower().Contains("online promotion") || 
+                content.ToLower().Contains("offer our services") ||
+                content.ToLower().Contains("will sеnd up tо") || 
+                content.ToLower().Contains("seo")
+                ) { return false; }
             //Product Ad's?
             else if (content.ToLower().Contains("wide-angle binoculars with variable tilt")) { return false; }
             //Contains a different email in the body
             else if (HasSecondEmailInBody(emailaddress, content)) { return false; }
             //Blacklist
-            else if (emailaddress.ToLower().Contains("alychidesigns.com") || emailaddress.ToLower().Contains("glmux.com") || emailaddress.ToLower().Contains("jessicarobert") || emailaddress.ToLower().Contains("lostdutchmansoftware.com") || emailaddress.ToLower().Contains("casa-versicherung.de") || emailaddress.ToLower().Contains("sonantic.io") || emailaddress.ToLower().Contains("lostdutchmansoftware.com")) { return false; }
+            else if (
+                emailaddress.ToLower().Contains("alychidesigns.com") ||
+                emailaddress.ToLower().Contains("glmux.com") || 
+                emailaddress.ToLower().Contains("jessicarobert") || 
+                emailaddress.ToLower().Contains("casa-versicherung.de") || 
+                emailaddress.ToLower().Contains("sonantic.io") ||
+                emailaddress.ToLower().Contains("mail.ru") ||
+                emailaddress.ToLower().Contains("lostdutchmansoftware.com")
+                ) { return false; }
 
             return true; 
         }

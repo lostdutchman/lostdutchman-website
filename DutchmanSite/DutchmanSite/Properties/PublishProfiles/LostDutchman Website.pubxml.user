@@ -25,16 +25,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2019 09:03:48</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>12/06/2020 21:21:00</publishTime>
+      <publishTime>02/21/2021 09:02:28</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>12/06/2020 21:21:00</publishTime>
+      <publishTime>02/21/2021 09:02:28</publishTime>
     </File>
     <File Include="bin/DutchmanSite.dll">
-      <publishTime>12/06/2020 21:20:56</publishTime>
+      <publishTime>02/21/2021 09:02:21</publishTime>
     </File>
     <File Include="bin/DutchmanSite.pdb">
-      <publishTime>12/06/2020 21:20:56</publishTime>
+      <publishTime>02/21/2021 09:02:21</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>02/23/2019 09:03:52</publishTime>
@@ -1090,10 +1090,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2018 09:08:39</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.css">
-      <publishTime>06/25/2020 01:19:57</publishTime>
+      <publishTime>02/21/2021 08:42:45</publishTime>
     </File>
     <File Include="Content/WyrdOfStromgard.min.css">
-      <publishTime>07/06/2020 04:55:25</publishTime>
+      <publishTime>02/21/2021 08:42:56</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2019 09:03:49</publishTime>
@@ -1132,7 +1132,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/06/2020 02:25:17</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>12/06/2020 21:20:57</publishTime>
+      <publishTime>02/21/2021 09:02:22</publishTime>
     </File>
     <File Include="Scripts/assets/ajax-loader.gif">
       <publishTime>02/23/2019 09:03:48</publishTime>
@@ -1354,7 +1354,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/12/2020 13:04:42</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/06/2020 20:54:28</publishTime>
+      <publishTime>02/21/2021 08:42:45</publishTime>
     </File>
     <File Include="Views/Home/NiceBowling.cshtml">
       <publishTime>06/25/2020 01:19:57</publishTime>
@@ -1369,7 +1369,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/06/2020 00:56:45</publishTime>
     </File>
     <File Include="Views/Home/WyrdOfStromgard.cshtml">
-      <publishTime>11/09/2020 18:37:18</publishTime>
+      <publishTime>02/21/2021 08:42:45</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/23/2019 09:03:48</publishTime>
