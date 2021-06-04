@@ -256,12 +256,14 @@
     <Content Include="Content\img\NiceBowling\Vidian.jpg" />
     <Content Include="Content\img\ScreenSelector.png" />
     <Content Include="Content\img\Navbar\navbarbrandpub.png" />
+    <Content Include="Content\img\Stromgard\adpage.png" />
     <Content Include="Content\img\Stromgard\adventurebreakdown.png" />
     <Content Include="Content\img\Stromgard\adventuretile.jpg" />
     <Content Include="Content\img\Stromgard\availablenow.png" />
     <Content Include="Content\img\Stromgard\beowulf.jpeg" />
     <Content Include="Content\img\Stromgard\birdemb.png" />
     <Content Include="Content\img\Stromgard\BloodEagleTile.jpg" />
+    <Content Include="Content\img\Stromgard\bookpreview.jpg" />
     <Content Include="Content\img\Stromgard\compendium.png" />
     <Content Include="Content\img\Stromgard\dragonemb.png" />
     <Content Include="Content\img\Stromgard\dtrpglogo.png" />
@@ -269,13 +271,20 @@
     <Content Include="Content\img\Stromgard\ExpansesTile.jpg" />
     <Content Include="Content\img\Stromgard\exploreMore.png" />
     <Content Include="Content\img\Stromgard\fundsuccess.png" />
+    <Content Include="Content\img\Stromgard\gmscreenprint.jpg" />
     <Content Include="Content\img\Stromgard\gmtitle.png" />
     <Content Include="Content\img\Stromgard\historytile.jpg" />
     <Content Include="Content\img\Stromgard\itchlogo.png" />
+    <Content Include="Content\img\Stromgard\kickstarterpreview.png" />
+    <Content Include="Content\img\Stromgard\mailers.jpg" />
+    <Content Include="Content\img\Stromgard\mapprint.jpg" />
+    <Content Include="Content\img\Stromgard\maprough.png" />
     <Content Include="Content\img\Stromgard\mapsite.jpg" />
+    <Content Include="Content\img\Stromgard\mapthumb.png" />
     <Content Include="Content\img\Stromgard\monsterbreakdown.png" />
     <Content Include="Content\img\Stromgard\monsters.png" />
     <Content Include="Content\img\Stromgard\monstertile.jpg" />
+    <Content Include="Content\img\Stromgard\outline.png" />
     <Content Include="Content\img\Stromgard\phonebg.jpg" />
     <Content Include="Content\img\Stromgard\PlayAidsTile.jpg" />
     <Content Include="Content\img\Stromgard\playbookspread.png" />
@@ -284,7 +293,9 @@
     <Content Include="Content\img\Stromgard\settingtile.jpg" />
     <Content Include="Content\img\Stromgard\ShadowsTile.jpg" />
     <Content Include="Content\img\Stromgard\texturedlogo.png" />
+    <Content Include="Content\img\Stromgard\tifa.png" />
     <Content Include="Content\img\Stromgard\treeemb.png" />
+    <Content Include="Content\img\Stromgard\twitteract.png" />
     <Content Include="Content\img\Stromgard\whatsinside.png" />
     <Content Include="Content\img\Stromgard\WyrdLogoTrans.png" />
     <Content Include="Content\img\LostDutchman\HungerGame.png" />
@@ -441,6 +452,7 @@
     <Content Include="Views\Home\NiceBowlingLegalJargon.cshtml" />
     <Content Include="Views\Home\SumoSpin.cshtml" />
     <Content Include="Views\Home\SumoSpinLegalJargon.cshtml" />
+    <Content Include="Views\Home\WyrdOfStromgardDevLog.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

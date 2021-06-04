@@ -1,0 +1,466 @@
+﻿
+@{
+    ViewBag.Title = "Wyrd Of Stromgard DevLog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section head {
+    <link href="~/Content/WyrdOfStromgard.css" rel="stylesheet" type="text/css" />
+}
+
+<nav id="navbarLinks" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" style="background-color: #222222;">
+    <a class="navbar-brand" href="~/Home/Index"><img id="logo" class="img-fluid" src="~/Content/img/Navbar/navbarbrandsoft.png" alt="Lost Dutchman Software" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#privacy">Design Process</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link AnchorScroll" href="#terms">Marketing Tactics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="~/Home/WyrdOfStromgard">Post Mortem</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<span class="anchor" id="Design"></span>
+<section id="lander">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <article class="well">
+                    <div class="mainlogo"> <img class="img-fluid" src="~/Content/img/Stromgard/texturedlogo.png" /></div>
+
+                    <br />
+                    <br />
+
+                    <h1>Building From the Ground Up: The Design Process</h1>
+                    <p>We went into The Wyrd of Stromgard as total newbies- to both project management and game design at this scale.</p>
+
+                    <p>I’d like to say that the process was one logical step after another.  It was, sometimes, but a lot of it was played by ear.   Stromgard began as a poorly sketched map, a vague plot that covered a conspiracy to launch Ragnarok, and a weariness of many of the entrenched conventions of modern fantasy as they appear in a lot of rpg campaigns I’d played.  I love myths, I love historical anthropology, I love the narrative focus of the Dungeon World system and I wanted to GM a long form campaign that was set somewhere recognizable but was full of surprises and heavily influenced by the myths I’d read during my time as a literature student in college.  I used vanilla Dungeon World playbooks for the first campaign but changed a lot of the text to be more flavorful and evocative of a pagan Norse setting.  With zero digital art skills, I used a combination of MS Paint and GIMP to clip out text and add my own.</p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/maprough.png" /></div>
+                    <p>I printed this out at my local Fedex Kinko's and the clerk held it up really high while he asked about it. I was mortified.</p>
+
+                    <br />
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/mapthumb.png" /></div>
+                    <p>Stromgard's Final Map, featuring Eli Spencer's art. So much better.</p>
+
+                    <p>I prepped and researched but in the end, we only played a few sessions.   My players had fun, though, that much was thankfully obvious, and I was eager to return to the setting I had started to call Stromgard-- I wanted a name that painted a picture of a cold sea and rugged terrain, so the name was a combination of old Norse strøm, meaning current or flow (of sea water or power) which would also link to the modern English word storm based on its spelling, and old Norse garð, meaning land (later I discovered that, coincidentally, a Stromgard exists in World of Warcraft, as well).  For a long while, Stromgard’s play materials sat on a bookshelf while I idly daydreamed about how much more I could add to it.</p>
+
+                    <p>After those play sessions, my biggest desire was to customize the playbooks more.  I thought there was more world-building to be told in the text and moves, more narrative hooks that could captivate and excite players that I could build into the base characters.  I remember lying awake one night and realizing with some mild exasperation that I wanted to trash all the custom playbooks I’d made and start from scratch, building each character archetype from the ground up.  I made a list of potential character types on my phone (directly inspired by figures from the Eddas and Beowulf) but didn’t end up touching it again for months.</p>
+
+                    <p>Stromgard was kind of a regret at this stage.  I had created it as a fun thing to do with friends but our game group’s varying taste and constant influx of new games made it hard to go back to something once we’d moved on and I didn’t have the social chops to find another team.  I had put a lot of time into Stromgard already and it seemed- like so many other personal passion projects- to be doomed to gather dust or reserved for personal enjoyment (alone) only.</p>
+
+                    <p>At this point, I was unemployed and had given up on working in a ‘real’, corporate environment.  I’ve told the basics of this story a few times on social media but long story short, I had a nervous breakdown due to depression, unbearable work stress, panic disorder, and my own social ineptitude.  While Jeremy worked full time, I was taking care of housework and trying to recover, struggling to reignite my interest in hobbies I had once cared about and finding a medication regimen that kept me stable enough to keep moving onward.  Jeremy wanted to transition out of his job as well and focus on getting Lost Dutchman Software off the ground and in a state that was potentially sustainable while we survived off savings we’d accumulated during our twenties.   We’d both been working on Nice Bowling, a video game where you bowl with random effects to spice things up but when Jeremy transitioned to part time at his job to eventually being at home full time, our workloads had to shift to compensate.  I had helped with the artistic side of Nice Bowling and could assist in a rudimentary fashion in terms of programming and game design but we were at a point where polishing the mechanics and cleaning up core gameplay took a more skilled hand.  With Jeremy focusing most of his time on getting Nice Bowling ready for launch,  I was spending less time with it, which left me open to starting another project.</p>
+
+                    <p>I’ve mentioned before, but it bears repeating: Jeremy is the business brains of Lost Dutchman.  When I suggested that Stromgard had some potential as a marketable product he immediately wanted it to be a Kickstarter project.  I was intimidated, of course. I had a lot of concerns and I didn’t know much about the modern TTRPG market. We brainstormed a list of goals for Stromgard to give us an idea of scope… Jeremy devoted an obscene amount of time to researching Kickstarter, minimum profits, estimated overhead costs, media outreach strategies for people like us with no money, and the risks such an undertaking entailed.  For the first time in a long while, I opened that file on my phone again and started to make bullet lists under each character archetype listing examples of powers or behaviors for each as found in the mythic Norse canon.</p>
+
+                    <p>Jeremy determined that a Kickstarter campaign was likely to succeed and we officially began working on The Wyrd of Stromgard.  Jeremy, as is his wont, spend the next long months meticulously organizing and researching every possible detail for the Kickstarter.  I spent that time reading, for the most part. I reread Beowulf, both Eddas, and the Saga of the Icelanders line by line, making notes of common themes, legendary powers, any instances of magic, gods and other important figures…  I read academic journals dating from the early 1800’s all the way to 2010 on the subject, constantly notating what it was that typified Norse magic and what it would take to rebuild that feeling and aesthetic.  I got into modern Viking media as a contrast, to remind myself what parts I wanted to avoid if possible (chiefly, the sexism and racism that is usually added in due to a modern influence on the meta-narrative, disregarding the likeliest historical realities of the time-  I’m aware that it’s difficult to shed such baked-in and often unconscious context, but I wanted to make a real attempt). I even reread the Vinland Saga manga by Makoto Yukimura, a gritty historical fiction shounen that I had first read in 2010 or so.  I think it was some of the first non-ancient literature I’d experienced that really started to nurture my love of historically inspired fiction/fantasy.  I dissected what made Norse myth and Vikings exciting, amassed my influences, and was finally ready to build.</p>
+
+                    <p>The next stretch of time was divided between the two biggest chunks of Stromgard’s construction and I worked on them simultaneously.  The first part was the setting and it took me a couple months of full time work to build all the pieces of a functioning, believable world, fit them together, and ensure that enough flexibility was left so players could tailor the stage for their own games, so to speak.  After several very long and much-annotated drafts, I came up with an outline for that portion of the book. It would go over races, locales, cultural relations, and societies in a way that added a rich and intricate backdrop for players to essentially go apeshit with and build the campaigns with the features that excited them the most.  The second thing that took up all my ‘on the clock’ hours during this period was the playbooks. It took a lot of research and constantly badgering Jeremy for his input but I whittled down my absolutely insane list of archetypes to ten ‘finalists’ that became the character playbooks as they are now and seven more ‘runner-ups’ that would make well rounded Compendium Classes.</p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/outline.png" /></div>
+                    <p>One of Stromgard's earliest outlines from before the first real manuscript was drafted. Weirdly enough, you can see that I kind of had a pretty solid idea of what I wanted to include, even from way back here.</p>
+
+                    <p>We worked together to make the playbook moves technically viable and balanced while focusing on character incentive, narrative impetus, and game feel.  I had a strong determination to make characters that weren’t strongly balanced across classes- as I prefer having character roles be strong in some areas and weaker in others.  We had a lot of discussions about making sure that a character’s weaknesses were just as exciting and fun to roleplay as their strengths. I’m really quite proud of the playbooks, to be totally honest.  I feel like they’re well rounded and come with a lot of built-in narrative forces that even a novice GM could have a lot of fun with.</p>
+
+                    <p>Several months were quickly eaten up like this, the setting outline slowly transformed into the outline for the entire book and I had a 10 page long Google document including all of the specific in-world details I wanted to include for each cultural identity.  The character playbooks were drafted in Google Slides and were close to complete but totally unusable in this format and needed to be presented differently if I was ever going to playtest them with other people. Which, of course, led to the first major ‘production phase’.</p>
+
+                    <p>I threw myself into digital art at this point, suddenly understanding that I would have to deal with all the art involved in such a project- I needed to build a website, launch a Kickstarter, post images and icons to social media, lay out an entire book, create embellishments, and design a playbook that could contain the massive amount of info and still be legible.  I had the opportunity to switch from GIMP to the Adobe Suite and did. I like GIMP, it is a wonderful tool (especially cost-wise, Jesus), but with Adobe it was admittedly easier to accomplish what I wanted and the addition of InDesign sealed the deal. I spent all my available free time learning Photoshop and InDesign, learned how to use a digital tablet, and learned about the overarching principles of graphic design to help me create better graphics and layouts.  I think I spend a week and a half researching font families and pairings for the book alone, which I ended up changing after the first PDF draft anyway.</p>
+
+                    <h2>Art: Critical Component and Steepest Investment</h2>
+
+                    <p>Through pure stubborn bullheadedness and butt-stamina, I was able to pick up basic graphic design to a passable degree but I knew there was no way in hell I had the talent to create the artwork Stromgard would need to sell itself.  I have been in fan-circles a long time, I know what good art can do to sell media and influence the general opinion about a game. We needed real art and it needed to showcase everything Stromgard could be. Still applying a lot of my time to writing the book and designing the thousands of images/headers/embellishments I needed, I started spending more time amassing a slideshow of artists and their work to help me pin down which stylistic choices I wanted to make when I was ready to commission someone.  Jeremy and I talked back and forth about having the same artist do both the interior and cover art and during this time we came up with the idea of adding the GM screen perk- it was another opportunity for artwork and a desirable backer reward. As I spent more time looking at epic fantasy art, I got a clearer idea of what I wanted- something that evoked old-school RPG book covers but with modern colors and dynamism. I spent a lot of time on Pixiv, Tumblr, Artstation, and Deviantart, and reached out to a few artists about the project.  One artist on Pixiv was even kind enough to mock up a quick concept cover for me without me asking, though scheduling prevented them from coming on as our artist. I think it was this point where I started to favor having two different art styles for Stromgard. One that was epic and adventurous and I was formulating ideas to keep the in-book text rougher, sketchier, one that could portray the setting’s occult-y/early pagan vibe.</p>
+
+                    <p>I found Eli Spencer’s art shortly thereafter and it was love at first sight.  Suddenly my vague ideas for the book’s interior solidified in one violent chemical reaction.  Their work has a home-spun execution that doesn’t lack in technical detail but really evokes a kind of rustic charm that reminds me of sketches in a naturalist’s journal or something similar.  They also draw a great deal of monsters and it absolutely sold me in a heartbeat. We weren’t ready to approach them about the project, however, so we had to wait- it was agonizing. The book text wasn’t laid out quite enough and we knew that the cover art would be more critical to the initial sales pitch and design.  I made a slide for Eli’s work with their contact info and had to set it aside for another stretch. I went back to trawling the internet for viable cover artist.  </p>
+
+                    <p>I found Camille Kuo’s work on Pixiv and was immediately drawn to her monster design, biomech, and talent for fantastic natural landscapes.  I reached out to her and immediately received a response back. With some preliminary notes on what I was looking for in the cover art, Camille began work and we spent our first chunk of the project’s budget.</p>
+
+                    <p>Camille is a concept artist and absolute wizard.  She had preliminary sketches for the cover in a few days and I only had minor changes or alterations to suggest.  She had multiple color options ready to go and was super proactive about making sure that her artwork fit the physical layout of the cover I had sent to her.  Camille’s professionalism makes perfect sense when you see her resume. While it’s true that I commissioned her without reading it (her art spoke for itself, and her rates were within our budget), Camille’s work was already well known in a lot of circles I regularly interacted with.  Disney, Square Enix, the Twilight Imperium game, and other highly recognizable names were all over her background. Frankly, we were humbled and simultaneously stoked to be adding her astonishing talents to Stromgard. When I saw the first sketch of the GM screen art- with Jormungandr bearing down on a Viking fleet in icy, violent water, my feelings for Stromgard shifted from “personal thing I care a lot about and need to get out of my system” to “an honest to god experience I think other people will <em>care about</em>”.  </p>
+
+                    <p>Finally, we were able to reach out to Eli.  The book wasn’t done but some of the text had been drafted to a viewable-by-other-humans level and we were already playtesting some of the playbooks, now in legible text format.  We presented a weird two-tier project overview to Eli that asked for about one third of the art and would be paid in complete before we launched the Kickstarter. Then afterwards, if we successfully gained the funds we needed, the other two-thirds could be completed.  We literally hashed out a giant To-Do list broken into parts to better illustrate what we were looking for. Mostly, we wanted Eli to be able to take on other jobs during this time, and didn’t want them waiting on tenterhooks for us to figure out if we could pay for the next chunk of art or not.  I had, of course, commissioned fan-artists in my day for icons and character portraits or what have you... I knew the general procedure for hiring an artist but I had no real idea how to manage a project of this magnitude yet. A lot of this- especially getting others involved- was played by ear and with a great deal of flexibility.  To my immense and eternal gratitude, both Camille and Eli made life easy for us. They were joys to work with and brought so much of themselves to Stromgard. Their vision had the strongest and most direct influence in our advertising and I would love the opportunity to work with them again someday.</p>
+
+                    <p>Eli <em>immediately</em> had a handle on that old pagan-y vibe I wanted in Stromgard.  They were all over runic marks and rough hewn clothing and it added so much to this world that was starting to solidify into something real.  My gaming group lost their collective minds when I showed them her preliminary sketches for the Bearskin and the Linnorm. Monstrous and intentful and rough but so, so beautiful… Eli’s monsters were, possibly, my favorite part of her contributions, though it’s like asking me to choose between my (hypothetical) children.  She brought the characters to life and constructed terrifying new visages for oft-ignored monsters like the criminally underappreciated and underrepresented Kelpie.</p>
+
+                    <p>Art in hand, we were almost ready to launch the Kickstarter.  We did a mad dash in the days leading up to the campaign- last minute estimates for GM screen printing at local shops, shipping strategies, another million images needed to be made for social media… the list went on forever and we were still working on the actual book in the interim.  We were so, so busy.</p>
+
+                    <p>We had two cats.  One of them was my best friend.  By this point, I had been fighting major depression for ten years…  During the worst times, leading up to and in the months after the nervous breakdown that diverted my life, that cat was my closest companion and constant nurse.  Tifa was a caregiver. She followed me everywhere, slept under my desk while I worked, sat on whatever part of me was mostly still while I had panic attacks that made it hard to breathe or think straight.  She loved Jeremy, of course, (there’s no limit on how much love a trusting animal can give, afterall) but she was always waiting for me by the door when I got back from therapy. She brought me cat toys when I couldn’t get out of bed, would go into the kitchen and yell loudly if I hadn’t eaten in a day.  What I’m trying to illustrate here is that this cat knew I needed help and did everything in her limited power to provide for me.  She was special. She was my friend.</p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/tifa.png" /></div>
+                    <p>The demanding stare of a cat that wants you to take a break. Also one of the tabs on my screen here shows that I was sending commission emails to secure an artist for Stromgard when this was taken.</p>
+
+                    <p>The Saturday before we launched the Stromgard Kickstarter, Tifa’s vet called me about some bloodwork she’d had done.  Tifa had been a little lethargic and her meow had suddenly gotten weak. She was 12 years old so I was braced for news that wasn’t great but what I got instead hit me like a gut blow.  Tifa had leukemia and it was already fatally advanced.  My vet advised me to schedule a euthanasia and the prognosis was that she had a matter of days, possibly weeks to live.  After a lot of crying, Jeremy and I scheduled Tifa’s euthanasia for later in the week and my vet gave me some tips on how to tell if she might not make it that long, and to call back if she seemed like she was in pain.</p>
+
+                    <p>I don’t remember that week very well.  We launched the Kickstarter while we tried to prepare for Tifa’s imminent death, and filled her last days with comfortable blankets, cushions by the windows, treats, and even drinks from the sink as she rapidly grew weaker.  The launch went well, our backers were engaged and we chatted with them on social media like nothing was wrong… We’d put so much into Stromgard, we couldn’t sacrifice those first few critical launch days… We knew that a bad launch would kill the project before it had a chance to get off the ground.  So we worked.</p>
+
+                    <p>When launch day finally came, we (like most Kickstarters) gained a bunch of backers and funding dollars right out of the gate.  This story is easy to see in the project’s history on Kickstarter. We were off to a damn decent start and our guerrilla social media marketing was showing some return.  We made some friends and I think we made some committed fans and in such an emotionally charged point of my life, their interest and enthusiasm was incredibly validating.</p>
+
+                    <p>Tifa said goodbye in her own way and two days after launch, we took her to her regular vet for the last time.  I was emotionally destroyed, obviously. I still am, even a year later.  That cat was special in a way I’m not sure most people can understand.  But I was also relieved.  Her last week had been heartbreaking and I had been nursing the debilitating fear she wasn't going to hold on until her appointment.  But she had managed to stay peaceful and calm.  I was glad she wasn’t suffering and that her life had ended after spending it warm and safe with people who adored her.  She’d had many close calls over her life and I was glad her end was quiet and painless. I had to proceed with Stromgard- not only were we deeply committed to it at this point, but it also gave me something to focus on.</p>
+
+                    <p>While Tifa’s death took a lot of the light from my life, especially those first weeks, the fact that Stromgard was on the cusp of being a real thing and that people were interested and excited for the product was humbling and gratifying.  It's also why I was set on including a little dedication passage to Tifa at the front of the book, even if the relationship between her and Stromgard wouldn’t be obvious to most readers. I derived a lot of happiness in sharing my creative vision- first with the artists who created such amazing visual assets and then with backers and the TTRPG community as a whole- who saw the potential Stromgard had and helped us secure the necessary investment capital.  We funded well before our deadline and were able to give Eli the heads’ up that part two of our project was cleared and we had a deposit ready to go immediately.</p>
+
+                    <p>We ran the Kickstarter in November 2018 and set a shipping deadline for ourselves in June 2019 (that eventually ended up becoming August) and as soon as our funding goal was hit we threw ourselves into working on the final version of the book.  I had a bare-bones PDF draft for the backers and we gathered feedback from while I worked in InDesign to design and layout a for-reals book.  My draft turned into a 325pg book once all the illustrations were put in.</p>
+
+                    <h2>An Exercise in Constant Learning</h2>
+
+                    <p>The amount of digital design skills I picked up during Stromgard might be one of the more lasting impacts from such an involved project, at least personally speaking.  I’m nowhere near as talented as a professional digital artist but <em>The Wyrd of Stromgard</em> looks competently done and of respectable quality.  I hesitate to praise my own skills but I am proud of my progress- from chunky, clumsily rendered messes to images that were put together with much more intent- better font choices, better color choices, better resolution and sizing… just better all around.  Working for myself has certainly never wasted an opportunity to remind me that if I don’t know how to do something, I better figure it out or be prepared to hire a professional.  </p>
+
+                    <p>Obviously, there is a point where diligence can’t make up a skills deficit (at least with any efficiency)- Stromgard absolutely depended on the talents of Eli and Camille but because our resources and investment capital was so limited, we needed to maximize the impact each dollar we spent had.  Hiring a professional to lay out the book might have resulted in a better look but would have diminished what we could offer our artists or spend in outreach before the campaign went live. I think, as small-time creators, you have to learn how to make difficult decisions over the course of each project’s lifespan.  For Stromgard, maximizing the art budget at the expense of website design, marketing, and book layout was that choice and I think we made the best possible decision. My perseverance managed to get me to the point where I could competently put together and print a book, make our website informative and efficient and eye-catching…  Lord help me when I have to do maximize my lacking C# skills or something someday.</p>
+
+                    <p>Scope was another thing that was really hard to get a handle of during Stromgard’s lifespan.  For me, it was almost impossible to accurately quantify workhour needs with what I wanted to do for Stromgard.  I had an outline of topics to cover in the book, I had notes about what each character class portrait should look like but what that directly translated to in actual hours worked was incredibly difficult to keep track of.  Because of this semi-unavoidable ambiguity, we spent more time than we wanted to on a lot of aspects, or simply underestimated what it would take us to complete certain tasks. When Eli was drawing the character portraits, for instance, I spent almost a week laying out this huge document loaded with images and historical notes for the looks I wanted each character to have.  I had assumed, of course, that I would need to spend some time detailing my art goals with Eli, but didn’t take into account how in-depth that turned out to be. It was a good investment of time, though, which makes scope-affecting decisions difficult to tackle. They take up time but usually add to the project. Also, these junctions crop up constantly, which sort of just adds to the fog of unknowing when you’re frantically trying to keep track of how much time you’re spending.  </p>
+
+                    <p>We were really good about staying on track for production after the Kickstarter but we worked our asses off to say out of the weeds.  As I write this now, the products have been shipped and the project is wrapping up for good- looking back on the earlier half of this year fills me with a sense that we were burning the candle from both ends at an absolutely breakneck pace and is likely a contributor to the minor post-project burnout we experienced after finally shipping.</p>
+
+                    <p>Jeremy masterminded shipping with a boot-camp level of meticulous organization.  We staged packaging in our game room for packages bound for backers in the US and worked with two international shipping companies to help us wrangle Stromgard’s global shipments.  As of now, damages reported have been at a minimum and people are receiving their orders.</p>
+
+                    <p>It’s been a long road to wrap up here, longer than we planned on and a lot has happened since we started this massive project more than a year ago.  Now that we’re ready to move on to our next major project, I keep finding myself reflecting. Both on what this last Kickstarter taught us and how to alter our approach to the next one.  Both to celebrate a finished project and to help give whatever advice we can to other designers and devs looking to dive into the waters of crowdfunding we've also done a write up on our marketing strategies and production and budget as a postmortem you can check out further down below.</p>
+
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<span class="anchor" id="marketing"></span>
+<section id="buy">
+    <div class="container">
+        <div class="col-lg-12">
+            <article class="well">
+                <br />
+                <div class="available">
+                    <h1>Our Experience Marketing the Kickstarter</h1>
+
+                    <h2>Paid Advertising</h2>
+
+                    <p>This was our first time really trying marketing.  I spent hours listening to podcasts and reading blog posts/articles about advertising.  I tried to find as much as I could from other Kickstarter creators.  Hopefully our experience will help you as much as theirs helped me.</p>
+
+                    <p>We advertised with Reddit because of the way it lets you target specific subreddits.  We advertised with Google Adwords and Facebook because they are supposedly very effective and we had some free credits to use.  We did some more targeted advertising with RPGNow (part of DriveThruRpg) and a much smaller blog (Roleplayers Chronicle) because they were affordable and had more targeted ads.  We also tried paying someone on Fiverr to advertise for us through Facebook- this was something I didn’t trust but a Kickstarter creator with a very successful boardgame suggested it, claiming it worked very well for them.  Here’s the result:</p>
+
+                    <table>
+                        <tr>
+                            <th>Advertiser</th>
+                            <th>Cost</th>
+                            <th>Sales</th>
+                            <th>Profit</th>
+                            <th>ROI</th>
+                            <th>Page Hits</th>
+                        </tr>
+                        <tr>
+                            <td>Reddit</td>
+                            <td>$59.15</td>
+                            <td>7</td>
+                            <td>~$75</td>
+                            <td>.26</td>
+                            <td>123</td>
+                        </tr>
+                        <tr>
+                            <td>Google</td>
+                            <td>$25.54 (+$100 free)</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>293</td>
+                        </tr>
+                        <tr>
+                            <td>Facebook</td>
+                            <td>$5 (+ $15 free)</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>374</td>
+                        </tr>
+                        <tr>
+                            <td>RPG Now</td>
+                            <td>$29.95</td>
+                            <td>3</td>
+                            <td>~$62</td>
+                            <td>1.06</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Fiverr</td>
+                            <td>$78.75</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>22</td>
+                        </tr>
+                    </table>
+
+                    <p>I had to leave Roleplayers Chronicle off the list because I set them up first and did not realize I could make referral links in Kickstarter... As such, I have no way to know how many sales they generated. My Google analytics does show that the $14 for a full month of advertising did get me 3 page views.</p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/adpage.png" /></div>
+
+                    <p>The Fiverr ‘facebook ads guru’ was the worst decision.  I picked a seller that has great reviews, almost 50 separate ratings and averaging 4.8 stars with reviews like “REDACTED is incredible!  He is able to provide real backers and a significant ROI!  I’ll be working with him again in the future!”  I was sent a picture of the ad layout as proof of him actually running the ad.  I can see that I did get 22 page hits so he may have really run an ad for a while.  With $20 on my own Facebook account and no experience, I got 374 page hits though so obviously his ad was not worth it.  Worse still, we did get 2 backers at unexpected levels (one for the $80 4 book tier and one for the $100 Name an NPC tier).  Both had private accounts and had never backed anything before. This was suspicious and as I expected, both dropped out of the campaign in the final week.  I may be paranoid but I think this particular ‘ad guru’ does this to fool people into good reviews.  If those 2 sales had been real, his advertising would have had the best ROI even despite having so little traffic.  His only negative feedback corroborates my experience: </p>
+
+                    <p><blockquote><em>“Seller is a scam! He created 2 fake pledges (confirmed) on my campaign and sent a photoshopped Facebook ad screenshot when I requested proof, after 3 days. The number of views and the actual amount he "paid" are impossible, and my tracking shows ZERO TRAFFIC from Facebook. All direct traffic... If you want to throw away your $, hire him.”</em></blockquote></p>
+
+                    <p>Facebook and Google's results don’t really surprise me.  For the first 2 days, Google was advertising to people searching for ‘Kickstarter Shipping Estimate’.  It took a bit of cajoling to get Google to show my ad to people searching better query terms like ‘viking rpg’ or ‘dungeon world’.  We had a video ad on Facebook and it did get a lot of views but I doubt that it was very well targeted as their ad platform was more interested in where I was physically located than what I was selling.  I feel like both of these platforms are not great for targeted advertising so unless your budget is big it’s probably better to look for more tactical options.</p>
+
+                    <p>That brings me to Reddit and RPGNow.  Reddit lets you target your advertising by letting you focus on specific subreddits.  We advertised only on /r/rpg and had a good return on investment.  Probably the best we could expect to repeat.  RPGNow was slightly better targeted (people that are currently looking to buy RPGs as opposed to simply discussing them) but they cost more for the same number of impressions.  In my case, they had an issue with a site upgrade that caused them to be late for my launch.  To make up for it they used my ad to test their new site so it was visible to all traffic for over a day.  Once that was done they started the counter for the 2500 impressions I paid for.  With 116,500 free impressions, the return on investment was very high!</p>
+
+                    <h2>Free Marketing</h2>
+
+                    <p>We also tried to build traffic using social media accounts.  I can’t say we had a particular strategy, we just posted about it daily for months leading up to the Kickstarter... it pretty much felt like we were talking to ourselves with how little interaction most of our posts get.  Our most engaged with platform was Instagram and I’m at a loss as to how we’re supposed to get people to go to our profile and get the link to the Kickstarter!?</p>
+
+                    <table>
+                        <tr>
+                            <th>Platform</th>
+                            <th>Page Views</th>
+                            <th>Sales</th>
+                            <th>Profit</th>
+                        </tr>
+                        <tr>
+                            <td>Twitter</td>
+                            <td>418</td>
+                            <td>11</td>
+                            <td>~~$115</td>
+                        </tr>
+                        <tr>
+                            <td>Instagram</td>
+                            <td>17</td>
+                            <td>0</td>
+                            <td>$0</td>
+                        </tr>
+                        <tr>
+                            <td>Youtube</td>
+                            <td>10</td>
+                            <td>0</td>
+                            <td>$0</td>
+                        </tr>
+                        <tr>
+                            <td>Reddit</td>
+                            <td>123</td>
+                            <td>2</td>
+                            <td>~$21</td>
+                        </tr>
+                        <tr>
+                            <td>Google+</td>
+                            <td>65</td>
+                            <td>6</td>
+                            <td>~$63</td>
+                        </tr>
+                        <tr>
+                            <td>Mailing List</td>
+                            <td>9</td>
+                            <td>7</td>
+                            <td>~$70</td>
+                        </tr>
+                    </table>
+
+                    <p>Our Instagram has ~10 times the followers and post interactions of all of our other social media platforms.  The problem with Instagram is that I could not add links to my posts, so I had to hope that someone would be interested enough to go into my profile, then click the link in my bio. </p>
+
+                    <p>We very infrequently use Youtube and just posting our Kickstarter video there got almost the same traction as intentionally building an Instagram following did. </p>
+
+                    <p>For Reddit we made 3 posts.  It’s important to remember that Reddit is on high alert for people spamming, so we had to make sure our posts were more than just “Hey, I made this thing I think your board may be interested in”.  On launch day before we went live, we asked /r/rpg for feedback on our Kickstarter.  I was genuinely hoping that we would get some feedback since this was pretty close to our target audience and many people on that board buy a lot of RPGs off Kickstarter.  If they had feedback to give it would have been very relevant.  Of course this also lets people know my game exists, so maybe they will want to read more, maybe they will buy it?  We didn’t get much traction, only one comment and a handful of upvotes but one of our sales came from here as did most of the Reddit page views.  When the campaign was on its last week, we tried Reddit again.  We made an AMA about the campaign. This got more comments and less upvotes.  It also got very few page views and no sales.  We also posted once in /r/dungeonworld, which is about as close to our target audience as you can get.  We posted about the first playtest campaign we ran.  The narrative was well received, it got the most upvotes, the second best interactions, and the higher value sale.  If your going to promote yourself on Reddit you need to know the community and provide something actually interesting to them.</p>
+
+                    <p>Google+ used to have a thriving Dungeon World community.  I joined it in anticipation of this Kickstarter to get a feel for the community and I learned several things there that helped us write the character moves and improve the design of the game.  They were very supportive as well. I had several people volunteer to proofread the game and give feedback on the moves.  Several people pushed our game on other social media platforms. The loss of Google+ was a real blow for the Dungeon World community and poorly timed for us as it removed such a targeted, curated community for us to utilize as a resource.</p>
+
+                    <p>Another takeaway we learned: you should set up a mailing list ASAP because your biggest fans are the people who sign up for your spam and will actually read and engage with it.  We intentionally made it take more steps to sign up and kept it easy to unsubscribe.  If someone is willing to go through the extra work to get on the list and willing to stay on the list you can be pretty sure they will support you.  At launch our mailing list had ~20 people.  Nearly half of them bought the product.  A mailing list like this is a great way of knowing if you are ready to launch your Kickstarter.  We figured out that a good determiner for general plausibility is to wait until you have enough people on your mailing list so that if every one of them bought your project, you would hit 30% funding.  Never trick people into signing up, don’t force them to sign up... These methods are irritating and are likely to alienate or frustrate potential customers, which could also give you false data about how many sales you are likely to be able to make.   We learned a lot about this from this <a href="https://www.youtube.com/watch?v=Q5tyX_IBTXA">GDC conference.</a></p>
+
+                    <p>Finally, our most successful free marketing: Twitter!  Our Twitter had very little interaction (basically 0) before the Kickstarter.  We had 2 things that boosted our Twitter: someone from G+ with a lot more followers posted about our game multiple times (I told you they were supportive) and our primary artist has a lot of followers. She posted about our game a few times leading up to the Kickstarter which helped grow our email list but the most clear way to show you how much of a difference this made is shown below on the 3rd to last day.</p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/twitteract.png" /></div>
+
+                    <p>She simply re-tweeted her launch day tweet and reminded her followers it was ending soon.  This was not just an end of campaign increase since it outpaced the following day.  So, if you’re working with anyone that has a better social media presence ask them if they are ok with promoting you. </p>
+
+                    <h2>Kickstarter Itself</h2>
+
+                    <p>Kickstarter is where ~20% of our sales came from.  One of the most important thing I learned about marketing from Jamey Stegmaier was that you need to make sure your thumbnail stands out to people scrolling the Kickstarter discovery feeds.  He also swore by having EU friendly shipping icons visible on your thumbnail (it lets people from the EU know that they will not be wasting their time if they look at your project).  We wanted to have a unique thumbnail image that also told you what the project was to attract more potential backers. Somehow we launched at around the same time as another game with 'Wyrd' in the title.  Here's a picture of our game in the Explore window with the filter set at 'Show me Games projects on Earth sorted by Magic' near the end of our campaign.</p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/kickstarterpreview.png" /></div>
+
+                    <p>So you can see that our biggest hurdles here were reaching a relevant audience and making every single dollar count.  We did find some ways to maximize a relatively low investment into marketing that actually meant something to our platform and I think that as new, small creatives try to break out into crowdfunding they'll need to find solutions similar to what worked for us.   While there's a lot of generalized marketing advice on the internet, some of the best in regards to our goals and project came from places much closer to our market circle, so to speak.  Reddit, RPG websites, even the crowdfunding platform itself may offer the most worthwhile networks in which to promote your work and also forge supportive contacts and even build fans looking for your next project.</p>
+
+
+                </div>
+            </article>
+            <br />
+            <br />
+        </div>
+    </div>
+</section>
+
+<span class="anchor" id="Buy"></span>
+<section id="buy">
+    <div class="container">
+        <div class="col-lg-12">
+            <article class="well">
+                <br />
+                <div class="available">
+                    <h1>Post Mortem</h1>
+
+                    <h2>Design</h2>
+
+                    <p>We decided to make The Wyrd of Stromgard after Sam had made a Viking campaign for Dungeon World, spent ~50 hours on lore, made a map, and built a detailed setting she called Stromgard.  We played it 3 times then moved on to another game/setting as our game group often does.  Later after quitting my job to start Lost Dutchman Software she realized that she really enjoys making RPG content and there's no reason we can't make that in addition to video games- besides, the first video game we were making was wildly off schedule and it would help to get more projects out.  We decided that since so much work was already put into Stromgard, we would continue with it instead of making an entirely new project from scratch.</p>
+
+                    <p>The idea was that this would keep the production time short, just a few months to get the basic product in place, then we could launch a Kickstarter and playtest/edit the game into something we could be proud of.  We thought the whole thing should have only taken 3-4 months of part time work.</p>
+
+                    <p>It took ~6 months before we were even ready to launch a Kickstarter.  The whole month leading up to the Kickstarter and the whole four weeks during it, we were full-time devoted to this single project, which put our other projects further behind.  Both of our initial projects ended up going way over schedule; we need to work on scope. </p>
+
+                    <h2>Production Plan</h2>
+
+                    <p>Knowing the profit margin was going to be thin and assuming that the majority of the sales would come from the Kickstarter, we shopped around quite a bit.  We got quotes from almost 70 printers based on them printing 100 6x9", black and white interior, 250 page books.  None of our local printers could compete with online shops.  We ended up with 2 book printing plans and a few backups that were priced similarly. </p>
+
+                    <p>Lulu.com was our plan if we sold less than 500 copies of the book.  They were the cheapest at 4.86 per book, and they had the advantage of having printing locations in multiple country's.  If we sold over 500 we were going to use Guangzhou Warm Printing & Packaging Co., Ltd in China.  They were not the cheapest but they appeared to make a higher quality product then their competitors and publicized the benefits there employees receive.  They would have been $2 per book with a minimum order of 1000 books. </p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/bookpreview.jpg" /></div>
+
+                    <p>The maps were even more tiered as every poster printer had different minimum orders, you can see our chart below the kind of spread we were dealing with. </p>
+
+                    <table>
+                        <tr>
+                            <th>18" x 24" Maps</th>
+                            <th>Printer</th>
+                            <th>Cost</th>
+                            <th>Shipping</th>
+                            <th>Prefolded</th>
+                            <th>Total Cost</th>
+                            <th>Cost Per Map</th>
+                        </tr>
+                        <tr>
+                            <td>For 100</td>
+                            <td><a href="https://www.printsafari.com/us_en/posters">https://www.printsafari.com/us_en/posters</a></td>
+                            <td>134.46</td>
+                            <td>11.55</td>
+                            <td>$53</td>
+                            <td>199.01</td>
+                            <td>1.99</td>
+                        </tr>
+                        <tr>
+                            <td>Min Order 250</td>
+                            <td><a href="https://www.printplace.com/products/posters">https://www.printplace.com/products/posters</a></td>
+                            <td>434</td>
+                            <td>25.49</td>
+                            <td>n/a</td>
+                            <td>459.49</td>
+                            <td>1.84</td>
+                        </tr>
+                        <tr>
+                            <td>Min Order 300</td>
+                            <td><a href="https://www.discmakers.com/quoter/default.aspx">https://www.discmakers.com/quoter/default.aspx</a></td>
+                            <td>198</td>
+                            <td>49.14</td>
+                            <td>No</td>
+                            <td>247.14</td>
+                            <td>0.82</td>
+                        </tr>
+                        <tr>
+                            <td>Min Order 500</td>
+                            <td>(Local) Acme Prints</td>
+                            <td>499</td>
+                            <td>n/a</td>
+                            <td>No</td>
+                            <td>499</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/mapprint.jpg" /></div>
+
+                    <p>The GM screens were a lot harder to price.  Going online was not helpful... the only places that produced similar materials made them far too small, or the minimum order was way too high.  We drove around to ~8 print shops in Mesa and Phoenix, AZ getting quotes from ~$8k for 1000 to ~$500 for 100 until we got to PriGraphics.  They took one look at my old Dragon Strike DM screen that we brought as a reference, named off a type of paper, got a sheet from the back, handed it to us, and told us it would be cheaper to make the screen a little bigger since it would involve cutting one less time. The new size was a perk and the price was $250 for 100 and we had found our printer. </p>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/gmscreenprint.jpg" /></div>
+
+                    <p>We guessed that we would sell ~50 GM Screens and Maps and ~100 physical books.  So the expected costs were as follows:</p>
+
+                    <ul>
+                        <li>Books - Lulu.com -  $4.86 each</li>
+                        <li>Maps - PrintSafari.com - $1.99 each</li>
+                        <li>DM Screens - PriGraphics - $2.50 each</li>
+                    </ul>
+
+                    <p>Which set the prices at about $4.86 for each stand alone book and $9.35 for each bundle we would sell. </p>
+
+                    <h2>Shipping and Fulfillment Plan</h2>
+
+                    <p>First of all if you plan to do a Kickstarter go here - <a href="https://stonemaiergames.com/kickstarter/lessons/shipping-and-fulfillment/"> Stonemaiergames on Shipping and Fulfillment</a></p>
+
+                    <p>Jamey Stegmaier was the main resource I used to figure out how I was going to handle shipping.  The TL;DR is that if I tried to ship from my house in the USA to a customer internationally it would cost <strong>a lot.</strong>  Also, this could provide a very negative customer experience as international backers may have to go pay a VAT tax on pickup (in the EU or Australia).  Furthermore, I could pay a much smaller VAT tax than they would if I just did a little planning ahead of time (the tax paid by the buyer is based on the price of the product but for the seller, the tax paid is based on the cost of production.  So for the book, a buyer would have to pay a 20% tax on $30 but if I paid the VAT it’s 20% tax on $4.86).  The best solution to deal with this is to use fulfillment centers. </p>
+
+                    <p><strong>Shipping in the USA</strong></p>
+
+                    <p>Thanks to Media Mail, this was the only region we could ship from home for less than what it costs to ship through a fulfillment center.  Here are our domestic shipping cost estimates:</p>
+
+                    <p>For the GM bundle the idea was to ship the book and GM screen separately. Making the cost $10.70 to ship (or $3.45 for the book).</p>
+
+                    <table>
+                        <tr>
+                            <th>Description</th>
+                            <th>Supplier</th>
+                            <th>Cost per Order</th>
+                            <th>Min Order Size</th>
+                            <th>Cost to ship to us</th>
+                            <th>Cost per Unit</th>
+                        </tr>
+                        <tr>
+                            <td>Book/Envelope</td>
+                            <td>Amazon</td>
+                            <td>$28.45</td>
+                            <td>100</td>
+                            <td>n/a</td>
+                            <td>$0.28</td>
+                        </tr>
+                        <tr>
+                            <td>GM Bundle/Envelope</td>
+                            <td>Padded Flat Rate Envelope USPS</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>4 Book/Box</td>
+                            <td>Amazon</td>
+                            <td>$23.66</td>
+                            <td>25</td>
+                            <td>-</td>
+                            <td>$0.95</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping Book</td>
+                            <td>USPS Media Mailer</td>
+                            <td>$3.17</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>$3.17</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping GM Bundle</td>
+                            <td>Padded Flat Rate Envelope</td>
+                            <td>$7.25</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>$7.25</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping 4 Books</td>
+                            <td>USPS Media Mailer</td>
+                            <td>$5.21</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>$4.70</td>
+                        </tr>
+                    </table>
+
+                    <div class="map1"> <img class="img-fluid" src="~/Content/img/Stromgard/mailers.jpg" /></div>
+
+                    <p><strong>Shipping to Canada</strong></p>
+
+                    <p><em>USPS would cost $25-40 per shipment so we looked into fulfillment centers.</em></p>
+
+
+                </div>
+            </article>
+            <br />
+            <br />
+        </div>
+    </div>
+</section>
