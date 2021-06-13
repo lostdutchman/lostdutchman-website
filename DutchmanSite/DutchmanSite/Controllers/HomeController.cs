@@ -75,5 +75,11 @@ namespace DutchmanSite.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult WyrdOfStromgardDevLog()
+        {
+            return View();
+        }
     }
 }
