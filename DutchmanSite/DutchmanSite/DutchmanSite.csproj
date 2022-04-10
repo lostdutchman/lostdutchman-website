@@ -16,7 +16,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DutchmanSite</RootNamespace>
     <AssemblyName>DutchmanSite</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -28,6 +28,7 @@
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
     <Use64BitIISExpress />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -95,6 +96,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.0\lib\net45\System.Diagnostics.DiagnosticSource.dll</HintPath>
       <Private>True</Private>
@@ -104,8 +106,7 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -130,9 +131,7 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
@@ -150,6 +149,7 @@
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
       <Private>True</Private>
@@ -209,6 +209,7 @@
     <Content Include="Content\img\LostDutchman\AlexaAPPIcons.jpg" />
     <Content Include="Content\img\LostDutchman\AlexaCommands.jpg" />
     <Content Include="Content\img\LostDutchman\AlexaIcons.jpg" />
+    <Content Include="Content\img\LostDutchman\animalproject.jpg" />
     <Content Include="Content\img\LostDutchman\banner.jpg" />
     <Content Include="Content\img\LostDutchman\cardimage.png" />
     <Content Include="Content\img\LostDutchman\dreadful3banner.jpg" />
@@ -222,6 +223,7 @@
     <Content Include="Content\img\LostDutchman\kazoetecap.JPG" />
     <Content Include="Content\img\LostDutchman\kazoetecap2.JPG" />
     <Content Include="Content\img\LostDutchman\kazoetetile.jpg" />
+    <Content Include="Content\img\LostDutchman\kenney.webm" />
     <Content Include="Content\img\LostDutchman\LostDutchmanBG.jpg" />
     <Content Include="Content\Audio\ChillWave.mp3" />
     <Content Include="Content\Audio\glaciære.mp3" />
@@ -236,6 +238,7 @@
     <Content Include="Content\img\LostDutchman\rosterbanner2.jpg" />
     <Content Include="Content\img\LostDutchman\rosterbanner4.jpg" />
     <Content Include="Content\img\LostDutchman\salishbanner.jpg" />
+    <Content Include="Content\img\LostDutchman\snake.jpg" />
     <Content Include="Content\img\LostDutchman\thousandenemiesbanner.jpg" />
     <Content Include="Content\img\NiceBowling\badsnacks.jpg" />
     <Content Include="Content\img\NiceBowling\google-play-badge.png" />
