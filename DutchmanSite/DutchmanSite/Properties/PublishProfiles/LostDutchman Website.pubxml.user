@@ -7,6 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>D:\WebSite\LDS</_PublishTargetUrl>
+    <History>False|2022-04-11T17:45:06.1219258Z;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include=".bowerrc">

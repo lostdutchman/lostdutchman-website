@@ -15,17 +15,6 @@ namespace DutchmanSite.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Index(string name, string email, string message, string Question1, string Question2)
-        {
-            FormEmail help = new FormEmail();
-            if (Question1 == "14" && Question2 == "8")//capcha validation
-            {
-                help.SendEmail(name, email, message);
-            }
-            return View();
-        }
-
         [HttpGet]
         public ActionResult TodaysWord(string id)
         {

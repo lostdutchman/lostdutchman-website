@@ -547,7 +547,6 @@ D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.WebPages.xml
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.WebPages.Deployment.xml
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.WebPages.Razor.xml
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\bin\System.Web.Optimization.xml
-D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csprojAssemblyReference.cache
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CopyComplete
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.dll
 D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
@@ -629,3 +628,4 @@ C:\Users\Hibiya\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Debu
 C:\Users\Hibiya\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.CopyComplete
 C:\Users\Hibiya\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.dll
 C:\Users\Hibiya\Documents\GitHub\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.pdb
+D:\GitLab\dutchmansite\DutchmanSite\DutchmanSite\obj\Debug\DutchmanSite.csproj.AssemblyReference.cache
