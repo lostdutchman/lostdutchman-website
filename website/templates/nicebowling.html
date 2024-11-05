@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>Nice Bowling</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{url_for('static', filename='nb/assets/css/main.css')}}" />
@@ -19,9 +19,8 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A morbi blandit ante natoque aliquet ut Commodo cep cubilia<br />
-								cep quam augue vel Feugiat Aliquam egestas.</p>
+								<h1>Nice Bowling</h1>
+								<p>An unfair bowling game that made my friend's son cry.</p>
 							</div>
 						</div>
 						<nav>
@@ -331,20 +330,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										</ul>
 									</form>
 								</section>
-
 							</article>
-
 					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled.</p>
-					</footer>
-
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+			<video autoplay muted loop id="bg">
+				<source src="{{url_for('static', filename='nb/images/NiceBowlingBackground.mp4')}}" type="video/mp4">
+			</video>
 
 		<!-- Scripts -->
 			<script src="{{url_for('static', filename='nb/assets/js/jquery.min.js')}}"></script>
