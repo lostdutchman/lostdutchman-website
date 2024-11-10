@@ -335,9 +335,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- BG -->
-			<div id = "bg" style="position: absolute; top: 0; min-width: 100%; min-height: 100%; z-index: -1; object-fit: cover; overflow: hidden; width: auto;
-  height: auto;">
-					<video src="{{url_for('static', filename='nb/images/NiceBowlingBackground.mp4')}}" autoplay muted loop width="100%" height="100%" type="video/mp4"></video>
+			<div id = "bg">
+					<video id = "bgvid" src="{{url_for('static', filename='nb/images/NiceBowlingBackground.mp4')}}" autoplay muted loop width="100%" height="100%" type="video/mp4"></video>
 			</div>
 
 		<!-- Scripts -->
