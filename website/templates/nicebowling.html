@@ -22,96 +22,99 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#gameplay">Game Play</a></li>
-								<li><a href="#playgame">Play Game</a></li>
+								<li><a href="#gameplay">Gameplay</a></li>
+								<li><a href="#playgame">Play</a></li>
 								<li><a href="#about">About</a></li>
-								<li><a href="#legal">Legal Jargon</a></li>
+								<li><a href="#legal">Legal</a></li>
 							</ul>
 						</nav>
 					</header>
 
 					<div id="main">
-							<article id="gameplay">
-								<h2 class="major">Game Play</h2>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/fish.webp')}}" alt="Fish on Lane" /></span>
-								<p>Nice Bowling is an unfair bowling game that was inspired by Wii Sports and Wario Ware.</p>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/to_much.webp')}}" alt="Blocks and Extra Pins" /></span>
-								<p>Randomly selected effects are applied to the ball, pins, lane, or environment at the start of each frame.  That is each Bowling frame, even I think changing everything about the game every time the GPU re-draws the screen would be too much.</p>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/modeselect.webp')}}" alt="Multiplayer select screen" /></span>
-								<p>The game featured pass and play multiplayer, the worst kind of multiplayer.</p>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/highscore.webp')}}" alt="High Score Screen" /></span>
-								<p>There is a high score system.  I thought it would add to the absurdity since your score will mainly be luck.</p>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/soft_body.webp')}}" alt="Jelly Ball" /></span>
-								<p>The soft body bowling ball is my favorite effect.</p>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/bomb.webp')}}" alt="Bomb Ball" /></span>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/billiards.webp')}}" alt="Billiard Balls on Lane" /></span>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/block_wall.webp')}}" alt="Wall of Blocks on Lane" /></span>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/speed_boost.webp')}}" alt="Speed Boost on Lane" /></span>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/almost_round.webp')}}" alt="Non-Round Ball that pops off the Lane" /></span>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/soundoptions.webp')}}" alt="Sound Options Screen" /></span>
-							</article>
-							<article id="playgame">
-								<h2 class="major">Play Game</h2>
-								<span class="image main"><img src="{{url_for('static', filename='nb/images/logo.webp')}}" alt="Nice Bowling Logo" /></span>
-								<p><a href="https://drive.google.com/file/d/1FwM3H0kAPEdsFuVqt92augCXVbva8DC3/view?usp=sharing" target="_blank">Nice Bowling APK</a></p>
-								<p>You can install this bad boy on your Android phone and get frustrated!!</p>
-								<p>Or you can search for the game on Amazon and pay for a game I am givin away!</p>
-							<article id="about">
-								<h2 class="major">About</h2>
-								<p>This was the first videogame I made.  I ended up releasing it on Google Play and Amazon.  It can still be purchased on Amazon but Google wanted me to put the privacy policy into the game itself and the game was already on an outdated version of Unity 3D that Google Play no longer supported.  I originaly planned to release a PC version but the controls on the game are bad, and I was sick of working on them so I decided to work on other projects.  The controls became too complicated when I tried to add spin to the ball based on how the player swipes their finger to throw the ball.  That one movement decided the speed, angle, and spin on the ball.  Then because players were comlaining that it was too hard to aim straight I added more math to make all swipes straighter... After I abandond Nice Bowling my friends 11 year old son was restless in a resturant and his dad suggested playing 'the bowling game' which made the boy cry. LOL get good kid!  Since I am not working on this project and have not worked on it in years I am opening the games source code and inviting any fools on the internet to make a better version.  We need more games that make children cry, if you do something with my game let me know and I'll play it.  I'll also link to it here.</p>
-								<span><img src="{{url_for('static', filename='nb/images/polaroid.webp')}}" alt="Nostolgia for an objectivly bad game" /></span>
-								<ul>
-									<li><a href="https://github.com/lostdutchman/nicebowling" target="_blank">Nice Bowling Source Code</a></li>
-									<li><a href="https://dustyroom.com/" target="_blank">Buy RetroAesthetics from dustyroom.com</a></li>
-								</ul>
-								<P>That code is old and gross, so good luck.  Also RetroAesthetics, which is like 90% of the vibes in this game, is not mine; you will need to pay for it if you plan to use it.  There are other assets that will requier attribution.  See the games credits for a full list.</P>
-							</article>
-							<article id="legal">
-								<h2>Privacy Policy</h2>
-								<p><em>Last Updated: November 11th 2024</em></p>
-								<br />
+						<article id="gameplay">
+							<h2 class="major">Gameplay</h2>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/fish.webp')}}" alt="Fish on Lane" /></span>
+							<p>Nice Bowling is an unfair bowling game that was inspired by Wii Sports and WarioWare.</p>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/to_much.webp')}}" alt="Blocks and Extra Pins" /></span>
+							<p>Randomly selected effects are applied to the ball, pins, lane, and/or environment at the start of each frame- each <i>bowling</i> frome, not each time the GPU redraws the screen.  Even I think that would be way too much.</p>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/modeselect.webp')}}" alt="Multiplayer select screen" /></span>
+							<p>The game features pass and play multiplayer- the worst kind of multiplayer.</p>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/highscore.webp')}}" alt="High Score Screen" /></span>
+							<p>There's a high score system.  I thought it would add to the absurdity since your score will mostly be a product of dumb luck.</p>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/soft_body.webp')}}" alt="Jelly Ball" /></span>
+							<p>The soft-body bowling ball is my favorite effect.</p>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/bomb.webp')}}" alt="Bomb Ball" /></span>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/billiards.webp')}}" alt="Billiard Balls on Lane" /></span>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/block_wall.webp')}}" alt="Wall of Blocks on Lane" /></span>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/speed_boost.webp')}}" alt="Speed Boost on Lane" /></span>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/almost_round.webp')}}" alt="Non-Round Ball that pops off the Lane" /></span>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/screenshots/soundoptions.webp')}}" alt="Sound Options Screen" /></span>
+						</article>
+						<article id="playgame">
+							<h2 class="major">Play</h2>
+							<span class="image main"><img src="{{url_for('static', filename='nb/images/logo.webp')}}" alt="Nice Bowling Logo" /></span>
+							<p><a href="https://drive.google.com/file/d/1FwM3H0kAPEdsFuVqt92augCXVbva8DC3/view?usp=sharing" target="_blank">Nice Bowling APK</a></p>
+							<p>You can install this bad boy on your Android phone and get frustrated!!</p>
+							<p>Or you can search for the game on Amazon and pay for a game I'm giving away!</p>
+						</article>
+						<article id="about">
+							<h2 class="major">About</h2>
+							<p>This was the first video game I ever made and I learned a lot during its development.  I ended up releasing it on Google Play and Amazon but Google started requiring hefty privacy policies to be included into the game itself and that kind of turned out to be a nail in the coffin as it was already on a version of Unity3D that Google Play didn't support.  So I said no thanks.  Originally, I planned to make a PC release but really, <i>really</i> hated the controls.  They were too complicated when I tried to add spin to the ball based on how the player swipes their finger.  That one single movement decided the speed, angle, and spin and it became really frustrating for players.  Which, admittedly, was kinda funny.  In my attempts to address player <SPAN STYLE="text-decoration:line-through">complaints </SPAN> feedback, I added even more math to make the swipes straighter to fairly disappointing results.  After I abandoned Nice Bowling, my friend’s 11-year-old son was restless in a restaurant and his dad suggested playing 'the bowling game' which he instantly remembered me foisting it on him to playtest and promptly started crying.  Lol git gud, kid.</p>
+
+							<p>Since I'm not working on this project and have not worked on it in several years, I'm opening the game's source code and inviting any fools on the internet who dare try and make a better version to knock themselves out.  We need more games that make kids cry.  If you do something with my game, let me know and I'll play it.  I'll also link it here.</p>
+							<span><img src="{{url_for('static', filename='nb/images/polaroid.webp')}}" alt="Nostolgia for an objectivly bad game" /></span>
+							<ul>
+								<li><a href="https://github.com/lostdutchman/nicebowling" target="_blank">Nice Bowling Source Code</a></li>
+								<li><a href="https://dustyroom.com/" target="_blank">Buy RetroAesthetics from dustyroom.com</a></li>
+							</ul>
+							<P>That code is old and gross, so good luck.  Also RetroAesthetics, which is like 90% of the vibes in this game, is not mine; you will need to pay for it if you plan to use it.  There are also other assets that will require attribution.  See the games credits for a full list.</P>
+						</article>
+						<article id="legal">
+							<h2>Privacy Policy</h2>
+							<p><em>Last Updated: November 11th 2024</em></p>
+							<br />
+							<div>
+								<p>Lost Dutchman Software built the Nice Bowling app as a Commercial app. This SERVICE is provided by Lost Dutchman Software and is intended for use as is.</p>
+								<p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
+								<p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
+								<p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible on this same page.</p>
+								<p><h3>Information Collection and Use</h3></p>
+								<p>Contact information or other information you choose to give us, when you send us an e-mail or otherwise interact with us.</p>
+								<p>The app does use third party services that may collect information used to identify you.</p>
 								<div>
-									<p>Lost Dutchman Software built the Nice Bowling app as a Commercial app. This SERVICE is provided by Lost Dutchman Software and is intended for use as is.</p>
-									<p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
-									<p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
-									<p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible on this same page.</p>
-									<p><h3>Information Collection and Use</h3></p>
-									<p>Contact information or other information you choose to give us, when you send us an e-mail or otherwise interact with us.</p>
-									<p>The app does use third party services that may collect information used to identify you.</p>
-									<div>
-										<p>Link to privacy policy of third party service providers used by the app</p>
-										<ul>
-											<li><a href="http://unity3d.com/legal/privacy-policy" target="_blank">Unity 3D</a></li>
-										</ul>
-									</div>
-									<p><h3>Log Data</h3></p>
-									<p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</p>
-									<p><h3>Security</h3></p>
-									<p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
-									<p><h3>Children’s Privacy</h3></p>
-									<p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.</p>
-									<p><h3>Changes to This Privacy Policy</h3></p>
-									<p>
-										We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting
-										the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
-									</p>
-									<br />
-									<h2>Terms &amp; Conditions</h2>
-									<p><em>Last Updated: March 14th 2019</em></p>
-									<div>
-										<p>By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Lost Dutchman Software.</p>
-										<p>Lost Dutchman Software does not target its Services to users under 13 of age. By viewing, accessing and/or using our Services, you agree that you are at least 13 years old and that if you are between 13 years and 18 years old, your legal guardian has reviewed and agrees to these Terms of Use and has permitted you to view, access and/or use our Services.</p>
-										<p>Lost Dutchman Software is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</p>
-										<p>The Nice Bowling app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Nice Bowling app won’t work properly or at all.</p>
-										<p>You should be aware that there are certain things that Lost Dutchman Software will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Lost Dutchman Software cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.</p>
-										<p>If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app. </p>
-										<p>Along the same lines, Lost Dutchman Software cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Lost Dutchman Software cannot accept responsibility.</p>
-										<p>With respect to Lost Dutchman Software’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Lost Dutchman Software accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</p>
-										<p>At some point, we may wish to update the app. The app is currently available on Android – the requirements for system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Lost Dutchman Software does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</p>
-										<p><h3>Changes to This Terms and Conditions</h3></p>
-										<p>We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page.</p>
-									</div>
-							</article>
+									<p>Link to privacy policy of third party service providers used by the app</p>
+									<ul>
+										<li><a href="http://unity3d.com/legal/privacy-policy" target="_blank">Unity 3D</a></li>
+									</ul>
+								</div>
+								<p><h3>Log Data</h3></p>
+								<p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</p>
+								<p><h3>Security</h3></p>
+								<p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
+								<p><h3>Children's Privacy</h3></p>
+								<p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.</p>
+								<p><h3>Changes to This Privacy Policy</h3></p>
+								<p>
+									We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting
+									the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+								</p>
+								<br />
+								<h2>Terms &amp; Conditions</h2>
+								<p><em>Last Updated: March 14th 2019</em></p>
+								<div>
+									<p>By downloading or using the app, these terms will automatically apply to you - you should make sure therefore that you read them carefully before using the app. You're not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You're not allowed to attempt to extract the source code of the app, and you also shouldn't try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Lost Dutchman Software.</p>
+									<p>Lost Dutchman Software does not target its Services to users under 13 of age. By viewing, accessing and/or using our Services, you agree that you are at least 13 years old and that if you are between 13 years and 18 years old, your legal guardian has reviewed and agrees to these Terms of Use and has permitted you to view, access and/or use our Services.</p>
+									<p>Lost Dutchman Software is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</p>
+									<p>The Nice Bowling app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Nice Bowling app won't work properly or at all.</p>
+									<p>You should be aware that there are certain things that Lost Dutchman Software will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Lost Dutchman Software cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.</p>
+									<p>If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app. </p>
+									<p>Along the same lines, Lost Dutchman Software cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Lost Dutchman Software cannot accept responsibility.</p>
+									<p>With respect to Lost Dutchman Software’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Lost Dutchman Software accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</p>
+									<p>At some point, we may wish to update the app. The app is currently available on Android – the requirements for system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Lost Dutchman Software does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</p>
+									<p><h3>Changes to This Terms and Conditions</h3></p>
+									<p>We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page.</p>
+								</div>
+						</article>
 					</div>
 			</div>
 
