@@ -2,17 +2,21 @@ from flask import Flask, url_for, render_template, redirect
 
 app = Flask(__name__)
 
-# @app.route('/')
-# def home():
-# 	return render_template('lds.html')
+@app.route('/')
+def home():
+	return render_template('lds.html')
 
-# @app.route('/stromgard')
-# def stromgard():
-# 	return render_template('stromgard.html')
+@app.route('/stromgard')
+def stromgard():
+	return render_template('stromgard.html')
 
 @app.route('/nicebowling')
 def nb():
 	return render_template('nicebowling.html')
+
+@app.route('/sumospin')
+def sumospin():
+	return render_template('sumospin.html')
 
 # Error handlers
 @app.errorhandler(404)
