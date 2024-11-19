@@ -925,6 +925,7 @@ mark {
 
 		}
 
+
 /* Main */
 
 	#main {
@@ -1037,6 +1038,10 @@ mark {
 					background-size: 14px 14px;
 				}
 
+		}
+
+		#two .content p h3{
+			padding-left: 1em;
 		}
 
 		@media screen and (max-width: 480px) {
