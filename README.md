@@ -13,7 +13,7 @@ Flask uses 2 folders to track content
    
 All URLs need to be in this format - {{url_for('templates/static', filename='/path/to/file.ext')}}
 ## EXAMPLES ##:
-- To link to another HTML file  - {{url_for('static', filename='/tcm.html')}}
+- To link to another HTML file  - {{url_for('stromgard')}}
 - To link to a image - {{url_for('static', filename='/tcm/images/navbarbrand.png')}}
 - To link to a css file - {{url_for('static', filename='/tcm/scripts/style.css')}}
 
