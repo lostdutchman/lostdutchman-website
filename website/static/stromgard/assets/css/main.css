@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 
-/*
-	Paradigm Shift by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2952,16 +2946,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.gallery a.landscape {
-				width: 100%;
+			.gallery img.landscape {
+				height: 30vw;
 			}
 
-				.gallery a.landscape img {
-					height: 30vw;
-				}
-
-			.gallery a.portrait img {
-				height: 30vw;
+			.gallery img.portrait {
+				width: 20vw;
 			}
 
 		.gallery .modal {
