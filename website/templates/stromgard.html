@@ -3,8 +3,18 @@
 	<head>
 		<title>Wyrd of Stromgard</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="A Mythic Norse Expansion for Dungeon World.  Featuring playbooks, compendium classes, and monsters that can be used in any fantasy setting." >
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="{{url_for('static', filename='lds/images/stromgard.webp')}}" />
+		<meta name="twitter:site" content="@softdutch" />
+		<meta name="twitter:title" content="The Wyrd of Stromgard" />
+		<meta name="twitter:description" content="The Wyrd of Stromgard is a Dungeon World expansion inspired by surviving Norse literary sources." />
+		<meta property="og:title" content="The Wyrd of Stromgard" />
+		<meta property="og:description" class="speakable-description" content="The Wyrd of Stromgard is a Dungeon World expansion inspired by surviving Norse literary sources." />
+		<meta property="og:url" content="http://lostdutchmansoftware.com/stromgard">
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="{{url_for('static', filename='lds/images/stromgard.webp')}}" />
 		<link rel="stylesheet" href="{{url_for('static', filename='stromgard/assets/css/main.css')}}" />
 		<link rel="icon" type="image/x-icon" href="{{url_for('static', filename='favicon.ico')}}">
 	</head>
@@ -23,7 +33,7 @@
 							</ul>
 						</header>
 						<div class="content">
-							<span class="image fill" data-position="center"><img src="{{url_for('static', filename='stromgard/images/gmscreen.webp')}}" alt="" /></span>
+							<span class="image fill" data-position="center"><img src="{{url_for('static', filename='stromgard/images/gmscreen.webp')}}" alt="GM Screen Art" /></span>
 						</div>
 					</section>
 
@@ -34,7 +44,7 @@
 						</header>
 						<div class="content">
 							<p><strong>Available via <a href="https://www.drivethrurpg.com/en/product/280540/the-wyrd-of-stromgard">DriveThruRPG's print on demand service</a></strong> The Wyrd of Stromgard comes in a 6x9in US Trade Paperback- the same size as the original Dungeon World book so they can sit together on your bookshelf!  Additionally, it's over 300 pages with a full color, wrap-around cover and with an abundance of black and white interior illustrations including class portraits and monsters. </p>
-							<span class="image main"><img src="{{url_for('static', filename='stromgard/images/covermockupbig.webp')}}" alt="" /></span>
+							<span class="image main"><img src="{{url_for('static', filename='stromgard/images/covermockupbig.webp')}}" alt="Wyrd of Stromgard book" /></span>
 						</div>
 					</section>
 
@@ -56,19 +66,6 @@
 								<li class="icon solid fa-skull">One multi-act, ready made adventure</li>
 							</ul>
 							<p>Stromgard is meaty!  Each of the 10 character classes cover things like cultural notes, literary archetypes and inspirations, inspired "look" prompts, plot-driving bonds, moves inspired by the epic tales in the Eddas- and that's just scratching the surface.  Racial starting moves have been updated to "background moves", giving PCs more freedom to play with the relationship between race, class, and alignment as well as provide them space to dream up their own background culture and their character's relationship to it.</p>
-							<!-- <p>Play as one of 10 starting character classes!</p>
-							<ul>
-								<li>The Bearskin</li>
-								<li>The Skald</li>
-								<li>The Stormcaller</li>
-								<li>The Crone</li>
-								<li>The Hunter</li>
-								<li>The Alfir</li>
-								<li>The Fae</li>
-								<li>The Dvergr</li>
-								<li>The Troll</li>
-								<li>The Jötunnborn</li>
-							</ul> -->
 						</div>
 					</section>
 
@@ -88,14 +85,14 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<img class="landscape" src="{{url_for('static', filename='stromgard/images/adventuretile.webp')}}" alt="" />
-											<img class="portrait" src="{{url_for('static', filename='stromgard/images/dragon.webp')}}" alt="" />
-											<img class="portrait" src="{{url_for('static', filename='stromgard/images/tree.webp')}}" alt="" />
-											<img class="landscape" src="{{url_for('static', filename='stromgard/images/monster.webp')}}" alt="" />
-											<img class="landscape" src="{{url_for('static', filename='stromgard/images/sketch2.webp')}}" alt="" />
-											<img class="portrait" src="{{url_for('static', filename='stromgard/images/sketch3.webp')}}" alt="" />
-											<img class="portrait" src="{{url_for('static', filename='stromgard/images/bird.webp')}}" alt="" />
-											<img class="landscape" src="{{url_for('static', filename='stromgard/images/boasnake.webp')}}" alt="" />
+											<img class="landscape" src="{{url_for('static', filename='stromgard/images/adventuretile.webp')}}" alt="Figure wearing ritual antlers" />
+											<img class="portrait" src="{{url_for('static', filename='stromgard/images/dragon.webp')}}" alt="Naturalist embellishment of a snake coiled on itself" />
+											<img class="portrait" src="{{url_for('static', filename='stromgard/images/tree.webp')}}" alt="Black and white sketch of Yggdrasil" />
+											<img class="landscape" src="{{url_for('static', filename='stromgard/images/monster.webp')}}" alt="Dire Bear" />
+											<img class="landscape" src="{{url_for('static', filename='stromgard/images/sketch2.webp')}}" alt="Kelpie concept art" />
+											<img class="portrait" src="{{url_for('static', filename='stromgard/images/sketch3.webp')}}" alt="Fae concept art" />
+											<img class="portrait" src="{{url_for('static', filename='stromgard/images/bird.webp')}}" alt="Depiction of a bird in a simplified, rustic style" />
+											<img class="landscape" src="{{url_for('static', filename='stromgard/images/boasnake.webp')}}" alt="Jörmungandr" />
 										</div>
 									</div>
 								</section>
@@ -108,7 +105,7 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<img src="{{url_for('static', filename='stromgard/images/map.webp')}}" alt="" />
+											<img src="{{url_for('static', filename='stromgard/images/map.webp')}}" alt="Map of Stromgard" />
 										</div>
 									</div>
 								</section>
@@ -121,8 +118,8 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<img class="landscape" src="{{url_for('static', filename='stromgard/images/playbookpreview.webp')}}" alt="" />
-											<img class="landscape" src="{{url_for('static', filename='stromgard/images/spread.webp')}}" alt="" />
+											<img class="landscape" src="{{url_for('static', filename='stromgard/images/playbookpreview.webp')}}" alt="Playbook preview" />
+											<img class="landscape" src="{{url_for('static', filename='stromgard/images/spread.webp')}}" alt="Class, Monster, and loot table previews" />
 										</div>
 									</div>
 								</section>

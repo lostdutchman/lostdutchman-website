@@ -3,7 +3,16 @@
 	<head>
 		<title>Sumo Spin</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="A 1 button game for 2 players. Available for free on android and web today.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="{{url_for('static', filename='lds/images/sumospin.webp')}}" />
+		<meta name="twitter:title" content="Sumo Spin" />
+		<meta name="twitter:description" content="2 Players, One Phone or Computer, First to 3 wins! Sumo Spin features Fast Paced, Retro style, Single Button, Head to Head, King of the Hill action. Try it for free now!" />
+		<meta property="og:description" class="speakable-description" content="2 Players, One Phone or Computer, First to 3 wins! Sumo Spin features Fast Paced, Retro style, Single Button, Head to Head, King of the Hill action. Try it for free now!" />
+		<meta property="og:url" content="http://lostdutchmansoftware.com/sumospin">
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="{{url_for('static', filename='lds/images/sumospin.webp')}}" />
 		<link rel="stylesheet" href="{{url_for('static', filename='sumospin/assets/css/main.css')}}" />
 		<link rel="icon" type="image/x-icon" href="{{url_for('static', filename='favicon.ico')}}">
 		<noscript><link rel="stylesheet" href="{{url_for('static', filename='sumospin/assets/css/noscript.css')}}" /></noscript>
@@ -23,7 +32,7 @@
 				</div>
 				<div class="image phone">
 					<div class="inner">
-						<img src="{{url_for('static', filename='sumospin/images/1.webp')}}" name="slide"/>
+						<img src="{{url_for('static', filename='sumospin/images/1.webp')}}" name="slide" alt="Sumo Spin Screenshot"/>
 					</div>
 				</div>
 			</header>
@@ -41,14 +50,14 @@
 			<section id="two" class="wrapper">
 				<div class="inner alt">
 					<section class="spotlight">
-						<video src="{{url_for('static', filename='sumospin/images/HardHitPalletChange.mp4')}}" height="300px" autoplay muted loop type="video/mp4" alt=""></video>
+						<video src="{{url_for('static', filename='sumospin/images/HardHitPalletChange.mp4')}}" height="300px" autoplay muted loop type="video/mp4" alt="Pallet Cahnge"></video>
 						<div class="content">
 							<h3>Simple Graphics</h3>
 							<p>Inspired by Atari and early Nintendo games.  Bask in its sweet & chunky pixel goodness.</p>
 						</div>
 					</section>
 					<section class="spotlight">
-						<video src="{{url_for('static', filename='sumospin/images/save.mp4')}}" height="300px" autoplay muted loop type="video/mp4" alt=""></video>
+						<video src="{{url_for('static', filename='sumospin/images/save.mp4')}}" height="300px" autoplay muted loop type="video/mp4" alt="Almost went out of bounds"></video>
 						<div class="content">
 							<h3>Simple Gameplay</h3>
 							<p>Sumo Spin has a straightforward spinning mechanic and single button gameplay that makes it easy to jump right in.</br>
@@ -56,7 +65,7 @@
 						</div>
 					</section>
 					<section class="spotlight">
-						<video src="{{url_for('static', filename='sumospin/images/HardHit.mp4')}}" height="300px" autoplay muted loop type="video/mp4" alt=""></video>
+						<video src="{{url_for('static', filename='sumospin/images/HardHit.mp4')}}" height="300px" autoplay muted loop type="video/mp4" alt="Screenshake"></video>
 						<div class="content">
 							<h3>Simple AF</h3>
 							<p>Remember when games didn't have ads, require accounts, subscription services, or collect user data to be sold to advertising firms??  Lost Dutchman Software grew up playing NES. We don't do subscriptions, accounts, data collecting, and absolutely no in game ads!</p>

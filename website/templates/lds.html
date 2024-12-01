@@ -3,7 +3,17 @@
 	<head>
 		<title>Lost Dutchman Software</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="We made Nice Bowling, The Wyrd of Stromgard, and Dreadful. Currently working on Tri City Monsters and Sumo Spin, both are available for free right now.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="{{url_for('static', filename='lds/images/cardimage.webp')}}" />
+		<meta property="og:image" content="{{url_for('static', filename='lds/images/cardimage.webp')}}" />
+		<meta name="twitter:title" content="Lost Dutchman Software" />
+		<meta name="twitter:description" content="We made Nice Bowling, The Wyrd of Stromgard, and Dreadful. Currently working on Tri City Monsters and Sumo Spin, both are available for free right now." />
+		<meta property="og:title" content="Lost Dutchman Software" />
+		<meta property="og:description" class="speakable-description" content="We made Nice Bowling, The Wyrd of Stromgard, and Dreadful. Currently working on Tri City Monsters and Sumo Spin, both are available for free right now." />
+		<meta property="og:url" content="http://lostdutchmansoftware.com/">
+		<meta property="og:type" content="website" />
 		<link rel="stylesheet" href="{{url_for('static', filename='lds/assets/css/main.css')}}" />
 		<link rel="icon" type="image/x-icon" href="{{url_for('static', filename='favicon.ico')}}">
 		<noscript><link rel="stylesheet" href="{{url_for('static', filename='lds/assets/css/noscript.css')}}" /></noscript>
@@ -15,7 +25,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><strong>Lost Dutchman</strong>Software</h1>
+						<img src="{{url_for('static', filename='lds/images/logo.webp')}}" alt="Lost Dutchman Software" />
 						<nav>
 							<ul>
 								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
@@ -26,40 +36,40 @@
 				<!-- Main -->
 					<div id="main">
 						<article class="thumb">
-							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard.webp')}}" alt="" /></a>
+							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard.webp')}}" alt="The Wyrd of Stromgard Logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="" /></a>
+							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="Tri City Monsters logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="" /></a>
+							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="Sumo Spin logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="" /></a>
+							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="Nice Bowling logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="" /></a>
+							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="Nice Bowling logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="" /></a>
+							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="Sumo Spin logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="" /></a>
+							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="Tri City Monsters logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard2.webp')}}" alt="" /></a>
+							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard2.webp')}}" alt="The Wyrd of Stromgard GM screen art" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="" /></a>
+							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="Nice Bowling logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="" /></a>
+							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="Sumo Spin logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard.webp')}}" alt="" /></a>
+							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard.webp')}}" alt="The Wyrd of Stromgard logo" /></a>
 						</article>
 						<article class="thumb">
-							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="" /></a>
+							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="Tri City Monsters logo" /></a>
 						</article>
 					</div>
 
@@ -83,7 +93,7 @@
 							</div>
 							<div>
 								<section>
-									<img src="{{url_for('static', filename='lds/images/home.webp')}}" alt="" />
+									<img src="{{url_for('static', filename='lds/images/home.webp')}}" alt="Photo taken at Lost Dutchman State Park" />
 								</section>
 							</div>
 						</div>
