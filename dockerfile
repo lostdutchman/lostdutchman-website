@@ -13,4 +13,4 @@ WORKDIR /website
 EXPOSE 5000
 
 # Run the Flask app
-CMD ["python", "tcm.py"]
+CMD ["python", "lds.py"]
