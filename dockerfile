@@ -10,7 +10,7 @@ COPY website /website
 WORKDIR /website
 
 # Expose the port the Flask app will run on
-EXPOSE 5000
+EXPOSE 5001
 
 # Run the Flask app
 CMD ["python", "lds.py"]
