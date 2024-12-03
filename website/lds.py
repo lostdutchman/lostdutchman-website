@@ -1,10 +1,11 @@
 from flask import Flask, url_for, render_template, redirect
+import randomizer
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-	return render_template('lds.html')
+	return render_template('lds.html', data=randomizer.lds())
 
 @app.route('/stromgard')
 def stromgard():
@@ -28,7 +29,7 @@ def internal_server_error(e):
     return redirect(url_for('home'))
 
 if __name__ == '__main__':
-	#app.run(debug=True)
-    app.run(host='0.0.0.0')
+	app.run(debug=True)
+    #app.run(host='0.0.0.0')
 
 

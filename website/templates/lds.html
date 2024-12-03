@@ -35,42 +35,11 @@
 
 				<!-- Main -->
 					<div id="main">
+						{% for data in data %}
 						<article class="thumb">
-							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard.webp')}}" alt="The Wyrd of Stromgard Logo" /></a>
+							<a href="{{data[0]}}" class="image"><img src="{{data[1]}}" alt="{{data[2]}}" /></a>
 						</article>
-						<article class="thumb">
-							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="Tri City Monsters logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="Sumo Spin logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="Nice Bowling logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="Nice Bowling logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="Sumo Spin logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="Tri City Monsters logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard2.webp')}}" alt="The Wyrd of Stromgard GM screen art" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('sumospin')}}" class="image"><img src="{{url_for('static', filename='lds/images/sumospin.webp')}}" alt="Nice Bowling logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('nb')}}" class="image"><img src="{{url_for('static', filename='lds/images/nicebowling.webp')}}" alt="Sumo Spin logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="{{url_for('stromgard')}}" class="image"><img src="{{url_for('static', filename='lds/images/stromgard.webp')}}" alt="The Wyrd of Stromgard logo" /></a>
-						</article>
-						<article class="thumb">
-							<a href="http://tricitymonsters.com" class="image"><img src="{{url_for('static', filename='lds/images/tcm.webp')}}" alt="Tri City Monsters logo" /></a>
-						</article>
+						{% endfor %}
 					</div>
 
 				<!-- Footer -->
