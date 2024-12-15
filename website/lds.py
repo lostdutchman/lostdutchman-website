@@ -1,34 +1,23 @@
 from flask import Flask, url_for, render_template, redirect, make_response
-import datetime
 import randomizer
 
 app = Flask(__name__)
 
-expires = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=72)).strftime('%a, %d %b %Y %H:%M:%S GMT')
-
 @app.route('/')
 def home():
-	response = make_response(render_template('lds.html', data=randomizer.lds()))
-	response.headers['Expires'] = expires
-	return response
+	return render_template('lds.html', data=randomizer.lds())
 
 @app.route('/stromgard')
 def stromgard():
-	response =  make_response(render_template('stromgard.html'))
-	response.headers['Expires'] = expires
-	return response
+	return render_template('stromgard.html')
 
 @app.route('/nicebowling')
 def nb():
-	response =  make_response(render_template('nicebowling.html'))
-	response.headers['Expires'] = expires
-	return response
+	return render_template('nicebowling.html')
 
 @app.route('/sumospin')
 def sumospin():
-	response =  make_response(render_template('sumospin.html'))
-	response.headers['Expires'] = expires
-	return response
+	return render_template('sumospin.html')
 
 # Error handlers
 @app.errorhandler(404)
